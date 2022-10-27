@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background-image: url(../images/assets/background.jpg);
+  background-image: url(../img/assets/background.jpg);
 }
 @media (max-width: 767px) {
   .summon-circle-container {
