@@ -1,4 +1,4 @@
 body{
   margin: 0;
-  background-image: url(../assets/images/background.jpg);
+  background-image: url("../assets/images/background.jpg");
 }
