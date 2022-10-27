@@ -195,7 +195,7 @@ body {
 }
 .summon-hero-portrait {
   position: absolute;
-  width: 50%;
+  width: 54%;
   z-index: 2;
   top: 5%;
   left: 4%;
@@ -207,7 +207,7 @@ body {
 }
 .summon-hero-rarity {
   position: absolute;
-  width: 63%;
+  width: 60%;
   z-index: 4;
   top: 80%;
 }
