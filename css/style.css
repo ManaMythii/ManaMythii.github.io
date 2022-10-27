@@ -202,12 +202,12 @@ body {
 }
 .summon-hero-background {
   position: absolute;
-  width: 60%;
+  width: 65%;
   z-index: 1;
 }
 .summon-hero-rarity {
   position: absolute;
-  width: 60%;
+  width: 63%;
   z-index: 4;
   top: 80%;
 }
