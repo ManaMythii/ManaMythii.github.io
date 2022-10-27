@@ -190,7 +190,7 @@ body {
 }
 .summon-hero-frame {
   position: absolute;
-  width: 65%;
+  width: 60%;
   z-index: 3;
 }
 .summon-hero-portrait {
@@ -202,7 +202,7 @@ body {
 }
 .summon-hero-background {
   position: absolute;
-  width: 65%;
+  width: 60%;
   z-index: 1;
 }
 .summon-hero-rarity {
