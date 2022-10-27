@@ -253,25 +253,7 @@
       </div>
     </div>
     
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js"
-     integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-    
-    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
-     integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
-    
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"
-     integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-    
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"
-     integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
-    
-    <script src="../js/common/datatables.min.js"></script>
-    
-    <script src="../js/common/selectable.js"></script>
-    
-    <script src="./app.js" charset="utf-8"></script>
-    
-    
+    //simulator start
     
     <div class="row mt-2 justify-content-center">
       <div class="card col-auto summon-circle-container p-0 mb-2">
@@ -428,6 +410,119 @@
     </table>
   </div>
 </div>
+
+    </div>
+  </div>
+
+  <div class="modal fade" id="custom-banner-modal" tabindex="-1" role="dialog">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Create Custom Banner</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span>&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="row mb-3">
+          <div class="col-md-6">
+            <input id="custom-banner-search" type="text" class="form-control mb-2" placeholder="Search Hero">
+            <div id="custom-banner-select-list"></div>
+          </div>
+          <div id="custom-banner-heroes" class="col card d-flex flex-wrap p-2 mt-3 mt-lg-0"></div>
+        </div>
+        <div class="d-flex flex-wrap">
+          <div class="input-group rate-input custom-rate-input">
+            <span class="input-group-addon">5★ Focus</span>
+            <input value="3" id="custom-input-focus" type="number" class="form-control" min="0" max="100">
+            <span class="input-group-addon">%</span>
+          </div>
+          <div class="input-group rate-input custom-rate-input">
+            <span class="input-group-addon">5★</span>
+            <input value="3" id="custom-input-5" type="number" class="form-control" min="0" max="100">
+            <span class="input-group-addon">%</span>
+          </div>
+          <div class="input-group rate-input custom-rate-input">
+            <span class="input-group-addon">4★ Focus</span>
+            <input value="0" id="custom-input-focus-4" type="number" class="form-control" min="0" max="100">
+            <span class="input-group-addon">%</span>
+          </div>
+          <div class="input-group rate-input custom-rate-input">
+            <span class="input-group-addon">4★</span>
+            <input value="58" id="custom-input-4" type="number" class="form-control" min="0" max="100">
+            <span class="input-group-addon">%</span>
+          </div>
+          <div class="input-group rate-input custom-rate-input">
+            <span class="input-group-addon">3★</span>
+            <input value="36" id="custom-input-3" type="number" class="form-control" min="0" max="100">
+            <span class="input-group-addon">%</span>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" id="create-banner" class="btn btn-primary">Create Banner</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <div class="modal fade" id="summon-pool-modal" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Summoning Pool</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span>&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="pb-2">
+          <button class="btn btn-sm btn-default w-100 text-left" data-toggle="collapse" data-target="#pool-list-5f">5★ Focus</button>
+          <div class="collapse show" id="pool-list-5f"></div>
+        </div>
+        <div class="pb-2">
+          <button class="btn btn-sm btn-default w-100 text-left" data-toggle="collapse" data-target="#pool-list-5">5★</button>
+          <div class="collapse show" id="pool-list-5"></div>
+        </div>
+        <div class="pb-2">
+          <button class="btn btn-sm btn-default w-100 text-left" data-toggle="collapse" data-target="#pool-list-4">4★</button>
+          <div class="collapse show" id="pool-list-4"></div>
+        </div>
+        <div class="pb-2">
+          <button class="btn btn-sm btn-default w-100 text-left" data-toggle="collapse" data-target="#pool-list-3">3★</button>
+          <div class="collapse show" id="pool-list-3"></div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button data-dismiss="modal" type="button" class="btn btn-default">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+   
+    
+    
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+     integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+     integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"
+     integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"
+     integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+    
+    <script src="../js/common/datatables.min.js"></script>
+    
+    <script src="../js/common/selectable.js"></script>
+    
+    <script src="./app.js" charset="utf-8"></script>
+    
        
   </body>
 </html>
