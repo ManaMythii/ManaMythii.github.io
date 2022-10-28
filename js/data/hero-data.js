@@ -1,4 +1,75 @@
 module.exports = [
+  
+{
+  name:"Robin (Rearmed Heroes)",
+  shortName:"Robin",
+  title:"Fell Tactician",
+  artist:"大熊まい",
+  voice:"Lauren Landa",
+  releaseDate:"Oct 17, 2022",
+  colorType:"Neutral",
+  weaponType:"Breath",
+  moveType:"Armored",
+  rarity5:["pool1","pool2"],
+  assets:{
+    portrait:"img/heroes-portrait/75px-Icon_Portrait_Robin_Fell_Tactician.png",
+    main:"img/heroes-main/Robin (Rearmed Heroes).png",
+    sprite:"img/sprites/Robin_Fell_Tactician_Mini_Unit_Ok.png"},
+  skills:[
+    {name:"Fire Breath",rarity:5},
+    {name:"Fire Breath+",rarity:5},
+    {name:"Flametongue	",rarity:5},
+    {name:"Arcane Grima",rarity:5},
+    {name:"Buckler",rarity:5},
+    {name:"Pavise",rarity:5},
+    {name:"Dragonhide",rarity:5},
+    {name:"Hardy Fighter 1",rarity:5},
+    {name:"Hardy Fighter 2",rarity:5},
+    {name:"Hardy Fighter 3",rarity:5},
+    {name:"A/S Near Save 1",rarity:5},
+    {name:"A/S Near Save 2",rarity:5},
+    {name:"A/S Near Save 3",rarity:5}],
+  stats:{
+    level1:{hp:17,atk:11,spd:11,def:9,res:11},
+    level40:{hp:[40,43,46],atk:[38,41,45],spd:[40,44,47],def:[32,35,38],res:[29,33,36]}
+  }
+},
+{
+   name:"Eir (Ascended Heroes)",
+   shortName:"Eir",
+   title:"Life Ascendant",
+   artist:"HACCAN",
+   voice:"Xanthe Huynh",
+   releaseDate:"Oct 17, 2022",
+   colorType:"Green",
+   weaponType:"Dagger",
+   moveType:"Cavalry",
+   rarity5:["pool1","pool2"],
+   assets:{
+     portrait:"img/heroes-portrait/75px-Icon_Portrait_Eir_Life_Ascendant.png",
+     main:"img/heroes-main/Eir (Ascended Heroes).png",
+     sprite:"img/sprites/Eir_Life_Ascendant_Mini_Unit_Ok.png"},
+   skills:[
+     {name:"Iron Dagger",rarity:5},
+     {name:"Steel Dagger",rarity:5},
+     {name:"Silver Dagger",rarity:5},
+     {name:"Ymir, Everliving",rarity:5},
+     {name:"Dragon Gaze",rarity:5},
+     {name:"Draconic Aura",rarity:5},
+     {name:"Atk/Speed Catch 1",rarity:5},
+     {name:"Atk/Speed Catch 2",rarity:5},
+     {name:"Atk/Speed Catch 3",rarity:5},
+     {name:"Atk/Speed Catch 4",rarity:5},
+     {name:"Mystic Boost 1",rarity:5},
+     {name:"Mystic Boost 2",rarity:5},
+     {name:"Mystic Boost 3",rarity:5},
+     {name:"Mystic Boost 4",rarity:5},
+     {name:"Sparkling Boost",rarity:5}],
+   stats:{
+     level1:{hp:16,atk:12,spd:12,def:3,res:5},
+     level40:{hp:[32,35,39],atk:[39,42,46],spd:[41,45,48],def:[12,16,19],res:[32,35,39]}
+   }
+ }, 
   {
     name: "Abel",
     title: "The Panther",
