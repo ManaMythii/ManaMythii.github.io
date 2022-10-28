@@ -23,6 +23,19 @@ module.exports = {
     pityRateRarity5: 0.25,
     pityRateRarityFocus: 0.25
   },
+    defaultV3: {
+    rateRarity3: 36,
+    rateRarity4: 55,
+    rateRarityFocus4: 3,
+    rateRaritySpecial4: 0,
+    rateRarity5: 3,
+    rateRarityFocus: 3,
+    pityRateRarity3: -36 / 94 * 0.5,
+    pityRateRarity4: -58 / 94 * 0.5,
+    pityRateRarityFocus4: 0,
+    pityRateRarity5: 0.25,
+    pityRateRarityFocus: 0.25
+  },
   herofestV1: {
     rateRarity3: 58,
     rateRarity4: 34,
