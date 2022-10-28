@@ -20,7 +20,8 @@ module.exports = [
         excludeFromRarity5: [],
         rateType: "defaultV2",
         pool: "pool2"
-      },
+      }
+     
     ]
  },
  
