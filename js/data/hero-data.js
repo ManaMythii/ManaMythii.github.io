@@ -1,5 +1,39 @@
 module.exports = [
-  
+ {
+   name:"Phila",
+   title:"Pegasus Master",
+   artist:"Hirooka Masaki (廣岡政樹)",
+   voice:"Nicole Balick",
+   releaseDate:"Oct 17, 2022",
+   colorType:"Blue",
+   weaponType:"Lance",
+   moveType:"Flying",
+   rarity4:["pool1","pool2"],
+   rarity5:["pool1","pool2"],
+   assets:{
+     portrait:"img/heroes-portrait/75px-Icon_Portrait_Phila_Pegasus_Master.png",
+     main:"img/heroes-main/Phila.png",
+     sprite:"img/sprites/Phila_Pegasus_Master_Mini_Unit_Ok.png"},
+   skills:[
+     {name:"Iron Lance",rarity:4},
+     {name:"Steel Lance",rarity:4},
+     {name:"Rein Lance",rarity:4},
+     {name:"Chilling Wind",rarity:4},
+     {name:"Iceberg",rarity:4},
+     {name:"Bonfire",rarity:5},
+     {name:"Brazen Atk/Res 1",rarity:4},
+     {name:"Brazen Atk/Res 2",rarity:4},
+     {name:"Brazen Atk/Res 3",rarity:4},
+     {name:"Pegasus Flight 1",rarity:4},
+     {name:"Pegasus Flight 2",rarity:4},
+     {name:"Pegasus Flight 3",rarity:5}],
+   stats:{
+     level1:{hp:16,atk:9,spd:12,def:4,res:12},
+     level40:{hp:[34,38,41],atk:[34,37,40],spd:[39,42,46],def:[22,26,29],res:[37,40,43]},
+     level1_4:{hp:15,atk:8,spd:12,def:3,res:12},
+     level40_4:{hp:[32,35,38],atk:[31,34,37],spd:[39,42,46],def:[20,23,26],res:[35,38,41]}
+   }
+ },
   
   {
    name:"Gregor",
