@@ -64,7 +64,7 @@ module.exports = [
      {name:"Inf. Null Follow 2",rarity:5},
      {name:"Inf. Null Follow 3",rarity:5}],
    stats:{
-     level1:{hp:16,atk:12,spd:12,def:3,res:5},
+     level1:{hp:18,atk:14,spd:11,def:7,res:4},
      level40:{hp:[36,40,43],atk:[41,44,48],spd:[34,37,40],def:[40,43,46],res:[20,23,27]}
    }
  },
