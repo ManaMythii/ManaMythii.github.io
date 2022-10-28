@@ -4733,7 +4733,8 @@ module.exports = [
     rarity5: ["pool2"],
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Idunn.png",
-      main: "img/heroes-main/Idunn.png"
+      main: "img/heroes-main/Idunn.png",
+      sprite: "img/sprites/Idunn_Dark_Priestess_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Fire Breath", rarity: 5 },
@@ -6962,7 +6963,8 @@ module.exports = [
     rarity5: ["pool2"],
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Lugh.png",
-      main: "img/heroes-main/Lugh.png"
+      main: "img/heroes-main/Lugh.png",
+      sprite: "img/sprites/Lugh_Anima_Child_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Wind", rarity: 5 },
@@ -11320,7 +11322,8 @@ module.exports = [
     rarity5: ["pool2"],
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Sue.png",
-      main: "img/heroes-main/Sue.png"
+      main: "img/heroes-main/Sue.png",
+      sprite: "img/sprites/Sue_Doe_of_the_Plains_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Iron Bow", rarity: 5 },
@@ -11815,7 +11818,8 @@ module.exports = [
     rarity4: ["pool2"],
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Thea.png",
-      main: "img/heroes-main/Thea.png"
+      main: "img/heroes-main/Thea.png",
+      sprite: "img/sprites/Thea_Stormy_Flier_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Iron Lance", rarity: 5 },
