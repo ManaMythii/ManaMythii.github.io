@@ -1,4 +1,34 @@
 module.exports = [
+ 
+  {
+    date: "October 2022",
+    banners: [
+      {
+        name: "Special: Rearmed Robin and More",
+        startDate: "Oct 17, 2022",
+        focusHeroes: ["Eir (Ascended Heroes)", "Gregor", "Phila", "Robin (Rearmed Heroes)"],
+        excludeFromRarity4: [],
+        excludeFromRarity5: [],
+        rateType: "defaultV2",
+        pool: "pool2"
+      },
+      {
+        name: "Divine Harvest",
+        startDate: "Oct 6, 2022",
+        focusHeroes: ["Corrin (M) (Divine Harvest)", "Corrin (F) (Divine Harvest)", "Naga (Divine Harvest)", "Duma (Divine Harvest)"],
+        excludeFromRarity4: [],
+        excludeFromRarity5: [],
+        rateType: "defaultV2",
+        pool: "pool2"
+      },
+    ]
+ }
+ 
+ 
+ 
+ 
+ 
+ 
  {
     date: "March 2019",
     banners: [
