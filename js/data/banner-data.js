@@ -22,7 +22,7 @@ module.exports = [
         pool: "pool2"
       },
     ]
- }
+ },
  
  
  
