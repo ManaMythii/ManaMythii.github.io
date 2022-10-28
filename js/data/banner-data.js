@@ -9,7 +9,7 @@ module.exports = [
         focusHeroes: ["Eir (Ascended Heroes)", "Gregor", "Phila", "Robin (Rearmed Heroes)"],
         excludeFromRarity4: [],
         excludeFromRarity5: [],
-        rateType: "defaultV3",
+        rateType: "defaultV2",
         pool: "pool2"
       },
       {
