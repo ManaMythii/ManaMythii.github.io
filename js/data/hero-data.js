@@ -1,5 +1,41 @@
 module.exports = [
   
+  
+  {
+   name:"Gregor",
+   title:"Swell Sword",
+   artist:"Niji Hayashi (ニジハヤシ)",
+   voice:"Paul St. Peter",
+   releaseDate:"Oct 17, 2022",
+   colorType:"Red",
+   weaponType:"Sword",
+   moveType:"Infantry",
+   rarity5:["pool1","pool2"],
+   assets:{
+     portrait:"img/heroes-portrait/75px-Icon_Portrait_Gregor_Swell_Sword.png",
+     main:"img/heroes-main/Gregor.png",
+     sprite:"img/sprites/Gregor_Swell_Sword_Mini_Unit_Ok.png"},
+   skills:[
+     {name:"Iron Sword",rarity:5},
+     {name:"Steel Sword",rarity:5},
+     {name:"Silver Sword",rarity:5},
+     {name:"Blade of Favors",rarity:5},
+     {name:"Glowing Ember",rarity:5},
+     {name:"Bonfire",rarity:5},
+     {name:"Solid Ground 1",rarity:5},
+     {name:"Solid Ground 2",rarity:5},
+     {name:"Solid Ground 3",rarity:5},
+     {name:"Solid Ground 4",rarity:5},
+     {name:"Inf. Null Follow 1",rarity:5},
+     {name:"Inf. Null Follow 2",rarity:5},
+     {name:"Inf. Null Follow 3",rarity:5}],
+   stats:{
+     level1:{hp:16,atk:12,spd:12,def:3,res:5},
+     level40:{hp:[36,40,43],atk:[41,44,48],spd:[34,37,40],def:[40,43,46],res:[20,23,27]}
+   }
+ },
+  
+  
 {
   name:"Robin (Rearmed Heroes)",
   shortName:"Robin",
