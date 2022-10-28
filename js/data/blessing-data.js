@@ -102,6 +102,3 @@ module.exports = [
     icon: 16
   }
 ];
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
