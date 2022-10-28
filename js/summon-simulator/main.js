@@ -116,7 +116,7 @@ function initHeroList() {
   focusHeroes.forEach(hero => {
     $(`<div class="focus-list-hero">
         <img class="focus-list-hero-frame" src="../img/assets/frame-rarity-5.png">
-        <img class="focus-list-hero-portrait" src="../${hero.assets.sprite}">
+        <img class="focus-list-hero-portrait" src="../${hero.assets.portrait}">
         <img class="focus-list-hero-background" src="../img/assets/background-rarity-5.png">
         </div>`)
       .tooltip({
