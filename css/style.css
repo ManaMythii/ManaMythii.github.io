@@ -195,10 +195,11 @@ body {
 }
 .summon-hero-portrait {
   position: absolute;
-  width: 54%;
+  height: 74px;
+  width: 74px;
   z-index: 2;
   top: 5%;
-  left: 4%;
+  left: 3%;
 }
 .summon-hero-background {
   position: absolute;
