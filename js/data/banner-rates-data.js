@@ -25,13 +25,14 @@ module.exports = {
   },
     defaultV3: {
     rateRarity3: 36,
-    rateRarity4: 55,
+    rateRarity4: 52,
     rateRarityFocus4: 3,
-    rateRaritySpecial4: 0,
+    rateRaritySpecial4: 3,
     rateRarity5: 3,
     rateRarityFocus: 3,
     pityRateRarity3: -36 / 94 * 0.5,
-    pityRateRarity4: -55 / 94 * 0.5,
+    pityRateRarity4: -52 / 94 * 0.5,
+    pityRateRaritySpecial4: 0,
     pityRateRarityFocus4: 0,
     pityRateRarity5: 0.25,
     pityRateRarityFocus: 0.25
