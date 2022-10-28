@@ -74,8 +74,8 @@ module.exports = {
   },
   focus4V1: {
     rateRarity3: 36,
-    rateRarity4: 29,
-    rateRarityFocus4: 29,
+    rateRarity4: 52,
+    rateRarityFocus4: 3,
     rateRarity5: 3,
     rateRarityFocus: 3,
     pityRateRarity3: -36 / 94 * 0.5,
