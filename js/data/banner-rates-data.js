@@ -36,7 +36,7 @@ module.exports = {
     rateRarityFocus: 3,
     pityRateRarity3: -36 / 94 * 0.5,
     pityRateRarity4: -52 / 94 * 0.5,
-    pityRateRaritySpecial4: -52 / 94 * 0.5,
+    pityRateRaritySpecial4: -0.02,
     pityRateRarityFocus4: -0.02,
     pityRateRarity5: 0.25,
     pityRateRarityFocus: 0.25
