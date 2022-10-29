@@ -258,19 +258,12 @@ function getSessionOrbs() {
     rateR4 = parseFloat($(elements.RATE_INPUT_4).val()) / 100 + rateRF4;
   } else {
     rateRF4 = 0;
+    rateR4 = parseFloat($(elements.RATE_INPUT_4).val()) / 100 + rateR5;
   }
-  
-  if (banner.rates.rateRaritySpecial4 && banner.rates.rateRarityFocus4) {
-    rateRS4 = parseFloat($(elements.RATE_INPUT_SPECIAL_4).val()) / 100 + rateRF4;
-    rateR4 = parseFloat($(elements.RATE_INPUT_4).val()) / 100 + rateRS4;
-  }
-  else if (banner.rates.rateRaritySpecial4){
-    rateRS4 = parseFloat($(elements.RATE_INPUT_SPECIAL_4).val()) / 100 + rateR5;
-    rateR4 = parseFloat($(elements.RATE_INPUT_4).val()) / 100 + rateRS4;
+  if (banner.rates.rateRaritySpecial4) {
+    rateRS4 = rateRF4;
   } else {
     rateRS4 = 0;
-    rateR4 = parseFloat($(elements.RATE_INPUT_4).val()) / 100 + rateR5;
-  
   }
 
   for (let i = 0; i < 5; i++) {
