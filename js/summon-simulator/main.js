@@ -46,7 +46,7 @@ function init() {
     $(elements.SELECT_BANNER).selectable('text', banner.name);
 
     let rates = getUrlParam('rates').split(';');
-    if (rates.length === 5) {
+    if (rates.length === 6) { //changed from 5 to 6
       setCustomBannerRates(banner, rates);
     }
   } else {
