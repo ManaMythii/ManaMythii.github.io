@@ -274,7 +274,7 @@ function getSessionOrbs() {
     } else if (rate <= rateR5) {
       orbData = { hero: getArrayRand(summonPool.r5), rarity: 5 };
     } else if (rate <= rateRF4) {
-      orbData = { hero: getArrayRand(summonPool.rf), rarity: 'focus-4' };
+      orbData = { hero: getArrayRand(summonPool.r4f), rarity: 'focus-4' }; //change rf to r4f
     } else if (rate <= rateRS4) {
       orbData = { hero: getArrayRand(summonPool.r4s), rarity: 'special-4' };
     } else if (rate <= rateR4) {
