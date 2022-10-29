@@ -16,26 +16,26 @@ defaultV1:{rateRarity3:58,rateRarity4:36,rateRarityFocus4:0,rateRarity5:3,rateRa
 6:[function(e,a,r){a.exports={SELECT_BANNER: '#select-banner',FOCUS_LIST: '#focus-list',SUMMON_OPTION: '.summon-option',SUMMON_ORB: '.summon-orb',SUMMON_ALL: '#summon-all',SUMMON_TABLE: '#summon-table',NEW_SESSION: '#new-session',RATE_INPUT: '.rate-input > input',RATE_INPUT_FOCUS: '#rate-input-focus',RATE_INPUT_FOCUS_4: '#rate-input-focus-4',RATE_INPUT_SPECIAL_4: '#rate-input-special-4',RATE_INPUT_5: '#rate-input-5',RATE_INPUT_4: '#rate-input-4',RATE_INPUT_3: '#rate-input-3',CUSTOM_INPUT_FOCUS: '#custom-input-focus',CUSTOM_INPUT_FOCUS_4: '#custom-input-focus-4',CUSTOM_INPUT_SPECIAL_4: '#custom-input-special-4',CUSTOM_RATE_INPUT: '.custom-rate-input',CUSTOM_INPUT_5: '#custom-input-5',CUSTOM_INPUT_4: '#custom-input-4',CUSTOM_INPUT_3: '#custom-input-3',RESET: '#reset',SNIPE: '#snipe-btn',SNIPE_LIST: '#snipe-list',CUSTOM_MODAL: '#custom-banner-modal',CUSTOM_LIST: '#custom-banner-select-list',CUSTOM_LIST_DESC: '#custom-banner-select-list label',CUSTOM_FOCUS: '#custom-banner-heroes',CUSTOM_SEARCH: '#custom-banner-search',CREATE_BANNER: '#create-banner',TABLE_FILTER_ITEM: '#table-filter .dropdown-item',POOL_LIST_5F: '#pool-list-5f',POOL_LIST_5: '#pool-list-5',POOL_LIST_4: '#pool-list-4',POOL_LIST_4S: '#pool-list-4s',POOL_LIST_3: '#pool-list-3'}},{}],
   
 //main.js
-7:[function(e,a,r){let t,i=e("../data/hero-access.js"),n=e("../data/banner-access.js"),o=e("./elements.js"),s=e("./values.js"),let banner = {};
-let summonPool = {};
-let pullStats = {
+7:[function(e,a,r){let t,i=e("../data/hero-access.js"),n=e("../data/banner-access.js"),o=e("./elements.js"),s=e("./values.js"), banner = {};
+ summonPool = {};
+ pullStats = {
   pulls: 0,
   orbs: 0,
   money: 0,
   r5: 0,
   rf: 0,
 }
-let pityPulls = 0;
-let sessionPulls = 0;
-let resetPityRate = false;
-let customBanner = getCustomBannerData();
-let $summonTable;
+ pityPulls = 0;
+ sessionPulls = 0;
+ resetPityRate = false;
+ customBanner = getCustomBannerData();
+ $summonTable;
 
 init();
 
 // Initialization Functions
 function init() {
-  let defaultBanner = banners.getFirstBanner();
+defaultBanner = banners.getFirstBanner();
 
   $summonTable = $(elements.SUMMON_TABLE).DataTable({
     paging: false,
@@ -53,12 +53,12 @@ function init() {
     searchPlaceholder: 'Search Banner Name or Hero'
   });
 
-  let customFocus  = getUrlParam('focus');
+ customFocus  = getUrlParam('focus');
   if (customFocus.length) {
     banner = getCustomBannerData(customFocus.split(';'));
     $(elements.SELECT_BANNER).selectable('text', banner.name);
 
-    let rates = getUrlParam('rates').split(';');
+     rates = getUrlParam('rates').split(';');
     if (rates.length === 6) { //changed from 5 to 6
       setCustomBannerRates(banner, rates);
     }
@@ -76,7 +76,7 @@ function setCustomBannerRates(banner, rates) {
 
   banner.rates = {};
   banner.rates.rateRarityFocus = Math.max(0, Math.min(100, rates[0]));
-  let total = 100 - banner.rates.rateRarityFocus;
+   total = 100 - banner.rates.rateRarityFocus;
 
   if (rates[1] >= 0 && rates[0] + rates[1] <= 100) {
     banner.rates.rateRarity5 = rates[1];
@@ -111,7 +111,7 @@ function setCustomBannerRates(banner, rates) {
 
   banner.rates.pityRateRarityFocus = banner.rates.rateRarity5 === 0 ? 0.5 : 0.25;
   banner.rates.pityRateRarity5 = banner.rates.rateRarity5 === 0 ? 0 : 0.25;
-  let commonRates = 100 - banner.rates.rateRarityFocus - banner.rates.rateRarity5;
+   commonRates = 100 - banner.rates.rateRarityFocus - banner.rates.rateRarity5;
   if (commonRates === 0) {
     banner.rates.pityRateRarityFocus4 = 0;
     banner.rates.pityRateRaritySpecial4 = 0;
@@ -130,8 +130,8 @@ function initBanner() {
   setSnipeOptions();
 }
 function initHeroList() {
-  let $focusList = $(elements.FOCUS_LIST).empty();
-  let focusHeroes = heroes.getHeroes(banner.focusHeroes);
+  $focusList = $(elements.FOCUS_LIST).empty();
+   focusHeroes = heroes.getHeroes(banner.focusHeroes);
 
   summonPool = heroes.getSummoningPool(banner.pool, banner);
   summonPool.rf = focusHeroes;
@@ -156,7 +156,7 @@ function initHeroList() {
   setPoolList(elements.POOL_LIST_3, summonPool.r3);
 }
 function setPoolList(element, heroes) {
-  let html = heroes
+   html = heroes
       .sort((a, b) => {
         if (a.colorType === b.colorType) {
           if (a.weaponType === b.weaponType) {
@@ -175,7 +175,7 @@ function setPoolList(element, heroes) {
   $(element).html(html);
 }
 function resetSessionData() {
-  for (let stat in pullStats) {
+  for ( stat in pullStats) {
     pullStats[stat] = 0;
   }
   pityPulls = 0;
@@ -241,30 +241,30 @@ function onSummonOne(event) {
   revealOrb($(event.currentTarget));
 }
 function onSummonAll(event) {
-  let orbs = $(elements.SUMMON_ORB);
-  for (let i = 0; i < orbs.length; i++) {
+   orbs = $(elements.SUMMON_ORB);
+  for ( i = 0; i < orbs.length; i++) {
     revealOrb($(orbs[i]));
   }
 }
 function onSelectFilter(event) {
     event.stopPropagation();
     event.preventDefault();
-    let $checkbox = $(event.currentTarget).find('input[type="checkbox"]');
+     $checkbox = $(event.currentTarget).find('input[type="checkbox"]');
     $checkbox.prop('checked', !$checkbox.is(':checked'));
 
-    let rarity = $(event.currentTarget).data('val');
+     rarity = $(event.currentTarget).data('val');
     $(elements.SUMMON_TABLE).toggleClass('hide-' + rarity);
 }
 
 
 // Main Functions
 function getSessionOrbs() {
-  let orbs = [];
-  let rateRF = parseFloat($(elements.RATE_INPUT_FOCUS).val()) / 100;
-  let rateR5 = parseFloat($(elements.RATE_INPUT_5).val()) / 100 + rateRF;
-  let rateRF4;
-  let rateRS4;
-  let rateR4;
+   orbs = [];
+   rateRF = parseFloat($(elements.RATE_INPUT_FOCUS).val()) / 100;
+   rateR5 = parseFloat($(elements.RATE_INPUT_5).val()) / 100 + rateRF;
+   rateRF4;
+   rateRS4;
+   rateR4;
 
   if (banner.rates.rateRarityFocus4) {
     rateRF4 = parseFloat($(elements.RATE_INPUT_FOCUS_4).val()) / 100 + rateR5;
@@ -279,9 +279,9 @@ function getSessionOrbs() {
     rateRS4 = 0;
   }
 
-  for (let i = 0; i < 5; i++) {
-    let rate = Math.random();
-    let orbData;
+  for ( i = 0; i < 5; i++) {
+     rate = Math.random();
+     orbData;
     if (rate <= rateRF) {
       orbData = { hero: getArrayRand(summonPool.rf), rarity: 'focus' };
     } else if (rate <= rateR5) {
@@ -303,13 +303,13 @@ function getSessionOrbs() {
 }
 function updateOrbs(orbs) {
   orbs.forEach((orbData, i) => {
-    let $orb = $(`<img class="summon-orb" src="../${values.IMAGES[orbData.color]}" data-color="${orbData.color}">`)
+     $orb = $(`<img class="summon-orb" src="../${values.IMAGES[orbData.color]}" data-color="${orbData.color}">`)
         .data('hero', orbData);
     $($(elements.SUMMON_OPTION)[i]).empty().append($orb);
   });
 }
 function revealOrb($orb) {
-  let orbData = $orb.data('hero');
+   orbData = $orb.data('hero');
   
 
   $(document).trigger('summon', [orbData.hero.name, orbData.hero.rarity]);
@@ -331,7 +331,7 @@ function revealOrb($orb) {
     pityPulls++;
   }
 
-  let tableRow = $summonTable.row
+  tableRow = $summonTable.row
       .add([
           pullStats.pulls,
           orbData.hero.name,
@@ -348,10 +348,10 @@ function revealOrb($orb) {
   return orbData;
 }
 function updateStatsView() {
-  let percentAmount = pullStats.pulls === 0 ? '-' : (100 * pullStats.r5 / pullStats.pulls).toFixed(1) + '%';
-  let totalMoneySpent = (pullStats.orbs * values.ORB_MONEY_COST).toFixed(2);
-  let orbsPerHero = pullStats.r5 === 0 ? '-' : (pullStats.orbs / pullStats.r5).toFixed(1);
-  let moneyPerHero = pullStats.r5 === 0 ? '-' : '$' + (totalMoneySpent / pullStats.r5).toFixed(2);
+   percentAmount = pullStats.pulls === 0 ? '-' : (100 * pullStats.r5 / pullStats.pulls).toFixed(1) + '%';
+   totalMoneySpent = (pullStats.orbs * values.ORB_MONEY_COST).toFixed(2);
+   orbsPerHero = pullStats.r5 === 0 ? '-' : (pullStats.orbs / pullStats.r5).toFixed(1);
+   moneyPerHero = pullStats.r5 === 0 ? '-' : '$' + (totalMoneySpent / pullStats.r5).toFixed(2);
   $('#total-summon-amt').text(pullStats.pulls);
   $('#rarity5-summon-amt').text(pullStats.r5);
   $('#focus-summon-amt').text(pullStats.rf);
@@ -377,15 +377,15 @@ function setSnipeOptions() {
   });
 }
 function snipe() {
-  let targetCheckbox = $('.snipe-target:checked');
-  let targets = [];
-  let snipeCount = 0;
-  let totalCount = 0;
-  let orbs;
-  let orbData;
+   targetCheckbox = $('.snipe-target:checked');
+   targets = [];
+   snipeCount = 0;
+   totalCount = 0;
+   orbs;
+   orbData;
 
   $(document).trigger('snipe-start');
-  for (let i = 0; i < targetCheckbox.length; i++) {
+  for ( i = 0; i < targetCheckbox.length; i++) {
     targets.push($(targetCheckbox[i]).data('hero'));
   }
 
@@ -407,7 +407,7 @@ function snipe() {
   $(document).trigger('snipe-end', [totalCount]);
 }
 function continueSnipe(targets, snipeCount) {
-  let snipeAll = $('#snipe-all').is(':checked');
+   snipeAll = $('#snipe-all').is(':checked');
   if (snipeAll) {
     return targets.length > 0;
   } else {
@@ -415,17 +415,17 @@ function continueSnipe(targets, snipeCount) {
   }
 }
 function getTargetSnipeOrbs(targetHeroes) {
-  let colors = new Set();
+   colors = new Set();
   targetHeroes.forEach(hero => colors.add(hero.colorType.toLowerCase()));
 
-  let selector = [...colors]
+   selector = [...colors]
       .map(color => `${elements.SUMMON_ORB}[data-color="${color}"]`)
       .join(',');
 
   return $(selector);
 }
 function snipeHit(orbData, targetHeroes) {
-    for (let i = 0; i < targetHeroes.length; i++) {
+    for (i = 0; i < targetHeroes.length; i++) {
       if (targetHeroes[i].name === orbData.hero.name && orbData.rarity === 'focus') {
         targetHeroes.splice(i, 1);
         return true;
@@ -473,8 +473,8 @@ function initCustomBannerList() {
   });
 }
 function toggleCustomBannerHero(event) {
-  let checked = $(event.currentTarget).is(':checked');
-  let hero = $(event.currentTarget).closest('.custom-control').data('val');
+   checked = $(event.currentTarget).is(':checked');
+   hero = $(event.currentTarget).closest('.custom-control').data('val');
   if (checked) {
     customBanner.focusHeroes.push(hero.name);
     $(elements.CUSTOM_FOCUS).append(`<div class="focus-list-hero" data-name="${hero.name}">
@@ -488,9 +488,9 @@ function toggleCustomBannerHero(event) {
   }
 }
 function searchCustomFocus() {
-  let searchKey = $(elements.CUSTOM_SEARCH).val().trim().toLowerCase();
-  let heroList = $(elements.CUSTOM_LIST_DESC);
-  for (let i = 0; i < heroList.length; i++) {
+   searchKey = $(elements.CUSTOM_SEARCH).val().trim().toLowerCase();
+   heroList = $(elements.CUSTOM_LIST_DESC);
+  for ( i = 0; i < heroList.length; i++) {
     $(heroList[i]).toggleClass('d-none', $(heroList[i]).text().toLowerCase().indexOf(searchKey) === -1);
   }
 }
@@ -507,7 +507,7 @@ function customRateChange() {
   }
 }
 function createBanner(event) {
-  let rates = [$(elements.CUSTOM_INPUT_FOCUS).val(),
+   rates = [$(elements.CUSTOM_INPUT_FOCUS).val(),
       $(elements.CUSTOM_INPUT_5).val(),
       $(elements.CUSTOM_INPUT_FOCUS_4).val(),
       $(elements.CUSTOM_INPUT_SPECIAL_4).val(),
@@ -532,13 +532,13 @@ function getArrayRand(arr) {
   return arr[Math.floor(Math.random() * arr.length)];
 }
 function getDateString(date) {
-  let months = [ 'January', 'February', 'March', 'April', 'May', 'June',
+   months = [ 'January', 'February', 'March', 'April', 'May', 'June',
       'July', 'August', 'September', 'October', 'November', 'December'];
 
   return `${months[date.getMonth()]} ${date.getFullYear()}`;
 }
 function getUrlParam(name) {
-  let results = new RegExp('[\?&]' + name + '=([^&#]*)').exec(window.location.href);
+   results = new RegExp('[\?&]' + name + '=([^&#]*)').exec(window.location.href);
   if (results == null){
      return '';
   } else {
@@ -547,7 +547,7 @@ function getUrlParam(name) {
 }
 function bannerOptionsGenerator(item, $parent) {
   $parent.append(`<div class="dropdown-header">${item.date}</div>`);
-  for (let i = 0; i < item.banners.length; i++) {
+  for ( i = 0; i < item.banners.length; i++) {
     $(`<div class="dropdown-item">${item.banners[i].name}</div>`)
         .data('val', item.banners[i])
         .data('tokens', item.banners[i].focusHeroes.join(' ').toLowerCase())
