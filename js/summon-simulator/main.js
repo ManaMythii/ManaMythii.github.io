@@ -80,16 +80,16 @@ function setCustomBannerRates(banner, rates) {
   total -= banner.rates.rateRarityFocus4;
   
   if (rates[3] >= 0 && rates[0] + rates[1] + rates[3] <= 100) {
-    banner.rates.rateRaritySpecial5 = rates[3];
+    banner.rates.rateRaritySpecial4 = rates[3];
   } else {
     banner.rates.rateRaritySpecial4 = 0;
   }
-  total -= banner.rates.rateRaritySpecial5;
+  total -= banner.rates.rateRaritySpecial4;
 
   if (rates[4] >= 0 && rates[0] + rates[1] + rates[2] + rates[3] + rates[4] <= 100) {
     banner.rates.rateRarity4 = rates[4];
   } else {
-    banner.rates.rateRarity4 = banner.rates.rateRarityFocus4 ||
+    banner.rates.rateRarity4 = banner.rates.rateRaritySpecial4 ||
         Math.min(58, total);
   }
 
