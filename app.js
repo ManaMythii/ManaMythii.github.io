@@ -16,7 +16,544 @@ defaultV1:{rateRarity3:58,rateRarity4:36,rateRarityFocus4:0,rateRarity5:3,rateRa
 6:[function(e,a,r){a.exports={SELECT_BANNER: '#select-banner',FOCUS_LIST: '#focus-list',SUMMON_OPTION: '.summon-option',SUMMON_ORB: '.summon-orb',SUMMON_ALL: '#summon-all',SUMMON_TABLE: '#summon-table',NEW_SESSION: '#new-session',RATE_INPUT: '.rate-input > input',RATE_INPUT_FOCUS: '#rate-input-focus',RATE_INPUT_FOCUS_4: '#rate-input-focus-4',RATE_INPUT_SPECIAL_4: '#rate-input-special-4',RATE_INPUT_5: '#rate-input-5',RATE_INPUT_4: '#rate-input-4',RATE_INPUT_3: '#rate-input-3',CUSTOM_INPUT_FOCUS: '#custom-input-focus',CUSTOM_INPUT_FOCUS_4: '#custom-input-focus-4',CUSTOM_INPUT_SPECIAL_4: '#custom-input-special-4',CUSTOM_RATE_INPUT: '.custom-rate-input',CUSTOM_INPUT_5: '#custom-input-5',CUSTOM_INPUT_4: '#custom-input-4',CUSTOM_INPUT_3: '#custom-input-3',RESET: '#reset',SNIPE: '#snipe-btn',SNIPE_LIST: '#snipe-list',CUSTOM_MODAL: '#custom-banner-modal',CUSTOM_LIST: '#custom-banner-select-list',CUSTOM_LIST_DESC: '#custom-banner-select-list label',CUSTOM_FOCUS: '#custom-banner-heroes',CUSTOM_SEARCH: '#custom-banner-search',CREATE_BANNER: '#create-banner',TABLE_FILTER_ITEM: '#table-filter .dropdown-item',POOL_LIST_5F: '#pool-list-5f',POOL_LIST_5: '#pool-list-5',POOL_LIST_4: '#pool-list-4',POOL_LIST_4S: '#pool-list-4s',POOL_LIST_3: '#pool-list-3'}},{}],
   
 //main.js
-7:[function(e,a,r){let t,i=e("../data/hero-access.js"),n=e("../data/banner-access.js"),o=e("./elements.js"),s=e("./values.js"),l={},m={},y={pulls:0,orbs:0,money:0,r5:0,rf:0},p=0,d=0,h=!1,c=x();function g(e,a){a=a.map(e=>parseInt(e)),e.rates={},e.rates.rateRarityFocus=Math.max(0,Math.min(100,a[0]));let r=100-e.rates.rateRarityFocus;a[1]>=0&&a[0]+a[1]<=100?e.rates.rateRarity5=a[1]:e.rates.rateRarity5=Math.min(3,r),r-=e.rates.rateRarity5,a[2]>=0&&a[0]+a[1]+a[2]<=100?e.rates.rateRarityFocus4=a[2]:e.rates.rateRarityFocus4=0,r-=e.rates.rateRarityFocus4,a[3]>=0&&a[0]+a[1]+a[2]+a[3]<=100?e.rates.rateRarity4=a[3]:e.rates.rateRarity4=e.rates.rateRarityFocus4||Math.min(58,r),e.rates.rateRarity3=r-e.rates.rateRarity3,e.rates.pityRateRarityFocus=0===e.rates.rateRarity5?.5:.25,e.rates.pityRateRarity5=0===e.rates.rateRarity5?0:.25;let t=100-e.rates.rateRarityFocus-e.rates.rateRarity5;0===t?(e.rates.pityRateRarityFocus4=0,e.rates.pityRateRarity4=0,e.rates.pityRateRarity3=0):(e.rates.pityRateRarityFocus4=-e.rates.rateRarityFocus4/t*.5,e.rates.pityRateRarity4=-e.rates.rateRarity4/t*.5,e.rates.pityRateRarity3=-e.rates.rateRarity3/t*.5)}function f(){!function(){let e=$(o.FOCUS_LIST).empty(),a=i.getHeroes(l.focusHeroes);(m=i.getSummoningPool(l.pool,l)).rf=a,a.forEach(a=>{$(`<div class="focus-list-hero">\n        <img class="focus-list-hero-frame" src="../img/assets/frame-rarity-5.png">\n        <img class="focus-list-hero-portrait" src="../${a.assets.portrait}">\n        <img class="focus-list-hero-background" src="../img/assets/background-rarity-5.png">\n        </div>`).tooltip({html:!0,placement:"bottom",title:`<p class="mb-0">${a.title}</p><h6>${a.shortName||a.name}</h6>`}).appendTo(e)}),u(o.POOL_LIST_5F,m.rf),u(o.POOL_LIST_5,m.r5),u(o.POOL_LIST_4,m.r4),u(o.POOL_LIST_3,m.r3)}(),k(),$(o.SNIPE_LIST).empty(),m.rf.forEach(e=>{let a=$('<input type="checkbox" class="custom-control-input snipe-target">').data("hero",e);$('<label class="custom-control custom-checkbox snipe-option"></label>').append(a).append(`<span class="custom-control-indicator"></span>\n            <span class="custom-control-description">${e.name}</span>`).appendTo(o.SNIPE_LIST)})}function u(e,a){let r=a.sort((e,a)=>e.colorType===a.colorType?e.weaponType===a.weaponType?e.name.localeCompare(a.name):s.POOL_WEAPON_ORDER.indexOf(e.weaponType)-s.POOL_WEAPON_ORDER.indexOf(a.weaponType):s.POOL_COLOR_ORDER.indexOf(e.colorType)-s.POOL_COLOR_ORDER.indexOf(a.colorType)).map(e=>`<div class="summon-pool-item ml-2">\n          <img class="summon-pool-item-img" src="../img/assets/icon/${e.colorType.toLowerCase()}-${e.weaponType.toLowerCase()}.png">\n          <span class="ml-2">${e.shortName||e.name}: ${e.title}</span></div>`).join("");$(e).html(r)}function k(){for(let e in y)y[e]=0;p=0,h=!0,t.clear().draw(),F(),v()}function v(){d=0,h?(h=!1,$(o.RATE_INPUT_FOCUS).val(l.rates.rateRarityFocus),$(o.RATE_INPUT_5).val(l.rates.rateRarity5),$(o.RATE_INPUT_FOCUS_4).val(l.rates.rateRarityFocus4),$(o.RATE_INPUT_4).val(l.rates.rateRarity4),$(o.RATE_INPUT_3).val(l.rates.rateRarity3)):p>=5&&(p-=5,$(o.RATE_INPUT_FOCUS).val((parseFloat($(o.RATE_INPUT_FOCUS).val())+l.rates.pityRateRarityFocus).toFixed(2)),$(o.RATE_INPUT_5).val((parseFloat($(o.RATE_INPUT_5).val())+l.rates.pityRateRarity5).toFixed(2)),$(o.RATE_INPUT_FOCUS_4).val((parseFloat($(o.RATE_INPUT_FOCUS_4).val())+l.rates.pityRateRarityFocus4).toFixed(2)),$(o.RATE_INPUT_4).val((parseFloat($(o.RATE_INPUT_4).val())+l.rates.pityRateRarity4).toFixed(2)),$(o.RATE_INPUT_3).val((parseFloat($(o.RATE_INPUT_3).val())+l.rates.pityRateRarity3).toFixed(2))),$(o.NEW_SESSION).attr("disabled","disabled"),function(){let e,a,r=[],t=parseFloat($(o.RATE_INPUT_FOCUS).val())/100,i=parseFloat($(o.RATE_INPUT_5).val())/100+t;l.rates.rateRarityFocus4?(e=parseFloat($(o.RATE_INPUT_FOCUS_4).val())/100+i,a=parseFloat($(o.RATE_INPUT_4).val())/100+e):(e=0,a=parseFloat($(o.RATE_INPUT_4).val())/100+i);for(let n=0;n<5;n++){let n,o=Math.random();(n=o<=t?{hero:M(m.rf),rarity:"focus"}:o<=i?{hero:M(m.r5),rarity:5}:o<=e?{hero:M(m.rf),rarity:"focus-4"}:o<=a?{hero:M(m.r4),rarity:4}:{hero:M(m.r3),rarity:3}).iv=M(s.IV),n.color=n.hero.colorType.toLowerCase(),r.push(n)}return r}().forEach((e,a)=>{let r=$(`<img class="summon-orb" src="../${s.IMAGES[e.color]}" data-color="${e.color}">`).data("hero",e);$($(o.SUMMON_OPTION)[a]).empty().append(r)})}function S(e){(l=$(e.currentTarget).data("val")).startDate=new Date(l.startDate),f()}function T(e){w($(e.currentTarget))}function D(e){let a=$(o.SUMMON_ORB);for(let e=0;e<a.length;e++)w($(a[e]))}function R(e){e.stopPropagation(),e.preventDefault();let a=$(e.currentTarget).find('input[type="checkbox"]');a.prop("checked",!a.is(":checked"));let r=$(e.currentTarget).data("val");$(o.SUMMON_TABLE).toggleClass("hide-"+r)}function w(e){let a=e.data("hero");$(document).trigger("summon",[a.hero.name,a.hero.rarity]),e.replaceWith(`<div class="summon-hero">\n    <img class="summon-hero-frame" src="../img/assets/frame-rarity-${"focus-4"===a.rarity?4:a.rarity}.png">\n    <img class="summon-hero-portrait" src="../${a.hero.assets.sprite}">\n    <img class="summon-hero-background" src="../img/assets/background-rarity-${"focus-4"===a.rarity?"focus":a.rarity}.png">\n    <img class="summon-hero-rarity" src="../img/assets/star-rarity-${"focus-4"===a.rarity?4:a.rarity}.png">\n  </div>`),y.pulls++,y.orbs+=s.ORB_PULL_COST[d++],"focus"===a.rarity||5===a.rarity?(y.r5++,y.rf+="focus"===a.rarity?1:0,h=!0,p=0):p++;let r=t.row.add([y.pulls,a.hero.name,"focus"===a.rarity?"Focus":"focus-4"===a.rarity?"Focus (4)":a.rarity,a.iv.boon,a.iv.bane]).draw().node();return $(r).addClass("r-"+a.rarity),$(o.NEW_SESSION).removeAttr("disabled"),F(),a}function F(){let e=0===y.pulls?"-":(100*y.r5/y.pulls).toFixed(1)+"%",a=(y.orbs*s.ORB_MONEY_COST).toFixed(2),r=0===y.r5?"-":(y.orbs/y.r5).toFixed(1),t=0===y.r5?"-":"$"+(a/y.r5).toFixed(2);$("#total-summon-amt").text(y.pulls),$("#rarity5-summon-amt").text(y.r5),$("#focus-summon-amt").text(y.rf),$("#percent-summon-amt").text(e),$("#total-orbs-amt").text(y.orbs),$("#total-money-amt").text("$"+a),$("#avg-orbs-amt").text(r),$("#avg-money-amt").text(t)}function A(){let e,a,r=$(".snipe-target:checked"),t=[],i=0,n=0;$(document).trigger("snipe-start");for(let e=0;e<r.length;e++)t.push($(r[e]).data("hero"));for(;B(t,i);)n++,(e=_(t)).length?I(a=w($(e[0])),t)&&($(o.SUMMON_TABLE+" tbody tr:last-child").addClass("table-success"),i++):d>0?v():w($(M($(o.SUMMON_ORB))));$(document).trigger("snipe-end",[n])}function B(e,a){return $("#snipe-all").is(":checked")?e.length>0:e.length>0&&0===a}function _(e){let a=new Set;e.forEach(e=>a.add(e.colorType.toLowerCase()));let r=[...a].map(e=>`${o.SUMMON_ORB}[data-color="${e}"]`).join(",");return $(r)}function I(e,a){for(let r=0;r<a.length;r++)if(a[r].name===e.hero.name&&"focus"===e.rarity)return a.splice(r,1),!0;return!1}function x(e=[]){return{name:"Custom Banner",startDate:new Date,focusHeroes:e,excludeFromRarity4:[],excludeFromRarity5:[],pool:"pool2",rateType:"defaultV2",rates:{rateRarity3:36,rateRarity4:58,rateRarityFocus4:0,rateRarity5:3,rateRarityFocus:3,pityRateRarity3:-36/94*.5,pityRateRarity4:-58/94*.5,pityRateRarityFocus4:0,pityRateRarity5:.25,pityRateRarityFocus:.25}}}function L(e){let a=$(e.currentTarget).is(":checked"),r=$(e.currentTarget).closest(".custom-control").data("val");a?(c.focusHeroes.push(r.name),$(o.CUSTOM_FOCUS).append(`<div class="focus-list-hero" data-name="${r.name}">\n        <img class="focus-list-hero-frame" src="../img/assets/frame-rarity-5.png">\n        <img class="focus-list-hero-portrait" src="../${r.assets.portrait}">\n        <img class="focus-list-hero-background" src="../img/assets/background-rarity-5.png">\n        </div>`)):(c.focusHeroes.splice(c.focusHeroes.indexOf(r.name),1),$(`.focus-list-hero[data-name="${r.name}"]`).remove())}function H(){let e=$(o.CUSTOM_SEARCH).val().trim().toLowerCase(),a=$(o.CUSTOM_LIST_DESC);for(let r=0;r<a.length;r++)$(a[r]).toggleClass("d-none",-1===$(a[r]).text().toLowerCase().indexOf(e))}function b(){c.rates.rateRarityFocus=parseInt($(o.CUSTOM_INPUT_FOCUS).val()),c.rates.rateRarity5=parseInt($(o.CUSTOM_INPUT_5).val()),c.rates.rateRarityFocus4=parseInt($(o.CUSTOM_INPUT_FOCUS_4).val()),c.rates.rateRarity4=parseInt($(o.CUSTOM_INPUT_4).val()),c.rates.rateRarity3=parseInt($(o.CUSTOM_INPUT_3).val()),0===c.rates.rateRarity5&&(c.rates.pityRateRarity5=0,c.rates.pityRateRarityFocus=.5)}function P(e){let a=[$(o.CUSTOM_INPUT_FOCUS).val(),$(o.CUSTOM_INPUT_5).val(),$(o.CUSTOM_INPUT_FOCUS_4).val(),$(o.CUSTOM_INPUT_4).val(),$(o.CUSTOM_INPUT_3).val()];$(o.CUSTOM_MODAL).modal("hide"),window.history.pushState(null,null,"?focus="+encodeURIComponent(c.focusHeroes.join(";"))+"&rates="+encodeURIComponent(a.join(";"))),g(l=c,a),f(),$(o.SELECT_BANNER).selectable("text","Custom Banner")}function M(e){return e[Math.floor(Math.random()*e.length)]}function C(e){let a=new RegExp("[?&]"+e+"=([^&#]*)").exec(window.location.href);return null==a?"":decodeURIComponent(a[1])||0}function N(e,a){a.append(`<div class="dropdown-header">${e.date}</div>`);for(let r=0;r<e.banners.length;r++)$(`<div class="dropdown-item">${e.banners[r].name}</div>`).data("val",e.banners[r]).data("tokens",e.banners[r].focusHeroes.join(" ").toLowerCase()).appendTo(a)}!function(){let e=n.getFirstBanner();t=$(o.SUMMON_TABLE).DataTable({paging:!1,searching:!1,info:!1,columnDefs:[{width:"70px",targets:0},{width:"50px",targets:[2,3,4]}],language:{emptyTable:"No heroes summoned yet"}}),$(o.SELECT_BANNER).selectable({data:n.getAllBanners(),optionGenerator:N,text:e.name,value:e,searchPlaceholder:"Search Banner Name or Hero"});let a=C("focus");if(a.length){l=x(a.split(";")),$(o.SELECT_BANNER).selectable("text",l.name);let e=C("rates").split(";");5===e.length&&g(l,e)}else(l=n.getFirstBanner()).startDate=new Date(l.startDate);f(),i.getAllHeroes().forEach(e=>{$(`<label class="custom-control custom-checkbox">\n        <input type="checkbox" class="custom-control-input">\n        <span class="custom-control-indicator"></span>\n        <span class="custom-control-description">${e.name}</span>\n        </label>`).data("val",e).appendTo(o.CUSTOM_LIST)}),$(o.SELECT_BANNER).on("select",S),$(o.NEW_SESSION).on("click",v),$(o.SUMMON_OPTION).on("click",o.SUMMON_ORB,T),$(o.SUMMON_ALL).on("click",D),$(o.RESET).on("click",k),$(o.SNIPE).on("click",A),$(o.CUSTOM_LIST).on("change","input",L),$(o.CREATE_BANNER).on("click",P),$(o.CUSTOM_SEARCH).on("keyup",H),$(o.CUSTOM_RATE_INPUT).on("change",b),$(o.TABLE_FILTER_ITEM).on("click",R)}()},{"../data/banner-access.js":1,"../data/hero-access.js":4,"./elements.js":6,"./values.js":8}],
+7:[function(e,a,r){let t,i=e("../data/hero-access.js"),n=e("../data/banner-access.js"),o=e("./elements.js"),s=e("./values.js"),let banner = {};
+let summonPool = {};
+let pullStats = {
+  pulls: 0,
+  orbs: 0,
+  money: 0,
+  r5: 0,
+  rf: 0,
+}
+let pityPulls = 0;
+let sessionPulls = 0;
+let resetPityRate = false;
+let customBanner = getCustomBannerData();
+let $summonTable;
+
+init();
+
+// Initialization Functions
+function init() {
+  let defaultBanner = banners.getFirstBanner();
+
+  $summonTable = $(elements.SUMMON_TABLE).DataTable({
+    paging: false,
+    searching: false,
+    info: false,
+    columnDefs: [ { width: "70px", targets: 0 }, { width: "50px", targets: [2,3,4] } ],
+    language: { emptyTable: "No heroes summoned yet" }
+  });
+
+  $(elements.SELECT_BANNER).selectable({
+    data: banners.getAllBanners(),
+    optionGenerator: bannerOptionsGenerator,
+    text: defaultBanner.name,
+    value: defaultBanner,
+    searchPlaceholder: 'Search Banner Name or Hero'
+  });
+
+  let customFocus  = getUrlParam('focus');
+  if (customFocus.length) {
+    banner = getCustomBannerData(customFocus.split(';'));
+    $(elements.SELECT_BANNER).selectable('text', banner.name);
+
+    let rates = getUrlParam('rates').split(';');
+    if (rates.length === 6) { //changed from 5 to 6
+      setCustomBannerRates(banner, rates);
+    }
+  } else {
+    banner = banners.getFirstBanner();
+    banner.startDate = new Date(banner.startDate);
+  }
+
+  initBanner();
+  initCustomBannerList();
+  bindEvents();
+}
+function setCustomBannerRates(banner, rates) {
+  rates = rates.map(r => parseInt(r));
+
+  banner.rates = {};
+  banner.rates.rateRarityFocus = Math.max(0, Math.min(100, rates[0]));
+  let total = 100 - banner.rates.rateRarityFocus;
+
+  if (rates[1] >= 0 && rates[0] + rates[1] <= 100) {
+    banner.rates.rateRarity5 = rates[1];
+  } else {
+    banner.rates.rateRarity5 = Math.min(3, total);
+  }
+  total -= banner.rates.rateRarity5;
+
+  if (rates[2] >= 0 && rates[0] + rates[1] + rates[2] <= 100) {
+    banner.rates.rateRarityFocus4 = rates[2];
+  } else {
+    banner.rates.rateRarityFocus4 = 0;
+  }
+  total -= banner.rates.rateRarityFocus4;
+  
+  if (rates[3] >= 0 && rates[0] + rates[1] + rates[3] <= 100) {
+    banner.rates.rateRaritySpecial4 = rates[3];
+  } else {
+    banner.rates.rateRaritySpecial4 = 0;
+  }
+  total -= banner.rates.rateRaritySpecial4;
+
+  if (rates[4] >= 0 && rates[0] + rates[1] + rates[2] + rates[3] + rates[4] <= 100) {
+    banner.rates.rateRarity4 = rates[4];
+  } else {
+    banner.rates.rateRarity4 = banner.rates.rateRaritySpecial4 ||
+        Math.min(58, total);
+  }
+
+  banner.rates.rateRarity3 = total - banner.rates.rateRarity3;
+
+
+  banner.rates.pityRateRarityFocus = banner.rates.rateRarity5 === 0 ? 0.5 : 0.25;
+  banner.rates.pityRateRarity5 = banner.rates.rateRarity5 === 0 ? 0 : 0.25;
+  let commonRates = 100 - banner.rates.rateRarityFocus - banner.rates.rateRarity5;
+  if (commonRates === 0) {
+    banner.rates.pityRateRarityFocus4 = 0;
+    banner.rates.pityRateRaritySpecial4 = 0;
+    banner.rates.pityRateRarity4 = 0;
+    banner.rates.pityRateRarity3 = 0;
+  } else {
+    banner.rates.pityRateRarityFocus4 = -banner.rates.rateRarityFocus4 / commonRates * 0.5;
+    banner.rates.pityRateRaritySpecial4 = -banner.rates.rateRaritySpecial4 / commonRates * 0.5;
+    banner.rates.pityRateRarity4 = -banner.rates.rateRarity4 / commonRates * 0.5;
+    banner.rates.pityRateRarity3 = -banner.rates.rateRarity3 / commonRates * 0.5;
+  }
+}
+function initBanner() {
+  initHeroList();
+  resetSessionData();
+  setSnipeOptions();
+}
+function initHeroList() {
+  let $focusList = $(elements.FOCUS_LIST).empty();
+  let focusHeroes = heroes.getHeroes(banner.focusHeroes);
+
+  summonPool = heroes.getSummoningPool(banner.pool, banner);
+  summonPool.rf = focusHeroes;
+  focusHeroes.forEach(hero => {
+    $(`<div class="focus-list-hero">
+        <img class="focus-list-hero-frame" src="../img/assets/frame-rarity-5.png">
+        <img class="focus-list-hero-portrait" src="../${hero.assets.portrait}">
+        <img class="focus-list-hero-background" src="../img/assets/background-rarity-5.png">
+        </div>`)
+      .tooltip({
+        html: true,
+        placement: 'bottom',
+        title: `<p class="mb-0">${hero.title}</p><h6>${hero.shortName || hero.name}</h6>`
+      })
+      .appendTo($focusList);
+  });
+
+  setPoolList(elements.POOL_LIST_5F, summonPool.rf);
+  setPoolList(elements.POOL_LIST_5, summonPool.r5);
+  setPoolList(elements.POOL_LIST_4, summonPool.r4);
+  setPoolList(elements.POOL_LIST_4S, summonPool.r4s);
+  setPoolList(elements.POOL_LIST_3, summonPool.r3);
+}
+function setPoolList(element, heroes) {
+  let html = heroes
+      .sort((a, b) => {
+        if (a.colorType === b.colorType) {
+          if (a.weaponType === b.weaponType) {
+            return a.name.localeCompare(b.name);
+          } else {
+            return values.POOL_WEAPON_ORDER.indexOf(a.weaponType) - values.POOL_WEAPON_ORDER.indexOf(b.weaponType);
+          }
+        } else {
+          return values.POOL_COLOR_ORDER.indexOf(a.colorType) - values.POOL_COLOR_ORDER.indexOf(b.colorType);
+        }
+      })
+      .map(hero => `<div class="summon-pool-item ml-2">
+          <img class="summon-pool-item-img" src="../img/assets/icon/${hero.colorType.toLowerCase()}-${hero.weaponType.toLowerCase()}.png">
+          <span class="ml-2">${hero.shortName || hero.name}: ${hero.title}</span></div>`)
+      .join('');
+  $(element).html(html);
+}
+function resetSessionData() {
+  for (let stat in pullStats) {
+    pullStats[stat] = 0;
+  }
+  pityPulls = 0;
+  resetPityRate = true;
+
+  $summonTable.clear().draw();
+  updateStatsView();
+  initSession();
+}
+function initSession() {
+  sessionPulls = 0;
+  if (resetPityRate) {
+    // pityPulls = 0;
+    resetPityRate = false;
+    resetRates();
+  } else if (pityPulls >= 5) {
+    pityPulls -= 5;
+    $(elements.RATE_INPUT_FOCUS).val((parseFloat($(elements.RATE_INPUT_FOCUS).val()) + banner.rates.pityRateRarityFocus).toFixed(2));
+    $(elements.RATE_INPUT_5).val((parseFloat($(elements.RATE_INPUT_5).val()) + banner.rates.pityRateRarity5).toFixed(2));
+    $(elements.RATE_INPUT_FOCUS_4).val((parseFloat($(elements.RATE_INPUT_FOCUS_4).val()) + banner.rates.pityRateRarityFocus4).toFixed(2));
+    $(elements.RATE_INPUT_SPECIAL_4).val((parseFloat($(elements.RATE_INPUT_SPECIAL_4).val()) + banner.rates.pityRateRaritySpecial4).toFixed(2));
+    $(elements.RATE_INPUT_4).val((parseFloat($(elements.RATE_INPUT_4).val()) + banner.rates.pityRateRarity4).toFixed(2));
+    $(elements.RATE_INPUT_3).val((parseFloat($(elements.RATE_INPUT_3).val()) + banner.rates.pityRateRarity3).toFixed(2));
+  }
+
+  $(elements.NEW_SESSION).attr('disabled', 'disabled');
+  updateOrbs(getSessionOrbs());
+}
+function resetRates() {
+  $(elements.RATE_INPUT_FOCUS).val(banner.rates.rateRarityFocus);
+  $(elements.RATE_INPUT_5).val(banner.rates.rateRarity5);
+  $(elements.RATE_INPUT_FOCUS_4).val(banner.rates.rateRarityFocus4);
+  $(elements.RATE_INPUT_SPECIAL_4).val(banner.rates.rateRaritySpecial4);
+  $(elements.RATE_INPUT_4).val(banner.rates.rateRarity4);
+  $(elements.RATE_INPUT_3).val(banner.rates.rateRarity3);
+}
+
+
+// Events
+function bindEvents() {
+  $(elements.SELECT_BANNER).on('select', onSelectBanner);
+  $(elements.NEW_SESSION).on('click', initSession);
+
+  $(elements.SUMMON_OPTION).on('click', elements.SUMMON_ORB, onSummonOne);
+  $(elements.SUMMON_ALL).on('click', onSummonAll);
+
+  $(elements.RESET).on('click', resetSessionData);
+  $(elements.SNIPE).on('click', snipe);
+
+  $(elements.CUSTOM_LIST).on('change', 'input', toggleCustomBannerHero);
+  $(elements.CREATE_BANNER).on('click', createBanner);
+  $(elements.CUSTOM_SEARCH).on('keyup', searchCustomFocus);
+  $(elements.CUSTOM_RATE_INPUT).on('change', customRateChange);
+
+  $(elements.TABLE_FILTER_ITEM).on('click', onSelectFilter);
+}
+function onSelectBanner(event) {
+  banner = $(event.currentTarget).data('val');
+  banner.startDate = new Date(banner.startDate);
+  initBanner();
+}
+function onSummonOne(event) {
+  revealOrb($(event.currentTarget));
+}
+function onSummonAll(event) {
+  let orbs = $(elements.SUMMON_ORB);
+  for (let i = 0; i < orbs.length; i++) {
+    revealOrb($(orbs[i]));
+  }
+}
+function onSelectFilter(event) {
+    event.stopPropagation();
+    event.preventDefault();
+    let $checkbox = $(event.currentTarget).find('input[type="checkbox"]');
+    $checkbox.prop('checked', !$checkbox.is(':checked'));
+
+    let rarity = $(event.currentTarget).data('val');
+    $(elements.SUMMON_TABLE).toggleClass('hide-' + rarity);
+}
+
+
+// Main Functions
+function getSessionOrbs() {
+  let orbs = [];
+  let rateRF = parseFloat($(elements.RATE_INPUT_FOCUS).val()) / 100;
+  let rateR5 = parseFloat($(elements.RATE_INPUT_5).val()) / 100 + rateRF;
+  let rateRF4;
+  let rateRS4;
+  let rateR4;
+
+  if (banner.rates.rateRarityFocus4) {
+    rateRF4 = parseFloat($(elements.RATE_INPUT_FOCUS_4).val()) / 100 + rateR5;
+    rateR4 = parseFloat($(elements.RATE_INPUT_4).val()) / 100 + rateRF4;
+  } else {
+    rateRF4 = 0;
+    rateR4 = parseFloat($(elements.RATE_INPUT_4).val()) / 100 + rateR5;
+  }
+  if (banner.rates.rateRaritySpecial4) {
+    rateRS4 = rateRF4;  //not correct
+  } else {
+    rateRS4 = 0;
+  }
+
+  for (let i = 0; i < 5; i++) {
+    let rate = Math.random();
+    let orbData;
+    if (rate <= rateRF) {
+      orbData = { hero: getArrayRand(summonPool.rf), rarity: 'focus' };
+    } else if (rate <= rateR5) {
+      orbData = { hero: getArrayRand(summonPool.r5), rarity: 5 };
+    } else if (rate <= rateRF4) {
+      orbData = { hero: getArrayRand(summonPool.r4f), rarity: 'focus-4' }; //change rf to r4f
+    } else if (rate <= rateRS4) {
+      orbData = { hero: getArrayRand(summonPool.r4s), rarity: 'special-4' };
+    } else if (rate <= rateR4) {
+      orbData = { hero: getArrayRand(summonPool.r4), rarity: 4 };
+    } else {
+      orbData = { hero: getArrayRand(summonPool.r3), rarity: 3 };
+    }
+    orbData.iv = getArrayRand(values.IV);
+    orbData.color = orbData.hero.colorType.toLowerCase();
+    orbs.push(orbData);
+  }
+  return orbs;
+}
+function updateOrbs(orbs) {
+  orbs.forEach((orbData, i) => {
+    let $orb = $(`<img class="summon-orb" src="../${values.IMAGES[orbData.color]}" data-color="${orbData.color}">`)
+        .data('hero', orbData);
+    $($(elements.SUMMON_OPTION)[i]).empty().append($orb);
+  });
+}
+function revealOrb($orb) {
+  let orbData = $orb.data('hero');
+  
+
+  $(document).trigger('summon', [orbData.hero.name, orbData.hero.rarity]);
+  $orb.replaceWith(`<div class="summon-hero">
+    <img class="summon-hero-frame" src="../img/assets/frame-rarity-${orbData.rarity === 'focus-4' ? 4 : orbData.rarity}.png">
+    <img class="summon-hero-portrait" src="../${orbData.hero.assets.sprite}">
+    <img class="summon-hero-background" src="../img/assets/background-rarity-${orbData.rarity === 'focus-4' ? 'focus' : orbData.rarity}.png">
+    <img class="summon-hero-rarity" src="../img/assets/star-rarity-${orbData.rarity === 'focus-4' ? 4 : orbData.rarity}.png">
+  </div>`);
+
+  pullStats.pulls++;
+  pullStats.orbs += values.ORB_PULL_COST[sessionPulls++];
+  if (orbData.rarity === 'focus' || orbData.rarity === 5) {
+    pullStats.r5++;
+    pullStats.rf += orbData.rarity === 'focus' ? 1 : 0;
+    resetPityRate = true;
+    pityPulls = 0;
+  } else {
+    pityPulls++;
+  }
+
+  let tableRow = $summonTable.row
+      .add([
+          pullStats.pulls,
+          orbData.hero.name,
+          orbData.rarity === 'focus' ? 'Focus' :
+              orbData.rarity === 'focus-4' ? 'Focus (4)' : orbData.rarity,
+          orbData.iv.boon,
+          orbData.iv.bane
+        ])
+      .draw().node();
+  $(tableRow).addClass('r-' + orbData.rarity);
+
+  $(elements.NEW_SESSION).removeAttr('disabled');
+  updateStatsView();
+  return orbData;
+}
+function updateStatsView() {
+  let percentAmount = pullStats.pulls === 0 ? '-' : (100 * pullStats.r5 / pullStats.pulls).toFixed(1) + '%';
+  let totalMoneySpent = (pullStats.orbs * values.ORB_MONEY_COST).toFixed(2);
+  let orbsPerHero = pullStats.r5 === 0 ? '-' : (pullStats.orbs / pullStats.r5).toFixed(1);
+  let moneyPerHero = pullStats.r5 === 0 ? '-' : '$' + (totalMoneySpent / pullStats.r5).toFixed(2);
+  $('#total-summon-amt').text(pullStats.pulls);
+  $('#rarity5-summon-amt').text(pullStats.r5);
+  $('#focus-summon-amt').text(pullStats.rf);
+  $('#percent-summon-amt').text(percentAmount);
+  $('#total-orbs-amt').text(pullStats.orbs);
+  $('#total-money-amt').text('$' + totalMoneySpent);
+  $('#avg-orbs-amt').text(orbsPerHero);
+  $('#avg-money-amt').text(moneyPerHero);
+}
+
+
+// Snipe Functions
+function setSnipeOptions() {
+  $(elements.SNIPE_LIST).empty();
+  summonPool.rf.forEach(hero => {
+    let $checkbox = $(`<input type="checkbox" class="custom-control-input snipe-target">`)
+        .data('hero', hero);
+    $('<label class="custom-control custom-checkbox snipe-option"></label>')
+        .append($checkbox)
+        .append(`<span class="custom-control-indicator"></span>
+            <span class="custom-control-description">${hero.name}</span>`)
+        .appendTo(elements.SNIPE_LIST);
+  });
+}
+function snipe() {
+  let targetCheckbox = $('.snipe-target:checked');
+  let targets = [];
+  let snipeCount = 0;
+  let totalCount = 0;
+  let orbs;
+  let orbData;
+
+  $(document).trigger('snipe-start');
+  for (let i = 0; i < targetCheckbox.length; i++) {
+    targets.push($(targetCheckbox[i]).data('hero'));
+  }
+
+  while (continueSnipe(targets, snipeCount)) {
+    totalCount++;
+    orbs = getTargetSnipeOrbs(targets);
+    if (orbs.length) {
+      orbData = revealOrb($(orbs[0]));
+      if (snipeHit(orbData, targets)) {
+        $(elements.SUMMON_TABLE + ' tbody tr:last-child').addClass('table-success');
+        snipeCount++;
+      }
+    } else if (sessionPulls > 0) {
+      initSession();
+    } else {
+      revealOrb($(getArrayRand($(elements.SUMMON_ORB))));
+    }
+  }
+  $(document).trigger('snipe-end', [totalCount]);
+}
+function continueSnipe(targets, snipeCount) {
+  let snipeAll = $('#snipe-all').is(':checked');
+  if (snipeAll) {
+    return targets.length > 0;
+  } else {
+    return targets.length > 0 && snipeCount === 0;
+  }
+}
+function getTargetSnipeOrbs(targetHeroes) {
+  let colors = new Set();
+  targetHeroes.forEach(hero => colors.add(hero.colorType.toLowerCase()));
+
+  let selector = [...colors]
+      .map(color => `${elements.SUMMON_ORB}[data-color="${color}"]`)
+      .join(',');
+
+  return $(selector);
+}
+function snipeHit(orbData, targetHeroes) {
+    for (let i = 0; i < targetHeroes.length; i++) {
+      if (targetHeroes[i].name === orbData.hero.name && orbData.rarity === 'focus') {
+        targetHeroes.splice(i, 1);
+        return true;
+      }
+    }
+    return false;
+  }
+
+
+// Custom Banners
+function getCustomBannerData(focusHeroes = []) {
+  return {
+    name: "Custom Banner",
+    startDate: new Date(),
+    focusHeroes: focusHeroes,
+    excludeFromRarity4: [],
+    excludeFromRarity5: [],
+    pool: "pool2",
+    rateType: "defaultV2",
+    rates: {
+      rateRarity3: 36,
+      rateRarity4: 58,
+      rateRarityFocus4: 0,
+      rateRaritySpecial4: 0,
+      rateRarity5: 3,
+      rateRarityFocus: 3,
+      pityRateRarity3: -36 / 94 * 0.5,
+      pityRateRarity4: -58 / 94 * 0.5,
+      pityRateRarityFocus4: 0,
+      pityRateRaritySpecial4: 0,
+      pityRateRarity5: 0.25,
+      pityRateRarityFocus: 0.25
+    }
+  };
+}
+function initCustomBannerList() {
+  heroes.getAllHeroes().forEach(hero => {
+    $(`<label class="custom-control custom-checkbox">
+        <input type="checkbox" class="custom-control-input">
+        <span class="custom-control-indicator"></span>
+        <span class="custom-control-description">${hero.name}</span>
+        </label>`)
+        .data('val', hero)
+        .appendTo(elements.CUSTOM_LIST);
+  });
+}
+function toggleCustomBannerHero(event) {
+  let checked = $(event.currentTarget).is(':checked');
+  let hero = $(event.currentTarget).closest('.custom-control').data('val');
+  if (checked) {
+    customBanner.focusHeroes.push(hero.name);
+    $(elements.CUSTOM_FOCUS).append(`<div class="focus-list-hero" data-name="${hero.name}">
+        <img class="focus-list-hero-frame" src="../img/assets/frame-rarity-5.png">
+        <img class="focus-list-hero-portrait" src="../${hero.assets.portrait}">
+        <img class="focus-list-hero-background" src="../img/assets/background-rarity-5.png">
+        </div>`);
+  } else {
+    customBanner.focusHeroes.splice(customBanner.focusHeroes.indexOf(hero.name), 1);
+    $(`.focus-list-hero[data-name="${hero.name}"]`).remove();
+  }
+}
+function searchCustomFocus() {
+  let searchKey = $(elements.CUSTOM_SEARCH).val().trim().toLowerCase();
+  let heroList = $(elements.CUSTOM_LIST_DESC);
+  for (let i = 0; i < heroList.length; i++) {
+    $(heroList[i]).toggleClass('d-none', $(heroList[i]).text().toLowerCase().indexOf(searchKey) === -1);
+  }
+}
+function customRateChange() {
+  customBanner.rates.rateRarityFocus = parseInt($(elements.CUSTOM_INPUT_FOCUS).val());
+  customBanner.rates.rateRarity5 = parseInt($(elements.CUSTOM_INPUT_5).val());
+  customBanner.rates.rateRarityFocus4 = parseInt($(elements.CUSTOM_INPUT_FOCUS_4).val());
+  customBanner.rates.rateRaritySpecial4 = parseInt($(elements.CUSTOM_INPUT_SPECIAL_4).val());
+  customBanner.rates.rateRarity4 = parseInt($(elements.CUSTOM_INPUT_4).val());
+  customBanner.rates.rateRarity3 = parseInt($(elements.CUSTOM_INPUT_3).val());
+  if (customBanner.rates.rateRarity5 === 0) {
+    customBanner.rates.pityRateRarity5 = 0
+    customBanner.rates.pityRateRarityFocus = 0.5;
+  }
+}
+function createBanner(event) {
+  let rates = [$(elements.CUSTOM_INPUT_FOCUS).val(),
+      $(elements.CUSTOM_INPUT_5).val(),
+      $(elements.CUSTOM_INPUT_FOCUS_4).val(),
+      $(elements.CUSTOM_INPUT_SPECIAL_4).val(),
+      $(elements.CUSTOM_INPUT_4).val(),
+      $(elements.CUSTOM_INPUT_3).val()];
+
+  $(elements.CUSTOM_MODAL).modal('hide');
+  window.history.pushState(null, null,
+      '?focus=' + encodeURIComponent(customBanner.focusHeroes.join(';')) +
+      '&rates=' + encodeURIComponent(rates.join(';')));
+  banner = customBanner;
+
+  setCustomBannerRates(banner, rates);
+  initBanner();
+
+  $(elements.SELECT_BANNER).selectable('text', 'Custom Banner');
+}
+
+
+// Utils
+function getArrayRand(arr) {
+  return arr[Math.floor(Math.random() * arr.length)];
+}
+function getDateString(date) {
+  let months = [ 'January', 'February', 'March', 'April', 'May', 'June',
+      'July', 'August', 'September', 'October', 'November', 'December'];
+
+  return `${months[date.getMonth()]} ${date.getFullYear()}`;
+}
+function getUrlParam(name) {
+  let results = new RegExp('[\?&]' + name + '=([^&#]*)').exec(window.location.href);
+  if (results == null){
+     return '';
+  } else {
+     return decodeURIComponent(results[1]) || 0;
+  }
+}
+function bannerOptionsGenerator(item, $parent) {
+  $parent.append(`<div class="dropdown-header">${item.date}</div>`);
+  for (let i = 0; i < item.banners.length; i++) {
+    $(`<div class="dropdown-item">${item.banners[i].name}</div>`)
+        .data('val', item.banners[i])
+        .data('tokens', item.banners[i].focusHeroes.join(' ').toLowerCase())
+        .appendTo($parent);
+  }
+},{"../data/banner-access.js":1,"../data/hero-access.js":4,"./elements.js":6,"./values.js":8}],
   
 //values.js
 8:[function(e,a,r){a.exports={ORB_PULL_COST:[5,4,4,4,3],ORB_MONEY_COST:.533,IMAGES:{blue:"img/assets/orbs-blue.png",red:"img/assets/orbs-red.png",green:"img/assets/orbs-green.png",neutral:"img/assets/orbs-gray.png"},IV:[{boon:"hp",bane:"atk"},{boon:"hp",bane:"spd"},{boon:"hp",bane:"def"},{boon:"hp",bane:"res"},{boon:"atk",bane:"hp"},{boon:"atk",bane:"spd"},{boon:"atk",bane:"def"},{boon:"atk",bane:"res"},{boon:"spd",bane:"hp"},{boon:"spd",bane:"atk"},{boon:"spd",bane:"def"},{boon:"spd",bane:"res"},{boon:"def",bane:"hp"},{boon:"def",bane:"atk"},{boon:"def",bane:"spd"},{boon:"def",bane:"res"},{boon:"res",bane:"hp"},{boon:"res",bane:"atk"},{boon:"res",bane:"spd"},{boon:"res",bane:"def"},{boon:"-",bane:"-"}],POOL_COLOR_ORDER:["Red","Blue","Green","Neutral"],POOL_WEAPON_ORDER:["Sword","Lance","Axe","Tome","Breath","Tome","Bow","Dagger","Staff"]}},{}]},{},[7]);
