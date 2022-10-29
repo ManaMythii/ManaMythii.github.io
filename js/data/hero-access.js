@@ -37,7 +37,7 @@ function getSummoningPool(pool, banner) {
     if (data[i].rarity4 && data[i].rarity4.includes(pool) && !banner.excludeFromRarity4.includes(data[i].name)) {
       summonPool.r4.push(data[i]);
     }
-    if (data[i].rarity4 && data[i].rarity4s.includes(pool) && !banner.excludeFromRarity4s.includes(data[i].name)) {
+    if (data[i].rarity4s && data[i].rarity4s.includes(pool) && !banner.excludeFromRarity4s.includes(data[i].name)) {
       summonPool.r4.push(data[i]);
     }
     if (data[i].rarity5 && data[i].rarity5.includes(pool) && !banner.excludeFromRarity5.includes(data[i].name)) {
