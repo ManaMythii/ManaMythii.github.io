@@ -298,16 +298,13 @@ function updateOrbs(orbs) {
 function revealOrb($orb) {
   let orbData = $orb.data('hero');
   
-//may not be correct
+
   $(document).trigger('summon', [orbData.hero.name, orbData.hero.rarity]);
   $orb.replaceWith(`<div class="summon-hero">
     <img class="summon-hero-frame" src="../img/assets/frame-rarity-${orbData.rarity === 'focus-4' ? 4 : orbData.rarity}.png">
-    <img class="summon-hero-frame" src="../img/assets/frame-rarity-${orbData.rarity === 'special-4' ? 4 : orbData.rarity}.png">
     <img class="summon-hero-portrait" src="../${orbData.hero.assets.sprite}">
     <img class="summon-hero-background" src="../img/assets/background-rarity-${orbData.rarity === 'focus-4' ? 'focus' : orbData.rarity}.png">
-    <img class="summon-hero-background" src="../img/assets/background-rarity-${orbData.rarity === 'special-4' ? 'focus' : orbData.rarity}.png">
     <img class="summon-hero-rarity" src="../img/assets/star-rarity-${orbData.rarity === 'focus-4' ? 4 : orbData.rarity}.png">
-    <img class="summon-hero-rarity" src="../img/assets/star-rarity-${orbData.rarity === 'special-4' ? 4 : orbData.rarity}.png">
   </div>`);
 
   pullStats.pulls++;
@@ -326,7 +323,7 @@ function revealOrb($orb) {
           pullStats.pulls,
           orbData.hero.name,
           orbData.rarity === 'focus' ? 'Focus' :
-              orbData.rarity === 'focus-4' ? 'Focus (4)' : orbData.rarity,  //may need to update this
+              orbData.rarity === 'focus-4' ? 'Focus (4)' : orbData.rarity,
           orbData.iv.boon,
           orbData.iv.bane
         ])
