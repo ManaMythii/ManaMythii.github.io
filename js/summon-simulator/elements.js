@@ -33,6 +33,6 @@ module.exports = {
   POOL_LIST_5F: '#pool-list-5f',
   POOL_LIST_5: '#pool-list-5',
   POOL_LIST_4: '#pool-list-4',
-  POOL_LIST_4F: '#pool-list-4f',
+  POOL_LIST_4S: '#pool-list-4s',
   POOL_LIST_3: '#pool-list-3'
 }
