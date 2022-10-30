@@ -27,7 +27,7 @@ defaultV1:{rateRarity3:58,rateRarity4:36,rateRarityFocus4:0,rateRarity5:3,rateRa
 
 let t=100-e.rates.rateRarityFocus-e.rates.rateRarity5;0===t?(e.rates.pityRateRarityFocus4=0,e.rates.pityRateRaritySpecial4=0,e.rates.pityRateRarity4=0,e.rates.pityRateRarity3=0):(e.rates.pityRateRarityFocus4=-e.rates.rateRarityFocus4/t*.5,e.rates.pityRateRaritySpecial4=-e.rates.rateRaritySpecial4/t*.5,e.rates.pityRateRarity4=-e.rates.rateRarity4/t*.5,e.rates.pityRateRarity3=-e.rates.rateRarity3/t*.5)}function f(){!function(){let e=$(o.FOCUS_LIST).empty(),a=i.getHeroes(l.focusHeroes);(m=i.getSummoningPool(l.pool,l)).rf=a,a.forEach(a=>{$(`<div class="focus-list-hero">\n        <img class="focus-list-hero-frame" src="../img/assets/frame-rarity-5.png">\n        <img class="focus-list-hero-portrait" src="../${a.assets.portrait}">\n        <img class="focus-list-hero-background" src="../img/assets/background-rarity-5.png">\n        </div>`).tooltip({html:!0,placement:"bottom",title:`<p class="mb-0">${a.title}</p><h6>${a.shortName||a.name}</h6>`}).appendTo(e)}),u(o.POOL_LIST_5F,m.rf),u(o.POOL_LIST_5,m.r5),u(o.POOL_LIST_4,m.r4),
   //4s pool list
-  //u(o.POOL_LIST_4S,m.r4s),
+  u(o.POOL_LIST_4S,m.r4s),
   
   u(o.POOL_LIST_3,m.r3)}(),k(),$(o.SNIPE_LIST).empty(),m.rf.forEach(e=>{let a=$('<input type="checkbox" class="custom-control-input snipe-target">').data("hero",e);$('<label class="custom-control custom-checkbox snipe-option"></label>').append(a).append(`<span class="custom-control-indicator"></span>\n            <span class="custom-control-description">${e.name}</span>`).appendTo(o.SNIPE_LIST)})}
                    
