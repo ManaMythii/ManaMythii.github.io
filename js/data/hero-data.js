@@ -1,5 +1,22 @@
 module.exports = [
   {
+   name:"Ike (Unlikely Friends)",
+   shortName: "Ike",
+   title:"Close-Knit Siblings",
+   artist:"Kanzawa Yo (神澤葉)",
+   voice:"Greg Chun + Sarah Williams",
+   releaseDate:"Apr 7, 2022",
+   colorType:"Red",
+   weaponType:"Sword",
+   moveType:"Infantry",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/75px-Icon_Portrait_Ike_Close-Knit_Siblings.png",
+     main:"img/heroes-main/Ike_UF.png",
+     sprite:"img/sprites/Ike_Close-Knit_Siblings_Mini_Unit_Ok.png"}
+ },
+  {
    name:"Roy (Bridal Blossoms)",
    shortName: "Roy",
    title:"Blazing Bachelors",
@@ -14,7 +31,7 @@ module.exports = [
    assets:{
      portrait:"img/heroes-portrait/75px-Icon_Portrait_Roy_Blazing_Bachelors.png",
      main:"img/heroes-main/Roy_BB.png",
-     sprite:"img/sprites/Roy_Blazing_Bachelors_Mini_Unit_Ok.png"},
+     sprite:"img/sprites/Roy_Blazing_Bachelors_Mini_Unit_Ok.png"}
  },
   {
    name:"Nailah (Of Lost Kingdoms)",
@@ -31,7 +48,7 @@ module.exports = [
    assets:{
      portrait:"img/heroes-portrait/75px-Icon_Portrait_Nailah_Hatari_Scorcher.png",
      main:"img/heroes-main/Nailah_LK.png",
-     sprite:"img/sprites/Nailah_Hatari_Scorcher_Mini_Unit_Ok.png"},
+     sprite:"img/sprites/Nailah_Hatari_Scorcher_Mini_Unit_Ok.png"}
  },
   {
    name:"Freyja (Summer's Dream)",
@@ -48,7 +65,7 @@ module.exports = [
    assets:{
      portrait:"img/heroes-portrait/75px-Icon_Portrait_Freyja_Fleeting_Summer.png",
      main:"img/heroes-main/Freyja_SD.png",
-     sprite:"img/sprites/Freyja_Fleeting_Summer_Mini_Unit_Ok.png"},
+     sprite:"img/sprites/Freyja_Fleeting_Summer_Mini_Unit_Ok.png"}
  },
   {
    name:"Claude (Summer Vacation)",
@@ -65,7 +82,7 @@ module.exports = [
    assets:{
      portrait:"img/heroes-portrait/75px-Icon_Portrait_Claude_Tropical_Trouble.png",
      main:"img/heroes-main/Claude_SV.png",
-     sprite:"img/sprites/Claude_Tropical_Trouble_Mini_Unit_Ok.png"},
+     sprite:"img/sprites/Claude_Tropical_Trouble_Mini_Unit_Ok.png"}
  },
  {
    name:"Yuri",
@@ -80,7 +97,7 @@ module.exports = [
    assets:{
      portrait:"img/heroes-portrait/75px-Icon_Portrait_Yuri_Ashen_Valiant.png",
      main:"img/heroes-main/Yuri.png",
-     sprite:"img/sprites/Yuri_Ashen_Valiant_Mini_Unit_Ok.png"},
+     sprite:"img/sprites/Yuri_Ashen_Valiant_Mini_Unit_Ok.png"}
  },
  {
    name:"Balthus",
@@ -96,7 +113,7 @@ module.exports = [
    assets:{
      portrait:"img/heroes-portrait/75px-Icon_Portrait_Balthus_King_of_Grappling.png",
      main:"img/heroes-main/Balthus.png",
-     sprite:"img/sprites/Balthus_King_of_Grappling_Mini_Unit_Ok.png"},
+     sprite:"img/sprites/Balthus_King_of_Grappling_Mini_Unit_Ok.png"}
  },
  {
    name:"Constance",
@@ -111,7 +128,7 @@ module.exports = [
    assets:{
      portrait:"img/heroes-portrait/75px-Icon_Portrait_Constance_Fallen_Noble.png",
      main:"img/heroes-main/Constance.png",
-     sprite:"img/sprites/Constance_Fallen_Noble_Mini_Unit_Ok.png"},
+     sprite:"img/sprites/Constance_Fallen_Noble_Mini_Unit_Ok.png"}
  },
  {
    name:"Hapi",
@@ -126,7 +143,7 @@ module.exports = [
    assets:{
      portrait:"img/heroes-portrait/75px-Icon_Portrait_Hapi_Drawn-Out_Sigh.png",
      main:"img/heroes-main/Hapi.png",
-     sprite:"img/sprites/Hapi_Drawn-Out_Sigh_Mini_Unit_Ok.png"},
+     sprite:"img/sprites/Hapi_Drawn-Out_Sigh_Mini_Unit_Ok.png"}
  },
   
   {
@@ -142,7 +159,7 @@ module.exports = [
    assets:{
      portrait:"img/heroes-portrait/75px-Icon_Portrait_Louise_Lady_of_Violets.png",
      main:"img/heroes-main/Louise.png",
-     sprite:"img/sprites/Louise_Lady_of_Violets_Mini_Unit_Ok.png"},
+     sprite:"img/sprites/Louise_Lady_of_Violets_Mini_Unit_Ok.png"}
  },
   {
    name:"Hugh",
@@ -157,7 +174,7 @@ module.exports = [
    assets:{
      portrait:"img/heroes-portrait/75px-Icon_Portrait_Hugh_Worldly_Mage.png",
      main:"img/heroes-main/Hugh.png",
-     sprite:"img/sprites/Hugh_Worldly_Mage_Mini_Unit_Ok.png"},
+     sprite:"img/sprites/Hugh_Worldly_Mage_Mini_Unit_Ok.png"}
  },
   {
    name:"Arthur (FE4)",
@@ -173,7 +190,7 @@ module.exports = [
    assets:{
      portrait:"img/heroes-portrait/75px-Icon_Portrait_Arthur_Furious_Mage.png",
      main:"img/heroes-main/Arthur_FE4.png",
-     sprite:"img/sprites/Arthur_Furious_Mage_Mini_Unit_Ok.png"},
+     sprite:"img/sprites/Arthur_Furious_Mage_Mini_Unit_Ok.png"}
  },
     
  {
@@ -189,7 +206,7 @@ module.exports = [
    assets:{
      portrait:"img/heroes-portrait/75px-Icon_Portrait_Wolf_Coyotes_Loyal.png",
      main:"img/heroes-main/Wolf.png",
-     sprite:"img/sprites/Wolf_Coyotes_Loyal_Mini_Unit_Ok.png"},
+     sprite:"img/sprites/Wolf_Coyotes_Loyal_Mini_Unit_Ok.png"}
  },
    {
    name:"Tanith",
@@ -205,7 +222,7 @@ module.exports = [
    assets:{
      portrait:"img/heroes-portrait/75px-Icon_Portrait_Tanith_Bright_Blade.png",
      main:"img/heroes-main/Tanith.png",
-     sprite:"img/sprites/Tanith_Bright_Blade_Mini_Unit_Ok.png"},
+     sprite:"img/sprites/Tanith_Bright_Blade_Mini_Unit_Ok.png"}
  },
 {
    name:"Kent",
@@ -221,7 +238,7 @@ module.exports = [
    assets:{
      portrait:"img/heroes-portrait/75px-Icon_Portrait_Kent_Crimson_Shield.png",
      main:"img/heroes-main/Kent.png",
-     sprite:"img/sprites/Kent_Crimson_Shield_Mini_Unit_Ok.png"},
+     sprite:"img/sprites/Kent_Crimson_Shield_Mini_Unit_Ok.png"}
  },
   {
    name:"August",
@@ -236,7 +253,7 @@ module.exports = [
    assets:{
      portrait:"img/heroes-portrait/75px-Icon_Portrait_August_Astute_Tactician.png",
      main:"img/heroes-main/August.png",
-     sprite:"img/sprites/August_Astute_Tactician_Mini_Unit_Ok.png"},
+     sprite:"img/sprites/August_Astute_Tactician_Mini_Unit_Ok.png"}
  },
   
   {
@@ -252,7 +269,7 @@ module.exports = [
    assets:{
      portrait:"img/heroes-portrait/75px-Icon_Portrait_Hubert_Sinister_Servant.png",
      main:"img/heroes-main/Hubert.png",
-     sprite:"img/sprites/Hubert_Sinister_Servant_Mini_Unit_Ok.png"},
+     sprite:"img/sprites/Hubert_Sinister_Servant_Mini_Unit_Ok.png"}
  },
  
  {
@@ -269,7 +286,7 @@ module.exports = [
    assets:{
      portrait:"img/heroes-portrait/75px-Icon_Portrait_Selena_Fluorspar.png",
      main:"img/heroes-main/Selena_FE8.png",
-     sprite:"img/sprites/Selena_Fluorspar_Mini_Unit_Ok.png"},
+     sprite:"img/sprites/Selena_Fluorspar_Mini_Unit_Ok.png"}
  },
  
  {
@@ -287,7 +304,7 @@ module.exports = [
    assets:{
      portrait:"img/heroes-portrait/75px-Icon_Portrait_Duma_Strength_and_Love.png",
      main:"img/heroes-main/Duma_DH.png",
-     sprite:"img/sprites/Duma_Strength_and_Love_Mini_Unit_Ok.png"},
+     sprite:"img/sprites/Duma_Strength_and_Love_Mini_Unit_Ok.png"}
   },
  
   {
@@ -305,7 +322,7 @@ module.exports = [
    assets:{
      portrait:"img/heroes-portrait/75px-Icon_Portrait_Naga_Harvest_Divinity.png",
      main:"img/heroes-main/Naga_DH.png",
-     sprite:"img/sprites/Naga_Harvest_Divinity_Mini_Unit_Ok.png"},
+     sprite:"img/sprites/Naga_Harvest_Divinity_Mini_Unit_Ok.png"}
   },
  
  {
