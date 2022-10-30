@@ -10,7 +10,7 @@ module.exports = [
         excludeFromRarity4: [],
         excludeFromRarity5: [],
         rateType: "defaultV3",
-        pool: "pool2"
+        pool: "pool6"
       },
       {
         name: "Divine Harvest",
@@ -18,8 +18,8 @@ module.exports = [
         focusHeroes: ["Corrin (M) (Divine Harvest)", "Corrin (F) (Divine Harvest)", "Naga (Divine Harvest)", "Duma (Divine Harvest)"],
         excludeFromRarity4: [],
         excludeFromRarity5: [],
-        rateType: "defaultV2",
-        pool: "pool2"
+        rateType: "defaultV3",
+        pool: "pool6"
       }
      
     ]
