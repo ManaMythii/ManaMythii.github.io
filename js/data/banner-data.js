@@ -3,8 +3,17 @@ module.exports = [
   {
     date: "October 2022",
     banners: [
+          {
+        name: "Heroes with Ideal Skills (October 2022)",
+        startDate: "Oct 28, 2022",
+        focusHeroes: ["Arthur (FE 4)", "Louise", "Hugh"],
+        excludeFromRarity5: ["Arthur (FE 4)", "Louise", "Hugh"],
+        rateType: "defaultV4",
+        pool: "pool6"
+      },
+     
      {
-        name: "Focus: Loyalty League 2",
+        name: "Loyalty League 2",
         startDate: "Oct 28, 2022",
         focusHeroes: ["Kent", "Tanith", "Wolf"],
         excludeFromRarity3: ["Kent"],
@@ -15,7 +24,7 @@ module.exports = [
       },
      
      {
-        name: "Focus: Loyalty League 1",
+        name: "Loyalty League 1",
         startDate: "Oct 28, 2022",
         focusHeroes: ["Selena (FE8)", "Hubert", "August"],
         excludeFromRarity4: [],
@@ -25,7 +34,7 @@ module.exports = [
       },
       
       {
-        name: "Special: Rearmed Robin and More",
+        name: "Rearmed Robin and More",
         startDate: "Oct 17, 2022",
         focusHeroes: ["Eir (Ascended Heroes)", "Gregor", "Phila", "Robin (Rearmed Heroes)"],
         excludeFromRarity4: [],
