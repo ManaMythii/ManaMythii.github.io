@@ -4,7 +4,7 @@ module.exports = [
     date: "October 2022",
     banners: [
      {
-        name: "Focus: Loyalty League",
+        name: "Focus: Loyalty League 1",
         startDate: "Oct 28, 2022",
         focusHeroes: ["Selena (FE8)", "Hubert", "August"],
         excludeFromRarity4: [],
