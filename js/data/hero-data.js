@@ -1,5 +1,22 @@
 module.exports = [
   {
+   name:"Maria (Hop-and-Go-Seek)",
+   shortName: "Maria",
+   title:"Sunny Smile",
+   artist:"hanekoto (はねこと)",
+   voice:"Wendee Lee",
+   releaseDate:"Mar 8, 2022",
+   colorType:"Green",
+   weaponType:"Axe",
+   moveType:"Flying",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/75px-Icon_Portrait_Maria_Sunny_Smile.png",
+     main:"img/heroes-main/Maria_HAGS.png",
+     sprite:"img/sprites/Maria_Sunny_Smile_Mini_Unit_Ok.png"}
+ },
+  {
    name:"Ike (Unlikely Friends)",
    shortName: "Ike",
    title:"Close-Knit Siblings",
