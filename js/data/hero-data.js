@@ -1,5 +1,22 @@
 module.exports = [
   {
+   name:"Owain (Here with Me)",
+   shortName: "Owain",
+   title:"Devoted Defender",
+   artist:"Futaba Hazuki (双葉はづき)",
+   voice:"Kaiji Tang",
+   releaseDate:"Feb 8, 2022",
+   colorType:"Blue",
+   weaponType:"Lance",
+   moveType:"Cavalry",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/75px-Icon_Portrait_Owain_Devoted_Defender.png",
+     main:"img/heroes-main/Owain_HWM.png",
+     sprite:"img/sprites/Owain_Devoted_Defender_Mini_Unit_Ok.png"}
+ },
+  {
    name:"Soren (Unlikely Friends)",
    shortName: "Soren",
    title:"Hushed Voice",
