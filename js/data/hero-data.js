@@ -1,5 +1,22 @@
 module.exports = [
   {
+   name:"Soren (Unlikely Friends)",
+   shortName: "Soren",
+   title:"Hushed Voice",
+   artist:"Iori Suzuki (スズキイオリ)",
+   voice:"Kyle McCarley",
+   releaseDate:"Apr 7, 2022",
+   colorType:"Neutral",
+   weaponType:"Tome",
+   moveType:"Infantry",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/75px-Icon_Portrait_Soren_Hushed_Voice.png",
+     main:"img/heroes-main/Soren_UF.png",
+     sprite:"img/sprites/Soren_Hushed_Voice_Mini_Unit_Ok.png"}
+ },
+  {
    name:"Maria (Hop-and-Go-Seek)",
    shortName: "Maria",
    title:"Sunny Smile",
