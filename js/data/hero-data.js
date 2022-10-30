@@ -715,10 +715,12 @@ module.exports = [
     colorType: "Red",
     weaponType: "Sword",
     moveType: "Infantry",
+    rarity4s: ["pool6"],
     rarity5: ["pool1", "pool2"],
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Alm.png",
-      main: "img/heroes-main/Alm.png"
+      main: "img/heroes-main/Alm.png",
+      sprite: "img/sprites/Alm_Hero_of_Prophecy_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Iron Sword", rarity: 5 },
