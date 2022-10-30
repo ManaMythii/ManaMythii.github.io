@@ -46,7 +46,7 @@ module.exports = [
      sprite:"img/sprites/Hugh_Worldly_Mage_Mini_Unit_Ok.png"},
  },
   {
-   name:"Arthur (FE 4)",
+   name:"Arthur (FE4)",
    shortName:"Arthur",
    title:"Furious Mage",
    artist:"HASUMI KAORU (蓮水薫)",
