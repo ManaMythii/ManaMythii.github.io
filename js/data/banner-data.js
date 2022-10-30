@@ -9,7 +9,7 @@ module.exports = [
         focusHeroes: ["Selena (FE8)", "Hubert", "August"],
         excludeFromRarity4: [],
         excludeFromRarity5: [],
-        rateType: "defaultV3",
+        rateType: "defaultV4",
         pool: "pool6"
       },
       
