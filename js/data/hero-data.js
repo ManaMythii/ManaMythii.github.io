@@ -1,5 +1,20 @@
 module.exports = [
   {
+   name:"Louise",
+   title:"Lady of Violets",
+   artist:"tamagonokimi (卵の黄身)",
+   voice:"Maureen Price",
+   releaseDate:"April 6, 2021",
+   colorType:"Neutral",
+   weaponType:"Bow",
+   moveType:"Infantry",
+   rarity5:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/75px-Icon_Portrait_Louise_Lady_of_Violets.png",
+     main:"img/heroes-main/Louise.png",
+     sprite:"img/sprites/Louise_Lady_of_Violets_Mini_Unit_Ok.png"},
+ },
+  {
    name:"Hugh",
    title:"Worldly Mage",
    artist:"8ichibi8 (8イチビ8)",
