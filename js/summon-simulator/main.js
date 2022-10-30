@@ -323,7 +323,7 @@ function revealOrb($orb) {
           pullStats.pulls,
           orbData.hero.name,
           orbData.rarity === 'focus' ? 'Focus' :
-              orbData.rarity === 'focus-4' ? 'Focus (4)' : orbData.rarity,
+              orbData.rarity === 'special-4' ? 'Special (4)' : orbData.rarity,
           orbData.iv.boon,
           orbData.iv.bane
         ])
