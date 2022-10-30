@@ -1,6 +1,23 @@
 module.exports = [
+ {
+   name:"Selena (FE8)",
+   shortName:"Selena",
+   title:"Fluorspar",
+   artist:"Wada Sachiko (ワダサチコ)",
+   voice:"Tiana Camacho",
+   releaseDate:"Dec 8, 2020",
+   colorType:"Blue",
+   weaponType:"Tome",
+   moveType:"Cavalry",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/75px-Icon_Portrait_Selena_Fluorspar.png",
+     main:"img/heroes-main/Selena_FE8.png",
+     sprite:"img/sprites/Selena_Fluorspar_Mini_Unit_Ok.png"},
+  },
  
-   {
+ {
    name:"Duma (Divine Harvest)",
    shortName:"Duma",
    title:"Strength and Love",
