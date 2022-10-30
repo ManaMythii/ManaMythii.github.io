@@ -30,6 +30,21 @@ module.exports = [
      main:"img/heroes-main/Constance.png",
      sprite:"img/sprites/Constance_Fallen_Noble_Mini_Unit_Ok.png"},
  },
+ {
+   name:"Hapi",
+   title:"Drawn-Out Sigh",
+   artist:"Hirooka Masaki (廣岡政樹)",
+   voice:"Christine Marie Cabanos",
+   releaseDate:"Sep 17, 2021",
+   colorType:"Blue",
+   weaponType:"Tome",
+   moveType:"Cavalry",
+   rarity5:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/75px-Icon_Portrait_Hapi_Drawn-Out_Sigh.png",
+     main:"img/heroes-main/Hapi.png",
+     sprite:"img/sprites/Hapi_Drawn-Out_Sigh_Mini_Unit_Ok.png"},
+ },
   
   {
    name:"Louise",
