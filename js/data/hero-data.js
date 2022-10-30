@@ -1,5 +1,46 @@
 module.exports = [
  
+ {
+   name:"Corrin (F) (Divine Harvest)",
+   title:"Starry Seer",
+   artist:"Yoshiro Ambe (あんべよしろう)",
+   voice:"Marcella Lentz-Pope",
+   releaseDate:"Oct 6, 2022",
+   colorType:"Blue",
+   weaponType:"Breath",
+   moveType:"Infantry",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/75px-Icon_Portrait_Corrin_F_Starry_Seer.png",
+     main:"img/heroes-main/Corrin_F_DH.png",
+     sprite:"img/sprites/Corrin_F_Starry_Seer_Mini_Unit_Ok.png"},
+   skills:[
+     {name:"Fire Breath",rarity:5},
+     {name:"Fire Breath+",rarity:5},
+     {name:"Flametongue	",rarity:5},
+     {name:"Moonlight Stone",rarity:5},
+     {name:"Dragon Gaze",rarity:5},
+     {name:"Dragon Fang",rarity:5},
+     {name:"Negating Fang",rarity:5},
+     {name:"Atk/Spd Finish 1",rarity:5},
+     {name:"Atk/Spd Finish 2",rarity:5},
+     {name:"Atk/Spd Finish 3",rarity:5},
+     {name:"Atk/Spd Finish 4",rarity:5},
+     {name:"Dragon's Wrath 1",rarity:5},
+     {name:"Dragon's Wrath 2",rarity:5},
+     {name:"Dragon's Wrath 3",rarity:5},
+     {name:"Dragon's Wrath 4",rarity:5},
+     {name:"Spur Atk 1",rarity:5},
+     {name:"Drive Atk 1",rarity:5},
+     {name:"Drive Atk 2",rarity:5},
+     {name:"Joint Drive Atk",rarity:5}],
+   stats:{
+     level1:{hp:16,atk:12,spd:12,def:3,res:4},
+     level40:{hp:[37,40,43],atk:[39,42,46],spd:[41,45,48],def:[32,36,39],res:[27,30,33]},
+   }
+ },
+ 
   {
    name:"Corrin (M) (Divine Harvest)",
    title:"Celestial Sorcerer",
@@ -33,9 +74,6 @@ module.exports = [
      level40:{hp:[41,44,47],atk:[41,44,47],spd:[18,21,24],def:[41,44,47],res:[	36,39,43]},
    }
  },
- 
- 
- 
  
  {
    name:"Phila",
