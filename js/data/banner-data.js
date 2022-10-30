@@ -7,8 +7,8 @@ module.exports = [
         name: "Hapi & Constance's Battle",
         startDate: "Oct 26, 2022",
         focusHeroes: ["Hapi", "Constance", "Yuri"],
-        excludeFromRarity5: ["Hapi", "Constance", "Yuri"],
         excludeFromRarity4: [],
+        excludeFromRarity5: [],
         rateType: "defaultV4",
         pool: "pool6"
       },
