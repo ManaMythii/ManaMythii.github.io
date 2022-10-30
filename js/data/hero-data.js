@@ -98,7 +98,7 @@ module.exports = [
    title:"Crimson Shield",
    artist:"Takaya Tomohide (たかや友英)",
    voice:"Beau Bridglandz",
-   releaseDate:"June 8, 2022",
+   releaseDate:"Jun 8, 2022",
    colorType:"Red",
    weaponType:"Sword",
    moveType:"Cavalry",
