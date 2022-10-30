@@ -8,7 +8,7 @@ module.exports = [
         startDate: "Oct 28, 2022",
         focusHeroes: ["Selena (FE8)", "Hubert", "August"],
         excludeFromRarity4: [],
-        excludeFromRarity5: [],
+        excludeFromRarity5: ["Selena (FE8)", "Hubert", "August"],
         rateType: "defaultV4",
         pool: "pool6"
       },
