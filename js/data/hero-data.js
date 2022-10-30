@@ -1,4 +1,42 @@
 module.exports = [
+ 
+  {
+   name:"Corrin (M) (Divine Harvest)",
+   title:"Celestial Sorcerer",
+   artist:"argon / Exys Inc.",
+   voice:"Cam Clarke",
+   releaseDate:"Oct 6, 2022",
+   colorType:"Green",
+   weaponType:"Breath",
+   moveType:"Infantry",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/75px-Icon_Portrait_Corrin_M_Celestial_Sorcerer.png",
+     main:"img/heroes-main/Corrin_M_DH.png",
+     sprite:"img/sprites/Corrin_M_Celestial_Sorcerer_Mini_Unit_Ok.png"},
+   skills:[
+     {name:"Fire Breath",rarity:5},
+     {name:"Fire Breath+",rarity:5},
+     {name:"Flametongue	",rarity:5},
+     {name:"Starlight Stone",rarity:5},
+     {name:"New Moon",rarity:5},
+     {name:"Moonbow",rarity:5},
+     {name:"Distant Counter",rarity:5},
+     {name:"Distant Stance",rarity:5},
+     {name:"Dragon's Ire 1",rarity:5},
+     {name:"Dragon's Ire 2",rarity:5},
+     {name:"Dragon's Ire 3",rarity:5},
+     {name:"Dragon's Ire 4",rarity:5}],
+   stats:{
+     level1:{hp:18,atk:9,spd:4,def:7,res:9},
+     level40:{hp:[41,44,47],atk:[41,44,47],spd:[18,21,24],def:[41,44,47],res:[	36,39,43]},
+   }
+ },
+ 
+ 
+ 
+ 
  {
    name:"Phila",
    title:"Pegasus Master",
@@ -8,8 +46,8 @@ module.exports = [
    colorType:"Blue",
    weaponType:"Lance",
    moveType:"Flying",
-   rarity4:["pool1","pool2"],
-   rarity5:["pool1","pool2"],
+   rarity4:["pool6"],
+   rarity5:["pool6"],
    assets:{
      portrait:"img/heroes-portrait/75px-Icon_Portrait_Phila_Pegasus_Master.png",
      main:"img/heroes-main/Phila.png",
@@ -44,7 +82,7 @@ module.exports = [
    colorType:"Red",
    weaponType:"Sword",
    moveType:"Infantry",
-   rarity5:["pool1","pool2"],
+   rarity5:["pool6"],
    assets:{
      portrait:"img/heroes-portrait/75px-Icon_Portrait_Gregor_Swell_Sword.png",
      main:"img/heroes-main/Gregor.png",
@@ -80,7 +118,7 @@ module.exports = [
   colorType:"Neutral",
   weaponType:"Breath",
   moveType:"Armored",
-  rarity5:["pool1","pool2"],
+  rarity5:["pool6"],
   assets:{
     portrait:"img/heroes-portrait/75px-Icon_Portrait_Robin_Fell_Tactician.png",
     main:"img/heroes-main/Robin (Rearmed Heroes).png",
@@ -114,7 +152,7 @@ module.exports = [
    colorType:"Green",
    weaponType:"Dagger",
    moveType:"Cavalry",
-   rarity5:["pool1","pool2"],
+   rarity5:["pool6"],
    assets:{
      portrait:"img/heroes-portrait/75px-Icon_Portrait_Eir_Life_Ascendant.png",
      main:"img/heroes-main/Eir (Ascended Heroes).png",
