@@ -1,5 +1,21 @@
 module.exports = [
-    {
+  {
+   name:"Balthus",
+   title:"King of Grappling",
+   artist:"Maji (まじ)",
+   voice:"Aaron Hedrick",
+   releaseDate:"Sep 17, 2021",
+   colorType:"Green",
+   weaponType:"Axe",
+   moveType:"Infantry",
+   rarity4:["pool6"],
+   rarity3:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/75px-Icon_Portrait_Balthus_King_of_Grappling.png",
+     main:"img/heroes-main/Balthus.png",
+     sprite:"img/sprites/Balthus_King_of_Grappling_Mini_Unit_Ok.png"},
+ },
+ {
    name:"Constance",
    title:"Fallen Noble",
    artist:"yoshihisa (芳久)",
