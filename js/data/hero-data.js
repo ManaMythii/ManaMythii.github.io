@@ -1,4 +1,20 @@
 module.exports = [
+    {
+   name:"Constance",
+   title:"Fallen Noble",
+   artist:"yoshihisa (芳久)",
+   voice:"Kirsten Day",
+   releaseDate:"Sep 17, 2021",
+   colorType:"Red",
+   weaponType:"Tome",
+   moveType:"Flying",
+   rarity5:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/75px-Icon_Portrait_Constance_Fallen_Noble.png",
+     main:"img/heroes-main/Constance.png",
+     sprite:"img/sprites/Constance_Fallen_Noble_Mini_Unit_Ok.png"},
+ },
+  
   {
    name:"Louise",
    title:"Lady of Violets",
