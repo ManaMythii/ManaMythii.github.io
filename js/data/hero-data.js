@@ -1,5 +1,21 @@
 module.exports = [
-    {
+{
+   name:"Kent",
+   title:"Crimson Shield",
+   artist:"Takaya Tomohide (たかや友英)",
+   voice:"Beau Bridglandz",
+   releaseDate:"June 8, 2022",
+   colorType:"Red",
+   weaponType:"Sword",
+   moveType:"Cavalry",
+   rarity3:["pool6"],
+   rarity4:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/75px-Icon_Portrait_Kent_Crimson_Shield.png",
+     main:"img/heroes-main/Kent.png",
+     sprite:"img/sprites/Kent_Crimson_Shield_Mini_Unit_Ok.png"},
+ },
+  {
    name:"August",
    title:"Astute Tactician",
    artist:"Suzuki Rika (鈴木理華)",
