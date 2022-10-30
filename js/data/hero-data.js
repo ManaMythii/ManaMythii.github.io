@@ -1,4 +1,19 @@
 module.exports = [
+    {
+   name:"Wolf",
+   title:"Coyote's Loyal",
+   artist:"sachie (茶ちえ)",
+   voice:"John-Henry Kurtz",
+   releaseDate:"Oct 18, 2021",
+   colorType:"Neutral",
+   weaponType:"Bow",
+   moveType:"Cavalry",
+   rarity5:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/75px-Icon_Portrait_Wolf_Coyotes_Loyal.png",
+     main:"img/heroes-main/Wolf.png",
+     sprite:"img/sprites/Wolf_Coyotes_Loyal_Mini_Unit_Ok.png"},
+ },
    {
    name:"Tanith",
    title:"Bright Blade",
