@@ -1,9 +1,24 @@
 module.exports = [
   {
+   name:"Hugh",
+   title:"Worldly Mage",
+   artist:"8ichibi8 (8イチビ8)",
+   voice:"Matthew David Rudd",
+   releaseDate:"Feb 18, 2022",
+   colorType:"Red",
+   weaponType:"Tome",
+   moveType:"Infantry",
+   rarity5:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/75px-Icon_Portrait_Hugh_Worldly_Mage.png",
+     main:"img/heroes-main/Hugh.png",
+     sprite:"img/sprites/Hugh_Worldly_Mage_Mini_Unit_Ok.png"},
+ },
+  {
    name:"Arthur (FE 4)",
    shortName:"Arthur",
    title:"Furious Mage",
-   artist:"HASUMI KAORU (蓮水薫))",
+   artist:"HASUMI KAORU (蓮水薫)",
    voice:"Joe Mucciolo",
    releaseDate:"April 18, 2022",
    colorType:"Green",
