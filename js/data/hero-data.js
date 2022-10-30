@@ -259,8 +259,8 @@ module.exports = [
     colorType: "Blue",
     weaponType: "Lance",
     moveType: "Cavalry",
-    rarity3: ["pool2"],
-    rarity4: ["pool1", "pool2"],
+    rarity3: ["pool2", "pool6"],
+    rarity4: ["pool1", "pool2","pool6"],
     rarity5: ["pool1"],
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Abel.png",
@@ -296,9 +296,9 @@ module.exports = [
     colorType: "Red",
     weaponType: "Sword",
     moveType: "Infantry",
-    rarity2: ["pool1", "pool2"],
-    rarity3: ["pool1", "pool2"],
-    rarity4: ["pool1", "pool2"],
+    rarity2: ["pool1", "pool2","pool6"],
+    rarity3: ["pool1", "pool2","pool6"],
+    rarity4: ["pool1", "pool2","pool6"],
     limited: true,
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Alfonse.png",
@@ -436,9 +436,9 @@ module.exports = [
     colorType: "Green",
     weaponType: "Axe",
     moveType: "Infantry",
-    rarity2: ["pool1", "pool2"],
-    rarity3: ["pool1", "pool2"],
-    rarity4: ["pool1", "pool2"],
+    rarity2: ["pool1", "pool2","pool6"],
+    rarity3: ["pool1", "pool2","pool6"],
+    rarity4: ["pool1", "pool2","pool6"],
     limited: true,
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Anna.png",
@@ -474,8 +474,8 @@ module.exports = [
     colorType: "Red",
     weaponType: "Sword",
     moveType: "Armored",
-    rarity4: ["pool1", "pool2"],
-    rarity5: ["pool1", "pool2"],
+    rarity4: ["pool1", "pool2","pool6"],
+    rarity5: ["pool1", "pool2","pool6"],
     ttReward: true,
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Arden.png",
@@ -545,8 +545,8 @@ module.exports = [
     colorType: "Green",
     weaponType: "Axe",
     moveType: "Infantry",
-    rarity3: ["pool1", "pool2"],
-    rarity4: ["pool1", "pool2"],
+    rarity3: ["pool1", "pool2","pool6"],
+    rarity4: ["pool1", "pool2","pool6"],
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Arthur.png",
       main: "img/heroes-main/Arthur.png"
