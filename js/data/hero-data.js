@@ -1,5 +1,22 @@
 module.exports = [
  
+  {
+   name:"Naga (Divine Harvest)",
+   title:"Harvest Divinity",
+   artist:"hanusu",
+   voice:"Mela Lee",
+   releaseDate:"Oct 6, 2022",
+   colorType:"Neutral",
+   weaponType:"Breath",
+   moveType:"Flying",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/75px-Icon_Portrait_Naga_Harvest_Divinity.png",
+     main:"img/heroes-main/Naga_DH.png",
+     sprite:"img/sprites/Naga_Harvest_Divinity_Mini_Unit_Ok.png"},
+  },
+ 
  {
    name:"Corrin (F) (Divine Harvest)",
    title:"Starry Seer",
