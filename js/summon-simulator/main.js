@@ -253,18 +253,29 @@ function getSessionOrbs() {
   let rateRS4;
   let rateR4;
 
-  if (banner.rates.rateRarityFocus4) {
+  if (banner.rates.rateRarityFocus4 && !banner.rates.rateRaritySpecial4) {
     rateRF4 = parseFloat($(elements.RATE_INPUT_FOCUS_4).val()) / 100 + rateR5;
+    rateRS4 = 0;
     rateR4 = parseFloat($(elements.RATE_INPUT_4).val()) / 100 + rateRF4;
-  } else {
+  }
+  
+  }
+  if (banner.rates.rateRaritySpecial4 && !banner.rates.rateRarityFocus4) {
+    rateRS4 = parseFloat($(elements.RATE_INPUT_SPECIAL_4).val()) / 100 + rateR5;
     rateRF4 = 0;
+    rateR4 = parseFloat($(elements.RATE_INPUT_4).val()) / 100 + rateRS4;
+  }
+
+  }
+  if (banner.rates.rateRarityFocus4 && banner.rates.rateRaritySpecial4) {
+    rateRF4 = parseFloat($(elements.RATE_INPUT_FOCUS_4).val()) / 100 + rateR5;
+    rateRS4 = parseFloat($(elements.RATE_INPUT_SPECIAL_4).val()) / 100 + rateRF4;
+    rateR4 = parseFloat($(elements.RATE_INPUT_4).val()) / 100 + rateRS4;
+  }
+  if (!banner.rates.rateRarityFocus4 && !banner.rates.rateRaritySpecial4) {
     rateR4 = parseFloat($(elements.RATE_INPUT_4).val()) / 100 + rateR5;
   }
-  if (banner.rates.rateRaritySpecial4) {
-    rateRS4 = rateRF4;  //may not be correct
-  } else {
-    rateRS4 = 0;
-  }
+
 
   for (let i = 0; i < 5; i++) {
     let rate = Math.random();
