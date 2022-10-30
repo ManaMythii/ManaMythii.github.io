@@ -1,4 +1,21 @@
 module.exports = [
+  {
+   name:"Claude (Summer Vacation)",
+   shortName: "Claude",
+   title:"Tropical Trouble",
+   artist:"azu-taro (azuタロウ)",
+   voice:"Joe Zieja",
+   releaseDate:"Jun 17, 2021",
+   colorType:"Bluel",
+   weaponType:"Dagger",
+   moveType:"Flying",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/75px-Icon_Portrait_Claude_Tropical_Trouble.png",
+     main:"img/heroes-main/Claude_SV.png",
+     sprite:"img/sprites/Claude_Tropical_Trouble_Mini_Unit_Ok.png"},
+ },
  {
    name:"Yuri",
    title:"Ashen Valiant",
