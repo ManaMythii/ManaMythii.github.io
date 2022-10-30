@@ -3,6 +3,15 @@ module.exports = [
   {
     date: "October 2022",
     banners: [
+           {
+        name: "Hapi & Constance's Battle",
+        startDate: "Oct 26, 2022",
+        focusHeroes: ["Hapi", "Constance", "Yuri"],
+        excludeFromRarity5: ["Hapi", "Constance", "Yuri"],
+        rateType: "defaultV4",
+        pool: "pool6"
+      },
+     
       {
         name: "Heroes with Ideal Skills (October 2022)",
         startDate: "Oct 27, 2022",
