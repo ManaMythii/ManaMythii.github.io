@@ -1,5 +1,22 @@
 module.exports = [
   {
+   name:"Roy (Bridal Blossoms)",
+   shortName: "Roy",
+   title:"Blazing Bachelors",
+   artist:"Wada Sachiko (ワダサチコ)",
+   voice:"Ray Chase + Yuri Lowenthal",
+   releaseDate:"May 20, 2022",
+   colorType:"Green",
+   weaponType:"Axe",
+   moveType:"Cavalry",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/75px-Icon_Portrait_Roy_Blazing_Bachelors.png",
+     main:"img/heroes-main/Roy_BB.png",
+     sprite:"img/sprites/Roy_Blazing_Bachelors_Mini_Unit_Ok.png"},
+ },
+  {
    name:"Nailah (Of Lost Kingdoms)",
    shortName: "Nailah",
    title:"Hatari Scorcher",
