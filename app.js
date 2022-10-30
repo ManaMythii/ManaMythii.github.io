@@ -10,74 +10,7 @@ defaultV1:{rateRarity3:58,rateRarity4:36,rateRarityFocus4:0,rateRarity5:3,rateRa
 4:[function(e,a,r){"use strict";let t=e("./hero-data.js"),i=["Alfonse","Sharena","Anna"];function n(e,a=!1){let r=[];for(let a=0;a<t.length;a++)if(!i.includes(t[a].name))for(let i=0;i<t[a].skills.length;i++)if(t[a].skills[i].name===e){r.push({name:t[a].name,rarity:t[a].skills[i].rarity,rank:t[a].ttReward?1.4:t[a].limited?1.3:t[a].ghb?1.2:t[a].rarity3?1:1.1});break}return a&&r.sort((e,a)=>e.rank===a.rank?e.rarity-a.rarity:e.rank-a.rank),r}a.exports={getAllHeroes:function(){return t},getHero:function(e){for(let a=0;a<t.length;a++)if(t[a].name===e)return t[a]},getHeroes:function(e){return t.filter(a=>e.includes(a.name))},getSummoningPool:function(e,a){let r=new Date(a.startDate),i={r3:[],r4:[],r5:[]};for(let n=0;n<t.length;n++)r<=new Date(t[n].releaseDate)||t[n].limited||t[n].ghb||t[n].ttReward||(t[n].rarity3&&t[n].rarity3.includes(e)&&i.r3.push(t[n]),t[n].rarity4&&t[n].rarity4.includes(e)&&!a.excludeFromRarity4.includes(t[n].name)&&i.r4.push(t[n]),t[n].rarity5&&t[n].rarity5.includes(e)&&!a.excludeFromRarity5.includes(t[n].name)&&i.r5.push(t[n]));return i},getInheritanceList:n,getInheritancePrereqList:function(e){let a=e.map(e=>n(e,!0)),r=a[0].reduce((e,a)=>Math.min(e,a.rarity),5),t=[];a[0]=a[0].filter(e=>e.rarity<=r&&(t.push(e.name),!0));for(let e=1;e<a.length;e++)a[e]=a[e].filter(e=>t.includes(e.name));return a},hasSkill:function(e,a,r){for(let t=0;t<e.skills.length;t++)if(e.skills[t].name===a&&e.skills[t].rarity<=r)return!0;return!1}}},{"./hero-data.js":5}],
   
 //Units - hero-data.js
-5:[function(e,a,r){a.exports=[  {
-   name:"Owain (Here with Me)",
-   shortName: "Owain",
-   title:"Devoted Defender",
-   artist:"Futaba Hazuki (双葉はづき)",
-   voice:"Kaiji Tang",
-   releaseDate:"Feb 8, 2022",
-   colorType:"Blue",
-   weaponType:"Lance",
-   moveType:"Cavalry",
-   rarity5:["pool6"],
-   limited: true,
-   assets:{
-     portrait:"img/heroes-portrait/75px-Icon_Portrait_Owain_Devoted_Defender.png",
-     main:"img/heroes-main/Owain_HWM.png",
-     sprite:"img/sprites/Owain_Devoted_Defender_Mini_Unit_Ok.png"}
- },
-  {
-   name:"Soren (Unlikely Friends)",
-   shortName: "Soren",
-   title:"Hushed Voice",
-   artist:"Iori Suzuki (スズキイオリ)",
-   voice:"Kyle McCarley",
-   releaseDate:"Apr 7, 2022",
-   colorType:"Neutral",
-   weaponType:"Tome",
-   moveType:"Infantry",
-   rarity5:["pool6"],
-   limited: true,
-   assets:{
-     portrait:"img/heroes-portrait/75px-Icon_Portrait_Soren_Hushed_Voice.png",
-     main:"img/heroes-main/Soren_UF.png",
-     sprite:"img/sprites/Soren_Hushed_Voice_Mini_Unit_Ok.png"}
- },
-  {
-   name:"Maria (Hop-and-Go-Seek)",
-   shortName: "Maria",
-   title:"Sunny Smile",
-   artist:"hanekoto (はねこと)",
-   voice:"Wendee Lee",
-   releaseDate:"Mar 8, 2022",
-   colorType:"Green",
-   weaponType:"Axe",
-   moveType:"Flying",
-   rarity5:["pool6"],
-   limited: true,
-   assets:{
-     portrait:"img/heroes-portrait/75px-Icon_Portrait_Maria_Sunny_Smile.png",
-     main:"img/heroes-main/Maria_HAGS.png",
-     sprite:"img/sprites/Maria_Sunny_Smile_Mini_Unit_Ok.png"}
- },
-  {
-   name:"Ike (Unlikely Friends)",
-   shortName: "Ike",
-   title:"Close-Knit Siblings",
-   artist:"Kanzawa Yo (神澤葉)",
-   voice:"Greg Chun + Sarah Williams",
-   releaseDate:"Apr 7, 2022",
-   colorType:"Red",
-   weaponType:"Sword",
-   moveType:"Infantry",
-   rarity5:["pool6"],
-   limited: true,
-   assets:{
-     portrait:"img/heroes-portrait/75px-Icon_Portrait_Ike_Close-Knit_Siblings.png",
-     main:"img/heroes-main/Ike_UF.png",
-     sprite:"img/sprites/Ike_Close-Knit_Siblings_Mini_Unit_Ok.png"}
- },{name:"Roy (Bridal Blossoms)",shortName: "Roy",title:"Blazing Bachelors",artist:"Wada Sachiko (ワダサチコ)",voice:"Ray Chase + Yuri Lowenthal",releaseDate:"May 20, 2022",colorType:"Green",weaponType:"Axe",moveType:"Cavalry",rarity5:["pool6"],limited: true,assets:{portrait:"img/heroes-portrait/75px-Icon_Portrait_Roy_Blazing_Bachelors.png",main:"img/heroes-main/Roy_BB.png",sprite:"img/sprites/Roy_Blazing_Bachelors_Mini_Unit_Ok.png"}},{name:"Nailah (Of Lost Kingdoms)",shortName: "Nailah",title:"Hatari Scorcher",artist:"Azusa",voice:"Rachel Robinson",releaseDate:"Jan 7, 2022",colorType:"Red",weaponType:"Beast",moveType:"Infantry",rarity5:["pool6"],limited: true,assets:{portrait:"img/heroes-portrait/75px-Icon_Portrait_Nailah_Hatari_Scorcher.png",main:"img/heroes-main/Nailah_LK.png",sprite:"img/sprites/Nailah_Hatari_Scorcher_Mini_Unit_Ok.png"}},{name:"Freyja (Summer's Dream)",shortName: "Freyja",title:"Fleeting Summer",artist:"Yoshiku (四々九)",voice:"Stephanie Southerland",releaseDate:"Jul 7, 2021",colorType:"Neutral",weaponType:"Beast",moveType:"Cavalry",rarity5:["pool6"],limited: true,assets:{portrait:"img/heroes-portrait/75px-Icon_Portrait_Freyja_Fleeting_Summer.png",main:"img/heroes-main/Freyja_SD.png",sprite:"img/sprites/Freyja_Fleeting_Summer_Mini_Unit_Ok.png"}},{name:"Claude (Summer Vacation)",shortName: "Claude",title:"Tropical Trouble",artist:"azu-taro (azuタロウ)",voice:"Joe Zieja",releaseDate:"Jun 17, 2022",colorType:"Blue",weaponType:"Dagger",moveType:"Flying",rarity5:["pool6"],limited: true,assets:{portrait:"img/heroes-portrait/75px-Icon_Portrait_Claude_Tropical_Trouble.png",main:"img/heroes-main/Claude_SV.png",sprite:"img/sprites/Claude_Tropical_Trouble_Mini_Unit_Ok.png"}},{name:"Yuri",title:"Ashen Valiant",artist:"Saori Toyota (とよた瑣織)",voice:"Alejandro Saab",releaseDate:"Sep 17, 2021",colorType:"Neutral",weaponType:"Dagger",moveType:"Infantry",rarity5:["pool6"],assets:{portrait:"img/heroes-portrait/75px-Icon_Portrait_Yuri_Ashen_Valiant.png",main:"img/heroes-main/Yuri.png",sprite:"img/sprites/Yuri_Ashen_Valiant_Mini_Unit_Ok.png"}},{name:"Balthus",title:"King of Grappling",artist:"Maji (まじ)",voice:"Aaron Hedrick",releaseDate:"Sep 17, 2021",colorType:"Green",weaponType:"Axe",moveType:"Infantry",rarity4:["pool6"],rarity3:["pool6"],assets:{portrait:"img/heroes-portrait/75px-Icon_Portrait_Balthus_King_of_Grappling.png",main:"img/heroes-main/Balthus.png",sprite:"img/sprites/Balthus_King_of_Grappling_Mini_Unit_Ok.png"}},{name:"Constance",title:"Fallen Noble",artist:"yoshihisa (芳久)",voice:"Kirsten Day",releaseDate:"Sep 17, 2021",colorType:"Red",weaponType:"Tome",moveType:"Flying",rarity5:["pool6"],assets:{portrait:"img/heroes-portrait/75px-Icon_Portrait_Constance_Fallen_Noble.png",main:"img/heroes-main/Constance.png",sprite:"img/sprites/Constance_Fallen_Noble_Mini_Unit_Ok.png"}},{name:"Hapi",title:"Drawn-Out Sigh",artist:"Hirooka Masaki (廣岡政樹)",voice:"Christine Marie Cabanos",releaseDate:"Sep 17, 2021",colorType:"Blue",weaponType:"Tome",moveType:"Cavalry",rarity5:["pool6"],assets:{portrait:"img/heroes-portrait/75px-Icon_Portrait_Hapi_Drawn-Out_Sigh.png",main:"img/heroes-main/Hapi.png",sprite:"img/sprites/Hapi_Drawn-Out_Sigh_Mini_Unit_Ok.png"}
+5:[function(e,a,r){a.exports=[  {name:"Owain (Here with Me)",shortName: "Owain",title:"Devoted Defender",artist:"Futaba Hazuki (双葉はづき)",voice:"Kaiji Tang",releaseDate:"Feb 8, 2022",colorType:"Blue",weaponType:"Lance",moveType:"Cavalry",rarity5:["pool6"],limited: true,assets:{portrait:"img/heroes-portrait/75px-Icon_Portrait_Owain_Devoted_Defender.png",main:"img/heroes-main/Owain_HWM.png",sprite:"img/sprites/Owain_Devoted_Defender_Mini_Unit_Ok.png"}},{name:"Soren (Unlikely Friends)",shortName: "Soren",title:"Hushed Voice",artist:"Iori Suzuki (スズキイオリ)",voice:"Kyle McCarley",releaseDate:"Apr 7, 2022",colorType:"Neutral",weaponType:"Tome",moveType:"Infantry",rarity5:["pool6"],limited: true,assets:{portrait:"img/heroes-portrait/75px-Icon_Portrait_Soren_Hushed_Voice.png",main:"img/heroes-main/Soren_UF.png",sprite:"img/sprites/Soren_Hushed_Voice_Mini_Unit_Ok.png"}},{name:"Maria (Hop-and-Go-Seek)",shortName: "Maria",title:"Sunny Smile",artist:"hanekoto (はねこと)",voice:"Wendee Lee",releaseDate:"Mar 8, 2022",colorType:"Green",weaponType:"Axe",moveType:"Flying",rarity5:["pool6"],limited: true,assets:{portrait:"img/heroes-portrait/75px-Icon_Portrait_Maria_Sunny_Smile.png",main:"img/heroes-main/Maria_HAGS.png",sprite:"img/sprites/Maria_Sunny_Smile_Mini_Unit_Ok.png"}},{name:"Ike (Unlikely Friends)",shortName: "Ike",title:"Close-Knit Siblings",artist:"Kanzawa Yo (神澤葉)",voice:"Greg Chun + Sarah Williams",releaseDate:"Apr 7, 2022",colorType:"Red",weaponType:"Sword",moveType:"Infantry",rarity5:["pool6"],limited: true,assets:{portrait:"img/heroes-portrait/75px-Icon_Portrait_Ike_Close-Knit_Siblings.png",main:"img/heroes-main/Ike_UF.png",sprite:"img/sprites/Ike_Close-Knit_Siblings_Mini_Unit_Ok.png"}},{name:"Roy (Bridal Blossoms)",shortName: "Roy",title:"Blazing Bachelors",artist:"Wada Sachiko (ワダサチコ)",voice:"Ray Chase + Yuri Lowenthal",releaseDate:"May 20, 2022",colorType:"Green",weaponType:"Axe",moveType:"Cavalry",rarity5:["pool6"],limited: true,assets:{portrait:"img/heroes-portrait/75px-Icon_Portrait_Roy_Blazing_Bachelors.png",main:"img/heroes-main/Roy_BB.png",sprite:"img/sprites/Roy_Blazing_Bachelors_Mini_Unit_Ok.png"}},{name:"Nailah (Of Lost Kingdoms)",shortName: "Nailah",title:"Hatari Scorcher",artist:"Azusa",voice:"Rachel Robinson",releaseDate:"Jan 7, 2022",colorType:"Red",weaponType:"Beast",moveType:"Infantry",rarity5:["pool6"],limited: true,assets:{portrait:"img/heroes-portrait/75px-Icon_Portrait_Nailah_Hatari_Scorcher.png",main:"img/heroes-main/Nailah_LK.png",sprite:"img/sprites/Nailah_Hatari_Scorcher_Mini_Unit_Ok.png"}},{name:"Freyja (Summer's Dream)",shortName: "Freyja",title:"Fleeting Summer",artist:"Yoshiku (四々九)",voice:"Stephanie Southerland",releaseDate:"Jul 7, 2021",colorType:"Neutral",weaponType:"Beast",moveType:"Cavalry",rarity5:["pool6"],limited: true,assets:{portrait:"img/heroes-portrait/75px-Icon_Portrait_Freyja_Fleeting_Summer.png",main:"img/heroes-main/Freyja_SD.png",sprite:"img/sprites/Freyja_Fleeting_Summer_Mini_Unit_Ok.png"}},{name:"Claude (Summer Vacation)",shortName: "Claude",title:"Tropical Trouble",artist:"azu-taro (azuタロウ)",voice:"Joe Zieja",releaseDate:"Jun 17, 2022",colorType:"Blue",weaponType:"Dagger",moveType:"Flying",rarity5:["pool6"],limited: true,assets:{portrait:"img/heroes-portrait/75px-Icon_Portrait_Claude_Tropical_Trouble.png",main:"img/heroes-main/Claude_SV.png",sprite:"img/sprites/Claude_Tropical_Trouble_Mini_Unit_Ok.png"}},{name:"Yuri",title:"Ashen Valiant",artist:"Saori Toyota (とよた瑣織)",voice:"Alejandro Saab",releaseDate:"Sep 17, 2021",colorType:"Neutral",weaponType:"Dagger",moveType:"Infantry",rarity5:["pool6"],assets:{portrait:"img/heroes-portrait/75px-Icon_Portrait_Yuri_Ashen_Valiant.png",main:"img/heroes-main/Yuri.png",sprite:"img/sprites/Yuri_Ashen_Valiant_Mini_Unit_Ok.png"}},{name:"Balthus",title:"King of Grappling",artist:"Maji (まじ)",voice:"Aaron Hedrick",releaseDate:"Sep 17, 2021",colorType:"Green",weaponType:"Axe",moveType:"Infantry",rarity4:["pool6"],rarity3:["pool6"],assets:{portrait:"img/heroes-portrait/75px-Icon_Portrait_Balthus_King_of_Grappling.png",main:"img/heroes-main/Balthus.png",sprite:"img/sprites/Balthus_King_of_Grappling_Mini_Unit_Ok.png"}},{name:"Constance",title:"Fallen Noble",artist:"yoshihisa (芳久)",voice:"Kirsten Day",releaseDate:"Sep 17, 2021",colorType:"Red",weaponType:"Tome",moveType:"Flying",rarity5:["pool6"],assets:{portrait:"img/heroes-portrait/75px-Icon_Portrait_Constance_Fallen_Noble.png",main:"img/heroes-main/Constance.png",sprite:"img/sprites/Constance_Fallen_Noble_Mini_Unit_Ok.png"}},{name:"Hapi",title:"Drawn-Out Sigh",artist:"Hirooka Masaki (廣岡政樹)",voice:"Christine Marie Cabanos",releaseDate:"Sep 17, 2021",colorType:"Blue",weaponType:"Tome",moveType:"Cavalry",rarity5:["pool6"],assets:{portrait:"img/heroes-portrait/75px-Icon_Portrait_Hapi_Drawn-Out_Sigh.png",main:"img/heroes-main/Hapi.png",sprite:"img/sprites/Hapi_Drawn-Out_Sigh_Mini_Unit_Ok.png"}
  },{name:"Louise",title:"Lady of Violets",artist:"tamagonokimi (卵の黄身)",voice:"Maureen Price",releaseDate:"Apr 6, 2021",colorType:"Neutral",weaponType:"Bow",moveType:"Infantry",rarity5:["pool6"],assets:{portrait:"img/heroes-portrait/75px-Icon_Portrait_Louise_Lady_of_Violets.png",main:"img/heroes-main/Louise.png",sprite:"img/sprites/Louise_Lady_of_Violets_Mini_Unit_Ok.png"}},{name:"Hugh",title:"Worldly Mage",artist:"8ichibi8 (8イチビ8)",voice:"Matthew David Rudd",releaseDate:"Feb 18, 2022",colorType:"Red",weaponType:"Tome",moveType:"Infantry",rarity5:["pool6"],assets:{portrait:"img/heroes-portrait/75px-Icon_Portrait_Hugh_Worldly_Mage.png",main:"img/heroes-main/Hugh.png",sprite:"img/sprites/Hugh_Worldly_Mage_Mini_Unit_Ok.png"}},{name:"Arthur (FE4)",shortName:"Arthur",title:"Furious Mage",artist:"HASUMI KAORU (蓮水薫)",voice:"Joe Mucciolo",releaseDate:"Apr 18, 2022",colorType:"Green",weaponType:"Tome",moveType:"Infantry",rarity5:["pool6"],assets:{portrait:"img/heroes-portrait/75px-Icon_Portrait_Arthur_Furious_Mage.png",main:"img/heroes-main/Arthur_FE4.png",sprite:"img/sprites/Arthur_Furious_Mage_Mini_Unit_Ok.png"}
  },{name:"Wolf",title:"Coyote's Loyal",artist:"sachie (茶ちえ)",voice:"John-Henry Kurtz",releaseDate:"Oct 18, 2021",colorType:"Neutral",weaponType:"Bow",moveType:"Cavalry",rarity5:["pool6"],assets:{portrait:"img/heroes-portrait/75px-Icon_Portrait_Wolf_Coyotes_Loyal.png",main:"img/heroes-main/Wolf.png",sprite:"img/sprites/Wolf_Coyotes_Loyal_Mini_Unit_Ok.png"}},{name:"Tanith",title:"Bright Blade",artist:"Ito Misei (伊藤未生)",voice:"Katelyn Gault",releaseDate:"Nov 17, 2021",colorType:"Red",weaponType:"Sword",moveType:"Flying",rarity3:["pool6"],rarity4:["pool6"],assets:{portrait:"img/heroes-portrait/75px-Icon_Portrait_Tanith_Bright_Blade.png",main:"img/heroes-main/Tanith.png",sprite:"img/sprites/Tanith_Bright_Blade_Mini_Unit_Ok.png"}},{name:"Kent",title:"Crimson Shield",artist:"Takaya Tomohide (たかや友英)",voice:"Beau Bridglandz",releaseDate:"June 8, 2022",colorType:"Red",weaponType:"Sword",moveType:"Cavalry",rarity3:["pool6"],rarity4:["pool6"],assets:{portrait:"img/heroes-portrait/75px-Icon_Portrait_Kent_Crimson_Shield.png",main:"img/heroes-main/Kent.png",sprite:"img/sprites/Kent_Crimson_Shield_Mini_Unit_Ok.png"}
  },{name:"August",title:"Astute Tactician",artist:"Suzuki Rika (鈴木理華)",voice:"Luis Bermudez",releaseDate:"Mar 18, 2022",colorType:"Neutral",weaponType:"Staff",moveType:"Infantry",rarity5:["pool6"],assets:{portrait:"img/heroes-portrait/75px-Icon_Portrait_August_Astute_Tactician.png",main:"img/heroes-main/August.png",sprite:"img/sprites/August_Astute_Tactician_Mini_Unit_Ok.png"}},{name:"Hubert",title:"Sinister Servant",artist:"PenekoR (п猫Ｒ)",voice:"Robbie Daymond",releaseDate:"Aug 7, 2019",colorType:"Red",weaponType:"Tome",moveType:"Infantry",rarity5:["pool6"],assets:{portrait:"img/heroes-portrait/75px-Icon_Portrait_Hubert_Sinister_Servant.png",main:"img/heroes-main/Hubert.png",sprite:"img/sprites/Hubert_Sinister_Servant_Mini_Unit_Ok.png"}},{name:"Selena (FE8)",shortName:"Selena",title:"Fluorspar",artist:"Wada Sachiko (ワダサチコ)",voice:"Tiana Camacho",releaseDate:"Dec 8, 2020",colorType:"Blue",weaponType:"Tome",moveType:"Cavalry",rarity5:["pool6"],assets:{portrait:"img/heroes-portrait/75px-Icon_Portrait_Selena_Fluorspar.png",main:"img/heroes-main/Selena_FE8.png",sprite:"img/sprites/Selena_Fluorspar_Mini_Unit_Ok.png"}
