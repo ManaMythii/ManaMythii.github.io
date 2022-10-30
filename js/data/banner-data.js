@@ -42,6 +42,15 @@ module.exports = [
         rateType: "defaultV4",
         pool: "pool6"
       },
+      {
+        name: "Double Special Heroes (October 2022)",
+        startDate: "Oct 24, 2022",
+        focusHeroes: ["Claude (Summer Vacation)", "Freyja (Summer's Dream)", "Nailah (Of Lost Kingdoms)", "Roy (Bridal Blossoms)", "Ike (Unlikely Friends)", "Maria (Hop-and-Go-Seek)", "Soren (Unlikely Friends)", "Owain (Here with Me)" ],
+        excludeFromRarity4: [],
+        excludeFromRarity5: [],
+        rateType: "dblesplV1",
+        pool: "pool6"
+      },
       
       {
         name: "Rearmed Robin and More",
