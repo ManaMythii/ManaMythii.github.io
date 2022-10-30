@@ -1,5 +1,22 @@
 module.exports = [
-    {
+  {
+   name:"Arthur (FE 4)",
+   shortName:"Arthur",
+   title:"Furious Mage",
+   artist:"HASUMI KAORU (蓮水薫))",
+   voice:"Joe Mucciolo",
+   releaseDate:"April 18, 2022",
+   colorType:"Green",
+   weaponType:"Tome",
+   moveType:"Infantry",
+   rarity5:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/75px-Icon_Portrait_Arthur_Furious_Mage.png",
+     main:"img/heroes-main/Arthur_FE4.png",
+     sprite:"img/sprites/Arthur_Furious_Mage_Mini_Unit_Ok.png"},
+ },
+    
+ {
    name:"Wolf",
    title:"Coyote's Loyal",
    artist:"sachie (茶ちえ)",
