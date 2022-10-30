@@ -2,6 +2,7 @@ module.exports = [
  
    {
    name:"Duma (Divine Harvest)",
+   shortName:"Duma",
    title:"Strength and Love",
    artist:"ダイエクスト",
    voice:"Josh Petersdorf + Monica Rial",
@@ -19,6 +20,7 @@ module.exports = [
  
   {
    name:"Naga (Divine Harvest)",
+   shortName:"Naga",
    title:"Harvest Divinity",
    artist:"hanusu",
    voice:"Mela Lee",
@@ -36,6 +38,7 @@ module.exports = [
  
  {
    name:"Corrin (F) (Divine Harvest)",
+   shortName:"Corrin",
    title:"Starry Seer",
    artist:"Yoshiro Ambe (あんべよしろう)",
    voice:"Marcella Lentz-Pope",
@@ -77,6 +80,7 @@ module.exports = [
  
   {
    name:"Corrin (M) (Divine Harvest)",
+   shortName:"Corrin",
    title:"Celestial Sorcerer",
    artist:"argon / Exys Inc.",
    voice:"Cam Clarke",
