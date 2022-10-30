@@ -430,8 +430,8 @@ function getCustomBannerData(focusHeroes = []) {
     focusHeroes: focusHeroes,
     excludeFromRarity4: [],
     excludeFromRarity5: [],
-    pool: "pool2",
-    rateType: "defaultV2",
+    pool: "pool6",
+    rateType: "defaultV3",
     rates: {
       rateRarity3: 36,
       rateRarity4: 58,
