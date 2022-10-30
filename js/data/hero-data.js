@@ -1,5 +1,22 @@
 module.exports = [
  
+   {
+   name:"Duma (Divine Harvest)",
+   title:"Strength and Love",
+   artist:"ダイエクスト",
+   voice:"Josh Petersdorf + Monica Rial",
+   releaseDate:"Oct 6, 2022",
+   colorType:"Neutral",
+   weaponType:"Red",
+   moveType:"Armored",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/75px-Icon_Portrait_Duma_Strength_and_Love.png",
+     main:"img/heroes-main/Duma_DH.png",
+     sprite:"img/sprites/Duma_Strength_and_Love_Mini_Unit_Ok.png"},
+  },
+ 
   {
    name:"Naga (Divine Harvest)",
    title:"Harvest Divinity",
