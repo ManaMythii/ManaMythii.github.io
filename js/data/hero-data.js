@@ -1105,10 +1105,12 @@ module.exports = [
     colorType: "Blue",
     weaponType: "Lance",
     moveType: "Infantry",
+    rarity4s: ["pool6"],
     rarity5: ["pool1", "pool2"],
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Azura.png",
-      main: "img/heroes-main/Azura.png"
+      main: "img/heroes-main/Azura.png",
+      sprite: "img/sprites/Azura_Lady_of_the_Lake_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Iron Lance", rarity: 5 },
