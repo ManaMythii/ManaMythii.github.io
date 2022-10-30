@@ -1,4 +1,20 @@
 module.exports = [
+  {
+   name:"Hubert",
+   title:"Sinister Servant",
+   artist:"PenekoR (п猫Ｒ)",
+   voice:"Robbie Daymond",
+   releaseDate:"Aug 7, 2019",
+   colorType:"Red",
+   weaponType:"Tome",
+   moveType:"Infantry",
+   rarity5:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/75px-Icon_Portrait_Hubert_Sinister_Servant.png",
+     main:"img/heroes-main/Hubert.png",
+     sprite:"img/sprites/Hubert_Sinister_Servant_Mini_Unit_Ok.png"},
+ },
+ 
  {
    name:"Selena (FE8)",
    shortName:"Selena",
@@ -10,12 +26,11 @@ module.exports = [
    weaponType:"Tome",
    moveType:"Cavalry",
    rarity5:["pool6"],
-   limited: true,
    assets:{
      portrait:"img/heroes-portrait/75px-Icon_Portrait_Selena_Fluorspar.png",
      main:"img/heroes-main/Selena_FE8.png",
      sprite:"img/sprites/Selena_Fluorspar_Mini_Unit_Ok.png"},
-  },
+ },
  
  {
    name:"Duma (Divine Harvest)",
