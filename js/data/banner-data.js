@@ -3,7 +3,7 @@ module.exports = [
   {
     date: "October 2022",
     banners: [
-          {
+      {
         name: "Heroes with Ideal Skills (October 2022)",
         startDate: "Oct 27, 2022",
         focusHeroes: ["Arthur (FE 4)", "Louise", "Hugh"],
@@ -16,7 +16,7 @@ module.exports = [
         name: "Loyalty League 2",
         startDate: "Oct 28, 2022",
         focusHeroes: ["Kent", "Tanith", "Wolf"],
-        excludeFromRarity3: ["Kent"],
+        excludeFromRarity3: ["Kent"], //may need to add function for this
         excludeFromRarity4: ["Kent", "Tanith"],
         excludeFromRarity5: ["Wolf"],
         rateType: "defaultV4",
