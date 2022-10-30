@@ -608,7 +608,8 @@ module.exports = [
     rarity5: ["pool1"],
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Abel.png",
-      main: "img/heroes-main/Abel.png"
+      main: "img/heroes-main/Abel.png",
+      sprite:"img/sprites/Abel_The_Panther_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Iron Lance", rarity: 4 },
