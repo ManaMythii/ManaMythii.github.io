@@ -261,7 +261,7 @@ function getSessionOrbs() {
     rateR4 = parseFloat($(elements.RATE_INPUT_4).val()) / 100 + rateR5;
   }
   if (banner.rates.rateRaritySpecial4) {
-    rateRS4 = rateRF4;  //not correct
+    rateRS4 = rateRF4;  //may not be correct
   } else {
     rateRS4 = 0;
   }
