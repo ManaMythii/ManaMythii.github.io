@@ -21,13 +21,12 @@ module.exports = [
         pool: "pool6"
       },
      
-     {
+      {
         name: "Loyalty League 2",
         startDate: "Oct 28, 2022",
-        focusHeroes: ["Kent", "Tanith", "Wolf"],
-        excludeFromRarity3: ["Kent"], //may need to add function for this
-        excludeFromRarity4: ["Kent", "Tanith"],
-        excludeFromRarity5: ["Wolf"],
+        focusHeroes: ["Tanith", "Kent", "Wolf"],
+        excludeFromRarity4: [],
+        excludeFromRarity5: [],
         rateType: "defaultV4",
         pool: "pool6"
       },
