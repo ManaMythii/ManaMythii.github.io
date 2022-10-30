@@ -680,11 +680,12 @@ module.exports = [
     colorType: "Green",
     weaponType: "Axe",
     moveType: "Cavalry",
-    rarity5: ["pool1", "pool2"],
+    rarity5: ["pool1", "pool2", "pool6"],
     limited: true,
     assets: {
-      portrait: "img/heroes-portrait/75px-Icon_Portrait_Alfonse (Hares at the Fair).png",
-      main: "img/heroes-main/Alfonse (Hares at the Fair).png"
+      portrait: "img/heroes-portrait/75px-Icon_Portrait_Alfonse_Spring_Prince.png",
+      main: "img/heroes-main/Alfonse (Hares at the Fair).png",
+      sprite:"img/sprites/Alfonse_Spring_Prince_Mini_Unit_Ok.png"
     },
     skills: [
       {  name: "Iron Axe", rarity: 5 },
