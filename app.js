@@ -39,7 +39,7 @@ let t=100-e.rates.rateRarityFocus-e.rates.rateRarity5;0===t?(e.rates.pityRateRar
                      
   //s=rateRS4
  let e,a,s,r=[],t=parseFloat($(o.RATE_INPUT_FOCUS).val())/100,i=parseFloat($(o.RATE_INPUT_5).val())/100+t;l.rates.rateRarityFocus4?(e=parseFloat($(o.RATE_INPUT_FOCUS_4).val())/100+i,a=parseFloat($(o.RATE_INPUT_4).val())/100+e):(e=0,a=parseFloat($(o.RATE_INPUT_4).val())/100+i);
-l.rates.rateRaritySpecial4?(s=parseFloat($(o.RATE_INPUT_SPECIAL_4).val())/100+i:(e=0);
+l.rates.rateRaritySpecial4?s=parseFloat($(o.RATE_INPUT_SPECIAL_4).val())/100+i:(e=0);
                      
 for(let n=0;n<5;n++){let n,o=Math.random();(n=o<=t?{hero:M(m.rf),rarity:"focus"}:o<=i?{hero:M(m.r5),rarity:5}:
 
