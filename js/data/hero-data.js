@@ -1,5 +1,20 @@
 module.exports = [
-  {
+ {
+   name:"Yuri",
+   title:"Ashen Valiant",
+   artist:"Saori Toyota (とよた瑣織)",
+   voice:"Alejandro Saab",
+   releaseDate:"Sep 17, 2021",
+   colorType:"Neutral",
+   weaponType:"Dagger",
+   moveType:"Infantry",
+   rarity5:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/75px-Icon_Portrait_Yuri_Ashen_Valiant.png",
+     main:"img/heroes-main/Yuri.png",
+     sprite:"img/sprites/Yuri_Ashen_Valiant_Mini_Unit_Ok.png"},
+ },
+ {
    name:"Balthus",
    title:"King of Grappling",
    artist:"Maji (まじ)",
