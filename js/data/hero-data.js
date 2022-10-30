@@ -1,4 +1,20 @@
 module.exports = [
+    {
+   name:"August",
+   title:"Astute Tactician",
+   artist:"Suzuki Rika (鈴木理華)",
+   voice:"Luis Bermudez",
+   releaseDate:"Mar 18, 2022",
+   colorType:"Neutral",
+   weaponType:"Staff",
+   moveType:"Infantry",
+   rarity5:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/75px-Icon_Portrait_August_Astute_Tactician.png",
+     main:"img/heroes-main/August.png",
+     sprite:"img/sprites/August_Astute_Tactician_Mini_Unit_Ok.png"},
+ },
+  
   {
    name:"Hubert",
    title:"Sinister Servant",
