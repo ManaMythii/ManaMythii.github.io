@@ -301,10 +301,10 @@ function revealOrb($orb) {
 
   $(document).trigger('summon', [orbData.hero.name, orbData.hero.rarity]);
   $orb.replaceWith(`<div class="summon-hero">
-    <img class="summon-hero-frame" src="../img/assets/frame-rarity-${orbData.rarity === 'focus-4' ? 4 : orbData.rarity}.png">
+    <img class="summon-hero-frame" src="../img/assets/frame-rarity-${orbData.rarity === 'special-4' ? 4 : orbData.rarity}.png">
     <img class="summon-hero-portrait" src="../${orbData.hero.assets.sprite}">
-    <img class="summon-hero-background" src="../img/assets/background-rarity-${orbData.rarity === 'focus-4' ? 'focus' : orbData.rarity}.png">
-    <img class="summon-hero-rarity" src="../img/assets/star-rarity-${orbData.rarity === 'focus-4' ? 4 : orbData.rarity}.png">
+    <img class="summon-hero-background" src="../img/assets/background-rarity-${orbData.rarity === 'special-4' ? 'focus' : orbData.rarity}.png">
+    <img class="summon-hero-rarity" src="../img/assets/star-rarity-${orbData.rarity === 'special-4' ? 4 : orbData.rarity}.png">
   </div>`);
 
   pullStats.pulls++;
