@@ -1,4 +1,20 @@
 module.exports = [
+   {
+   name:"Tanith",
+   title:"Bright Blade",
+   artist:"Ito Misei (伊藤未生)",
+   voice:"Katelyn Gault",
+   releaseDate:"Nov 17, 2021",
+   colorType:"Red",
+   weaponType:"Sword",
+   moveType:"Flying",
+   rarity3:["pool6"],
+   rarity4:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/75px-Icon_Portrait_Tanith_Bright_Blade.png",
+     main:"img/heroes-main/Tanith.png",
+     sprite:"img/sprites/Tanith_Bright_Blade_Mini_Unit_Ok.png"},
+ },
 {
    name:"Kent",
    title:"Crimson Shield",
