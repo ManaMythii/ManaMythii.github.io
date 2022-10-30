@@ -1,5 +1,22 @@
 module.exports = [
   {
+   name:"Nailah (Of Lost Kingdoms)",
+   shortName: "Nailah",
+   title:"Hatari Scorcher",
+   artist:"Azusa",
+   voice:"Rachel Robinson",
+   releaseDate:"Jan 7, 2022",
+   colorType:"Red",
+   weaponType:"Beast",
+   moveType:"Infantry",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/75px-Icon_Portrait_Nailah_Hatari_Scorcher.png",
+     main:"img/heroes-main/Nailah_LK.png",
+     sprite:"img/sprites/Nailah_Hatari_Scorcher_Mini_Unit_Ok.png"},
+ },
+  {
    name:"Freyja (Summer's Dream)",
    shortName: "Freyja",
    title:"Fleeting Summer",
