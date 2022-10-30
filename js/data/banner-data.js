@@ -5,7 +5,7 @@ module.exports = [
     banners: [
           {
         name: "Heroes with Ideal Skills (October 2022)",
-        startDate: "Oct 28, 2022",
+        startDate: "Oct 27, 2022",
         focusHeroes: ["Arthur (FE 4)", "Louise", "Hugh"],
         excludeFromRarity5: ["Arthur (FE 4)", "Louise", "Hugh"],
         rateType: "defaultV4",
