@@ -4,6 +4,17 @@ module.exports = [
     date: "October 2022",
     banners: [
      {
+        name: "Focus: Loyalty League 2",
+        startDate: "Oct 28, 2022",
+        focusHeroes: ["Kent", "Tanith", "Wolf"],
+        excludeFromRarity3: ["Kent"],
+        excludeFromRarity4: ["Kent", "Tanith"],
+        excludeFromRarity5: ["Wolf"],
+        rateType: "defaultV4",
+        pool: "pool6"
+      },
+     
+     {
         name: "Focus: Loyalty League 1",
         startDate: "Oct 28, 2022",
         focusHeroes: ["Selena (FE8)", "Hubert", "August"],
