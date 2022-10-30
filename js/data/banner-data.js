@@ -8,6 +8,7 @@ module.exports = [
         startDate: "Oct 26, 2022",
         focusHeroes: ["Hapi", "Constance", "Yuri"],
         excludeFromRarity5: ["Hapi", "Constance", "Yuri"],
+        excludeFromRarity4: [],
         rateType: "defaultV4",
         pool: "pool6"
       },
@@ -16,6 +17,7 @@ module.exports = [
         name: "Heroes with Ideal Skills (October 2022)",
         startDate: "Oct 27, 2022",
         focusHeroes: ["Arthur (FE4)", "Louise", "Hugh"],
+        excludeFromRarity4: [],
         excludeFromRarity5: ["Arthur (FE 4)", "Louise", "Hugh"],
         rateType: "defaultV4",
         pool: "pool6"
