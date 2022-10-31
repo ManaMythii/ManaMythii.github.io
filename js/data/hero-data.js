@@ -9,7 +9,7 @@ module.exports = [
    rarity5:["pool6"],
    limited: true,
    assets:{
-     portrait:"img/heroes-portrait/75px-Icon_Portrait_Owain_Devoted_Defender.png",
+     portrait:"img/heroes-portrait/75px-Icon_Portrait_Arval_Cycle_Keeper.png",
      sprite:"img/sprites/Arval_Cycle_Keeper_Mini_Unit_Ok.png"}
  },
   
