@@ -2488,12 +2488,13 @@ module.exports = [
     colorType: "Neutral",
     weaponType: "Bow",
     moveType: "Infantry",
-    rarity3: ["pool1", "pool2"],
-    rarity4: ["pool1", "pool2"],
+    rarity3: ["pool1", "pool2", "pool6"],
+    rarity4: ["pool1", "pool2", "pool6"],
     ghb: true,
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Clarisse.png",
-      main: "img/heroes-main/Clarisse.png"
+      main: "img/heroes-main/Clarisse.png",
+      sprite:"img/sprites/Clarisse_Sniper_in_the_Dark_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Iron Bow", rarity: 3 },
@@ -2525,12 +2526,13 @@ module.exports = [
     colorType: "Blue",
     weaponType: "Lance",
     moveType: "Cavalry",
-    rarity4: ["pool1", "pool2"],
-    rarity5: ["pool1", "pool2"],
+    rarity4: ["pool1", "pool2", "pool6"],
+    rarity5: ["pool1", "pool2", "pool6"],
     ttReward: true,
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Clive.png",
-      main: "img/heroes-main/Clive.png"
+      main: "img/heroes-main/Clive.png",
+      sprite:"img/sprites/Clive_Idealistic_Knight_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Iron Lance", rarity: 4 },
@@ -2560,12 +2562,13 @@ module.exports = [
     colorType: "Blue",
     weaponType: "Lance",
     moveType: "Flying",
-    rarity3: ["pool2"],
-    rarity4: ["pool1", "pool2"],
+    rarity3: ["pool2", "pool6"],
+    rarity4: ["pool1", "pool2", "pool6"],
     rarity5: ["pool1"],
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Cordelia.png",
-      main: "img/heroes-main/Cordelia.png"
+      main: "img/heroes-main/Cordelia.png",
+      sprite:"img/sprites/Cordelia_Knight_Paragon_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Iron Lance", rarity: 4 },
@@ -2599,11 +2602,13 @@ module.exports = [
     colorType: "Neutral",
     weaponType: "Bow",
     moveType: "Infantry",
+    rarity4ss: ["pool6"],
     rarity5: ["pool1", "pool2"],
     limited: true,
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Cordelia (Bridal Blessings).png",
-      main: "img/heroes-main/Cordelia (Bridal Blessings).png"
+      main: "img/heroes-main/Cordelia (Bridal Blessings).png",
+      sprite:"img/sprites/Cordelia_Perfect_Bride_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Iron Bow", rarity: 5 },
@@ -2634,11 +2639,13 @@ module.exports = [
     colorType: "Blue",
     weaponType: "Lance",
     moveType: "Cavalry",
+    rarity4ss:["pool6"],
     rarity5: ["pool2"],
     limited: true,
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Cordelia (Summer's Arrival).png",
-      main: "img/heroes-main/Cordelia (Summer's Arrival).png"
+      main: "img/heroes-main/Cordelia (Summer's Arrival).png",
+      sprite:"img/sprites/Cordelia_Knight_Paradise_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Iron Lance", rarity: 5 },
@@ -2668,11 +2675,12 @@ module.exports = [
     colorType: "Blue",
     weaponType: "Breath",
     moveType: "Infantry",
-    rarity3: ["pool1", "pool2"],
-    rarity4: ["pool1", "pool2"],
+    rarity3: ["pool1", "pool2", "pool6"],
+    rarity4: ["pool1", "pool2", "pool6"],
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Corrin (F).png",
-      main: "img/heroes-main/Corrin (F).png"
+      main: "img/heroes-main/Corrin (F).png",
+      sprite:"img/sprites/Corrin_Fateful_Princess_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Fire Breath", rarity: 3 },
@@ -2705,10 +2713,12 @@ module.exports = [
     colorType: "Green",
     weaponType: "Breath",
     moveType: "Infantry",
+    rarity4ss: ["pool6"],
     rarity5: ["pool2"],
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Corrin (F) (Adrift).png",
-      main: "img/heroes-main/Corrin (F) (Adrift).png"
+      main: "img/heroes-main/Corrin (F) (Adrift).png",
+      sprite:"img/sprites/Corrin_Dream_Princess_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Fire Breath", rarity: 5 },
@@ -2742,11 +2752,13 @@ module.exports = [
     colorType: "Blue",
     weaponType: "Tome",
     moveType: "Flying",
+    rarity4ss: ["pool6"],
     rarity5: ["pool1", "pool2"],
     limited: true,
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Corrin (F) (Nohrian Summer).png",
-      main: "img/heroes-main/Corrin (F) (Nohrian Summer).png"
+      main: "img/heroes-main/Corrin (F) (Nohrian Summer).png",
+      sprite:"img/sprites/Corrin_Novice_Vacationer_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Thunder", rarity: 5 },
@@ -2777,12 +2789,13 @@ module.exports = [
     colorType: "Red",
     weaponType: "Sword",
     moveType: "Infantry",
-    rarity3: ["pool2"],
-    rarity4: ["pool1", "pool2"],
+    rarity3: ["pool2", "pool6"],
+    rarity4: ["pool1", "pool2", "pool6"],
     rarity5: ["pool1"],
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Corrin (M).png",
-      main: "img/heroes-main/Corrin (M).png"
+      main: "img/heroes-main/Corrin (M).png",
+      sprite:"img/sprites/Corrin_Fateful_Prince_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Iron Sword", rarity: 4 },
@@ -2815,10 +2828,12 @@ module.exports = [
     colorType: "Blue",
     weaponType: "Breath",
     moveType: "Infantry",
+    rarity4ss: ["pool6"],
     rarity5: ["pool2"],
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Corrin (M) (Adrift).png",
-      main: "img/heroes-main/Corrin (M) (Adrift).png"
+      main: "img/heroes-main/Corrin (M) (Adrift).png",
+      sprite:"img/sprites/Corrin_Dream_Prince_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Fire Breath", rarity: 5 },
@@ -2852,11 +2867,13 @@ module.exports = [
     colorType: "Neutral",
     weaponType: "Bow",
     moveType: "Infantry",
-    rarity5: ["pool1", "pool2"],
+    rarity4: ["pool1", "pool2", "pool6"],
+    rarity5: ["pool1", "pool2", "pool6"],
     limited: true,
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Corrin (M) (Happy New Year!).png",
-      main: "img/heroes-main/Corrin (M) (Happy New Year!).png"
+      main: "img/heroes-main/Corrin (M) (Happy New Year!).png",
+      sprite:"img/sprites/Corrin_Enjoying_Tradition_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Iron Bow", rarity: 5 },
@@ -2886,10 +2903,12 @@ module.exports = [
     colorType: "Green",
     weaponType: "Tome",
     moveType: "Infantry",
+    rarity4s: ["pool6"],
     rarity5: ["pool1", "pool2"],
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Deirdre.png",
-      main: "img/heroes-main/Deirdre.png"
+      main: "img/heroes-main/Deirdre.png",
+      sprite:"img/sprites/Deirdre_Lady_of_the_Forest_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Wind", rarity: 5 },
@@ -2918,10 +2937,12 @@ module.exports = [
     colorType: "Blue",
     weaponType: "Tome",
     moveType: "Infantry",
+    rarity4s: ["pool6"],
     rarity5: ["pool1", "pool2"],
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Delthea.png",
-      main: "img/heroes-main/Delthea.png"
+      main: "img/heroes-main/Delthea.png",
+      sprite:"img/sprites/Delthea_Free_Spirit_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Thunder", rarity: 5 },
@@ -2950,11 +2971,12 @@ module.exports = [
     colorType: "Blue",
     weaponType: "Lance",
     moveType: "Infantry",
-    rarity3: ["pool1", "pool2"],
-    rarity4: ["pool1", "pool2"],
+    rarity3: ["pool1", "pool2", "pool6"],
+    rarity4: ["pool1", "pool2", "pool6"],
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Donnel.png",
-      main: "img/heroes-main/Donnel.png"
+      main: "img/heroes-main/Donnel.png",
+      sprite:"img/sprites/Donnel_Village_Hero_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Iron Lance", rarity: 1 },
@@ -2983,10 +3005,12 @@ module.exports = [
     colorType: "Green",
     weaponType: "Axe",
     moveType: "Infantry",
+    rarity4s: ["pool6"],
     rarity5: ["pool1", "pool2"],
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Dorcas.png",
-      main: "img/heroes-main/Dorcas.png"
+      main: "img/heroes-main/Dorcas.png",
+      sprite:"img/sprites/Dorcas_Serene_Warrior_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Iron Axe", rarity: 5 },
@@ -3020,12 +3044,13 @@ module.exports = [
     colorType: "Green",
     weaponType: "Axe",
     moveType: "Armored",
-    rarity4: ["pool2"],
-    rarity5: ["pool2"],
+    rarity4: ["pool2", "pool6"],
+    rarity5: ["pool2", "pool6"],
     limited: true,
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Dorcas (The Land's Bounty).png",
-      main: "img/heroes-main/Dorcas (The Land's Bounty).png"
+      main: "img/heroes-main/Dorcas (The Land's Bounty).png",
+      sprite:"img/sprites/Dorcas_Pumpkin_Smasher_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Iron Axe", rarity: 5 },
@@ -3056,11 +3081,12 @@ module.exports = [
     colorType: "Red",
     weaponType: "Sword",
     moveType: "Armored",
-    rarity3: ["pool1", "pool2"],
-    rarity4: ["pool1", "pool2"],
+    rarity3: ["pool1", "pool2", "pool6"],
+    rarity4: ["pool1", "pool2", "pool6"],
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Draug.png",
-      main: "img/heroes-main/Draug.png"
+      main: "img/heroes-main/Draug.png",
+      sprite:"img/sprites/Draug_Gentle_Giant_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Iron Sword", rarity: 2 },
