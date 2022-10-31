@@ -3130,11 +3130,12 @@ module.exports = [
     colorType: "Neutral",
     weaponType: "Breath",
     moveType: "Armored",
-    rarity5: ["pool2"],
+    rarity5: ["pool2", "pool6"],
     limited: true,
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Duma.png",
-      main: "img/heroes-main/Duma.png"
+      main: "img/heroes-main/Duma.png",
+      sprite:"img/sprites/Duma_God_of_Strength_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Fire Breath", rarity: 5 },
@@ -3165,12 +3166,13 @@ module.exports = [
     colorType: "Blue",
     weaponType: "Lance",
     moveType: "Armored",
-    rarity3: ["pool2"],
-    rarity4: ["pool1", "pool2"],
+    rarity3: ["pool2", "pool6"],
+    rarity4: ["pool1", "pool2", "pool6"],
     rarity5: ["pool1"],
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Effie.png",
-      main: "img/heroes-main/Effie.png"
+      main: "img/heroes-main/Effie.png",
+      sprite:"img/sprites/Effie_Army_of_One_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Iron Lance", rarity: 4 },
@@ -3201,11 +3203,12 @@ module.exports = [
     colorType: "Neutral",
     weaponType: "Dagger",
     moveType: "Flying",
-    rarity5: ["pool2"],
+    rarity5: ["pool2", "pool6"],
     limited: true,
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Eir.png",
-      main: "img/heroes-main/Eir.png"
+      main: "img/heroes-main/Eir.png",
+      sprite:"img/sprites/Eir_Merciful_Death_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Iron Dagger", rarity: 5 },
@@ -3236,12 +3239,13 @@ module.exports = [
     colorType: "Red",
     weaponType: "Sword",
     moveType: "Infantry",
-    rarity3: ["pool2"],
-    rarity4: ["pool1", "pool2"],
+    rarity3: ["pool2", "pool6"],
+    rarity4: ["pool1", "pool2", "pool6"],
     rarity5: ["pool1"],
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Eirika.png",
-      main: "img/heroes-main/Eirika.png"
+      main: "img/heroes-main/Eirika.png",
+      sprite:"img/sprites/Eirika_Restoration_Lady_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Iron Sword", rarity: 4 },
@@ -3271,11 +3275,13 @@ module.exports = [
     colorType: "Neutral",
     weaponType: "Staff",
     moveType: "Armored",
+    rarity4ss: ["pool6"],
     rarity5: ["pool2"],
     limited: true,
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Eirika (Gifts of Winter).png",
-      main: "img/heroes-main/Eirika (Gifts of Winter).png"
+      main: "img/heroes-main/Eirika (Gifts of Winter).png",
+      sprite:"img/sprites/Eirika_Gentle_as_Snow_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Assault", rarity: 5 },
@@ -3306,11 +3312,12 @@ module.exports = [
     colorType: "Red",
     weaponType: "Sword",
     moveType: "Cavalry",
-    rarity5: ["pool2"],
+    rarity5: ["pool2", "pool6"],
     limited: true,
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Eirika (Legendary Heroes).png",
-      main: "img/heroes-main/Eirika (Legendary Heroes).png"
+      main: "img/heroes-main/Eirika (Legendary Heroes).png",
+      sprite:"img/sprites/Eirika_Graceful_Resolve_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Iron Sword", rarity: 5 },
@@ -3342,10 +3349,12 @@ module.exports = [
     colorType: "Red",
     weaponType: "Tome",
     moveType: "Cavalry",
+    rarity4s: ["pool6"],
     rarity5: ["pool1", "pool2"],
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Eirika (Sacred Memories).png",
-      main: "img/heroes-main/Eirika (Sacred Memories).png"
+      main: "img/heroes-main/Eirika (Sacred Memories).png",
+      sprite:"img/sprites/Eirika_Anamnesis_Lady_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Flux", rarity: 5 },
@@ -3377,10 +3386,12 @@ module.exports = [
     colorType: "Red",
     weaponType: "Sword",
     moveType: "Cavalry",
+    rarity4s: ["pool6"],
     rarity5: ["pool1", "pool2"],
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Eldigan.png",
-      main: "img/heroes-main/Eldigan.png"
+      main: "img/heroes-main/Eldigan.png",
+      sprite:"img/sprites/Eldigan_Lionheart_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Iron Sword", rarity: 5 },
@@ -3409,10 +3420,12 @@ module.exports = [
     colorType: "Red",
     weaponType: "Sword",
     moveType: "Flying",
+    rarity4s: ["pool6"],
     rarity5: ["pool1", "pool2"],
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Elincia.png",
-      main: "img/heroes-main/Elincia.png"
+      main: "img/heroes-main/Elincia.png",
+      sprite:"img/sprites/Elincia_Lost_Princess_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Iron Sword", rarity: 5 },
@@ -3442,11 +3455,13 @@ module.exports = [
     colorType: "Green",
     weaponType: "Dagger",
     moveType: "Infantry",
+    rarity4ss: ["pool6"],
     rarity5: ["pool2"],
     limited: true,
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Elincia (Festival in Hoshido).png",
-      main: "img/heroes-main/Elincia (Festival in Hoshido).png"
+      main: "img/heroes-main/Elincia (Festival in Hoshido).png",
+      sprite:"img/sprites/Elincia_Estival_Princess_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Iron Dagger", rarity: 5 },
@@ -3478,10 +3493,12 @@ module.exports = [
     colorType: "Neutral",
     weaponType: "Staff",
     moveType: "Cavalry",
+    rarity4s: ["pool6"],
     rarity5: ["pool1", "pool2"],
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Elise.png",
-      main: "img/heroes-main/Elise.png"
+      main: "img/heroes-main/Elise.png",
+      sprite:"img/sprites/Elise_Budding_Flower_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Assault", rarity: 5 },
@@ -3511,11 +3528,13 @@ module.exports = [
     colorType: "Red",
     weaponType: "Dagger",
     moveType: "Cavalry",
+    rarity4ss: ["pool6"],
     rarity5: [ "pool2" ],
     limited: true,
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Elise (Hostile Springs).png",
-      main: "img/heroes-main/Elise (Hostile Springs).png"
+      main: "img/heroes-main/Elise (Hostile Springs).png",
+      sprite:"img/sprites/Elise_Bubbling_Flower_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Iron Dagger", rarity: 5 },
@@ -3550,11 +3569,13 @@ module.exports = [
     colorType: "Green",
     weaponType: "Tome",
     moveType: "Infantry",
+    rarity4ss: ["pool6"],
     rarity5: ["pool1", "pool2"],
     limited: true,
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Elise (Nohrian Summer).png",
-      main: "img/heroes-main/Elise (Nohrian Summer).png"
+      main: "img/heroes-main/Elise (Nohrian Summer).png",
+      sprite:"img/sprites/Elise_Tropical_Flower_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Wind", rarity: 5 },
@@ -3584,11 +3605,12 @@ module.exports = [
     colorType: "Red",
     weaponType: "Sword",
     moveType: "Cavalry",
-    rarity3: ["pool1", "pool2"],
-    rarity4: ["pool1", "pool2"],
+    rarity3: ["pool1", "pool2", "pool6"],
+    rarity4: ["pool1", "pool2", "pool6"],
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Eliwood.png",
-      main: "img/heroes-main/Eliwood.png"
+      main: "img/heroes-main/Eliwood.png",
+      sprite:"img/sprites/Eliwood_Knight_of_Lycia_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Iron Sword", rarity: 3 },
@@ -3621,12 +3643,13 @@ module.exports = [
     colorType: "Blue",
     weaponType: "Lance",
     moveType: "Armored",
-    rarity4: ["pool1", "pool2"],
-    rarity5: ["pool1", "pool2"],
+    rarity4: ["pool1", "pool2", "pool6"],
+    rarity5: ["pool1", "pool2", "pool6"],
     ttReward: true,
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Eliwood (Love Abounds).png",
-      main: "img/heroes-main/Eliwood (Love Abounds).png"
+      main: "img/heroes-main/Eliwood (Love Abounds).png",
+      sprite:"img/sprites/Eliwood_Devoted_Love_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Iron Lance", rarity: 5 },
@@ -3658,10 +3681,12 @@ module.exports = [
     colorType: "Blue",
     weaponType: "Lance",
     moveType: "Infantry",
+    rarity4s: ["pool6"],
     rarity5: ["pool1", "pool2"],
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Ephraim.png",
-      main: "img/heroes-main/Ephraim.png"
+      main: "img/heroes-main/Ephraim.png",
+      sprite:"img/sprites/Ephraim_Restoration_Lord_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Iron Lance", rarity: 5 },
@@ -3692,10 +3717,12 @@ module.exports = [
     colorType: "Green",
     weaponType: "Axe",
     moveType: "Armored",
+    rarity4s: ["pool6"],
     rarity5: ["pool2"],
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Ephraim (Arrival of the Brave).png",
-      main: "img/heroes-main/Ephraim (Arrival of the Brave).png"
+      main: "img/heroes-main/Ephraim (Arrival of the Brave).png",
+      sprite:"img/sprites/Ephraim_Sacred_Twin_Lord_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Iron Axe", rarity: 5 },
@@ -3729,11 +3756,13 @@ module.exports = [
     colorType: "Blue",
     weaponType: "Lance",
     moveType: "Armored",
+    rarity4ss: ["pool6"],
     rarity5: ["pool2"],
     limited: true,
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Ephraim (Gifts of Winter).png",
-      main: "img/heroes-main/Ephraim (Gifts of Winter).png"
+      main: "img/heroes-main/Ephraim (Gifts of Winter).png",
+      sprite:"img/sprites/Ephraim_Sparkling_Gallantly_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Iron Lance", rarity: 5 },
@@ -3767,11 +3796,12 @@ module.exports = [
     colorType: "Blue",
     weaponType: "Lance",
     moveType: "Cavalry",
-    rarity5: ["pool1", "pool2"],
+    rarity5: ["pool1", "pool2", "pool6"],
     limited: true,
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Ephraim (Legendary Heroes).png",
-      main: "img/heroes-main/Ephraim (Legendary Heroes).png"
+      main: "img/heroes-main/Ephraim (Legendary Heroes).png",
+      sprite:"img/sprites/Ephraim_Legendary_Lord_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Iron Lance", rarity: 5 },
@@ -3802,11 +3832,12 @@ module.exports = [
     weaponType: "Lance",
     colorType: "Blue",
     moveType: "Flying",
-    rarity3: ["pool1", "pool2"],
-    rarity4: ["pool1", "pool2"],
+    rarity3: ["pool1", "pool2", "pool6"],
+    rarity4: ["pool1", "pool2", "pool6"],
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Est.png",
-      main: "img/heroes-main/Est.png"
+      main: "img/heroes-main/Est.png",
+      sprite:"img/sprites/Est_Junior_Whitewing_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Iron Lance", rarity: 3 },
@@ -3838,12 +3869,13 @@ module.exports = [
     colorType: "Neutral",
     weaponType: "Staff",
     moveType: "Cavalry",
-    rarity3: ["pool2"],
-    rarity4: ["pool2"],
+    rarity3: ["pool2", "pool6"],
+    rarity4: ["pool2", "pool6"],
     ttReward: true,
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Ethlyn.png",
-      main: "img/heroes-main/Ethlyn.png"
+      main: "img/heroes-main/Ethlyn.png",
+      sprite:"img/sprites/Ethlyn_Spirited_Princess_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Assault", rarity: 1 },
@@ -3878,12 +3910,13 @@ module.exports = [
     colorType: "Red",
     weaponType: "Sword",
     moveType: "Infantry",
-    rarity4: ["pool1", "pool2"],
-    rarity5: ["pool1", "pool2"],
+    rarity4: ["pool1", "pool2", "pool6"],
+    rarity5: ["pool1", "pool2", "pool6"],
     ttReward: true,
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Tobin.png",
-      main: "img/heroes-main/Tobin.png"
+      main: "img/heroes-main/Tobin.png",
+      sprite:"img/sprites/Tobin_The_Clueless_One_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Iron Sword", rarity: 4 },
@@ -3914,12 +3947,13 @@ module.exports = [
     colorType: "Green",
     weaponType: "Breath",
     moveType: "Infantry",
-    rarity3: ["pool2"],
-    rarity4: ["pool1", "pool2"],
+    rarity3: ["pool2", "pool6"],
+    rarity4: ["pool1", "pool2", "pool6"],
     rarity5: ["pool1"],
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Fae.png",
-      main: "img/heroes-main/Fae.png"
+      main: "img/heroes-main/Fae.png",
+      sprite:"img/sprites/Fae_Divine_Dragon_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Fire Breath", rarity: 4 },
@@ -3951,11 +3985,13 @@ module.exports = [
     colorType: "Green",
     weaponType: "Breath",
     moveType: "Armored",
+    rarity4ss: ["pool6"],
     rarity5: ["pool2"],
     limited: true,
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Fae (Gifts of Winter).png",
-      main: "img/heroes-main/Fae (Gifts of Winter).png"
+      main: "img/heroes-main/Fae (Gifts of Winter).png",
+      sprite:"img/sprites/Fae_Holiday_Dear_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Fire Breath", rarity: 5 },
@@ -3988,10 +4024,12 @@ module.exports = [
     colorType: "Neutral",
     weaponType: "Bow",
     moveType: "Infantry",
+    rarity4s: ["pool6"],
     rarity5: ["pool1", "pool2"],
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Faye.png",
-      main: "img/heroes-main/Faye.png"
+      main: "img/heroes-main/Faye.png",
+      sprite:"img/sprites/Faye_Devoted_Heart_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Iron Bow", rarity: 5 },
@@ -4021,11 +4059,12 @@ module.exports = [
     colorType: "Neutral",
     weaponType: "Dagger",
     moveType: "Infantry",
-    rarity3: ["pool1", "pool2"],
-    rarity4: ["pool1", "pool2"],
+    rarity3: ["pool1", "pool2", "pool6"],
+    rarity4: ["pool1", "pool2", "pool6"],
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Felicia.png",
-      main: "img/heroes-main/Felicia.png"
+      main: "img/heroes-main/Felicia.png",
+      sprite:"img/sprites/Felicia_Maid_Mayhem_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Iron Dagger", rarity: 1 },
