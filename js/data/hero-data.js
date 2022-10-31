@@ -647,6 +647,20 @@ module.exports = [
     }
   },
   {
+   name:"Aelfric",
+   title:"Custodian Monk",
+   releaseDate:"Sep 18, 2021",
+   colorType:"Red",
+   weaponType:"Tome",
+   moveType:"Infantry",
+   rarity4:["pool6"],
+   rarity3:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Aelfric_Custodian_Monk_Face_FC.png",
+     sprite:"img/sprites/Aelfric_Custodian_Monk_Mini_Unit_Ok.png"}
+ },
+  {
     name: "Alfonse",
     title: "Prince of Askr",
     artist: "Kozaki Yusuke (コザキユースケ)",
@@ -660,7 +674,7 @@ module.exports = [
     rarity4: ["pool1", "pool2","pool6"],
     limited: true,
     assets: {
-      portrait: "img/heroes-portrait/75px-Icon_Portrait_Alfonse.png",
+      portrait: "img/heroes-portrait/Alfonse_Prince_of_Askr_Face_FC.png",
       main: "img/heroes-main/Alfonse.png",
       sprite:"img/sprites/Alfonse_Prince_of_Askr_Mini_Unit_Ok.png"
     },
@@ -721,6 +735,33 @@ module.exports = [
       level40: { hp: [ 37, 41, 44 ], atk: [ 32, 35, 38 ], spd: [ 30, 33, 36 ], def: [ 27, 30, 33 ], res: [ 14, 18, 21 ] }
     }
   },
+ {
+   name:"Alfonse (Love of a King)",
+   title:"Uplifting Love",
+   releaseDate:"Feb 5, 2021",
+   colorType:"Green",
+   weaponType:"Tome",
+   moveType:"Armored",
+   rarity4:["pool6"],
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Alfonse_Uplifting_Love_Face_FC.png",
+     sprite:"img/sprites/Alfonse_Uplifting_Love_Mini_Unit_Ok.png"}
+ },
+ {
+   name:"Alfonse (Renewed Spirit)",
+   title:"Askran Duo",
+   releaseDate:"Jan 1, 2020",
+   colorType:"Blue",
+   weaponType:"Tome",
+   moveType:"Infantry",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Alfonse_Askran_Duo_Face_FC.png",
+     sprite:"img/sprites/Alfonse_Askran_Duo_Mini_Unit_Ok.png"}
+ },
   {
     name: "Alm",
     title: "Hero of Prophecy",
@@ -757,6 +798,83 @@ module.exports = [
     }
   },
   {
+   name:"Alm (Brave Echoes)",
+   title:"Imperial Ascent",
+   releaseDate:"Aug 16, 2019",
+   colorType:"Blue",
+   weaponType:"Tome",
+   moveType:"Infantry",
+   rarity4s:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/Alm_Imperial_Ascent_Face_FC.png",
+     sprite:"img/sprites/Alm_Imperial_Ascent_Mini_Unit_Ok.png"}
+ },
+ {
+   name:"Alm (Lovely Gifts)",
+   title:"Lovebird Duo",
+   releaseDate:"Feb 6, 2020",
+   colorType:"Green",
+   weaponType:"Axe",
+   moveType:"Infantry",
+   rarity5:["pool6"],
+   linited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Alm_Lovebird_Duo_Face_FC.png",
+     sprite:"img/sprites/Alm_Lovebird_Duo_Mini_Unit_Ok.png"}
+ },
+  {
+   name:"Alm (Legendary Heroes)",
+   title:"Saint-King",
+   releaseDate:"Apr 27, 2019",
+   colorType:"Neutral",
+   weaponType:"Bow",
+   moveType:"Infantry",
+   rarity5:["pool6"],
+   linited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Alm_Saint-King_Face_FC.png",
+     sprite:"img/sprites/Alm_Saint-King_Mini_Unit_Ok.png"}
+ },
+  {
+   name:"Altena",
+   title:"Luminous Rider",
+   releaseDate:"Jan 9, 2020",
+   colorType:"Blue",
+   weaponType:"Lance",
+   moveType:"Flying",
+   rarity3:["pool6"],
+   rarity4:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/Altena_Luminous_Rider_Face_FC.png",
+     sprite:"img/sprites/Altena_Luminous_Rider_Mini_Unit_Ok.png"}
+ },
+  {
+   name:"Altina",
+   title:"Dawn's Trueblade",
+   releaseDate:"Nov 28, 2020",
+   colorType:"Red",
+   weaponType:"Sword",
+   moveType:"Flying",
+   rarity5:["pool6"],
+    limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Altina_Dawns_Trueblade_Face_FC.png",
+     sprite:"img/sprites/Altina_Dawns_Trueblade_Mini_Unit_Ok.png"}
+ },
+  {
+   name:"Altina (A Festival Miracle)",
+   title:"Cross-Time Duo",
+   releaseDate:"Dec 17, 2020",
+   colorType:"Red",
+   weaponType:"Sword",
+   moveType:"Flying",
+   rarity5:["pool6"],
+    limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Altina_Cross-Time_Duo_Face_FC.png",
+     sprite:"img/sprites/Altina_Cross-Time_Duo_Mini_Unit_Ok.png"}
+ },
+  {
     name: "Amelia",
     title: "Rose of the War",
     artist: "Amagaitaro (アマガイタロー)",
@@ -768,7 +886,7 @@ module.exports = [
     rarity4s: ["pool6"],
     rarity5: ["pool1", "pool2"],
     assets: {
-      portrait: "img/heroes-portrait/75px-Icon_Portrait_Amelia.png",
+      portrait: "img/heroes-portrait/Amelia_Rose_of_the_War_Face_FC.png",
       main: "img/heroes-main/Amelia.png",
       sprite:"img/sprites/Amelia_Rose_of_the_War_Mini_Unit_Ok.png"
     },
@@ -806,7 +924,7 @@ module.exports = [
     rarity4: ["pool1", "pool2","pool6"],
     limited: true,
     assets: {
-      portrait: "img/heroes-portrait/75px-Icon_Portrait_Anna.png",
+      portrait: "img/heroes-portrait/Anna_Commander_Face_FC.png",
       main: "img/heroes-main/Anna.png",
       sprite:"img/sprites/Anna_Commander_Mini_Unit_Ok.png"
     },
@@ -832,6 +950,55 @@ module.exports = [
     }
   },
   {
+   name:"Anna (FE13)",
+   title:"Secret Seller",
+   releaseDate:"Jun 5, 2020",
+   colorType:"Blue",
+   weaponType:"Lance",
+   moveType:"Infantry",
+   rarity5:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/Anna_Secret_Seller_Face_FC.png",
+     sprite:"img/sprites/Anna_Secret_Seller_Mini_Unit_Ok.png"}
+ },
+  {
+   name:"Anna (Renewed Spirit)",
+   title:"Wealth-Wisher",
+   releaseDate:"Jan 1, 2020",
+   colorType:"Red",
+   weaponType:"Bow",
+   moveType:"Infantry",
+   rarity5:["pool6"],
+    limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Anna_Wealth-Wisher_Face_FC.png",
+     sprite:"img/sprites/Anna_Wealth-Wisher_Mini_Unit_Ok.png"}
+ },
+  {
+   name:"Annand",
+   title:"Knight-Defender",
+   releaseDate:"Feb 16, 2021",
+   colorType:"Red",
+   weaponType:"Sword",
+   moveType:"Flying",
+   rarity5:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/Annand_Knight-Defender_Face_FC.png",
+     sprite:"img/sprites/Annand_Knight-Defender_Mini_Unit_Ok.png"}
+ },
+ {
+   name:"Annette",
+   title:"Overachiever",
+   releaseDate:"Mar 6, 2020",
+   colorType:"Green",
+   weaponType:"Axe",
+   moveType:"Infantry",
+   rarity5:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/Annette_Overachiever_Face_FC.png",
+     sprite:"img/sprites/Annette_Overachiever_Mini_Unit_Ok.png"}
+ },
+  {
     name: "Arden",
     title: "Strong and Tough",
     artist: "Soeda Ippei (添田一平)",
@@ -844,7 +1011,7 @@ module.exports = [
     rarity5: ["pool1", "pool2","pool6"],
     ttReward: true,
     assets: {
-      portrait: "img/heroes-portrait/75px-Icon_Portrait_Arden.png",
+      portrait: "img/heroes-portrait/Arden_Strong_and_Tough_Face_FC.png",
       main: "img/heroes-main/Arden.png",
       sprite:"img/sprites/Arden_Strong_and_Tough_Mini_Unit_Ok.png"
     },
