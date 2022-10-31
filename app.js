@@ -2099,7 +2099,7 @@ for(let n=0;n<t.length;n++)r<=new Date(t[n].releaseDate)||t[n].limited||t[n].ghb
     rarity4ss: ["pool6"],
     rarity5: ["pool2"],
     assets: {
-      portrait: "img/heroes-portrait/75px-Icon_Portrait_Corrin (F) (Adrift).png",
+      portrait: "img/heroes-portrait/Corrin_Dream_Prince_Face_FC.png",
       main: "img/heroes-main/Corrin (F) (Adrift).png",
       sprite:"img/sprites/Corrin_Dream_Princess_Mini_Unit_Ok.png"
     },
