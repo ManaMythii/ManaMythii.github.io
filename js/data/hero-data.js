@@ -1072,6 +1072,20 @@ module.exports = [
     }
   },
   {
+   name:"Arete",
+   title:"Requiem's Beauty",
+   releaseDate:"Jul 20, 2021",
+   colorType:"Red",
+   weaponType:"Tome",
+   moveType:"Cavalry",
+   rarity3:["pool6"],
+   rarity4:["pool6"],
+   ghb: true,
+   assets:{
+     portrait:"img/heroes-portrait/Arete_Requiems_Beauty_Face_FC.png",
+     sprite:"img/sprites/Arete_Requiems_Beauty_Mini_Unit_Ok.png"}
+ },
+  {
     name: "Arthur",
     title: "Hapless Hero",
     artist: "Mendako (メンダコ)  / INTELLIGENT SYSTEMS",
@@ -1108,6 +1122,19 @@ module.exports = [
     }
   },
   {
+   name:"Artur (Winter Dreamland)",
+   title:"Silver Saint",
+   releaseDate:"Dec 16, 2021",
+   colorType:"Green",
+   weaponType:"Tome",
+   moveType:"Armored",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Artur_Silver_Saint_Face_FC.png",
+     sprite:"img/sprites/Artur_Silver_Saint_Mini_Unit_Ok.png"}
+ },
+  {
     name: "Arvis",
     title: "Emperor of Flame",
     artist: "Teita (悌太)",
@@ -1143,6 +1170,98 @@ module.exports = [
       level40_4: { hp: [ 28, 31, 34 ], atk: [ 29, 32, 35 ], spd: [ 26, 29, 32 ], def: [ 12, 15, 18 ], res: [ 27, 30, 33 ] }
     }
   },
+  {
+   name:"Asbel",
+   title:"Windswept Youth",
+   releaseDate:"Jan 8, 2021",
+   colorType:"Green",
+   weaponType:"Tome",
+   moveType:"Infantry",
+   rarity5:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/Asbel_Windswept_Youth_Face_FC.png",
+     sprite:"img/sprites/Asbel_Windswept_Youth_Mini_Unit_Ok.png"}
+ },
+  {
+   name:"Ash",
+   title:"Retainer to Askr",
+   releaseDate:"Dec 7, 2021",
+   colorType:"Neutral",
+   weaponType:"Beast",
+   moveType:"Infantry",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Ash_Retainer_to_Askr_Face_FC.png",
+     sprite:"img/sprites/Ash_Retainer_to_Askr_Mini_Unit_Ok.png"}
+ },
+ {
+   name:"Ashe (Summer Vibrance)",
+   title:"Fabled Sea Knight",
+   releaseDate:"Jul 21, 2021",
+   colorType:"Blue",
+   weaponType:"Lance",
+   moveType:"Cavalry",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Ashe_Fabled_Sea_Knight_Face_FC.png",
+     sprite:"img/sprites/Ashe_Fabled_Sea_Knight_Mini_Unit_Ok.png"}
+ },
+ {
+   name:"Ashera",
+   title:"Order Goddess",
+   releaseDate:"May 31, 2021",
+   colorType:"Neutral",
+   weaponType:"Tome",
+   moveType:"Infantry",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Ashera_Order_Goddess_Face_FC.png",
+     sprite:"img/sprites/Ashera_Order_Goddess_Mini_Unit_Ok.png"}
+ },
+ {
+   name:"Ashnard",
+   title:"Mad King",
+   releaseDate:"May 9, 2020",
+   colorType:"Red",
+   weaponType:"Sword",
+   moveType:"Flying",
+   rarity3:["pool6"],
+   rarity4:["pool6"],
+   ghb: true,
+   assets:{
+     portrait:"img/heroes-portrait/Ashnard_Mad_King_Face_FC.png",
+     sprite:"img/sprites/Ashnard_Mad_King_Mini_Unit_Ok.png"}
+ },
+ {
+   name:"Askr",
+   title:"God of Openness",
+   releaseDate:"Jul 26, 2022",
+   colorType:"Neutral",
+   weaponType:"Beast",
+   moveType:"Infantry",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Askr_God_of_Openness_Face_FC.png",
+     sprite:"img/sprites/Askr_God_of_Openness_Mini_Unit_Ok.png"}
+ },
+ {
+   name:"Astram",
+   title:"Midia's Hero",
+   releaseDate:"Sep 23, 2019",
+   colorType:"Red",
+   weaponType:"Sword",
+   moveType:"Infantry",
+   rarity3:["pool6"],
+   rarity4:["pool6"],
+   ghb: true,
+   assets:{
+     portrait:"img/heroes-portrait/Astram_Midias_Hero_Face_FC.png",
+     sprite:"img/sprites/Astram_Midias_Hero_Mini_Unit_Ok.png"}
+ },
   {
     name: "Athena",
     title: "Borderland Sword",
