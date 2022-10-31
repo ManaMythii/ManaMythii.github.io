@@ -2118,10 +2118,12 @@ module.exports = [
     colorType: "Red",
     weaponType: "Sword",
     moveType: "Infantry",
+    rarity4s: ["pool6"],
     rarity5: ["pool2"],
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Celica (Arrival of the Brave).png",
-      main: "img/heroes-main/Celica (Arrival of the Brave).png"
+      main: "img/heroes-main/Celica (Arrival of the Brave).png",
+      sprite:"img/sprites/Celica_Warrior_Priestess_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Iron Sword", rarity: 5 },
@@ -2155,10 +2157,12 @@ module.exports = [
     colorType: "Red",
     weaponType: "Sword",
     moveType: "Infantry",
+    rarity4s: ["pool6"],
     rarity5: ["pool1", "pool2"],
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Celica (Fallen Heroes).png",
-      main: "img/heroes-main/Celica (Fallen Heroes).png"
+      main: "img/heroes-main/Celica (Fallen Heroes).png",
+      sprite:"img/sprites/Celica_Imprisoned_Soul_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Iron Sword", rarity: 5 },
@@ -2189,11 +2193,13 @@ module.exports = [
     colorType: "Blue",
     weaponType: "Lance",
     moveType: "Infantry",
+    rarity4ss: ["pool6"],
     rarity5: ["pool1", "pool2"],
     limited: true,
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Charlotte (Bridal Blessings).png",
-      main: "img/heroes-main/Charlotte (Bridal Blessings).png"
+      main: "img/heroes-main/Charlotte (Bridal Blessings).png",
+      sprite:"img/sprites/Charlotte_Money_Maiden_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Iron Lance", rarity: 5 },
@@ -2222,11 +2228,12 @@ module.exports = [
     colorType: "Green",
     weaponType: "Axe",
     moveType: "Flying",
-    rarity3: ["pool1", "pool2"],
-    rarity4: ["pool1", "pool2"],
+    rarity3: ["pool1", "pool2", "pool6"],
+    rarity4: ["pool1", "pool2", "pool6"],
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Cherche.png",
-      main: "img/heroes-main/Cherche.png"
+      main: "img/heroes-main/Cherche.png",
+      sprite:"img/sprites/Cherche_Wyvern_Friend_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Iron Axe", rarity: 3 },
@@ -2257,12 +2264,13 @@ module.exports = [
     colorType: "Red",
     weaponType: "Sword",
     moveType: "Infantry",
-    rarity3: ["pool2"],
-    rarity4: ["pool1", "pool2"],
+    rarity3: ["pool2", "pool6"],
+    rarity4: ["pool1", "pool2", "pool6"],
     rarity5: ["pool1"],
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Chrom.png",
-      main: "img/heroes-main/Chrom.png"
+      main: "img/heroes-main/Chrom.png",
+      sprite:"img/sprites/Chrom_Exalted_Prince_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Iron Sword", rarity: 4 },
@@ -2297,11 +2305,13 @@ module.exports = [
     weaponType: "Axe",
     colorType: "Green",
     moveType: "Infantry",
+    rarity4ss: ["pool6"],
     rarity5: ["pool1", "pool2"],
     limited: true,
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Chrom (Spring Festival).png",
-      main: "img/heroes-main/Chrom (Spring Festival).png"
+      main: "img/heroes-main/Chrom (Spring Festival).png",
+      sprite:"img/sprites/Chrom_Spring_Exalt_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Iron Axe", rarity: 5 },
@@ -2331,10 +2341,12 @@ module.exports = [
     colorType: "Red",
     weaponType: "Sword",
     moveType: "Cavalry",
+    rarity4s: ["pool6"],
     rarity5: ["pool1", "pool2"],
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Chrom (The Branded King).png",
-      main: "img/heroes-main/Chrom (The Branded King).png"
+      main: "img/heroes-main/Chrom (The Branded King).png",
+      sprite:"img/sprites/Chrom_Knight_Exalt_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Iron Sword", rarity: 5 },
@@ -2369,11 +2381,13 @@ module.exports = [
     colorType: "Green",
     weaponType: "Axe",
     moveType: "Armored",
+    rarity4ss: ["pool6"],
     rarity5: ["pool1", "pool2"],
     limited: true,
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Chrom (Winter's Envoy).png",
-      main: "img/heroes-main/Chrom (Winter's Envoy).png"
+      main: "img/heroes-main/Chrom (Winter's Envoy).png",
+      sprite:"img/sprites/Chrom_Gifted_Leader_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Iron Axe", rarity: 5 },
@@ -2402,12 +2416,13 @@ module.exports = [
     colorType: "Blue",
     weaponType: "Lance",
     moveType: "Flying",
-    rarity3: ["pool2"],
-    rarity4: ["pool1", "pool2"],
+    rarity3: ["pool2", "pool6"],
+    rarity4: ["pool1", "pool2", "pool6"],
     rarity5: ["pool1"],
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Clair.png",
-      main: "img/heroes-main/Clair.png"
+      main: "img/heroes-main/Clair.png",
+      sprite:"img/sprites/Clair_Highborn_Flier_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Iron Lance", rarity: 4 },
@@ -2437,11 +2452,12 @@ module.exports = [
     colorType: "Neutral",
     weaponType: "Staff",
     moveType: "Cavalry",
-    rarity3: ["pool1", "pool2"],
-    rarity4: ["pool1", "pool2"],
+    rarity3: ["pool1", "pool2", "pool6"],
+    rarity4: ["pool1", "pool2", "pool6"],
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Clarine.png",
-      main: "img/heroes-main/Clarine.png"
+      main: "img/heroes-main/Clarine.png",
+      sprite:"img/sprites/Clarine_Refined_Noble_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Assault", rarity: 3 },
