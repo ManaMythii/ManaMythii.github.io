@@ -647,7 +647,8 @@ module.exports = [
     limited: true,
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Alfonse.png",
-      main: "img/heroes-main/Alfonse.png"
+      main: "img/heroes-main/Alfonse.png",
+      sprite:"img/sprites/Alfonse_Prince_of_Askr_Mini_Unit_Ok.png"
     },
     skills: [
       {  name: "Iron Sword", rarity: 2 },
@@ -750,10 +751,12 @@ module.exports = [
     colorType: "Green",
     weaponType: "Axe",
     moveType: "Armored",
+    rarity4s: ["pool6"],
     rarity5: ["pool1", "pool2"],
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Amelia.png",
-      main: "img/heroes-main/Amelia.png"
+      main: "img/heroes-main/Amelia.png",
+      sprite:"img/sprites/Amelia_Rose_of_the_War_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Iron Axe", rarity: 5 },
@@ -790,7 +793,8 @@ module.exports = [
     limited: true,
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Anna.png",
-      main: "img/heroes-main/Anna.png"
+      main: "img/heroes-main/Anna.png",
+      sprite:"img/sprites/Anna_Commander_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Iron Axe", rarity: 2 },
@@ -827,7 +831,8 @@ module.exports = [
     ttReward: true,
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Arden.png",
-      main: "img/heroes-main/Arden.png"
+      main: "img/heroes-main/Arden.png",
+      sprite:"img/sprites/Arden_Strong_and_Tough_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Iron Sword", rarity: 4 },
@@ -857,11 +862,12 @@ module.exports = [
     colorType: "Red",
     weaponType: "Sword",
     moveType: "Cavalry",
-    rarity4: ["pool2"],
-    rarity5: ["pool2"],
+    rarity4: ["pool2", "pool6"],
+    rarity5: ["pool2", "pool6"],
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Ares.png",
-      main: "img/heroes-main/Ares.png"
+      main: "img/heroes-main/Ares.png",
+      sprite:"img/sprites/Ares_Black_Knight_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Iron Sword", rarity: 4 },
@@ -897,7 +903,8 @@ module.exports = [
     rarity4: ["pool1", "pool2","pool6"],
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Arthur.png",
-      main: "img/heroes-main/Arthur.png"
+      main: "img/heroes-main/Arthur.png",
+      sprite:"img/sprites/Arthur_Hapless_Hero_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Iron Axe", rarity: 3 },
@@ -928,12 +935,13 @@ module.exports = [
     colorType: "Red",
     weaponType: "Tome",
     moveType: "Infantry",
-    rarity3: ["pool1", "pool2"],
-    rarity4: ["pool1", "pool2"],
+    rarity3: ["pool1", "pool2", "pool6"],
+    rarity4: ["pool1", "pool2", "pool6"],
     ghb: true,
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Arvis.png",
-      main: "img/heroes-main/Arvis.png"
+      main: "img/heroes-main/Arvis.png",
+      sprite:"img/sprites/Arvis_Emperor_of_Flame_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Fire", rarity: 3 },
@@ -963,12 +971,13 @@ module.exports = [
     colorType: "Red",
     weaponType: "Sword",
     moveType: "Infantry",
-    rarity3: ["pool2"],
-    rarity4: ["pool1", "pool2"],
+    rarity3: ["pool2", "pool6"],
+    rarity4: ["pool1", "pool2", "pool6"],
     rarity5: ["pool1"],
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Athena.png",
-      main: "img/heroes-main/Athena.png"
+      main: "img/heroes-main/Athena.png",
+      sprite:"img/sprites/Athena_Borderland_Sword_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Iron Sword", rarity: 4 },
@@ -1000,11 +1009,12 @@ module.exports = [
     colorType: "Red",
     weaponType: "Tome",
     moveType: "Flying",
-    rarity5: ["pool2"],
+    rarity5: ["pool2", "pool6"],
     limited: true,
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Aversa.png",
-      main: "img/heroes-main/Aversa.png"
+      main: "img/heroes-main/Aversa.png",
+      sprite:"img/sprites/Aversa_Dark_One_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Flux", rarity: 3 },
@@ -1036,10 +1046,12 @@ module.exports = [
     colorType: "Red",
     weaponType: "Sword",
     moveType: "Infantry",
+    rarity4s: ["pool6"],
     rarity5: ["pool1", "pool2"],
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Ayra.png",
-      main: "img/heroes-main/Ayra.png"
+      main: "img/heroes-main/Ayra.png",
+      sprite:"img/sprites/Ayra_Astras_Wielder_Mini_Unit_Ok"
     },
     skills: [
       { name: "Iron Sword", rarity: 5 },
@@ -1070,11 +1082,12 @@ module.exports = [
     colorType: "Neutral",
     weaponType: "Staff",
     moveType: "Infantry",
-    rarity3: ["pool1", "pool2"],
-    rarity4: ["pool1", "pool2"],
+    rarity3: ["pool1", "pool2", "pool6"],
+    rarity4: ["pool1", "pool2", "pool6"],
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Azama.png",
-      main: "img/heroes-main/Azama.png"
+      main: "img/heroes-main/Azama.png",
+      sprite:"img/sprites/Azama_Carefree_Monk_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Assault", rarity: 3 },
@@ -1140,12 +1153,13 @@ module.exports = [
     colorType: "Green",
     weaponType: "Tome",
     moveType: "Infantry",
-    rarity4: ["pool1"],
-    rarity5: ["pool2"],
+    rarity4: ["pool1", "pool6"],
+    rarity5: ["pool2", "pool6"],
     ttReward: true,
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Azura (Adrift).png",
-      main: "img/heroes-main/Azura (Adrift).png"
+      main: "img/heroes-main/Azura (Adrift).png",
+      sprite:"img/sprites/Azura_Young_Songstress_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Wind", rarity: 4 },
@@ -1177,11 +1191,13 @@ module.exports = [
     colorType: "Green",
     weaponType: "Axe",
     moveType: "Flying",
+    rarity4ss: ["pool6"],
     rarity5: ["pool1", "pool2"],
     limited: true,
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Azura (Happy New Year!).png",
-      main: "img/heroes-main/Azura (Happy New Year!).png"
+      main: "img/heroes-main/Azura (Happy New Year!).png",
+      sprite:"img/sprites/Azura_Celebratory_Spirit_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Iron Axe", rarity: 5 },
@@ -1211,11 +1227,12 @@ module.exports = [
     colorType: "Blue",
     weaponType: "Tome",
     moveType: "Flying",
-    rarity5: ["pool2"],
+    rarity5: ["pool2", "pool6"],
     limited: true,
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Azura (Legendary Heroes).png",
-      main: "img/heroes-main/Azura (Legendary Heroes).png"
+      main: "img/heroes-main/Azura (Legendary Heroes).png",
+      sprite:"img/sprites/Azura_Vallite_Songstress_Mini_Unit_Ok"
     },
     skills: [
       { name: "Light", rarity: 5 },
@@ -1249,11 +1266,13 @@ module.exports = [
     colorType: "Green",
     weaponType: "Axe",
     moveType: "Infantry",
+    rarity4ss:["pool6"],
     rarity5: ["pool1", "pool2"],
     limited: true,
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Azura (Performing Arts).png",
-      main: "img/heroes-main/Azura (Performing Arts).png"
+      main: "img/heroes-main/Azura (Performing Arts).png",
+      sprite:"img/sprites/Azura_Lady_of_Ballads_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Iron Axe", rarity: 5 },
@@ -1282,11 +1301,12 @@ module.exports = [
     colorType: "Green",
     weaponType: "Axe",
     moveType: "Infantry",
-    rarity3: ["pool1", "pool2"],
-    rarity4: ["pool1", "pool2"],
+    rarity3: ["pool1", "pool2", "pool6"],
+    rarity4: ["pool1", "pool2", "pool6"],
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Barst.png",
-      main: "img/heroes-main/Barst.png"
+      main: "img/heroes-main/Barst.png",
+      sprite:"img/sprites/Barst_The_Hatchet_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Iron Axe", rarity: 3 },
@@ -1315,11 +1335,12 @@ module.exports = [
     colorType: "Green",
     weaponType: "Axe",
     moveType: "Infantry",
-    rarity3: ["pool1", "pool2"],
-    rarity4: ["pool1", "pool2"],
+    rarity3: ["pool1", "pool2", "pool6"],
+    rarity4: ["pool1", "pool2", "pool6"],
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Bartre.png",
-      main: "img/heroes-main/Bartre.png"
+      main: "img/heroes-main/Bartre.png",
+      sprite:"img/sprites/Bartre_Fearless_Warrior_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Iron Axe", rarity: 3 },
@@ -1351,12 +1372,13 @@ module.exports = [
     colorType: "Blue",
     weaponType: "Lance",
     moveType: "Cavalry",
-    rarity3: ["pool1", "pool2"],
-    rarity4: ["pool1", "pool2"],
+    rarity3: ["pool1", "pool2", "pool6"],
+    rarity4: ["pool1", "pool2", "pool6"],
     ghb: true,
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Berkut.png",
-      main: "img/heroes-main/Berkut.png"
+      main: "img/heroes-main/Berkut.png",
+      sprite:"img/sprites/Berkut_Prideful_Prince_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Iron Lance", rarity: 3 },
@@ -1388,11 +1410,12 @@ module.exports = [
     colorType: "Green",
     weaponType: "Axe",
     moveType: "Flying",
-    rarity3: ["pool1", "pool2"],
-    rarity4: ["pool1", "pool2"],
+    rarity3: ["pool1", "pool2", "pool6"],
+    rarity4: ["pool1", "pool2", "pool6"],
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Beruka.png",
-      main: "img/heroes-main/Beruka.png"
+      main: "img/heroes-main/Beruka.png",
+      sprite:"img/sprites/Beruka_Quiet_Assassin_Mini_Unit_Ok.png:
     },
     skills: [
       { name: "Iron Axe", rarity: 3 },
