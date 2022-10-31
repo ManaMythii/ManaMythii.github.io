@@ -1,5 +1,19 @@
 module.exports = [
   {
+   name:"Arval",
+   title:"Cycle Keeper",
+   releaseDate:"Oct 31, 2022",
+   colorType:"Neutral",
+   weaponType:"Tome",
+   moveType:"Infantry",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/75px-Icon_Portrait_Owain_Devoted_Defender.png",
+     sprite:"img/sprites/Arval_Cycle_Keeper_Mini_Unit_Ok.png"}
+ },
+  
+  {
    name:"Owain (Here with Me)",
    shortName: "Owain",
    title:"Devoted Defender",
