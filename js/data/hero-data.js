@@ -1445,12 +1445,13 @@ module.exports = [
     colorType: "Red",
     weaponType: "Sword",
     moveType: "Armored",
-    rarity4: ["pool1", "pool2"],
-    rarity5: ["pool1", "pool2"],
+    rarity4: ["pool1", "pool2", "pool6"],
+    rarity5: ["pool1", "pool2", "pool6"],
     ttReward: true,
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Black Knight.png",
-      main: "img/heroes-main/Black Knight.png"
+      main: "img/heroes-main/Black Knight.png",
+      sprite:"img/sprites/Black_Knight_Sinister_General_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Iron Sword", rarity: 4 },
@@ -1483,12 +1484,13 @@ module.exports = [
     colorType: "Green",
     weaponType: "Tome",
     moveType: "Infantry",
-    rarity3: ["pool2"],
-    rarity4: ["pool1", "pool2"],
+    rarity3: ["pool2", "pool6"],
+    rarity4: ["pool1", "pool2", "pool6"],
     rarity5: ["pool1"],
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Boey.png",
-      main: "img/heroes-main/Boey.png"
+      main: "img/heroes-main/Boey.png",
+      sprite:"img/sprites/Boey_Skillful_Survivor_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Wind", rarity: 4 },
@@ -1520,12 +1522,13 @@ module.exports = [
     colorType: "Red",
     weaponType: "Sword",
     moveType: "Flying",
-    rarity3: ["pool2"],
-    rarity4: ["pool1", "pool2"],
+    rarity3: ["pool2", "pool6"],
+    rarity4: ["pool1", "pool2", "pool6"],
     rarity5: ["pool1"],
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Caeda.png",
-      main: "img/heroes-main/Caeda.png"
+      main: "img/heroes-main/Caeda.png",
+      sprite:"img/sprites/Caeda_Talyss_Heart_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Iron Sword", rarity: 4 },
@@ -1558,11 +1561,13 @@ module.exports = [
     colorType: "Blue",
     weaponType: "Tome",
     moveType: "Infantry",
+    rarity4ss: ["pool6"],
     rarity5: ["pool1", "pool2"],
     limited: true,
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Caeda (Bridal Blessings).png",
-      main: "img/heroes-main/Caeda (Bridal Blessings).png"
+      main: "img/heroes-main/Caeda (Bridal Blessings).png",
+      sprite:"img/sprites/Caeda_Talyss_Bride_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Thunder", rarity: 5 },
@@ -1593,11 +1598,12 @@ module.exports = [
     weaponType: "Sword",
     moveType: "Cavalry",
     rarity3: ["pool2"],
-    rarity4: ["pool1", "pool2"],
-    rarity5: ["pool1"],
+    rarity4: ["pool1", "pool2", "pool6"],
+    rarity5: ["pool1", "pool6"],
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Cain.png",
-      main: "img/heroes-main/Cain.png"
+      main: "img/heroes-main/Cain.png",
+      sprite:"img/sprites/Cain_The_Bull_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Iron Sword", rarity: 4 },
@@ -1629,12 +1635,13 @@ module.exports = [
     colorType: "Green",
     weaponType: "Axe",
     moveType: "Flying",
-    rarity3: ["pool2"],
-    rarity4: ["pool1", "pool2"],
+    rarity3: ["pool2", "pool6"],
+    rarity4: ["pool1", "pool2", "pool6"],
     rarity5: ["pool1"],
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Camilla.png",
-      main: "img/heroes-main/Camilla.png"
+      main: "img/heroes-main/Camilla.png",
+      sprite:"img/sprites/Camilla_Bewitching_Beauty_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Iron Axe", rarity: 4 },
@@ -1668,10 +1675,12 @@ module.exports = [
     colorType: "Red",
     weaponType: "Tome",
     moveType: "Flying",
+    rarity4ss: ["pool6"],
     rarity5: ["pool2"],
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Camilla (Adrift).png",
-      main: "img/heroes-main/Camilla (Adrift).png"
+      main: "img/heroes-main/Camilla (Adrift).png",
+      sprite:"img/sprites/Camilla_Flower_of_Fantasy_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Flux", rarity: 5 },
@@ -1704,11 +1713,13 @@ module.exports = [
     colorType: "Red",
     weaponType: "Sword",
     moveType: "Flying",
+    rarity4ss: ["pool6"],
     rarity5: ["pool1", "pool2"],
     limited: true,
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Camilla (Happy New Year!).png",
-      main: "img/heroes-main/Camilla (Happy New Year!).png"
+      main: "img/heroes-main/Camilla (Happy New Year!).png",
+      sprite:"img/sprites/Camilla_Holiday_Traveler_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Iron Sword", rarity: 5 },
@@ -1739,11 +1750,12 @@ module.exports = [
     colorType: "Neutral",
     weaponType: "Dagger",
     moveType: "Flying",
-    rarity5: [ "pool2" ],
+    rarity5: [ "pool2", "pool6" ],
     limited: true,
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Camilla (Hostile Springs).png",
-      main: "img/heroes-main/Camilla (Hostile Springs).png"
+      main: "img/heroes-main/Camilla (Hostile Springs).png",
+      sprite:"img/sprites/Camilla_Steamy_Secrets_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Iron Dagger", rarity: 4 },
@@ -1776,11 +1788,13 @@ module.exports = [
     colorType: "Green",
     weaponType: "Tome",
     moveType: "Flying",
+    rarity4ss: ["pool6"],
     rarity5: ["pool1", "pool2"],
     limited: true,
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Camilla (Spring Festival).png",
-      main: "img/heroes-main/Camilla (Spring Festival).png"
+      main: "img/heroes-main/Camilla (Spring Festival).png",
+      sprite:"img/sprites/Camilla_Spring_Princess_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Wind", rarity: 5 },
@@ -1808,11 +1822,13 @@ module.exports = [
     colorType: "Blue",
     weaponType: "Tome",
     moveType: "Flying",
+    rarity4ss: ["pool6"],
     rarity5: ["pool2"],
     limited: true,
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Camilla (A Sketchy Summer).png",
-      main: "img/heroes-main/Camilla (A Sketchy Summer).png"
+      main: "img/heroes-main/Camilla (A Sketchy Summer).png",
+      sprite:"img/sprites/Camilla_Tropical_Beauty_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Thunder", rarity: 5 },
@@ -1845,12 +1861,13 @@ module.exports = [
     colorType: "Blue",
     weaponType: "Lance",
     moveType: "Cavalry",
-    rarity3: ["pool1", "pool2"],
-    rarity4: ["pool1", "pool2"],
+    rarity3: ["pool1", "pool2", "pool6"],
+    rarity4: ["pool1", "pool2", "pool6"],
     ghb: true,
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Camus.png",
-      main: "img/heroes-main/Camus.png"
+      main: "img/heroes-main/Camus.png",
+      sprite:"img/sprites/Camus_Sable_Knight_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Iron Lance", rarity: 3 },
@@ -1880,12 +1897,13 @@ module.exports = [
     colorType: "Red",
     weaponType: "Tome",
     moveType: "Infantry",
-    rarity4: ["pool2"],
-    rarity5: ["pool2"],
+    rarity4: ["pool2", "pool6"],
+    rarity5: ["pool2", "pool6"],
     ttReward: true,
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Canas.png",
-      main: "img/heroes-main/Canas.png"
+      main: "img/heroes-main/Canas.png",
+      sprite:"img/sprites/Canas_Wisdom_Seeker_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Flux", rarity: 4 },
@@ -1916,12 +1934,13 @@ module.exports = [
     colorType: "Blue",
     weaponType: "Lance",
     moveType: "Flying",
-    rarity3: ["pool2"],
-    rarity4: ["pool1", "pool2"],
+    rarity3: ["pool2", "pool6"],
+    rarity4: ["pool1", "pool2", "pool6"],
     rarity5: ["pool1"],
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Catria.png",
-      main: "img/heroes-main/Catria.png"
+      main: "img/heroes-main/Catria.png",
+      sprite:"img/sprites/Catria_Middle_Whitewing_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Iron Lance", rarity: 3 },
@@ -1955,11 +1974,13 @@ module.exports = [
     colorType: "Blue",
     weaponType: "Tome",
     moveType: "Cavalry",
+    rarity4ss: ["pool6"],
     rarity5: ["pool1", "pool2"],
     limited: true,
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Catria (Hares at the Fair).png",
-      main: "img/heroes-main/Catria (Hares at the Fair).png"
+      main: "img/heroes-main/Catria (Hares at the Fair).png",
+      sprite:"img/sprites/Catria_Spring_Whitewing_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Thunder", rarity: 5 },
@@ -1988,11 +2009,12 @@ module.exports = [
     colorType: "Green",
     weaponType: "Tome",
     moveType: "Cavalry",
-    rarity3: ["pool1", "pool2"],
-    rarity4: ["pool1", "pool2"],
+    rarity3: ["pool1", "pool2", "pool6"],
+    rarity4: ["pool1", "pool2", "pool6"],
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Cecilia.png",
-      main: "img/heroes-main/Cecilia.png"
+      main: "img/heroes-main/Cecilia.png",
+      sprite:"img/sprites/Cecilia_Etrurian_General_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Wind", rarity: 1 },
@@ -2024,11 +2046,13 @@ module.exports = [
     colorType: "Neutral",
     weaponType: "Dagger",
     moveType: "Armored",
-    rarity5: ["pool2"],
+    rarity4: ["pool2", "pool6"],
+    rarity5: ["pool2", "pool6"],
     ttReward: true,
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Cecilia (Gifts of Winter).png",
-      main: "img/heroes-main/Cecilia (Gifts of Winter).png"
+      main: "img/heroes-main/Cecilia (Gifts of Winter).png",
+      sprite:"img/sprites/Cecilia_Festive_Instructor_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Iron Dagger", rarity: 5 },
@@ -2058,10 +2082,12 @@ module.exports = [
     colorType: "Red",
     weaponType: "Tome",
     moveType: "Infantry",
+    rarity4s: ["pool6"],
     rarity5: ["pool1", "pool2"],
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Celica.png",
-      main: "img/heroes-main/Celica.png"
+      main: "img/heroes-main/Celica.png",
+      sprite:"img/sprites/Celica_Caring_Princess_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Fire", rarity: 5 },
