@@ -1,5 +1,81 @@
 module.exports = [
   {
+   name: "Líf",
+   title:"Lethal Swordsman",
+   releaseDate:"Jan 30, 2020",
+   colorType:"Red",
+   weaponType:"Sword",
+   moveType:"Infantry",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Lif_Lethal_Swordsman_Face_FC.png",
+     sprite:"img/sprites/Lif_Lethal_Swordsman_Mini_Unit_Ok.png"}
+ },
+ {
+   name: "Sain",
+   title:"Green Lance",
+   releaseDate:"Jun 8, 2022",
+   colorType:"Blue",
+   weaponType:"Lance",
+   moveType:"Cavalry",
+   rarity5:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/Sain_Green_Lance_Face_FC.png",
+     sprite:"img/sprites/Sain_Green_Lance_Mini_Unit_Ok.png"}
+ },
+ {
+   name: "Eitri",
+   title:"Youthful Sage",
+   releaseDate:"Nov 30, 2021",
+   colorType:"Green",
+   weaponType:"Tome",
+   moveType:"Flying",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Eitri_Youthful_Sage_Face_FC.png",
+     sprite:"img/sprites/Eitri_Youthful_Sage_Mini_Unit_Ok.png"}
+ },
+  {
+   name: "Otr",
+   title:"Kingsbrother",
+   releaseDate:"Sep 30, 2021",
+   colorType:"Green",
+   weaponType:"Axe",
+   moveType:"Cavalry",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Otr_Kingsbrother_Face_FC.png",
+     sprite:"img/sprites/Otr_Kingsbrother_Mini_Unit_Ok.png"}
+ },
+  {
+   name: "Letizia",
+   title:"Curse Director",
+   releaseDate:"Jun 8, 2022",
+   colorType:"Green",
+   weaponType:"Tome",
+   moveType:"Cavalry",
+   rarity5:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/Letizia_Curse_Director_Face_FC.png",
+     sprite:"img/sprites/Letizia_Curse_Director_Mini_Unit_Ok.png"}
+ },
+  {
+   name:"Est (Ymir & More)",
+   shortName: "Est",
+   title:"Sweet Baby Sis",
+   releaseDate:"Jul 19, 2022",
+   colorType:"Blue",
+   weaponType:"Lance",
+   moveType:"Flying",
+   rarity5:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/Est_Sweet_Baby_Sis_Face_FC.png",
+     sprite:"img/sprites/Est_Sweet_Baby_Sis_Mini_Unit_Ok.png"}
+ },
+  {
    name:"Arval",
    title:"Cycle Keeper",
    releaseDate:"Oct 31, 2022",
