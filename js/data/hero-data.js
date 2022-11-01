@@ -737,6 +737,7 @@ module.exports = [
   },
  {
    name:"Alfonse (Love of a King)",
+   shortName: "Alfonse",
    title:"Uplifting Love",
    releaseDate:"Feb 5, 2021",
    colorType:"Green",
@@ -751,6 +752,7 @@ module.exports = [
  },
  {
    name:"Alfonse (Renewed Spirit)",
+   shortName: "Alfonse",
    title:"Askran Duo",
    releaseDate:"Jan 1, 2020",
    colorType:"Blue",
@@ -799,6 +801,7 @@ module.exports = [
   },
   {
    name:"Alm (Brave Echoes)",
+   shortName: "Alm",
    title:"Imperial Ascent",
    releaseDate:"Aug 16, 2019",
    colorType:"Blue",
@@ -811,6 +814,7 @@ module.exports = [
  },
  {
    name:"Alm (Lovely Gifts)",
+   shortName: "Alm",
    title:"Lovebird Duo",
    releaseDate:"Feb 6, 2020",
    colorType:"Green",
@@ -824,6 +828,7 @@ module.exports = [
  },
   {
    name:"Alm (Legendary Heroes)",
+   shortName: "Alm",
    title:"Saint-King",
    releaseDate:"Apr 27, 2019",
    colorType:"Neutral",
@@ -863,6 +868,7 @@ module.exports = [
  },
   {
    name:"Altina (A Festival Miracle)",
+   shortName: "Altina",
    title:"Cross-Time Duo",
    releaseDate:"Dec 17, 2020",
    colorType:"Red",
@@ -951,6 +957,7 @@ module.exports = [
   },
   {
    name:"Anna (FE13)",
+   shortName: "Anna",
    title:"Secret Seller",
    releaseDate:"Jun 5, 2020",
    colorType:"Blue",
@@ -963,6 +970,7 @@ module.exports = [
  },
   {
    name:"Anna (Renewed Spirit)",
+   shortName: "Anna",
    title:"Wealth-Wisher",
    releaseDate:"Jan 1, 2020",
    colorType:"Red",
@@ -1123,6 +1131,7 @@ module.exports = [
   },
   {
    name:"Artur (Winter Dreamland)",
+   shortName: "Artur",
    title:"Silver Saint",
    releaseDate:"Dec 16, 2021",
    colorType:"Green",
@@ -1197,6 +1206,7 @@ module.exports = [
  },
  {
    name:"Ashe (Summer Vibrance)",
+   shortName: "Ashe",
    title:"Fabled Sea Knight",
    releaseDate:"Jul 21, 2021",
    colorType:"Blue",
@@ -1262,6 +1272,18 @@ module.exports = [
      portrait:"img/heroes-portrait/Astram_Midias_Hero_Face_FC.png",
      sprite:"img/sprites/Astram_Midias_Hero_Mini_Unit_Ok.png"}
  },
+   {
+   name:"Astrid",
+   title:"Resolute Damsel",
+   releaseDate:"Nov 17, 2021",
+   colorType:"Green",
+   weaponType:"Bow",
+   moveType:"Cavalry",
+   rarity5:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/Astrid_Resolute_Damsel_Face_FC.png",
+     sprite:"img/sprites/Astrid_Resolute_Damsel_Mini_Unit_Ok.png"}
+ },
   {
     name: "Athena",
     title: "Borderland Sword",
@@ -1300,6 +1322,19 @@ module.exports = [
       level40_4: { hp: [ 31, 34, 37 ], atk: [ 25, 28, 31 ], spd: [ 33, 36, 39 ], def: [ 23, 26, 29 ], res: [ 19, 22, 25 ] }
     }
   },
+  {
+   name:"Atlas",
+   title:"Forest Muscle",
+   releaseDate:"Jul 19, 2022",
+   colorType:"Green",
+   weaponType:"Axe",
+   moveType:"Infantry",
+   rarity3:["pool6"],
+   rarity4:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/Atlas_Forest_Muscle_Face_FC.png",
+     sprite:"img/sprites/Atlas_Forest_Muscle_Mini_Unit_Ok.png"}
+ },
   {
     name: "Aversa",
     title: "Dark One",
@@ -1409,6 +1444,18 @@ module.exports = [
       level40_4: { hp: [ 37, 40, 43 ], atk: [ 16, 19, 22 ], spd: [ 22, 25, 28 ], def: [ 27, 30, 33 ], res: [ 20, 23, 26 ] }
     }
   },
+ {
+   name:"Azelle",
+   title:"Youthful Flame",
+   releaseDate:"Feb 16, 2021",
+   colorType:"Red",
+   weaponType:"Tome",
+   moveType:"Infantry",
+   rarity5:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/Azelle_Youthful_Flame_Face_FC.png",
+     sprite:"img/sprites/Azelle_Youthful_Flame_Mini_Unit_Ok.png"}
+ },
   {
     name: "Azura",
     title: "Lady of the Lake",
@@ -1593,6 +1640,33 @@ module.exports = [
     }
   },
   {
+   name:"Azura (Of Lost Kingdoms)",
+   shortName: "Azura",
+   title:"Hatari Duet",
+   releaseDate:"Jan 17, 2022",
+   colorType:"Green",
+   weaponType:"Tome",
+   moveType:"Cavalry",
+   rarity5:["pool6"],
+    limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Azura_Hatari_Duet_Face_FC.png",
+     sprite:"img/sprites/Azura_Hatari_Duet_Mini_Unit_Ok.png"}
+ },
+ {
+   name:"Bantu",
+   title:"Tiki's Guardian",
+   releaseDate:"Sep 19, 2019",
+   colorType:"Red",
+   weaponType:"Breath",
+   moveType:"Infantry",
+   rarity3:["pool6"],
+   rarity4:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/Bantu_Tikis_Guardian_Face_FC.png",
+     sprite:"img/sprites/Bantu_Tikis_Guardian_Mini_Unit_Ok.png"}
+ },
+  {
     name: "Barst",
     title: "The Hatchet",
     artist: "Wada Sachiko (ワダサチコ)",
@@ -1664,6 +1738,48 @@ module.exports = [
     }
   },
   {
+   name:"Bartre (Familial Festivities)",
+   shortName: "Bartre",
+   title:"Earsome Warrior",
+   releaseDate:"Mar 20, 2020",
+   colorType:"Red",
+   weaponType:"Sword",
+   moveType:"Infantry",
+   rarity4:["pool6"],
+   rarity5:["pool6"],
+   ghb: true,
+   assets:{
+     portrait:"img/heroes-portrait/Bartre_Earsome_Warrior_Face_FC.png",
+     sprite:"img/sprites/Bartre_Earsome_Warrior_Mini_Unit_Ok.png"}
+ },
+ {
+   name:"Basilio",
+   title:"Feroxi West-Khan",
+   releaseDate:"Dec 7, 2021",
+   colorType:"Green",
+   weaponType:"Axe",
+   moveType:"Infantry",
+   rarity3:["pool6"],
+   rarity4:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/Basilio_Feroxi_West-Khan_Face_FC.png",
+     sprite:"img/sprites/Basilio_Feroxi_West-Khan_Mini_Unit_Ok.png"}
+ },
+ {
+   name:"Benny",
+   title:"Sensitive Soul",
+   releaseDate:"Jul 19, 2021",
+   colorType:"Blue",
+   weaponType:"Lance",
+   moveType:"Armored",
+   rarity3:["pool6"],
+   rarity4:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/Benny_Sensitive_Soul_Face_FC.png",
+     sprite:"img/sprites/Benny_Sensitive_Soul_Mini_Unit_Ok.png"}
+ },
+  
+  {
     name: "Berkut",
     title: "Prideful Prince",
     artist: "Asatani Tomoyo (麻谷知世)",
@@ -1701,6 +1817,59 @@ module.exports = [
       level40_4: { hp: [ 37, 40, 43 ], atk: [ 29, 32, 35 ], spd: [ 17, 20, 23 ], def: [ 26, 29, 32 ], res: [ 19, 22, 25 ] }
     }
   },
+  {
+   name:"Berkut (Darkness Within)",
+   shortName: "Berkut",
+   title:"Purgatorial Prince",
+   releaseDate:"May 10, 2019",
+   colorType:"Blue",
+   weaponType:"Lance",
+   moveType:"Cavalry",
+   rarity4s:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/Berkut_Purgatorial_Prince_Face_FC.png",
+     sprite:"img/sprites/Berkut_Purgatorial_Prince_Mini_Unit_Ok.png"}
+ },
+ {
+   name:"Bernadetta",
+   title:"Eternal Loner",
+   releaseDate:"Mar 6, 2020",
+   colorType:"Neutral",
+   weaponType:"Bow",
+   moveType:"Cavalry",
+   rarity5:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/Bernadetta_Eternal_Loner_Face_FC.png",
+     sprite:"img/sprites/Bernadetta_Eternal_Loner_Mini_Unit_Ok.png"}
+ },
+ {
+   name:"Bernadetta (A Festival Miracle)",
+   shortName: "Bernadetta",
+   title:"Frosty Shut-In",
+   releaseDate:"Dec 17, 2020",
+   colorType:"Green",
+   weaponType:"Tome",
+   moveType:"Cavalry",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Bernadetta_Frosty_Shut-In_Face_FC.png",
+     sprite:"img/sprites/Bernadetta_Frosty_Shut-In_Mini_Unit_Ok.png"}
+ },
+ {
+   name:"Bertram",
+   title:"Dread Cavalier",
+   releaseDate:"Nov 18, 2021",
+   colorType:"Red",
+   weaponType:"Sword",
+   moveType:"Cavalry",
+   rarity3:["pool6"],
+   rarity4:["pool6"],
+   ghb: true,
+   assets:{
+     portrait:"img/heroes-portrait/Bertram_Dread_Cavalier_Face_FC.png",
+     sprite:"img/sprites/Bertram_Dread_Cavalier_Mini_Unit_Ok.png"}
+ },
   {
     name: "Beruka",
     title: "Quiet Assassin",
@@ -1813,6 +1982,47 @@ module.exports = [
       level40_4: { hp: [ 37, 40, 43 ], atk: [ 24, 27, 30 ], spd: [ 21, 24, 27 ], def: [ 27, 30, 33 ], res: [ 13, 16, 19 ] }
     }
   },
+  {
+   name:"Boyd (Unlikely Friends)",
+   shortName: "Boyd",
+   title:"Future Great",
+   releaseDate:"Apr 7, 2022",
+   colorType:"Green",
+   weaponType:"Axe",
+   moveType:"Infantry",
+   rarity4:["pool6"],
+   rarity5:["pool6"],
+   ttreward: true,
+   assets:{
+     portrait:"img/heroes-portrait/Boyd_Future_Great_Face_FC.png",
+     sprite:"img/sprites/Boyd_Future_Great_Mini_Unit_Ok.png"}
+ },
+  {
+   name:"Brady",
+   title:"Daunting Priest",
+   releaseDate:"Jun 11, 2019",
+   colorType:"Neutral",
+   weaponType:"Staff",
+   moveType:"Infantry",
+   rarity3:["pool6"],
+   rarity4:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/Brady_Daunting_Priest_Face_FC.png",
+     sprite:"img/sprites/Brady_Daunting_Priest_Mini_Unit_Ok.png"}
+ },
+  {
+   name:"Bramimond",
+   title:"The Enigma",
+   releaseDate:"Mar 31, 2020",
+   colorType:"Neutral",
+   weaponType:"Tome",
+   moveType:"Infantry",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Bramimond_The_Enigma_Face_FC.png",
+     sprite:"img/sprites/Bramimond_The_Enigma_Mini_Unit_Ok.png"}
+ },
   {
     name: "Caeda",
     title: "Talys's Heart",
