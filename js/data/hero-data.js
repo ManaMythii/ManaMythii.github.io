@@ -821,7 +821,7 @@ module.exports = [
    weaponType:"Axe",
    moveType:"Infantry",
    rarity5:["pool6"],
-   linited: true,
+   limited: true,
    assets:{
      portrait:"img/heroes-portrait/Alm_Lovebird_Duo_Face_FC.png",
      sprite:"img/sprites/Alm_Lovebird_Duo_Mini_Unit_Ok.png"}
@@ -835,7 +835,7 @@ module.exports = [
    weaponType:"Bow",
    moveType:"Infantry",
    rarity5:["pool6"],
-   linited: true,
+   limited: true,
    assets:{
      portrait:"img/heroes-portrait/Alm_Saint-King_Face_FC.png",
      sprite:"img/sprites/Alm_Saint-King_Mini_Unit_Ok.png"}
@@ -861,7 +861,7 @@ module.exports = [
    weaponType:"Sword",
    moveType:"Flying",
    rarity5:["pool6"],
-    limited: true,
+   limited: true,
    assets:{
      portrait:"img/heroes-portrait/Altina_Dawns_Trueblade_Face_FC.png",
      sprite:"img/sprites/Altina_Dawns_Trueblade_Mini_Unit_Ok.png"}
