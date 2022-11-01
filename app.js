@@ -1255,7 +1255,7 @@ for(let n=0;n<t.length;n++)r<=new Date(t[n].releaseDate)||t[n].limited||t[n].ghb
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Beruka.png",
       main: "img/heroes-main/Beruka.png",
-      sprite:"img/sprites/Beruka_Quiet_Assassin_Mini_Unit_Ok.png
+      sprite:"img/sprites/Beruka_Quiet_Assassin_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Iron Axe", rarity: 3 },
