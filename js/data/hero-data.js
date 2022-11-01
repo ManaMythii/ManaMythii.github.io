@@ -3035,6 +3035,7 @@ module.exports = [
   {
    name:"Celica (Ascended Heroes)",
    title:"Valentia's Hope",
+   shortName: "Celica",
    releaseDate:"Jul 19, 2022",
    colorType:"Neutral",
    weaponType:"Tome",
