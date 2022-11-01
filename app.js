@@ -17,7 +17,21 @@ for(let n=0;n<t.length;n++)r<=new Date(t[n].releaseDate)||t[n].limited||t[n].ghb
  },{name:"Louise",title:"Lady of Violets",artist:"tamagonokimi (卵の黄身)",voice:"Maureen Price",releaseDate:"Apr 6, 2021",colorType:"Neutral",weaponType:"Bow",moveType:"Infantry",rarity5:["pool6"],assets:{portrait:"img/heroes-portrait/75px-Icon_Portrait_Louise_Lady_of_Violets.png",main:"img/heroes-main/Louise.png",sprite:"img/sprites/Louise_Lady_of_Violets_Mini_Unit_Ok.png"}},{name:"Hugh",title:"Worldly Mage",artist:"8ichibi8 (8イチビ8)",voice:"Matthew David Rudd",releaseDate:"Feb 18, 2022",colorType:"Red",weaponType:"Tome",moveType:"Infantry",rarity5:["pool6"],assets:{portrait:"img/heroes-portrait/75px-Icon_Portrait_Hugh_Worldly_Mage.png",main:"img/heroes-main/Hugh.png",sprite:"img/sprites/Hugh_Worldly_Mage_Mini_Unit_Ok.png"}},{name:"Arthur (FE4)",shortName:"Arthur",title:"Furious Mage",artist:"HASUMI KAORU (蓮水薫)",voice:"Joe Mucciolo",releaseDate:"Apr 18, 2022",colorType:"Green",weaponType:"Tome",moveType:"Infantry",rarity5:["pool6"],assets:{portrait:"img/heroes-portrait/75px-Icon_Portrait_Arthur_Furious_Mage.png",main:"img/heroes-main/Arthur_FE4.png",sprite:"img/sprites/Arthur_Furious_Mage_Mini_Unit_Ok.png"}
  },{name:"Wolf",title:"Coyote's Loyal",artist:"sachie (茶ちえ)",voice:"John-Henry Kurtz",releaseDate:"Oct 18, 2021",colorType:"Neutral",weaponType:"Bow",moveType:"Cavalry",rarity5:["pool6"],assets:{portrait:"img/heroes-portrait/75px-Icon_Portrait_Wolf_Coyotes_Loyal.png",main:"img/heroes-main/Wolf.png",sprite:"img/sprites/Wolf_Coyotes_Loyal_Mini_Unit_Ok.png"}},{name:"Tanith",title:"Bright Blade",artist:"Ito Misei (伊藤未生)",voice:"Katelyn Gault",releaseDate:"Nov 17, 2021",colorType:"Red",weaponType:"Sword",moveType:"Flying",rarity3:["pool6"],rarity4:["pool6"],assets:{portrait:"img/heroes-portrait/75px-Icon_Portrait_Tanith_Bright_Blade.png",main:"img/heroes-main/Tanith.png",sprite:"img/sprites/Tanith_Bright_Blade_Mini_Unit_Ok.png"}},{name:"Kent",title:"Crimson Shield",artist:"Takaya Tomohide (たかや友英)",voice:"Beau Bridglandz",releaseDate:"June 8, 2022",colorType:"Red",weaponType:"Sword",moveType:"Cavalry",rarity3:["pool6"],rarity4:["pool6"],assets:{portrait:"img/heroes-portrait/75px-Icon_Portrait_Kent_Crimson_Shield.png",main:"img/heroes-main/Kent.png",sprite:"img/sprites/Kent_Crimson_Shield_Mini_Unit_Ok.png"}
  },{name:"August",title:"Astute Tactician",artist:"Suzuki Rika (鈴木理華)",voice:"Luis Bermudez",releaseDate:"Mar 18, 2022",colorType:"Neutral",weaponType:"Staff",moveType:"Infantry",rarity5:["pool6"],assets:{portrait:"img/heroes-portrait/75px-Icon_Portrait_August_Astute_Tactician.png",main:"img/heroes-main/August.png",sprite:"img/sprites/August_Astute_Tactician_Mini_Unit_Ok.png"}},{name:"Hubert",title:"Sinister Servant",artist:"PenekoR (п猫Ｒ)",voice:"Robbie Daymond",releaseDate:"Aug 7, 2019",colorType:"Red",weaponType:"Tome",moveType:"Infantry",rarity5:["pool6"],assets:{portrait:"img/heroes-portrait/75px-Icon_Portrait_Hubert_Sinister_Servant.png",main:"img/heroes-main/Hubert.png",sprite:"img/sprites/Hubert_Sinister_Servant_Mini_Unit_Ok.png"}},{name:"Selena (FE8)",shortName:"Selena",title:"Fluorspar",artist:"Wada Sachiko (ワダサチコ)",voice:"Tiana Camacho",releaseDate:"Dec 8, 2020",colorType:"Blue",weaponType:"Tome",moveType:"Cavalry",rarity5:["pool6"],assets:{portrait:"img/heroes-portrait/75px-Icon_Portrait_Selena_Fluorspar.png",main:"img/heroes-main/Selena_FE8.png",sprite:"img/sprites/Selena_Fluorspar_Mini_Unit_Ok.png"}
- },{name:"Duma (Divine Harvest)",title:"Strength and Love",shortName:"Duma",artist:"ダイエクスト",voice:"Josh Petersdorf + Monica Rial",releaseDate:"Oct 6, 2022",colorType:"Red",weaponType:"Breath",moveType:"Armored",rarity5:["pool6"],limited: true,assets:{portrait:"img/heroes-portrait/75px-Icon_Portrait_Duma_Strength_and_Love.png",main:"img/heroes-main/Duma_DH.png",sprite:"img/sprites/Duma_Strength_and_Love_Mini_Unit_Ok.png"}},{name:"Naga (Divine Harvest)",shortName:"Naga",title:"Harvest Divinity",artist:"hanusu",voice:"Mela Lee",releaseDate:"Oct 6, 2022",colorType:"Neutral",weaponType:"Breath",moveType:"Flying",rarity5:["pool6"],limited: true,assets:{portrait:"img/heroes-portrait/75px-Icon_Portrait_Naga_Harvest_Divinity.png",main:"img/heroes-main/Naga_DH.png",sprite:"img/sprites/Naga_Harvest_Divinity_Mini_Unit_Ok.png"}},{name:"Corrin (F) (Divine Harvest)",shortName:"Corrin",title:"Starry Seer",artist:"Yoshiro Ambe (あんべよしろう)",voice:"Marcella Lentz-Pope",releaseDate:"Oct 6, 2022",colorType:"Blue",weaponType:"Breath",moveType:"Infantry",rarity5:["pool6"],limited: true,assets:{portrait:"img/heroes-portrait/75px-Icon_Portrait_Corrin_F_Starry_Seer.png",main:"img/heroes-main/Corrin_F_DH.png",sprite:"img/sprites/Corrin_F_Starry_Seer_Mini_Unit_Ok.png"}},{name:"Corrin (M) (Divine Harvest)",shortName:"Corrin",title:"Celestial Sorcerer",artist:"argon / Exys Inc.",voice:"Cam Clarke",releaseDate:"Oct 6, 2022",colorType:"Green",weaponType:"Breath",moveType:"Infantry",rarity5:["pool6"],limited: true,assets:{portrait:"img/heroes-portrait/75px-Icon_Portrait_Corrin_M_Celestial_Sorcerer.png",main:"img/heroes-main/Corrin_M_DH.png",sprite:"img/sprites/Corrin_M_Celestial_Sorcerer_Mini_Unit_Ok.png"}},{name:"Phila",title:"Pegasus Master",artist:"Hirooka Masaki (廣岡政樹)",voice:"Nicole Balick",releaseDate:"Oct 17, 2022",colorType:"Blue",weaponType:"Lance",moveType:"Flying",rarity4:["pool1","pool2"],rarity5:["pool1","pool2"],assets:{portrait:"img/heroes-portrait/75px-Icon_Portrait_Phila_Pegasus_Master.png",main:"img/heroes-main/Phila.png",sprite:"img/sprites/Phila_Pegasus_Master_Mini_Unit_Ok.png"},skills:[{name:"Iron Lance",rarity:4},{name:"Steel Lance",rarity:4},{name:"Rein Lance",rarity:4},{name:"Chilling Wind",rarity:4},{name:"Iceberg",rarity:4},{name:"Bonfire",rarity:5},{name:"Brazen Atk/Res 1",rarity:4},{name:"Brazen Atk/Res 2",rarity:4},{name:"Brazen Atk/Res 3",rarity:4},{name:"Pegasus Flight 1",rarity:4},{name:"Pegasus Flight 2",rarity:4},{name:"Pegasus Flight 3",rarity:5}],stats:{level1:{hp:16,atk:9,spd:12,def:4,res:12},level40:{hp:[34,38,41],atk:[34,37,40],spd:[39,42,46],def:[22,26,29],res:[37,40,43]},level1_4:{hp:15,atk:8,spd:12,def:3,res:12},level40_4:{hp:[32,35,38],atk:[31,34,37],spd:[39,42,46],def:[20,23,26],res:[35,38,41]}}},{name:"Gregor",title:"Swell Sword",artist:"Niji Hayashi (ニジハヤシ)",voice:"Paul St. Peter",releaseDate:"Oct 17, 2022",colorType:"Red",weaponType:"Sword",moveType:"Infantry",rarity5:["pool1","pool2"],assets:{portrait:"img/heroes-portrait/75px-Icon_Portrait_Gregor_Swell_Sword.png",main:"img/heroes-main/Gregor.png",sprite:"img/sprites/Gregor_Swell_Sword_Mini_Unit_Ok.png"},skills:[{name:"Iron Sword",rarity:5},{name:"Steel Sword",rarity:5},{name:"Silver Sword",rarity:5},{name:"Blade of Favors",rarity:5},{name:"Glowing Ember",rarity:5},{name:"Bonfire",rarity:5},{name:"Solid Ground 1",rarity:5},{name:"Solid Ground 2",rarity:5},{name:"Solid Ground 3",rarity:5},{name:"Solid Ground 4",rarity:5},{name:"Inf. Null Follow 1",rarity:5},{name:"Inf. Null Follow 2",rarity:5},{name:"Inf. Null Follow 3",rarity:5}],stats:{level1:{hp:18,atk:14,spd:11,def:7,res:4},level40:{hp:[36,40,43],atk:[41,44,48],spd:[34,37,40],def:[40,43,46],res:[20,23,27]}}},{name:"Robin (Rearmed Heroes)",shortName:"Robin",title:"Fell Tactician",artist:"大熊まい",voice:"Lauren Landa",releaseDate:"Oct 17, 2022",colorType:"Neutral",weaponType:"Breath",moveType:"Armored",rarity5:["pool1","pool2"],assets:{portrait:"img/heroes-portrait/75px-Icon_Portrait_Robin_Fell_Tactician.png",main:"img/heroes-main/Robin (Rearmed Heroes).png",sprite:"img/sprites/Robin_Fell_Tactician_Mini_Unit_Ok.png"},skills:[{name:"Fire Breath",rarity:5},{name:"Fire Breath+",rarity:5},{name:"Flametongue	",rarity:5},{name:"Arcane Grima",rarity:5},{name:"Buckler",rarity:5},{name:"Pavise",rarity:5},{name:"Dragonhide",rarity:5},{name:"Hardy Fighter 1",rarity:5},{name:"Hardy Fighter 2",rarity:5},{name:"Hardy Fighter 3",rarity:5},{name:"A/S Near Save 1",rarity:5},{name:"A/S Near Save 2",rarity:5},{name:"A/S Near Save 3",rarity:5}],stats:{level1:{hp:17,atk:11,spd:11,def:9,res:11},level40:{hp:[40,43,46],atk:[38,41,45],spd:[40,44,47],def:[32,35,38],res:[29,33,36]}}},{name:"Eir (Ascended Heroes)",shortName:"Eir",title:"Life Ascendant",artist:"HACCAN",voice:"Xanthe Huynh",releaseDate:"Oct 17, 2022",colorType:"Green",weaponType:"Dagger",moveType:"Cavalry",rarity5:["pool1","pool2"],assets:{portrait:"img/heroes-portrait/75px-Icon_Portrait_Eir_Life_Ascendant.png",main:"img/heroes-main/Eir (Ascended Heroes).png",sprite:"img/sprites/Eir_Life_Ascendant_Mini_Unit_Ok.png"},skills:[{name:"Iron Dagger",rarity:5},{name:"Steel Dagger",rarity:5},{name:"Silver Dagger",rarity:5},{name:"Ymir, Everliving",rarity:5},{name:"Dragon Gaze",rarity:5},{name:"Draconic Aura",rarity:5},{name:"Atk/Speed Catch 1",rarity:5},{name:"Atk/Speed Catch 2",rarity:5},{name:"Atk/Speed Catch 3",rarity:5},{name:"Atk/Speed Catch 4",rarity:5},{name:"Mystic Boost 1",rarity:5},{name:"Mystic Boost 2",rarity:5},{name:"Mystic Boost 3",rarity:5},{name:"Mystic Boost 4",rarity:5},{name:"Sparkling Boost",rarity:5}],stats:{level1:{hp:16,atk:12,spd:12,def:3,res:5},level40:{hp:[32,35,39],atk:[39,42,46],spd:[41,45,48],def:[12,16,19],res:[32,35,39]}}},{name:"Abel",title:"The Panther",artist:"Sasashima Suisei (笹島彗星)",voice:"Mick Wingert",releaseDate:"Feb 02, 2017",colorType:"Blue",weaponType:"Lance",moveType:"Cavalry",rarity3:["pool2", "pool6"],rarity4:["pool1","pool2", "pool6"],rarity5:["pool1"],assets:{portrait:"img/heroes-portrait/75px-Icon_Portrait_Abel.png",main:"img/heroes-main/Abel.png",sprite:"img/sprites/Abel_The_Panther_Mini_Unit_Ok.png"},skills:[{name:"Iron Lance",rarity:4},{name:"Steel Lance",rarity:4},{name:"Brave Lance",rarity:4},{name:"Brave Lance+",rarity:5},{name:"Holy Vestments",rarity:4},{name:"Aegis",rarity:4},{name:"HP +3",rarity:4},{name:"HP +4",rarity:4},{name:"HP +5",rarity:5},{name:"Swordbreaker 1",rarity:4},{name:"Swordbreaker 2",rarity:4},{name:"Swordbreaker 3",rarity:4}],stats:{level1:{hp:17,atk:7,spd:8,def:8,res:6},level40:{hp:[35,39,42],atk:[30,33,36],spd:[29,32,35],def:[22,25,28],res:[22,25,29]},level1_4:{hp:16,atk:6,spd:8,def:8,res:5},level40_4:{hp:[33,36,39],atk:[27,30,33],spd:[27,30,33],def:[21,24,27],res:[20,23,26]}}},{
+ },{name:"Duma (Divine Harvest)",title:"Strength and Love",shortName:"Duma",artist:"ダイエクスト",voice:"Josh Petersdorf + Monica Rial",releaseDate:"Oct 6, 2022",colorType:"Red",weaponType:"Breath",moveType:"Armored",rarity5:["pool6"],limited: true,assets:{portrait:"img/heroes-portrait/75px-Icon_Portrait_Duma_Strength_and_Love.png",main:"img/heroes-main/Duma_DH.png",sprite:"img/sprites/Duma_Strength_and_Love_Mini_Unit_Ok.png"}},{name:"Naga (Divine Harvest)",shortName:"Naga",title:"Harvest Divinity",artist:"hanusu",voice:"Mela Lee",releaseDate:"Oct 6, 2022",colorType:"Neutral",weaponType:"Breath",moveType:"Flying",rarity5:["pool6"],limited: true,assets:{portrait:"img/heroes-portrait/75px-Icon_Portrait_Naga_Harvest_Divinity.png",main:"img/heroes-main/Naga_DH.png",sprite:"img/sprites/Naga_Harvest_Divinity_Mini_Unit_Ok.png"}},{name:"Corrin (F) (Divine Harvest)",shortName:"Corrin",title:"Starry Seer",artist:"Yoshiro Ambe (あんべよしろう)",voice:"Marcella Lentz-Pope",releaseDate:"Oct 6, 2022",colorType:"Blue",weaponType:"Breath",moveType:"Infantry",rarity5:["pool6"],limited: true,assets:{portrait:"img/heroes-portrait/75px-Icon_Portrait_Corrin_F_Starry_Seer.png",main:"img/heroes-main/Corrin_F_DH.png",sprite:"img/sprites/Corrin_F_Starry_Seer_Mini_Unit_Ok.png"}},{name:"Corrin (M) (Divine Harvest)",shortName:"Corrin",title:"Celestial Sorcerer",artist:"argon / Exys Inc.",voice:"Cam Clarke",releaseDate:"Oct 6, 2022",colorType:"Green",weaponType:"Breath",moveType:"Infantry",rarity5:["pool6"],limited: true,assets:{portrait:"img/heroes-portrait/75px-Icon_Portrait_Corrin_M_Celestial_Sorcerer.png",main:"img/heroes-main/Corrin_M_DH.png",sprite:"img/sprites/Corrin_M_Celestial_Sorcerer_Mini_Unit_Ok.png"}},{name:"Phila",title:"Pegasus Master",artist:"Hirooka Masaki (廣岡政樹)",voice:"Nicole Balick",releaseDate:"Oct 17, 2022",colorType:"Blue",weaponType:"Lance",moveType:"Flying",rarity4:["pool1","pool2"],rarity5:["pool1","pool2"],assets:{portrait:"img/heroes-portrait/75px-Icon_Portrait_Phila_Pegasus_Master.png",main:"img/heroes-main/Phila.png",sprite:"img/sprites/Phila_Pegasus_Master_Mini_Unit_Ok.png"},skills:[{name:"Iron Lance",rarity:4},{name:"Steel Lance",rarity:4},{name:"Rein Lance",rarity:4},{name:"Chilling Wind",rarity:4},{name:"Iceberg",rarity:4},{name:"Bonfire",rarity:5},{name:"Brazen Atk/Res 1",rarity:4},{name:"Brazen Atk/Res 2",rarity:4},{name:"Brazen Atk/Res 3",rarity:4},{name:"Pegasus Flight 1",rarity:4},{name:"Pegasus Flight 2",rarity:4},{name:"Pegasus Flight 3",rarity:5}],stats:{level1:{hp:16,atk:9,spd:12,def:4,res:12},level40:{hp:[34,38,41],atk:[34,37,40],spd:[39,42,46],def:[22,26,29],res:[37,40,43]},level1_4:{hp:15,atk:8,spd:12,def:3,res:12},level40_4:{hp:[32,35,38],atk:[31,34,37],spd:[39,42,46],def:[20,23,26],res:[35,38,41]}}},{name:"Gregor",title:"Swell Sword",artist:"Niji Hayashi (ニジハヤシ)",voice:"Paul St. Peter",releaseDate:"Oct 17, 2022",colorType:"Red",weaponType:"Sword",moveType:"Infantry",rarity5:["pool1","pool2"],assets:{portrait:"img/heroes-portrait/75px-Icon_Portrait_Gregor_Swell_Sword.png",main:"img/heroes-main/Gregor.png",sprite:"img/sprites/Gregor_Swell_Sword_Mini_Unit_Ok.png"},skills:[{name:"Iron Sword",rarity:5},{name:"Steel Sword",rarity:5},{name:"Silver Sword",rarity:5},{name:"Blade of Favors",rarity:5},{name:"Glowing Ember",rarity:5},{name:"Bonfire",rarity:5},{name:"Solid Ground 1",rarity:5},{name:"Solid Ground 2",rarity:5},{name:"Solid Ground 3",rarity:5},{name:"Solid Ground 4",rarity:5},{name:"Inf. Null Follow 1",rarity:5},{name:"Inf. Null Follow 2",rarity:5},{name:"Inf. Null Follow 3",rarity:5}],stats:{level1:{hp:18,atk:14,spd:11,def:7,res:4},level40:{hp:[36,40,43],atk:[41,44,48],spd:[34,37,40],def:[40,43,46],res:[20,23,27]}}},{name:"Robin (Rearmed Heroes)",shortName:"Robin",title:"Fell Tactician",artist:"大熊まい",voice:"Lauren Landa",releaseDate:"Oct 17, 2022",colorType:"Neutral",weaponType:"Breath",moveType:"Armored",rarity5:["pool1","pool2"],assets:{portrait:"img/heroes-portrait/75px-Icon_Portrait_Robin_Fell_Tactician.png",main:"img/heroes-main/Robin (Rearmed Heroes).png",sprite:"img/sprites/Robin_Fell_Tactician_Mini_Unit_Ok.png"},skills:[{name:"Fire Breath",rarity:5},{name:"Fire Breath+",rarity:5},{name:"Flametongue	",rarity:5},{name:"Arcane Grima",rarity:5},{name:"Buckler",rarity:5},{name:"Pavise",rarity:5},{name:"Dragonhide",rarity:5},{name:"Hardy Fighter 1",rarity:5},{name:"Hardy Fighter 2",rarity:5},{name:"Hardy Fighter 3",rarity:5},{name:"A/S Near Save 1",rarity:5},{name:"A/S Near Save 2",rarity:5},{name:"A/S Near Save 3",rarity:5}],stats:{level1:{hp:17,atk:11,spd:11,def:9,res:11},level40:{hp:[40,43,46],atk:[38,41,45],spd:[40,44,47],def:[32,35,38],res:[29,33,36]}}},{name:"Eir (Ascended Heroes)",shortName:"Eir",title:"Life Ascendant",artist:"HACCAN",voice:"Xanthe Huynh",releaseDate:"Oct 17, 2022",colorType:"Green",weaponType:"Dagger",moveType:"Cavalry",rarity5:["pool1","pool2"],assets:{portrait:"img/heroes-portrait/75px-Icon_Portrait_Eir_Life_Ascendant.png",main:"img/heroes-main/Eir (Ascended Heroes).png",sprite:"img/sprites/Eir_Life_Ascendant_Mini_Unit_Ok.png"},skills:[{name:"Iron Dagger",rarity:5},{name:"Steel Dagger",rarity:5},{name:"Silver Dagger",rarity:5},{name:"Ymir, Everliving",rarity:5},{name:"Dragon Gaze",rarity:5},{name:"Draconic Aura",rarity:5},{name:"Atk/Speed Catch 1",rarity:5},{name:"Atk/Speed Catch 2",rarity:5},{name:"Atk/Speed Catch 3",rarity:5},{name:"Atk/Speed Catch 4",rarity:5},{name:"Mystic Boost 1",rarity:5},{name:"Mystic Boost 2",rarity:5},{name:"Mystic Boost 3",rarity:5},{name:"Mystic Boost 4",rarity:5},{name:"Sparkling Boost",rarity:5}],stats:{level1:{hp:16,atk:12,spd:12,def:3,res:5},level40:{hp:[32,35,39],atk:[39,42,46],spd:[41,45,48],def:[12,16,19],res:[32,35,39]}}},{name:"Abel",title:"The Panther",artist:"Sasashima Suisei (笹島彗星)",voice:"Mick Wingert",releaseDate:"Feb 02, 2017",colorType:"Blue",weaponType:"Lance",moveType:"Cavalry",rarity3:["pool2", "pool6"],rarity4:["pool1","pool2", "pool6"],rarity5:["pool1"],assets:{portrait:"img/heroes-portrait/75px-Icon_Portrait_Abel.png",main:"img/heroes-main/Abel.png",sprite:"img/sprites/Abel_The_Panther_Mini_Unit_Ok.png"},skills:[{name:"Iron Lance",rarity:4},{name:"Steel Lance",rarity:4},{name:"Brave Lance",rarity:4},{name:"Brave Lance+",rarity:5},{name:"Holy Vestments",rarity:4},{name:"Aegis",rarity:4},{name:"HP +3",rarity:4},{name:"HP +4",rarity:4},{name:"HP +5",rarity:5},{name:"Swordbreaker 1",rarity:4},{name:"Swordbreaker 2",rarity:4},{name:"Swordbreaker 3",rarity:4}],stats:{level1:{hp:17,atk:7,spd:8,def:8,res:6},level40:{hp:[35,39,42],atk:[30,33,36],spd:[29,32,35],def:[22,25,28],res:[22,25,29]},level1_4:{hp:16,atk:6,spd:8,def:8,res:5},level40_4:{hp:[33,36,39],atk:[27,30,33],spd:[27,30,33],def:[21,24,27],res:[20,23,26]}}},{{
+   name:"Aelfric",
+   title:"Custodian Monk",
+   releaseDate:"Sep 18, 2021",
+   colorType:"Red",
+   weaponType:"Tome",
+   moveType:"Infantry",
+   rarity4:["pool6"],
+   rarity3:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Aelfric_Custodian_Monk_Face_FC.png",
+     sprite:"img/sprites/Aelfric_Custodian_Monk_Mini_Unit_Ok.png"}
+ },
+  {
     name: "Alfonse",
     title: "Prince of Askr",
     artist: "Kozaki Yusuke (コザキユースケ)",
@@ -31,7 +45,7 @@ for(let n=0;n<t.length;n++)r<=new Date(t[n].releaseDate)||t[n].limited||t[n].ghb
     rarity4: ["pool1", "pool2","pool6"],
     limited: true,
     assets: {
-      portrait: "img/heroes-portrait/75px-Icon_Portrait_Alfonse.png",
+      portrait: "img/heroes-portrait/Alfonse_Prince_of_Askr_Face_FC.png",
       main: "img/heroes-main/Alfonse.png",
       sprite:"img/sprites/Alfonse_Prince_of_Askr_Mini_Unit_Ok.png"
     },
@@ -92,6 +106,35 @@ for(let n=0;n<t.length;n++)r<=new Date(t[n].releaseDate)||t[n].limited||t[n].ghb
       level40: { hp: [ 37, 41, 44 ], atk: [ 32, 35, 38 ], spd: [ 30, 33, 36 ], def: [ 27, 30, 33 ], res: [ 14, 18, 21 ] }
     }
   },
+ {
+   name:"Alfonse (Love of a King)",
+   shortName: "Alfonse",
+   title:"Uplifting Love",
+   releaseDate:"Feb 5, 2021",
+   colorType:"Green",
+   weaponType:"Tome",
+   moveType:"Armored",
+   rarity4:["pool6"],
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Alfonse_Uplifting_Love_Face_FC.png",
+     sprite:"img/sprites/Alfonse_Uplifting_Love_Mini_Unit_Ok.png"}
+ },
+ {
+   name:"Alfonse (Renewed Spirit)",
+   shortName: "Alfonse",
+   title:"Askran Duo",
+   releaseDate:"Jan 1, 2020",
+   colorType:"Blue",
+   weaponType:"Tome",
+   moveType:"Infantry",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Alfonse_Askran_Duo_Face_FC.png",
+     sprite:"img/sprites/Alfonse_Askran_Duo_Mini_Unit_Ok.png"}
+ },
   {
     name: "Alm",
     title: "Hero of Prophecy",
@@ -128,6 +171,87 @@ for(let n=0;n<t.length;n++)r<=new Date(t[n].releaseDate)||t[n].limited||t[n].ghb
     }
   },
   {
+   name:"Alm (Brave Echoes)",
+   shortName: "Alm",
+   title:"Imperial Ascent",
+   releaseDate:"Aug 16, 2019",
+   colorType:"Blue",
+   weaponType:"Tome",
+   moveType:"Infantry",
+   rarity4s:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/Alm_Imperial_Ascent_Face_FC.png",
+     sprite:"img/sprites/Alm_Imperial_Ascent_Mini_Unit_Ok.png"}
+ },
+ {
+   name:"Alm (Lovely Gifts)",
+   shortName: "Alm",
+   title:"Lovebird Duo",
+   releaseDate:"Feb 6, 2020",
+   colorType:"Green",
+   weaponType:"Axe",
+   moveType:"Infantry",
+   rarity5:["pool6"],
+   linited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Alm_Lovebird_Duo_Face_FC.png",
+     sprite:"img/sprites/Alm_Lovebird_Duo_Mini_Unit_Ok.png"}
+ },
+  {
+   name:"Alm (Legendary Heroes)",
+   shortName: "Alm",
+   title:"Saint-King",
+   releaseDate:"Apr 27, 2019",
+   colorType:"Neutral",
+   weaponType:"Bow",
+   moveType:"Infantry",
+   rarity5:["pool6"],
+   linited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Alm_Saint-King_Face_FC.png",
+     sprite:"img/sprites/Alm_Saint-King_Mini_Unit_Ok.png"}
+ },
+  {
+   name:"Altena",
+   title:"Luminous Rider",
+   releaseDate:"Jan 9, 2020",
+   colorType:"Blue",
+   weaponType:"Lance",
+   moveType:"Flying",
+   rarity3:["pool6"],
+   rarity4:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/Altena_Luminous_Rider_Face_FC.png",
+     sprite:"img/sprites/Altena_Luminous_Rider_Mini_Unit_Ok.png"}
+ },
+  {
+   name:"Altina",
+   title:"Dawn's Trueblade",
+   releaseDate:"Nov 28, 2020",
+   colorType:"Red",
+   weaponType:"Sword",
+   moveType:"Flying",
+   rarity5:["pool6"],
+    limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Altina_Dawns_Trueblade_Face_FC.png",
+     sprite:"img/sprites/Altina_Dawns_Trueblade_Mini_Unit_Ok.png"}
+ },
+  {
+   name:"Altina (A Festival Miracle)",
+   shortName: "Altina",
+   title:"Cross-Time Duo",
+   releaseDate:"Dec 17, 2020",
+   colorType:"Red",
+   weaponType:"Sword",
+   moveType:"Flying",
+   rarity5:["pool6"],
+    limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Altina_Cross-Time_Duo_Face_FC.png",
+     sprite:"img/sprites/Altina_Cross-Time_Duo_Mini_Unit_Ok.png"}
+ },
+  {
     name: "Amelia",
     title: "Rose of the War",
     artist: "Amagaitaro (アマガイタロー)",
@@ -139,7 +263,7 @@ for(let n=0;n<t.length;n++)r<=new Date(t[n].releaseDate)||t[n].limited||t[n].ghb
     rarity4s: ["pool6"],
     rarity5: ["pool1", "pool2"],
     assets: {
-      portrait: "img/heroes-portrait/75px-Icon_Portrait_Amelia.png",
+      portrait: "img/heroes-portrait/Amelia_Rose_of_the_War_Face_FC.png",
       main: "img/heroes-main/Amelia.png",
       sprite:"img/sprites/Amelia_Rose_of_the_War_Mini_Unit_Ok.png"
     },
@@ -177,7 +301,7 @@ for(let n=0;n<t.length;n++)r<=new Date(t[n].releaseDate)||t[n].limited||t[n].ghb
     rarity4: ["pool1", "pool2","pool6"],
     limited: true,
     assets: {
-      portrait: "img/heroes-portrait/75px-Icon_Portrait_Anna.png",
+      portrait: "img/heroes-portrait/Anna_Commander_Face_FC.png",
       main: "img/heroes-main/Anna.png",
       sprite:"img/sprites/Anna_Commander_Mini_Unit_Ok.png"
     },
@@ -203,6 +327,57 @@ for(let n=0;n<t.length;n++)r<=new Date(t[n].releaseDate)||t[n].limited||t[n].ghb
     }
   },
   {
+   name:"Anna (FE13)",
+   shortName: "Anna",
+   title:"Secret Seller",
+   releaseDate:"Jun 5, 2020",
+   colorType:"Blue",
+   weaponType:"Lance",
+   moveType:"Infantry",
+   rarity5:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/Anna_Secret_Seller_Face_FC.png",
+     sprite:"img/sprites/Anna_Secret_Seller_Mini_Unit_Ok.png"}
+ },
+  {
+   name:"Anna (Renewed Spirit)",
+   shortName: "Anna",
+   title:"Wealth-Wisher",
+   releaseDate:"Jan 1, 2020",
+   colorType:"Red",
+   weaponType:"Bow",
+   moveType:"Infantry",
+   rarity5:["pool6"],
+    limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Anna_Wealth-Wisher_Face_FC.png",
+     sprite:"img/sprites/Anna_Wealth-Wisher_Mini_Unit_Ok.png"}
+ },
+  {
+   name:"Annand",
+   title:"Knight-Defender",
+   releaseDate:"Feb 16, 2021",
+   colorType:"Red",
+   weaponType:"Sword",
+   moveType:"Flying",
+   rarity5:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/Annand_Knight-Defender_Face_FC.png",
+     sprite:"img/sprites/Annand_Knight-Defender_Mini_Unit_Ok.png"}
+ },
+ {
+   name:"Annette",
+   title:"Overachiever",
+   releaseDate:"Mar 6, 2020",
+   colorType:"Green",
+   weaponType:"Axe",
+   moveType:"Infantry",
+   rarity5:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/Annette_Overachiever_Face_FC.png",
+     sprite:"img/sprites/Annette_Overachiever_Mini_Unit_Ok.png"}
+ },
+  {
     name: "Arden",
     title: "Strong and Tough",
     artist: "Soeda Ippei (添田一平)",
@@ -215,7 +390,7 @@ for(let n=0;n<t.length;n++)r<=new Date(t[n].releaseDate)||t[n].limited||t[n].ghb
     rarity5: ["pool1", "pool2","pool6"],
     ttReward: true,
     assets: {
-      portrait: "img/heroes-portrait/75px-Icon_Portrait_Arden.png",
+      portrait: "img/heroes-portrait/Arden_Strong_and_Tough_Face_FC.png",
       main: "img/heroes-main/Arden.png",
       sprite:"img/sprites/Arden_Strong_and_Tough_Mini_Unit_Ok.png"
     },
@@ -276,6 +451,20 @@ for(let n=0;n<t.length;n++)r<=new Date(t[n].releaseDate)||t[n].limited||t[n].ghb
     }
   },
   {
+   name:"Arete",
+   title:"Requiem's Beauty",
+   releaseDate:"Jul 20, 2021",
+   colorType:"Red",
+   weaponType:"Tome",
+   moveType:"Cavalry",
+   rarity3:["pool6"],
+   rarity4:["pool6"],
+   ghb: true,
+   assets:{
+     portrait:"img/heroes-portrait/Arete_Requiems_Beauty_Face_FC.png",
+     sprite:"img/sprites/Arete_Requiems_Beauty_Mini_Unit_Ok.png"}
+ },
+  {
     name: "Arthur",
     title: "Hapless Hero",
     artist: "Mendako (メンダコ)  / INTELLIGENT SYSTEMS",
@@ -312,6 +501,20 @@ for(let n=0;n<t.length;n++)r<=new Date(t[n].releaseDate)||t[n].limited||t[n].ghb
     }
   },
   {
+   name:"Artur (Winter Dreamland)",
+   shortName: "Artur",
+   title:"Silver Saint",
+   releaseDate:"Dec 16, 2021",
+   colorType:"Green",
+   weaponType:"Tome",
+   moveType:"Armored",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Artur_Silver_Saint_Face_FC.png",
+     sprite:"img/sprites/Artur_Silver_Saint_Mini_Unit_Ok.png"}
+ },
+  {
     name: "Arvis",
     title: "Emperor of Flame",
     artist: "Teita (悌太)",
@@ -347,6 +550,111 @@ for(let n=0;n<t.length;n++)r<=new Date(t[n].releaseDate)||t[n].limited||t[n].ghb
       level40_4: { hp: [ 28, 31, 34 ], atk: [ 29, 32, 35 ], spd: [ 26, 29, 32 ], def: [ 12, 15, 18 ], res: [ 27, 30, 33 ] }
     }
   },
+  {
+   name:"Asbel",
+   title:"Windswept Youth",
+   releaseDate:"Jan 8, 2021",
+   colorType:"Green",
+   weaponType:"Tome",
+   moveType:"Infantry",
+   rarity5:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/Asbel_Windswept_Youth_Face_FC.png",
+     sprite:"img/sprites/Asbel_Windswept_Youth_Mini_Unit_Ok.png"}
+ },
+  {
+   name:"Ash",
+   title:"Retainer to Askr",
+   releaseDate:"Dec 7, 2021",
+   colorType:"Neutral",
+   weaponType:"Beast",
+   moveType:"Infantry",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Ash_Retainer_to_Askr_Face_FC.png",
+     sprite:"img/sprites/Ash_Retainer_to_Askr_Mini_Unit_Ok.png"}
+ },
+ {
+   name:"Ashe (Summer Vibrance)",
+   shortName: "Ashe",
+   title:"Fabled Sea Knight",
+   releaseDate:"Jul 21, 2021",
+   colorType:"Blue",
+   weaponType:"Lance",
+   moveType:"Cavalry",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Ashe_Fabled_Sea_Knight_Face_FC.png",
+     sprite:"img/sprites/Ashe_Fabled_Sea_Knight_Mini_Unit_Ok.png"}
+ },
+ {
+   name:"Ashera",
+   title:"Order Goddess",
+   releaseDate:"May 31, 2021",
+   colorType:"Neutral",
+   weaponType:"Tome",
+   moveType:"Infantry",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Ashera_Order_Goddess_Face_FC.png",
+     sprite:"img/sprites/Ashera_Order_Goddess_Mini_Unit_Ok.png"}
+ },
+ {
+   name:"Ashnard",
+   title:"Mad King",
+   releaseDate:"May 9, 2020",
+   colorType:"Red",
+   weaponType:"Sword",
+   moveType:"Flying",
+   rarity3:["pool6"],
+   rarity4:["pool6"],
+   ghb: true,
+   assets:{
+     portrait:"img/heroes-portrait/Ashnard_Mad_King_Face_FC.png",
+     sprite:"img/sprites/Ashnard_Mad_King_Mini_Unit_Ok.png"}
+ },
+ {
+   name:"Askr",
+   title:"God of Openness",
+   releaseDate:"Jul 26, 2022",
+   colorType:"Neutral",
+   weaponType:"Beast",
+   moveType:"Infantry",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Askr_God_of_Openness_Face_FC.png",
+     sprite:"img/sprites/Askr_God_of_Openness_Mini_Unit_Ok.png"}
+ },
+ {
+   name:"Astram",
+   title:"Midia's Hero",
+   releaseDate:"Sep 23, 2019",
+   colorType:"Red",
+   weaponType:"Sword",
+   moveType:"Infantry",
+   rarity3:["pool6"],
+   rarity4:["pool6"],
+   ghb: true,
+   assets:{
+     portrait:"img/heroes-portrait/Astram_Midias_Hero_Face_FC.png",
+     sprite:"img/sprites/Astram_Midias_Hero_Mini_Unit_Ok.png"}
+ },
+   {
+   name:"Astrid",
+   title:"Resolute Damsel",
+   releaseDate:"Nov 17, 2021",
+   colorType:"Green",
+   weaponType:"Bow",
+   moveType:"Cavalry",
+   rarity5:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/Astrid_Resolute_Damsel_Face_FC.png",
+     sprite:"img/sprites/Astrid_Resolute_Damsel_Mini_Unit_Ok.png"}
+ },
   {
     name: "Athena",
     title: "Borderland Sword",
@@ -385,6 +693,19 @@ for(let n=0;n<t.length;n++)r<=new Date(t[n].releaseDate)||t[n].limited||t[n].ghb
       level40_4: { hp: [ 31, 34, 37 ], atk: [ 25, 28, 31 ], spd: [ 33, 36, 39 ], def: [ 23, 26, 29 ], res: [ 19, 22, 25 ] }
     }
   },
+  {
+   name:"Atlas",
+   title:"Forest Muscle",
+   releaseDate:"Jul 19, 2022",
+   colorType:"Green",
+   weaponType:"Axe",
+   moveType:"Infantry",
+   rarity3:["pool6"],
+   rarity4:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/Atlas_Forest_Muscle_Face_FC.png",
+     sprite:"img/sprites/Atlas_Forest_Muscle_Mini_Unit_Ok.png"}
+ },
   {
     name: "Aversa",
     title: "Dark One",
@@ -494,6 +815,18 @@ for(let n=0;n<t.length;n++)r<=new Date(t[n].releaseDate)||t[n].limited||t[n].ghb
       level40_4: { hp: [ 37, 40, 43 ], atk: [ 16, 19, 22 ], spd: [ 22, 25, 28 ], def: [ 27, 30, 33 ], res: [ 20, 23, 26 ] }
     }
   },
+ {
+   name:"Azelle",
+   title:"Youthful Flame",
+   releaseDate:"Feb 16, 2021",
+   colorType:"Red",
+   weaponType:"Tome",
+   moveType:"Infantry",
+   rarity5:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/Azelle_Youthful_Flame_Face_FC.png",
+     sprite:"img/sprites/Azelle_Youthful_Flame_Mini_Unit_Ok.png"}
+ },
   {
     name: "Azura",
     title: "Lady of the Lake",
@@ -678,6 +1011,33 @@ for(let n=0;n<t.length;n++)r<=new Date(t[n].releaseDate)||t[n].limited||t[n].ghb
     }
   },
   {
+   name:"Azura (Of Lost Kingdoms)",
+   shortName: "Azura",
+   title:"Hatari Duet",
+   releaseDate:"Jan 17, 2022",
+   colorType:"Green",
+   weaponType:"Tome",
+   moveType:"Cavalry",
+   rarity5:["pool6"],
+    limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Azura_Hatari_Duet_Face_FC.png",
+     sprite:"img/sprites/Azura_Hatari_Duet_Mini_Unit_Ok.png"}
+ },
+ {
+   name:"Bantu",
+   title:"Tiki's Guardian",
+   releaseDate:"Sep 19, 2019",
+   colorType:"Red",
+   weaponType:"Breath",
+   moveType:"Infantry",
+   rarity3:["pool6"],
+   rarity4:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/Bantu_Tikis_Guardian_Face_FC.png",
+     sprite:"img/sprites/Bantu_Tikis_Guardian_Mini_Unit_Ok.png"}
+ },
+  {
     name: "Barst",
     title: "The Hatchet",
     artist: "Wada Sachiko (ワダサチコ)",
@@ -749,6 +1109,48 @@ for(let n=0;n<t.length;n++)r<=new Date(t[n].releaseDate)||t[n].limited||t[n].ghb
     }
   },
   {
+   name:"Bartre (Familial Festivities)",
+   shortName: "Bartre",
+   title:"Earsome Warrior",
+   releaseDate:"Mar 20, 2020",
+   colorType:"Red",
+   weaponType:"Sword",
+   moveType:"Infantry",
+   rarity4:["pool6"],
+   rarity5:["pool6"],
+   ghb: true,
+   assets:{
+     portrait:"img/heroes-portrait/Bartre_Earsome_Warrior_Face_FC.png",
+     sprite:"img/sprites/Bartre_Earsome_Warrior_Mini_Unit_Ok.png"}
+ },
+ {
+   name:"Basilio",
+   title:"Feroxi West-Khan",
+   releaseDate:"Dec 7, 2021",
+   colorType:"Green",
+   weaponType:"Axe",
+   moveType:"Infantry",
+   rarity3:["pool6"],
+   rarity4:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/Basilio_Feroxi_West-Khan_Face_FC.png",
+     sprite:"img/sprites/Basilio_Feroxi_West-Khan_Mini_Unit_Ok.png"}
+ },
+ {
+   name:"Benny",
+   title:"Sensitive Soul",
+   releaseDate:"Jul 19, 2021",
+   colorType:"Blue",
+   weaponType:"Lance",
+   moveType:"Armored",
+   rarity3:["pool6"],
+   rarity4:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/Benny_Sensitive_Soul_Face_FC.png",
+     sprite:"img/sprites/Benny_Sensitive_Soul_Mini_Unit_Ok.png"}
+ },
+  
+  {
     name: "Berkut",
     title: "Prideful Prince",
     artist: "Asatani Tomoyo (麻谷知世)",
@@ -787,6 +1189,59 @@ for(let n=0;n<t.length;n++)r<=new Date(t[n].releaseDate)||t[n].limited||t[n].ghb
     }
   },
   {
+   name:"Berkut (Darkness Within)",
+   shortName: "Berkut",
+   title:"Purgatorial Prince",
+   releaseDate:"May 10, 2019",
+   colorType:"Blue",
+   weaponType:"Lance",
+   moveType:"Cavalry",
+   rarity4s:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/Berkut_Purgatorial_Prince_Face_FC.png",
+     sprite:"img/sprites/Berkut_Purgatorial_Prince_Mini_Unit_Ok.png"}
+ },
+ {
+   name:"Bernadetta",
+   title:"Eternal Loner",
+   releaseDate:"Mar 6, 2020",
+   colorType:"Neutral",
+   weaponType:"Bow",
+   moveType:"Cavalry",
+   rarity5:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/Bernadetta_Eternal_Loner_Face_FC.png",
+     sprite:"img/sprites/Bernadetta_Eternal_Loner_Mini_Unit_Ok.png"}
+ },
+ {
+   name:"Bernadetta (A Festival Miracle)",
+   shortName: "Bernadetta",
+   title:"Frosty Shut-In",
+   releaseDate:"Dec 17, 2020",
+   colorType:"Green",
+   weaponType:"Tome",
+   moveType:"Cavalry",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Bernadetta_Frosty_Shut-In_Face_FC.png",
+     sprite:"img/sprites/Bernadetta_Frosty_Shut-In_Mini_Unit_Ok.png"}
+ },
+ {
+   name:"Bertram",
+   title:"Dread Cavalier",
+   releaseDate:"Nov 18, 2021",
+   colorType:"Red",
+   weaponType:"Sword",
+   moveType:"Cavalry",
+   rarity3:["pool6"],
+   rarity4:["pool6"],
+   ghb: true,
+   assets:{
+     portrait:"img/heroes-portrait/Bertram_Dread_Cavalier_Face_FC.png",
+     sprite:"img/sprites/Bertram_Dread_Cavalier_Mini_Unit_Ok.png"}
+ },
+  {
     name: "Beruka",
     title: "Quiet Assassin",
     artist: "lack",
@@ -800,7 +1255,7 @@ for(let n=0;n<t.length;n++)r<=new Date(t[n].releaseDate)||t[n].limited||t[n].ghb
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Beruka.png",
       main: "img/heroes-main/Beruka.png",
-      sprite:"img/sprites/Beruka_Quiet_Assassin_Mini_Unit_Ok.png"
+      sprite:"img/sprites/Beruka_Quiet_Assassin_Mini_Unit_Ok.png:
     },
     skills: [
       { name: "Iron Axe", rarity: 3 },
@@ -820,7 +1275,8 @@ for(let n=0;n<t.length;n++)r<=new Date(t[n].releaseDate)||t[n].limited||t[n].ghb
       level1_4: { hp: 19, atk: 7, spd: 5, def: 9, res: 4 },
       level40_4: { hp: [ 40, 43, 46 ], atk: [ 24, 27, 30 ], spd: [ 18, 21, 24 ], def: [ 32, 35, 38 ], res: [ 17, 20, 23 ] }
     }
-  },{
+  },
+  {
     name: "Black Knight",
     title: "Sinister General",
     artist: "Daisuke Izuka",
@@ -898,6 +1354,184 @@ for(let n=0;n<t.length;n++)r<=new Date(t[n].releaseDate)||t[n].limited||t[n].ghb
     }
   },
   {
+   name:"Boyd (Unlikely Friends)",
+   shortName: "Boyd",
+   title:"Future Great",
+   releaseDate:"Apr 7, 2022",
+   colorType:"Green",
+   weaponType:"Axe",
+   moveType:"Infantry",
+   rarity4:["pool6"],
+   rarity5:["pool6"],
+   ttReward: true,
+   assets:{
+     portrait:"img/heroes-portrait/Boyd_Future_Great_Face_FC.png",
+     sprite:"img/sprites/Boyd_Future_Great_Mini_Unit_Ok.png"}
+ },
+  {
+   name:"Brady",
+   title:"Daunting Priest",
+   releaseDate:"Jun 11, 2019",
+   colorType:"Neutral",
+   weaponType:"Staff",
+   moveType:"Infantry",
+   rarity3:["pool6"],
+   rarity4:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/Brady_Daunting_Priest_Face_FC.png",
+     sprite:"img/sprites/Brady_Daunting_Priest_Mini_Unit_Ok.png"}
+ },
+  {
+   name:"Bramimond",
+   title:"The Enigma",
+   releaseDate:"Mar 31, 2020",
+   colorType:"Neutral",
+   weaponType:"Tome",
+   moveType:"Infantry",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Bramimond_The_Enigma_Face_FC.png",
+     sprite:"img/sprites/Bramimond_The_Enigma_Mini_Unit_Ok.png"}
+ },
+ {
+   name:"Brigand Boss",
+   title:"Known Criminal",
+   releaseDate:"Jul 20, 2022",
+   colorType:"Green",
+   weaponType:"Axe",
+   moveType:"Infantry",
+   rarity3:["pool6"],
+   rarity4:["pool6"],
+   ghb: true,
+   assets:{
+     portrait:"img/heroes-portrait/Brigand_Boss_Known_Criminal_Face_FC.png",
+     sprite:"img/sprites/Brigand_Boss_Known_Criminal_Mini_Unit_Ok.png"}
+ },
+ {
+   name:"Brigid (Pirate's Pride)",
+   shortName: "Brigid",
+   title:"Orgahil Pirate",
+   releaseDate:"Aug 7, 2020",
+   colorType:"Red",
+   weaponType:"Bow",
+   moveType:"Infantry",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Brigid_Orgahil_Pirate_Face_FC.png",
+     sprite:"img/sprites/Brigid_Orgahil_Pirate_Mini_Unit_Ok.png"}
+ },
+  {
+   name:"Brunnya",
+   title:"Devoted General",
+   releaseDate:"Nov 22, 2019",
+   colorType:"Blue",
+   weaponType:"Tome",
+   moveType:"Infantry",
+   rarity4:["pool6"],
+   rarity5:["pool6"],
+   ttReward: true,
+   assets:{
+     portrait:"img/heroes-portrait/Brunnya_Devoted_General_Face_FC.png",
+     sprite:"img/sprites/Brunnya_Devoted_General_Mini_Unit_Ok.png"}
+ },
+ {
+   name:"Bruno (Regal Rabbits)",
+   shortName: "Bruno",
+   title:"Masked Hare",
+   releaseDate:"Mar 19, 2019",
+   colorType:"Neutral",
+   weaponType:"Staff",
+   moveType:"Cavalry",
+   rarity4ss:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Bruno_Masked_Hare_Face_FC.png",
+     sprite:"img/sprites/Bruno_Masked_Hare_Mini_Unit_Ok.png"}
+ },
+  {
+   name:"Byleth (F)",
+   shortName: "Byleth",
+   title:"Proven Professor",
+   releaseDate:"Jul 22, 2019",
+   colorType:"Red",
+   weaponType:"Sword",
+   moveType:"Infantry",
+   rarity4s:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/Byleth_Proven_Professor_Face_FC.png",
+     sprite:"img/sprites/Byleth_Proven_Professor_Mini_Unit_Ok.png"}
+ },
+ {
+   name:"Byleth (F) (Overseas Memories)",
+   shortName: "Byleth",
+   title:"Fell Star's Duo",
+   releaseDate:"Jul 8, 2020",
+   colorType:"Red",
+   weaponType:"Tome",
+   moveType:"Flying",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Byleth_Fell_Stars_Duo_Face_FC.png",
+     sprite:"img/sprites/Byleth_Fell_Stars_Duo_Mini_Unit_Ok.png"}
+ },
+ {
+   name:"Byleth (F) (Legendary Heroes)",
+   shortName: "Byleth",
+   title:"The Fódlan Light",
+   releaseDate:"Dec 24, 2021",
+   colorType:"Blue",
+   weaponType:"Tome",
+   moveType:"Infantry",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Byleth_The_Fodlan_Light_Face_FC.png",
+     sprite:"img/sprites/Byleth_The_Fodlan_Light_Mini_Unit_Ok.png"}
+ },
+ {
+   name:"Byleth (F) (Weave of Fate)",
+   shortName: "Byleth",
+   title:"Sublime Light",
+   releaseDate:"Sug 17, 2022",
+   colorType:"Neutral",
+   weaponType:"Tome",
+   moveType:"Flying",
+   rarity5:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/Byleth_Sublime_Light_Face_FC.png",
+     sprite:"img/sprites/Byleth_Sublime_Light_Mini_Unit_Ok.png"}
+ },
+ {
+   name:"Byleth (M)",
+   shortName: "Byleth",
+   title:"Tested Professor",
+   releaseDate:"Jul 26, 2019",
+   colorType:"Red",
+   weaponType:"Sword",
+   moveType:"Infantry",
+   rarity4s:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/Byleth_Tested_Professor_Face_FC.png",
+     sprite:"img/sprites/Byleth_Tested_Professor_Mini_Unit_Ok.png"}
+ },
+  {
+   name:"Byleth (M) (Legendary Heroes)",
+   shortName: "Byleth",
+   title:"The Fódlan Star",
+   releaseDate:"Jun 30, 2021",
+   colorType:"Green",
+   weaponType:"Tome",
+   moveType:"Infantry",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Byleth_The_Fodlan_Star_Face_FC.png",
+     sprite:"img/sprites/Byleth_The_Fodlan_Star_Mini_Unit_Ok.png"}
+ },
+  {
     name: "Caeda",
     title: "Talys's Heart",
     artist: "HAKO (羽公)",
@@ -973,6 +1607,62 @@ for(let n=0;n<t.length;n++)r<=new Date(t[n].releaseDate)||t[n].limited||t[n].ghb
     }
   },
   {
+   name:"Caeda (The Start of It All)",
+   shortName: "Caeda",
+   title:"Princess of Talys",
+   releaseDate:"Apr 20, 2020",
+   colorType:"Red",
+   weaponType:"Sword",
+   moveType:"Cavalry",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Caeda_Princess_of_Talys_Face_FC.png",
+     sprite:"img/sprites/Caeda_Princess_of_Talys_Mini_Unit_Ok.png"}
+ },
+   {
+   name:"Caeda (Summer's Dream)",
+   shortName: "Caeda",
+   title:"Sea-Blossom Pair",
+   releaseDate:"Jul 7, 2021",
+   colorType:"Green",
+   weaponType:"Axe",
+   moveType:"Cavalry",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Caeda_Sea-Blossom_Pair_Face_FC.png",
+     sprite:"img/sprites/Caeda_Sea-Blossom_Pair_Mini_Unit_Ok.png"}
+ },
+ {
+   name:"Caeda (Legendary Heroes)",
+   shortName: "Caeda",
+   title:"Beloved Queen",
+   releaseDate:"Feb 28, 2022",
+   colorType:"Blue",
+   weaponType:"Lance",
+   moveType:"Flying",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Caeda_Beloved_Queen_Face_FC.png",
+     sprite:"img/sprites/Caeda_Beloved_Queen_Mini_Unit_Ok.png"}
+ },
+  {
+   name:"Caellach",
+   title:"Tiger Eye",
+   releaseDate:"Dec 8, 2020",
+   colorType:"Green",
+   weaponType:"Axe",
+   moveType:"Infantry",
+   rarity3:["pool6"],
+   rarity4:["pool6"],
+   ghb: true,
+   assets:{
+     portrait:"img/heroes-portrait/Caellach_Tiger_Eye_Face_FC.png",
+     sprite:"img/sprites/Caellach_Tiger_Eye_Mini_Unit_Ok.png"}
+ },
+  {
     name: "Cain",
     title: "The Bull",
     artist: "Meka (めか)",
@@ -1010,6 +1700,18 @@ for(let n=0;n<t.length;n++)r<=new Date(t[n].releaseDate)||t[n].limited||t[n].ghb
       level40_4: { hp: [ 36, 39, 42 ], atk: [ 27, 30, 33 ], spd: [ 26, 29, 32 ], def: [ 23, 26, 29 ], res: [ 16, 19, 22 ] }
     }
   },
+  {
+   name:"Caineghis",
+   title:"Gallia's Lion King",
+   releaseDate:"Apr 10, 2019",
+   colorType:"Neutral",
+   weaponType:"Beast",
+   moveType:"Armored",
+   rarity4s:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/Caineghis_Gallias_Lion_King_Face_FC.png",
+     sprite:"img/sprites/Caineghis_Gallias_Lion_King_Mini_Unit_Ok.png"}
+ },
   {
     name: "Camilla",
     title: "Bewitching Beauty",
@@ -1236,6 +1938,19 @@ for(let n=0;n<t.length;n++)r<=new Date(t[n].releaseDate)||t[n].limited||t[n].ghb
       level40: { hp: [ 35, 39, 42 ], atk: [ 30, 33, 36 ], spd: [ 33, 36, 39 ], def: [ 20, 23, 26 ], res: [ 16, 19, 22 ] }
     }
   },
+   {
+   name:"Camilla (Brave Echoes)",
+   shortName: "Camilla",
+   title:"Light of Nohr",
+   releaseDate:"Aug 16, 2019",
+   colorType:"Neutral",
+   weaponType:"Staff",
+   moveType:"Flying",
+   rarity4s:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/Camilla_Light_of_Nohr_Face_FC.png",
+     sprite:"img/sprites/Camilla_Light_of_Nohr_Mini_Unit_Ok.png"}
+ },
   {
     name: "Camus",
     title: "Sable Knight",
@@ -1309,6 +2024,60 @@ for(let n=0;n<t.length;n++)r<=new Date(t[n].releaseDate)||t[n].limited||t[n].ghb
       level40_4: { hp: [ 31, 34, 37 ], atk: [ 27, 30, 33 ], spd: [ 23, 26, 29 ], def: [ 16, 19, 22 ], res: [ 28, 31, 34 ] }
     }
   },
+  {
+   name:"Caspar (Summer Vibrance)",
+   shortName: "Caspar",
+   title:"Summer Intensity",
+   releaseDate:"Jun 21, 2021",
+   colorType:"Green",
+   weaponType:"Axe",
+   moveType:"Infantry",
+   rarity4:["pool6"],
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Caspar_Summer_Intensity_Face_FC.png",
+     sprite:"img/sprites/Caspar_Summer_Intensity_Mini_Unit_Ok.png"}
+ },
+ {
+   name:"Cath",
+   title:"Master Thief",
+   releaseDate:"Feb 18, 2022",
+   colorType:"Green",
+   weaponType:"Dagger",
+   moveType:"Infantry",
+   rarity3:["pool6"],
+   rarity4:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/Cath_Master_Thief_Face_FC.png",
+     sprite:"img/sprites/Cath_Master_Thief_Mini_Unit_Ok.png"}
+ },
+ {
+   name:"Cath (Risk and Reward)",
+   shortName: "Cath",
+   title:"Caper Captain",
+   releaseDate:"Aug 9, 2022",
+   colorType:"Blue",
+   weaponType:"Tome",
+   moveType:"Cavalry",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Cath_Caper_Captain_Face_FC.png",
+     sprite:"img/sprites/Cath_Caper_Captain_Mini_Unit_Ok.png"}
+ },
+ {
+   name:"Catherine",
+   title:"Thunder Knight",
+   releaseDate:"Oct 19, 2020",
+   colorType:"Red",
+   weaponType:"Sword",
+   moveType:"Infantry",
+   rarity5:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/Catherine_Thunder_Knight_Face_FC.png",
+     sprite:"img/sprites/Catherine_Thunder_Knight_Mini_Unit_Ok.png"}
+ },
   {
     name: "Catria",
     title: "Middle Whitewing",
@@ -1385,6 +2154,33 @@ for(let n=0;n<t.length;n++)r<=new Date(t[n].releaseDate)||t[n].limited||t[n].ghb
     }
   },
   {
+   name:"Catria (Zofia's Call)",
+   shortName: "Catria",
+   title:"Mild Middle Sister",
+   releaseDate:"Oct 21, 2019",
+   colorType:"Red",
+   weaponType:"Sword",
+   moveType:"Flying",
+   rarity4s:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/Catria_Mild_Middle_Sister_Face_FC.png",
+     sprite:"img/sprites/Catria_Mild_Middle_Sister_Mini_Unit_Ok.png"}
+ },
+ {
+   name:"Catria (Bridal Grace)",
+   shortName: "Catria",
+   title:"Azure Wing Pair",
+   releaseDate:"May 20, 2021",
+   colorType:"Green",
+   weaponType:"Axe",
+   moveType:"Flying",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Catria_Azure_Wing_Pair_Face_FC.png",
+     sprite:"img/sprites/Catria_Azure_Wing_Pair_Mini_Unit_Ok.png"}
+ },
+  {
     name: "Cecilia",
     title: "Etrurian General",
     artist: "Kita Senri (北千里)",
@@ -1458,6 +2254,33 @@ for(let n=0;n<t.length;n++)r<=new Date(t[n].releaseDate)||t[n].limited||t[n].ghb
     }
   },
   {
+   name:"Cecilia (Bridal Blossoms)",
+   shortName: "Cecilia",
+   title:"Etrurian Bride",
+   releaseDate:"May 20, 2022",
+   colorType:"Red",
+   weaponType:"Tome",
+   moveType:"Cavalry",
+   rarity4:["pool6"],
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Cecilia_Etrurian_Bride_Face_FC.png",
+     sprite:"img/sprites/Cecilia_Etrurian_Bride_Mini_Unit_Ok.png"}
+ },
+  {
+   name:"Ced",
+   title:"Hero on the Wind",
+   releaseDate:"Jan 9, 2020",
+   colorType:"Green",
+   weaponType:"Tome",
+   moveType:"Infantry",
+   rarity4s:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/Ced_Hero_on_the_Wind_Face_FC.png",
+     sprite:"img/sprites/Ced_Hero_on_the_Wind_Mini_Unit_Ok.png"}
+ },
+  {
     name: "Celica",
     title: "Caring Princess",
     artist: "Fujikawa Akira (藤川祥)",
@@ -1492,7 +2315,7 @@ for(let n=0;n<t.length;n++)r<=new Date(t[n].releaseDate)||t[n].limited||t[n].ghb
       level40: { hp: [ 35, 39, 42 ], atk: [ 29, 32, 35 ], spd: [ 30, 33, 36 ], def: [ 19, 22, 25 ], res: [ 19, 22, 25 ] }
     }
   },
-  {
+    {
     name: "Celica (Arrival of the Brave)",
     shortName: "Celica",
     title: "Warrior Priestess",
@@ -1568,6 +2391,59 @@ for(let n=0;n<t.length;n++)r<=new Date(t[n].releaseDate)||t[n].limited||t[n].ghb
     }
   },
   {
+   name:"Celica (Legendary Heroes)",
+   title:"Queen of Valentia",
+   releaseDate:"Dec 25, 2019",
+   colorType:"Green",
+   weaponType:"Tome",
+   moveType:"Infantry",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Celica_Queen_of_Valentia_Face_FC.png",
+     sprite:"img/sprites/Celica_Queen_of_Valentia_Mini_Unit_Ok.png"}
+ },
+  {
+   name:"Celica (Ascended Heroes)",
+   title:"Valentia's Hope",
+   releaseDate:"Jul 19, 2022",
+   colorType:"Neutral",
+   weaponType:"Tome",
+   moveType:"Infantry",
+   rarity5:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/Celica_Valentias_Hope_Face_FC.png",
+     sprite:"img/sprites/Celica_Valentias_Hope_Mini_Unit_Ok.png"}
+ },
+  {
+   name:"Cervantes",
+   title:"Invincible General",
+   releaseDate:"Oct 18, 2022",
+   colorType:"Blue",
+   weaponType:"Lance",
+   moveType:"Armored",
+   rarity3:["pool6"],
+   rarity4:["pool6"],
+   ghb: true,
+   assets:{
+     portrait:"img/heroes-portrait/Cervantes_Invincible_General_Face_FC.png",
+     sprite:"img/sprites/Cervantes_Invincible_General_Mini_Unit_Ok.png"}
+ },
+ {
+   name:"Chad",
+   title:"Lycian Wildcat",
+   releaseDate:"Nov 19, 2019",
+   colorType:"Neutral",
+   weaponType:"Dagger",
+   moveType:"Infantry",
+   rarity3:["pool6"],
+   rarity4:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/Chad_Lycian_Wildcat_Face_FC.png",
+     sprite:"img/sprites/Chad_Lycian_Wildcat_Mini_Unit_Ok.png"}
+ },
+  
+  {
     name: "Charlotte (Bridal Blessings)",
     shortName: "Charlotte",
     title: "Money Maiden",
@@ -1603,6 +2479,18 @@ for(let n=0;n<t.length;n++)r<=new Date(t[n].releaseDate)||t[n].limited||t[n].ghb
       level40: { hp: [ 43, 46, 49 ], atk: [ 33, 36, 39 ], spd: [ 29, 32, 35 ], def: [ 21, 24, 28 ], res: [ 16, 19, 22 ] }
     }
   },
+  {
+   name:"Charlotte",
+   title:"Wily Warrior",
+   releaseDate:"Jul 19, 2021",
+   colorType:"Green",
+   weaponType:"Axe",
+   moveType:"Infantry",
+   rarity5:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/Charlotte_Wily_Warrior_Face_FC.png",
+     sprite:"img/sprites/Charlotte_Wily_Warrior_Mini_Unit_Ok.png"}
+ },
   {
     name: "Cherche",
     title: "Wyvern Friend",
@@ -1792,6 +2680,47 @@ for(let n=0;n<t.length;n++)r<=new Date(t[n].releaseDate)||t[n].limited||t[n].ghb
     }
   },
   {
+   name:"Chrom (Here With Me)",
+   shortName: "Chrom",
+   title:"Fate-Defying Duo",
+   releaseDate:"Fed 8, 2022",
+   colorType:"Red",
+   weaponType:"Bow",
+   moveType:"Infantry",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Chrom_Fate-Defying_Duo_Face_FC.png",
+     sprite:"img/sprites/Chrom_Fate-Defying_Duo_Mini_Unit_Ok.png"}
+ },
+   {
+   name:"Chrom (Weave of Fate)",
+   shortName: "Chrom",
+   title:"Fated Honor",
+   releaseDate:"Aug 17, 2022",
+   colorType:"Blue",
+   weaponType:"Lance",
+   moveType:"Cavalry",
+   rarity5:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/Chrom_Fated_Honor_Face_FC.png",
+     sprite:"img/sprites/Chrom_Fated_Honor_Mini_Unit_Ok.png"}
+ },
+  {
+   name:"Chrom (Legendary Heroes)",
+   shortName: "Chrom",
+   title:"Crowned Exalt",
+   releaseDate:"Fed 27, 2020",
+   colorType:"Blue",
+   weaponType:"Bow",
+   moveType:"Infantry",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Chrom_Crowned_Exalt_Face_FC.png",
+     sprite:"img/sprites/Chrom_Crowned_Exalt_Mini_Unit_Ok.png"}
+ },
+  {
     name: "Clair",
     title: "Highborn Flier",
     artist: "Takagi Masafumi (高木正文)",
@@ -1862,7 +2791,8 @@ for(let n=0;n<t.length;n++)r<=new Date(t[n].releaseDate)||t[n].limited||t[n].ghb
       level1_4: { hp: 15, atk: 5, spd: 9, def: 4, res: 7 },
       level40_4: { hp: [ 30, 33, 36 ], atk: [ 20, 23, 26 ], spd: [ 28, 31, 34 ], def: [ 17, 20, 23 ], res: [ 24, 27, 30 ] }
     }
-  },{
+  },
+  {
     name: "Clarisse",
     title: "Sniper in the Dark",
     artist: "Yura (由良)",
@@ -1901,6 +2831,45 @@ for(let n=0;n<t.length;n++)r<=new Date(t[n].releaseDate)||t[n].limited||t[n].ghb
     }
   },
   {
+   name:"Claude",
+   title:"The Schemer",
+   releaseDate:"Jul 22, 2019",
+   colorType:"Neutral",
+   weaponType:"Bow",
+   moveType:"Cavalry",
+   rarity4s:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/Claude_The_Schemer_Face_FC.png",
+     sprite:"img/sprites/Claude_The_Schemer_Mini_Unit_Ok.png"}
+ },
+ {
+   name:"Claude (A New Future)",
+   shortName: "Claude",
+   title:"Almyra's King",
+   releaseDate:"Aug 18, 2020",
+   colorType:"Neutral",
+   weaponType:"Bow",
+   moveType:"Flying",
+   rarity5:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/Claude_Almyras_King_Face_FC.png",
+     sprite:"img/sprites/Claude_Almyras_King_Mini_Unit_Ok.png"}
+ },
+  {
+   name:"Claude (Legendary Heroes)",
+   shortName: "Claude",
+   title:"King of Unification",
+   releaseDate:"Feb 26, 2021",
+   colorType:"Neutral",
+   weaponType:"Bow",
+   moveType:"Flying",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Claude_King_of_Unification_Face_FC.png",
+     sprite:"img/sprites/Claude_King_of_Unification_Mini_Unit_Ok.png"}
+ },
+  {
     name: "Clive",
     title: "Idealistic Knight",
     artist: "Tobi",
@@ -1936,6 +2905,60 @@ for(let n=0;n<t.length;n++)r<=new Date(t[n].releaseDate)||t[n].limited||t[n].ghb
       level40_4: { hp: [ 39, 42, 45 ], atk: [ 28, 31, 34 ], spd: [ 20, 23, 26 ], def: [ 27, 30, 33 ], res: [ 14, 17, 20 ] }
     }
   },
+  {
+   name:"Claude (A New Future)",
+   shortName: "Claude",
+   title:"Almyra's King",
+   releaseDate:"Aug 18, 2020",
+   colorType:"Neutral",
+   weaponType:"Bow",
+   moveType:"Flying",
+   rarity5:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/Claude_Almyras_King_Face_FC.png",
+     sprite:"img/sprites/Claude_Almyras_King_Mini_Unit_Ok.png"}
+ },
+ {
+   name:"Colm",
+   title:"Capable Thief",
+   releaseDate:"Jan 6, 2022",
+   colorType:"Blue",
+   weaponType:"Dagger",
+   moveType:"Infantry",
+   rarity3:["pool6"],
+   rarity4:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/Colm_Capable_Thief_Face_FC.png",
+     sprite:"img/sprites/Colm_Capable_Thief_Mini_Unit_Ok.png"}
+ },
+ {
+   name:"Conrad",
+   title:"Masked Knight",
+   releaseDate:"Oct 21, 2019",
+   colorType:"Blue",
+   weaponType:"Lance",
+   moveType:"Cavalry",
+   rarity3:["pool6"],
+   rarity4:["pool6"],
+   ghb: true,
+   assets:{
+     portrait:"img/heroes-portrait/Conrad_Masked_Knight_Face_FC.png",
+     sprite:"img/sprites/Conrad_Masked_Knight_Mini_Unit_Ok.png"}
+ },
+  {
+   name:"Conrad (Lovely Gifts)",
+   title:"Unmasked Knight",
+   releaseDate:"Feb 6, 2020",
+   colorType:"Red",
+   weaponType:"Sword",
+   moveType:"Cavalry",
+   rarity4:["pool6"],
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Conrad_Unmasked_Knight_Face_FC.png",
+     sprite:"img/sprites/Conrad_Unmasked_Knight_Mini_Unit_Ok.png"}
+ },
   {
     name: "Cordelia",
     title: "Knight Paragon",
@@ -2048,6 +3071,20 @@ for(let n=0;n<t.length;n++)r<=new Date(t[n].releaseDate)||t[n].limited||t[n].ghb
       level40: { hp: [ 38, 41, 44 ], atk: [ 29, 32, 35 ], spd: [ 35, 38, 41 ], def: [ 24, 28, 31 ], res: [ 14, 18, 21 ] }
     }
   },
+  {
+   name:"Cormag",
+   title:"Aloof Lanceman",
+   releaseDate:"Nov 11, 2019",
+   colorType:"Blue",
+   weaponType:"Lance",
+   moveType:"Flying",
+   rarity3:["pool6"],
+   rarity4:["pool6"],
+   ghb: true,
+   assets:{
+     portrait:"img/heroes-portrait/Cormag_Aloof_Lanceman_Face_FC.pngg",
+     sprite:"img/sprites/Cormag_Aloof_Lanceman_Mini_Unit_Ok.png"}
+ },
   {
     name: "Corrin (F)",
     shortName: "Corrin",
