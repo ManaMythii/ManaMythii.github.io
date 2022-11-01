@@ -2700,7 +2700,7 @@ module.exports = [
    title:"Thunder Knight",
    releaseDate:"Oct 19, 2020",
    colorType:"Red",
-   weaponType:"Swordr",
+   weaponType:"Sword",
    moveType:"Infantry",
    rarity5:["pool6"],
    assets:{
@@ -2783,6 +2783,33 @@ module.exports = [
     }
   },
   {
+   name:"Catria (Zofia's Call)",
+   shortName: "Catria",
+   title:"Mild Middle Sister",
+   releaseDate:"Oct 21, 2019",
+   colorType:"Red",
+   weaponType:"Sword",
+   moveType:"Flying",
+   rarity4s:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/Catria_Mild_Middle_Sister_Face_FC.png",
+     sprite:"img/sprites/Catria_Mild_Middle_Sister_Mini_Unit_Ok.png"}
+ },
+ {
+   name:"Catria (Bridal Grace)",
+   shortName: "Catria",
+   title:"Azure Wing Pair",
+   releaseDate:"May 20, 2021",
+   colorType:"Green",
+   weaponType:"Axe",
+   moveType:"Flying",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Catria_Azure_Wing_Pair_Face_FC.png",
+     sprite:"img/sprites/Catria_Azure_Wing_Pair_Mini_Unit_Ok.png"}
+ },
+  {
     name: "Cecilia",
     title: "Etrurian General",
     artist: "Kita Senri (北千里)",
@@ -2855,6 +2882,33 @@ module.exports = [
       level40: { hp: [ 38, 41, 44 ], atk: [ 32, 35, 38 ], spd: [ 20, 23, 26 ], def: [ 27, 30, 33 ], res: [ 33, 36, 39 ] }
     }
   },
+  {
+   name:"Cecilia (Bridal Blossoms)",
+   shortName: "Cecilia",
+   title:"Etrurian Bride",
+   releaseDate:"May 20, 2022",
+   colorType:"Red",
+   weaponType:"Tome",
+   moveType:"Cavalry",
+   rarity4:["pool6"],
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Cecilia_Etrurian_Bride_Face_FC.png",
+     sprite:"img/sprites/Cecilia_Etrurian_Bride_Mini_Unit_Ok.png"}
+ },
+  {
+   name:"Ced",
+   title:"Hero on the Wind",
+   releaseDate:"Jan 9, 2020",
+   colorType:"Green",
+   weaponType:"Tome",
+   moveType:"Infantry",
+   rarity4s:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/Ced_Hero_on_the_Wind_Face_FC.png",
+     sprite:"img/sprites/Ced_Hero_on_the_Wind_Mini_Unit_Ok.png"}
+ },
   {
     name: "Celica",
     title: "Caring Princess",
@@ -2966,6 +3020,59 @@ module.exports = [
     }
   },
   {
+   name:"Celica (Legendary Heroes)",
+   title:"Queen of Valentia",
+   releaseDate:"Dec 25, 2019",
+   colorType:"Green",
+   weaponType:"Tome",
+   moveType:"Infantry",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Celica_Queen_of_Valentia_Face_FC.png",
+     sprite:"img/sprites/Celica_Queen_of_Valentia_Mini_Unit_Ok.png"}
+ },
+  {
+   name:"Celica (Ascended Heroes)",
+   title:"Valentia's Hope",
+   releaseDate:"Jul 19, 2022",
+   colorType:"Neutral",
+   weaponType:"Tome",
+   moveType:"Infantry",
+   rarity5:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/Celica_Valentias_Hope_Face_FC.png",
+     sprite:"img/sprites/Celica_Valentias_Hope_Mini_Unit_Ok.png"}
+ },
+  {
+   name:"Cervantes",
+   title:"Invincible General",
+   releaseDate:"Oct 18, 2022",
+   colorType:"Blue",
+   weaponType:"Lance",
+   moveType:"Armored",
+   rarity3:["pool6"],
+   rarity4:["pool6"],
+   ghb: true,
+   assets:{
+     portrait:"img/heroes-portrait/Cervantes_Invincible_General_Face_FC.png",
+     sprite:"img/sprites/Cervantes_Invincible_General_Mini_Unit_Ok.png"}
+ },
+ {
+   name:"Chad",
+   title:"Lycian Wildcat",
+   releaseDate:"Nov 19, 2019",
+   colorType:"Neutral",
+   weaponType:"Dagger",
+   moveType:"Infantry",
+   rarity3:["pool6"],
+   rarity4:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/Chad_Lycian_Wildcat_Face_FC.png",
+     sprite:"img/sprites/Chad_Lycian_Wildcat_Mini_Unit_Ok.png"}
+ },
+  
+  {
     name: "Charlotte (Bridal Blessings)",
     shortName: "Charlotte",
     title: "Money Maiden",
@@ -3001,6 +3108,18 @@ module.exports = [
       level40: { hp: [ 43, 46, 49 ], atk: [ 33, 36, 39 ], spd: [ 29, 32, 35 ], def: [ 21, 24, 28 ], res: [ 16, 19, 22 ] }
     }
   },
+  {
+   name:"Charlotte",
+   title:"Wily Warrior",
+   releaseDate:"Jul 19, 2021",
+   colorType:"Green",
+   weaponType:"Axe",
+   moveType:"Infantry",
+   rarity5:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/Charlotte_Wily_Warrior_Face_FC.png",
+     sprite:"img/sprites/Charlotte_Wily_Warrior_Mini_Unit_Ok.png"}
+ },
   {
     name: "Cherche",
     title: "Wyvern Friend",
@@ -3190,6 +3309,47 @@ module.exports = [
     }
   },
   {
+   name:"Chrom (Here With Me)",
+   shortName: "Chrom",
+   title:"Fate-Defying Duo",
+   releaseDate:"Fed 8, 2022",
+   colorType:"Red",
+   weaponType:"Bow",
+   moveType:"Infantry",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Chrom_Fate-Defying_Duo_Face_FC.png",
+     sprite:"img/sprites/Chrom_Fate-Defying_Duo_Mini_Unit_Ok.png"}
+ },
+   {
+   name:"Chrom (Weave of Fate)",
+   shortName: "Chrom",
+   title:"Fated Honor",
+   releaseDate:"Aug 17, 2022",
+   colorType:"Blue",
+   weaponType:"Lance",
+   moveType:"Cavalry",
+   rarity5:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/Chrom_Fated_Honor_Face_FC.png",
+     sprite:"img/sprites/Chrom_Fated_Honor_Mini_Unit_Ok.png"}
+ },
+  {
+   name:"Chrom (Legendary Heroes)",
+   shortName: "Chrom",
+   title:"Crowned Exalt",
+   releaseDate:"Fed 27, 2020",
+   colorType:"Blue",
+   weaponType:"Bow",
+   moveType:"Infantry",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Chrom_Crowned_Exalt_Face_FC.png",
+     sprite:"img/sprites/Chrom_Crowned_Exalt_Mini_Unit_Ok.png"}
+ },
+  {
     name: "Clair",
     title: "Highborn Flier",
     artist: "Takagi Masafumi (高木正文)",
@@ -3300,6 +3460,45 @@ module.exports = [
     }
   },
   {
+   name:"Claude",
+   title:"The Schemer",
+   releaseDate:"Jul 22, 2019",
+   colorType:"Neutral",
+   weaponType:"Bow",
+   moveType:"Cavalry",
+   rarity4s:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/Claude_The_Schemer_Face_FC.png",
+     sprite:"img/sprites/Claude_The_Schemer_Mini_Unit_Ok.png"}
+ },
+ {
+   name:"Claude (A New Future)",
+   shortName: "Claude",
+   title:"Almyra's King",
+   releaseDate:"Aug 18, 2020",
+   colorType:"Neutral",
+   weaponType:"Bow",
+   moveType:"Flying",
+   rarity5:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/Claude_Almyras_King_Face_FC.png",
+     sprite:"img/sprites/Claude_Almyras_King_Mini_Unit_Ok.png"}
+ },
+  {
+   name:"Claude (Legendary Heroes)",
+   shortName: "Claude",
+   title:"King of Unification",
+   releaseDate:"Feb 26, 2021",
+   colorType:"Neutral",
+   weaponType:"Bow",
+   moveType:"Flying",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Claude_King_of_Unification_Face_FC.png",
+     sprite:"img/sprites/Claude_King_of_Unification_Mini_Unit_Ok.png"}
+ },
+  {
     name: "Clive",
     title: "Idealistic Knight",
     artist: "Tobi",
@@ -3335,6 +3534,60 @@ module.exports = [
       level40_4: { hp: [ 39, 42, 45 ], atk: [ 28, 31, 34 ], spd: [ 20, 23, 26 ], def: [ 27, 30, 33 ], res: [ 14, 17, 20 ] }
     }
   },
+  {
+   name:"Claude (A New Future)",
+   shortName: "Claude",
+   title:"Almyra's King",
+   releaseDate:"Aug 18, 2020",
+   colorType:"Neutral",
+   weaponType:"Bow",
+   moveType:"Flying",
+   rarity5:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/Claude_Almyras_King_Face_FC.png",
+     sprite:"img/sprites/Claude_Almyras_King_Mini_Unit_Ok.png"}
+ },
+ {
+   name:"Colm",
+   title:"Capable Thief",
+   releaseDate:"Jan 6, 2022",
+   colorType:"Blue",
+   weaponType:"Dagger",
+   moveType:"Infantry",
+   rarity3:["pool6"],
+   rarity4:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/Colm_Capable_Thief_Face_FC.png",
+     sprite:"img/sprites/Colm_Capable_Thief_Mini_Unit_Ok.png"}
+ },
+ {
+   name:"Conrad",
+   title:"Masked Knight",
+   releaseDate:"Oct 21, 2019",
+   colorType:"Blue",
+   weaponType:"Lance",
+   moveType:"Cavalry",
+   rarity3:["pool6"],
+   rarity4:["pool6"],
+   ghb: true,
+   assets:{
+     portrait:"img/heroes-portrait/Conrad_Masked_Knight_Face_FC.png",
+     sprite:"img/sprites/Conrad_Masked_Knight_Mini_Unit_Ok.png"}
+ },
+  {
+   name:"Conrad (Lovely Gifts)",
+   title:"Unmasked Knight",
+   releaseDate:"Feb 6, 2020",
+   colorType:"Red",
+   weaponType:"Sword",
+   moveType:"Cavalry",
+   rarity4:["pool6"],
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Conrad_Unmasked_Knight_Face_FC.png",
+     sprite:"img/sprites/Conrad_Unmasked_Knight_Mini_Unit_Ok.png"}
+ },
   {
     name: "Cordelia",
     title: "Knight Paragon",
@@ -3447,6 +3700,20 @@ module.exports = [
       level40: { hp: [ 38, 41, 44 ], atk: [ 29, 32, 35 ], spd: [ 35, 38, 41 ], def: [ 24, 28, 31 ], res: [ 14, 18, 21 ] }
     }
   },
+  {
+   name:"Cormag",
+   title:"Aloof Lanceman",
+   releaseDate:"Nov 11, 2019",
+   colorType:"Blue",
+   weaponType:"Lance",
+   moveType:"Flying",
+   rarity3:["pool6"],
+   rarity4:["pool6"],
+   ghb: true,
+   assets:{
+     portrait:"img/heroes-portrait/Cormag_Aloof_Lanceman_Face_FC.pngg",
+     sprite:"img/sprites/Cormag_Aloof_Lanceman_Mini_Unit_Ok.png"}
+ },
   {
     name: "Corrin (F)",
     shortName: "Corrin",
