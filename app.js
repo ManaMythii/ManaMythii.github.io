@@ -18,6 +18,108 @@ for(let n=0;n<t.length;n++)r<=new Date(t[n].releaseDate)||t[n].limited||t[n].ghb
  },{name:"Wolf",title:"Coyote's Loyal",artist:"sachie (茶ちえ)",voice:"John-Henry Kurtz",releaseDate:"Oct 18, 2021",colorType:"Neutral",weaponType:"Bow",moveType:"Cavalry",rarity5:["pool6"],assets:{portrait:"img/heroes-portrait/75px-Icon_Portrait_Wolf_Coyotes_Loyal.png",main:"img/heroes-main/Wolf.png",sprite:"img/sprites/Wolf_Coyotes_Loyal_Mini_Unit_Ok.png"}},{name:"Tanith",title:"Bright Blade",artist:"Ito Misei (伊藤未生)",voice:"Katelyn Gault",releaseDate:"Nov 17, 2021",colorType:"Red",weaponType:"Sword",moveType:"Flying",rarity3:["pool6"],rarity4:["pool6"],assets:{portrait:"img/heroes-portrait/75px-Icon_Portrait_Tanith_Bright_Blade.png",main:"img/heroes-main/Tanith.png",sprite:"img/sprites/Tanith_Bright_Blade_Mini_Unit_Ok.png"}},{name:"Kent",title:"Crimson Shield",artist:"Takaya Tomohide (たかや友英)",voice:"Beau Bridglandz",releaseDate:"June 8, 2022",colorType:"Red",weaponType:"Sword",moveType:"Cavalry",rarity3:["pool6"],rarity4:["pool6"],assets:{portrait:"img/heroes-portrait/75px-Icon_Portrait_Kent_Crimson_Shield.png",main:"img/heroes-main/Kent.png",sprite:"img/sprites/Kent_Crimson_Shield_Mini_Unit_Ok.png"}
  },{name:"August",title:"Astute Tactician",artist:"Suzuki Rika (鈴木理華)",voice:"Luis Bermudez",releaseDate:"Mar 18, 2022",colorType:"Neutral",weaponType:"Staff",moveType:"Infantry",rarity5:["pool6"],assets:{portrait:"img/heroes-portrait/75px-Icon_Portrait_August_Astute_Tactician.png",main:"img/heroes-main/August.png",sprite:"img/sprites/August_Astute_Tactician_Mini_Unit_Ok.png"}},{name:"Hubert",title:"Sinister Servant",artist:"PenekoR (п猫Ｒ)",voice:"Robbie Daymond",releaseDate:"Aug 7, 2019",colorType:"Red",weaponType:"Tome",moveType:"Infantry",rarity5:["pool6"],assets:{portrait:"img/heroes-portrait/75px-Icon_Portrait_Hubert_Sinister_Servant.png",main:"img/heroes-main/Hubert.png",sprite:"img/sprites/Hubert_Sinister_Servant_Mini_Unit_Ok.png"}},{name:"Selena (FE8)",shortName:"Selena",title:"Fluorspar",artist:"Wada Sachiko (ワダサチコ)",voice:"Tiana Camacho",releaseDate:"Dec 8, 2020",colorType:"Blue",weaponType:"Tome",moveType:"Cavalry",rarity5:["pool6"],assets:{portrait:"img/heroes-portrait/75px-Icon_Portrait_Selena_Fluorspar.png",main:"img/heroes-main/Selena_FE8.png",sprite:"img/sprites/Selena_Fluorspar_Mini_Unit_Ok.png"}
  },{name:"Duma (Divine Harvest)",title:"Strength and Love",shortName:"Duma",artist:"ダイエクスト",voice:"Josh Petersdorf + Monica Rial",releaseDate:"Oct 6, 2022",colorType:"Red",weaponType:"Breath",moveType:"Armored",rarity5:["pool6"],limited: true,assets:{portrait:"img/heroes-portrait/75px-Icon_Portrait_Duma_Strength_and_Love.png",main:"img/heroes-main/Duma_DH.png",sprite:"img/sprites/Duma_Strength_and_Love_Mini_Unit_Ok.png"}},{name:"Naga (Divine Harvest)",shortName:"Naga",title:"Harvest Divinity",artist:"hanusu",voice:"Mela Lee",releaseDate:"Oct 6, 2022",colorType:"Neutral",weaponType:"Breath",moveType:"Flying",rarity5:["pool6"],limited: true,assets:{portrait:"img/heroes-portrait/75px-Icon_Portrait_Naga_Harvest_Divinity.png",main:"img/heroes-main/Naga_DH.png",sprite:"img/sprites/Naga_Harvest_Divinity_Mini_Unit_Ok.png"}},{name:"Corrin (F) (Divine Harvest)",shortName:"Corrin",title:"Starry Seer",artist:"Yoshiro Ambe (あんべよしろう)",voice:"Marcella Lentz-Pope",releaseDate:"Oct 6, 2022",colorType:"Blue",weaponType:"Breath",moveType:"Infantry",rarity5:["pool6"],limited: true,assets:{portrait:"img/heroes-portrait/75px-Icon_Portrait_Corrin_F_Starry_Seer.png",main:"img/heroes-main/Corrin_F_DH.png",sprite:"img/sprites/Corrin_F_Starry_Seer_Mini_Unit_Ok.png"}},{name:"Corrin (M) (Divine Harvest)",shortName:"Corrin",title:"Celestial Sorcerer",artist:"argon / Exys Inc.",voice:"Cam Clarke",releaseDate:"Oct 6, 2022",colorType:"Green",weaponType:"Breath",moveType:"Infantry",rarity5:["pool6"],limited: true,assets:{portrait:"img/heroes-portrait/75px-Icon_Portrait_Corrin_M_Celestial_Sorcerer.png",main:"img/heroes-main/Corrin_M_DH.png",sprite:"img/sprites/Corrin_M_Celestial_Sorcerer_Mini_Unit_Ok.png"}},{name:"Phila",title:"Pegasus Master",artist:"Hirooka Masaki (廣岡政樹)",voice:"Nicole Balick",releaseDate:"Oct 17, 2022",colorType:"Blue",weaponType:"Lance",moveType:"Flying",rarity4:["pool1","pool2"],rarity5:["pool1","pool2"],assets:{portrait:"img/heroes-portrait/75px-Icon_Portrait_Phila_Pegasus_Master.png",main:"img/heroes-main/Phila.png",sprite:"img/sprites/Phila_Pegasus_Master_Mini_Unit_Ok.png"},skills:[{name:"Iron Lance",rarity:4},{name:"Steel Lance",rarity:4},{name:"Rein Lance",rarity:4},{name:"Chilling Wind",rarity:4},{name:"Iceberg",rarity:4},{name:"Bonfire",rarity:5},{name:"Brazen Atk/Res 1",rarity:4},{name:"Brazen Atk/Res 2",rarity:4},{name:"Brazen Atk/Res 3",rarity:4},{name:"Pegasus Flight 1",rarity:4},{name:"Pegasus Flight 2",rarity:4},{name:"Pegasus Flight 3",rarity:5}],stats:{level1:{hp:16,atk:9,spd:12,def:4,res:12},level40:{hp:[34,38,41],atk:[34,37,40],spd:[39,42,46],def:[22,26,29],res:[37,40,43]},level1_4:{hp:15,atk:8,spd:12,def:3,res:12},level40_4:{hp:[32,35,38],atk:[31,34,37],spd:[39,42,46],def:[20,23,26],res:[35,38,41]}}},{name:"Gregor",title:"Swell Sword",artist:"Niji Hayashi (ニジハヤシ)",voice:"Paul St. Peter",releaseDate:"Oct 17, 2022",colorType:"Red",weaponType:"Sword",moveType:"Infantry",rarity5:["pool1","pool2"],assets:{portrait:"img/heroes-portrait/75px-Icon_Portrait_Gregor_Swell_Sword.png",main:"img/heroes-main/Gregor.png",sprite:"img/sprites/Gregor_Swell_Sword_Mini_Unit_Ok.png"},skills:[{name:"Iron Sword",rarity:5},{name:"Steel Sword",rarity:5},{name:"Silver Sword",rarity:5},{name:"Blade of Favors",rarity:5},{name:"Glowing Ember",rarity:5},{name:"Bonfire",rarity:5},{name:"Solid Ground 1",rarity:5},{name:"Solid Ground 2",rarity:5},{name:"Solid Ground 3",rarity:5},{name:"Solid Ground 4",rarity:5},{name:"Inf. Null Follow 1",rarity:5},{name:"Inf. Null Follow 2",rarity:5},{name:"Inf. Null Follow 3",rarity:5}],stats:{level1:{hp:18,atk:14,spd:11,def:7,res:4},level40:{hp:[36,40,43],atk:[41,44,48],spd:[34,37,40],def:[40,43,46],res:[20,23,27]}}},{name:"Robin (Rearmed Heroes)",shortName:"Robin",title:"Fell Tactician",artist:"大熊まい",voice:"Lauren Landa",releaseDate:"Oct 17, 2022",colorType:"Neutral",weaponType:"Breath",moveType:"Armored",rarity5:["pool1","pool2"],assets:{portrait:"img/heroes-portrait/75px-Icon_Portrait_Robin_Fell_Tactician.png",main:"img/heroes-main/Robin (Rearmed Heroes).png",sprite:"img/sprites/Robin_Fell_Tactician_Mini_Unit_Ok.png"},skills:[{name:"Fire Breath",rarity:5},{name:"Fire Breath+",rarity:5},{name:"Flametongue	",rarity:5},{name:"Arcane Grima",rarity:5},{name:"Buckler",rarity:5},{name:"Pavise",rarity:5},{name:"Dragonhide",rarity:5},{name:"Hardy Fighter 1",rarity:5},{name:"Hardy Fighter 2",rarity:5},{name:"Hardy Fighter 3",rarity:5},{name:"A/S Near Save 1",rarity:5},{name:"A/S Near Save 2",rarity:5},{name:"A/S Near Save 3",rarity:5}],stats:{level1:{hp:17,atk:11,spd:11,def:9,res:11},level40:{hp:[40,43,46],atk:[38,41,45],spd:[40,44,47],def:[32,35,38],res:[29,33,36]}}},{name:"Eir (Ascended Heroes)",shortName:"Eir",title:"Life Ascendant",artist:"HACCAN",voice:"Xanthe Huynh",releaseDate:"Oct 17, 2022",colorType:"Green",weaponType:"Dagger",moveType:"Cavalry",rarity5:["pool1","pool2"],assets:{portrait:"img/heroes-portrait/75px-Icon_Portrait_Eir_Life_Ascendant.png",main:"img/heroes-main/Eir (Ascended Heroes).png",sprite:"img/sprites/Eir_Life_Ascendant_Mini_Unit_Ok.png"},skills:[{name:"Iron Dagger",rarity:5},{name:"Steel Dagger",rarity:5},{name:"Silver Dagger",rarity:5},{name:"Ymir, Everliving",rarity:5},{name:"Dragon Gaze",rarity:5},{name:"Draconic Aura",rarity:5},{name:"Atk/Speed Catch 1",rarity:5},{name:"Atk/Speed Catch 2",rarity:5},{name:"Atk/Speed Catch 3",rarity:5},{name:"Atk/Speed Catch 4",rarity:5},{name:"Mystic Boost 1",rarity:5},{name:"Mystic Boost 2",rarity:5},{name:"Mystic Boost 3",rarity:5},{name:"Mystic Boost 4",rarity:5},{name:"Sparkling Boost",rarity:5}],stats:{level1:{hp:16,atk:12,spd:12,def:3,res:5},level40:{hp:[32,35,39],atk:[39,42,46],spd:[41,45,48],def:[12,16,19],res:[32,35,39]}}},{name:"Abel",title:"The Panther",artist:"Sasashima Suisei (笹島彗星)",voice:"Mick Wingert",releaseDate:"Feb 02, 2017",colorType:"Blue",weaponType:"Lance",moveType:"Cavalry",rarity3:["pool2", "pool6"],rarity4:["pool1","pool2", "pool6"],rarity5:["pool1"],assets:{portrait:"img/heroes-portrait/75px-Icon_Portrait_Abel.png",main:"img/heroes-main/Abel.png",sprite:"img/sprites/Abel_The_Panther_Mini_Unit_Ok.png"},skills:[{name:"Iron Lance",rarity:4},{name:"Steel Lance",rarity:4},{name:"Brave Lance",rarity:4},{name:"Brave Lance+",rarity:5},{name:"Holy Vestments",rarity:4},{name:"Aegis",rarity:4},{name:"HP +3",rarity:4},{name:"HP +4",rarity:4},{name:"HP +5",rarity:5},{name:"Swordbreaker 1",rarity:4},{name:"Swordbreaker 2",rarity:4},{name:"Swordbreaker 3",rarity:4}],stats:{level1:{hp:17,atk:7,spd:8,def:8,res:6},level40:{hp:[35,39,42],atk:[30,33,36],spd:[29,32,35],def:[22,25,28],res:[22,25,29]},level1_4:{hp:16,atk:6,spd:8,def:8,res:5},level40_4:{hp:[33,36,39],atk:[27,30,33],spd:[27,30,33],def:[21,24,27],res:[20,23,26]}}},{
+   name: "Plumeria",
+   title:"Lewd Dream",
+   releaseDate:"Sep 30, 2020",
+   colorType:"Red",
+   weaponType:"Sword",
+   moveType:"Tome",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Plumeria_Lewd_Dream_Face_FC.png",
+     sprite:"img/sprites/Plumeria_Lewd_Dream_Mini_Unit_Ok.png"}
+ },
+ {
+   name: "Mirabilis",
+   title:"Daydream",
+   releaseDate:"Jun 5, 2020",
+   colorType:"Red",
+   weaponType:"Sword",
+   moveType:"Flying",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Mirabilis_Daydream_Face_FC.png",
+     sprite:"img/sprites/Mirabilis_Daydream_Mini_Unit_Ok.png"}
+ },
+  {
+   name: "Líf",
+   title:"Lethal Swordsman",
+   releaseDate:"Jan 30, 2020",
+   colorType:"Red",
+   weaponType:"Sword",
+   moveType:"Infantry",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Lif_Lethal_Swordsman_Face_FC.png",
+     sprite:"img/sprites/Lif_Lethal_Swordsman_Mini_Unit_Ok.png"}
+ },
+ {
+   name: "Sain",
+   title:"Green Lance",
+   releaseDate:"Jun 8, 2022",
+   colorType:"Blue",
+   weaponType:"Lance",
+   moveType:"Cavalry",
+   rarity5:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/Sain_Green_Lance_Face_FC.png",
+     sprite:"img/sprites/Sain_Green_Lance_Mini_Unit_Ok.png"}
+ },
+ {
+   name: "Eitri",
+   title:"Youthful Sage",
+   releaseDate:"Nov 30, 2021",
+   colorType:"Green",
+   weaponType:"Tome",
+   moveType:"Flying",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Eitri_Youthful_Sage_Face_FC.png",
+     sprite:"img/sprites/Eitri_Youthful_Sage_Mini_Unit_Ok.png"}
+ },
+  {
+   name: "Otr",
+   title:"Kingsbrother",
+   releaseDate:"Sep 30, 2021",
+   colorType:"Green",
+   weaponType:"Axe",
+   moveType:"Cavalry",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Otr_Kingsbrother_Face_FC.png",
+     sprite:"img/sprites/Otr_Kingsbrother_Mini_Unit_Ok.png"}
+ },
+  {
+   name: "Letizia",
+   title:"Curse Director",
+   releaseDate:"Jun 8, 2022",
+   colorType:"Green",
+   weaponType:"Tome",
+   moveType:"Cavalry",
+   rarity5:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/Letizia_Curse_Director_Face_FC.png",
+     sprite:"img/sprites/Letizia_Curse_Director_Mini_Unit_Ok.png"}
+ },
+  {
+   name:"Est (Ymir & More)",
+   shortName: "Est",
+   title:"Sweet Baby Sis",
+   releaseDate:"Jul 19, 2022",
+   colorType:"Blue",
+   weaponType:"Lance",
+   moveType:"Flying",
+   rarity5:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/Est_Sweet_Baby_Sis_Face_FC.png",
+     sprite:"img/sprites/Est_Sweet_Baby_Sis_Mini_Unit_Ok.png"}
+ },
+ {
    name:"Aelfric",
    title:"Custodian Monk",
    releaseDate:"Sep 18, 2021",
