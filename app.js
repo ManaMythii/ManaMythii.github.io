@@ -206,7 +206,7 @@ for(let n=0;n<t.length;n++)r<=new Date(t[n].releaseDate)||t[n].limited||t[n].ghb
    weaponType:"Bow",
    moveType:"Infantry",
    rarity5:["pool6"],
-   linited: true,
+   limited: true,
    assets:{
      portrait:"img/heroes-portrait/Alm_Saint-King_Face_FC.png",
      sprite:"img/sprites/Alm_Saint-King_Mini_Unit_Ok.png"}
