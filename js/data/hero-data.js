@@ -1,4 +1,30 @@
 module.exports = [
+ {
+   name: "Plumeria",
+   title:"Lewd Dream",
+   releaseDate:"Sep 30, 2020",
+   colorType:"Red",
+   weaponType:"Sword",
+   moveType:"Tome",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Plumeria_Lewd_Dream_Face_FC.png",
+     sprite:"img/sprites/Plumeria_Lewd_Dream_Mini_Unit_Ok.png"}
+ },
+ {
+   name: "Mirabilis",
+   title:"Daydream",
+   releaseDate:"Jun 5, 2020",
+   colorType:"Red",
+   weaponType:"Sword",
+   moveType:"Flying",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Mirabilis_Daydream_Face_FC.png",
+     sprite:"img/sprites/Mirabilis_Daydream_Mini_Unit_Ok.png"}
+ },
   {
    name: "Líf",
    title:"Lethal Swordsman",
