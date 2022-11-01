@@ -522,6 +522,19 @@ for(let n=0;n<t.length;n++)r<=new Date(t[n].releaseDate)||t[n].limited||t[n].ghb
      portrait:"img/heroes-portrait/Artur_Silver_Saint_Face_FC.png",
      sprite:"img/sprites/Artur_Silver_Saint_Mini_Unit_Ok.png"}
  },
+   {
+   name:"Arval",
+   title:"Cycle Keeper",
+   releaseDate:"Oct 31, 2022",
+   colorType:"Neutral",
+   weaponType:"Tome",
+   moveType:"Infantry",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/75px-Icon_Portrait_Arval_Cycle_Keeper.png",
+     sprite:"img/sprites/Arval_Cycle_Keeper_Mini_Unit_Ok.png"}
+ },
   {
     name: "Arvis",
     title: "Emperor of Flame",
