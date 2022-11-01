@@ -1,11 +1,24 @@
 module.exports = [
+  {
+   name: "Elimine",
+   title:"Scouring Saint",
+   releaseDate:"Jan 28, 2020",
+   colorType:"Neutral",
+   weaponType:"Staff",
+   moveType:"Flying",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Elimine_Scouring_Saint_Face_FC.png",
+     sprite:"img/sprites/Elimine_Scouring_Saint_Mini_Unit_Ok.png"}
+ },
  {
    name: "Plumeria",
    title:"Lewd Dream",
    releaseDate:"Sep 30, 2020",
    colorType:"Red",
    weaponType:"Sword",
-   moveType:"Tome",
+   moveType:"Flying",
    rarity5:["pool6"],
    limited: true,
    assets:{
