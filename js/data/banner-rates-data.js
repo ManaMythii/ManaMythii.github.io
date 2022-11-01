@@ -105,7 +105,7 @@ module.exports = {
     pityRateRaritySpecial4: -0.02,
     pityRateRarityFocus4: 0,
     pityRateRarity5: 0,
-    pityRateRarityFocus: 0.5
+    pityRateRarityFocus: 0.25
   },
   
   focus4V1: {
