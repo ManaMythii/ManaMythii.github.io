@@ -1884,7 +1884,7 @@ module.exports = [
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Beruka.png",
       main: "img/heroes-main/Beruka.png",
-      sprite:"img/sprites/Beruka_Quiet_Assassin_Mini_Unit_Ok.png:
+      sprite:"img/sprites/Beruka_Quiet_Assassin_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Iron Axe", rarity: 3 },
