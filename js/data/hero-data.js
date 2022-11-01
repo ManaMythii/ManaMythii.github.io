@@ -1992,7 +1992,7 @@ module.exports = [
    moveType:"Infantry",
    rarity4:["pool6"],
    rarity5:["pool6"],
-   ttreward: true,
+   ttReward: true,
    assets:{
      portrait:"img/heroes-portrait/Boyd_Future_Great_Face_FC.png",
      sprite:"img/sprites/Boyd_Future_Great_Mini_Unit_Ok.png"}
@@ -2022,6 +2022,143 @@ module.exports = [
    assets:{
      portrait:"img/heroes-portrait/Bramimond_The_Enigma_Face_FC.png",
      sprite:"img/sprites/Bramimond_The_Enigma_Mini_Unit_Ok.png"}
+ },
+ {
+   name:"Brigand Boss",
+   title:"Known Criminal",
+   releaseDate:"Jul 20, 2022",
+   colorType:"Green",
+   weaponType:"Axe",
+   moveType:"Infantry",
+   rarity3:["pool6"],
+   rarity4:["pool6"],
+   ghb: true,
+   assets:{
+     portrait:"img/heroes-portrait/Brigand_Boss_Known_Criminal_Face_FC.png",
+     sprite:"img/sprites/Brigand_Boss_Known_Criminal_Mini_Unit_Ok.png"}
+ },
+ {
+   name:"Brigid (Pirate's Pride)",
+   shortName: "Brigid",
+   title:"Orgahil Pirate",
+   releaseDate:"Aug 7, 2020",
+   colorType:"Red",
+   weaponType:"Bow",
+   moveType:"Infantry",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Brigid_Orgahil_Pirate_Face_FC.png",
+     sprite:"img/sprites/Brigid_Orgahil_Pirate_Mini_Unit_Ok.png"}
+ },
+  {
+   name:"Brunnya",
+   title:"Devoted General",
+   releaseDate:"Nov 22, 2019",
+   colorType:"Blue",
+   weaponType:"Tome",
+   moveType:"Infantry",
+   rarity4:["pool6"],
+   rarity5:["pool6"],
+   ttReward: true,
+   assets:{
+     portrait:"img/heroes-portrait/Brunnya_Devoted_General_Face_FC.png",
+     sprite:"img/sprites/Brunnya_Devoted_General_Mini_Unit_Ok.png"}
+ },
+ {
+   name:"Bruno (Regal Rabbits)",
+   shortName: "Bruno",
+   title:"Masked Hare",
+   releaseDate:"Mar 19, 2019",
+   colorType:"Neutral",
+   weaponType:"Staff",
+   moveType:"Cavalry",
+   rarity4ss:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Bruno_Masked_Hare_Face_FC.png",
+     sprite:"img/sprites/Bruno_Masked_Hare_Mini_Unit_Ok.png"}
+ },
+  {
+   name:"Byleth (F)",
+   shortName: "Byleth",
+   title:"Proven Professor",
+   releaseDate:"Jul 22, 2019",
+   colorType:"Red",
+   weaponType:"Sword",
+   moveType:"Infantry",
+   rarity4s:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/Byleth_Proven_Professor_Face_FC.png",
+     sprite:"img/sprites/Byleth_Proven_Professor_Mini_Unit_Ok.png"}
+ },
+ {
+   name:"Byleth (F) (Overseas Memories)",
+   shortName: "Byleth",
+   title:"Fell Star's Duo",
+   releaseDate:"Jul 8, 2020",
+   colorType:"Red",
+   weaponType:"Tome",
+   moveType:"Flying",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Byleth_Fell_Stars_Duo_Face_FC.png",
+     sprite:"img/sprites/Byleth_Fell_Stars_Duo_Mini_Unit_Ok.png"}
+ },
+ {
+   name:"Byleth (F) (Legendary Heroes)",
+   shortName: "Byleth",
+   title:"The Fódlan Light",
+   releaseDate:"Dec 24, 2021",
+   colorType:"Blue",
+   weaponType:"Tome",
+   moveType:"Infantry",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Byleth_The_Fodlan_Light_Face_FC.png",
+     sprite:"img/sprites/Byleth_The_Fodlan_Light_Mini_Unit_Ok.png"}
+ },
+ {
+   name:"Byleth (F) (Weave of Fate)",
+   shortName: "Byleth",
+   title:"Sublime Light",
+   releaseDate:"Sug 17, 2022",
+   colorType:"Neutral",
+   weaponType:"Tome",
+   moveType:"Flying",
+   rarity5:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/Byleth_Sublime_Light_Face_FC.png",
+     sprite:"img/sprites/Byleth_Sublime_Light_Mini_Unit_Ok.png"}
+ },
+ {
+   name:"Byleth (M)",
+   shortName: "Byleth",
+   title:"Tested Professor",
+   releaseDate:"Jul 26, 2019",
+   colorType:"Red",
+   weaponType:"Sword",
+   moveType:"Infantry",
+   rarity4s:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/Byleth_Tested_Professor_Face_FC.png",
+     sprite:"img/sprites/Byleth_Tested_Professor_Mini_Unit_Ok.png"}
+ },
+  {
+   name:"Byleth (M) (Legendary Heroes)",
+   shortName: "Byleth",
+   title:"The Fódlan Star",
+   releaseDate:"Jun 30, 2021",
+   colorType:"Green",
+   weaponType:"Tome",
+   moveType:"Infantry",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Byleth_The_Fodlan_Star_Face_FC.png",
+     sprite:"img/sprites/Byleth_The_Fodlan_Star_Mini_Unit_Ok.png"}
  },
   {
     name: "Caeda",
@@ -2099,6 +2236,62 @@ module.exports = [
     }
   },
   {
+   name:"Caeda (The Start of It All)",
+   shortName: "Caeda",
+   title:"Princess of Talys",
+   releaseDate:"Apr 20, 2020",
+   colorType:"Red",
+   weaponType:"Sword",
+   moveType:"Cavalry",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Caeda_Princess_of_Talys_Face_FC.png",
+     sprite:"img/sprites/Caeda_Princess_of_Talys_Mini_Unit_Ok.png"}
+ },
+   {
+   name:"Caeda (Summer's Dream)",
+   shortName: "Caeda",
+   title:"Sea-Blossom Pair",
+   releaseDate:"Jul 7, 2021",
+   colorType:"Green",
+   weaponType:"Axe",
+   moveType:"Cavalry",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Caeda_Sea-Blossom_Pair_Face_FC.png",
+     sprite:"img/sprites/Caeda_Sea-Blossom_Pair_Mini_Unit_Ok.png"}
+ },
+ {
+   name:"Caeda (Legendary Heroes)",
+   shortName: "Caeda",
+   title:"Beloved Queen",
+   releaseDate:"Feb 28, 2022",
+   colorType:"Blue",
+   weaponType:"Lance",
+   moveType:"Flying",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Caeda_Beloved_Queen_Face_FC.png",
+     sprite:"img/sprites/Caeda_Beloved_Queen_Mini_Unit_Ok.png"}
+ },
+  {
+   name:"Caellach",
+   title:"Tiger Eye",
+   releaseDate:"Dec 8, 2020",
+   colorType:"Green",
+   weaponType:"Axe",
+   moveType:"Infantry",
+   rarity3:["pool6"],
+   rarity4:["pool6"],
+   ghb: true,
+   assets:{
+     portrait:"img/heroes-portrait/Caellach_Tiger_Eye_Face_FC.png",
+     sprite:"img/sprites/Caellach_Tiger_Eye_Mini_Unit_Ok.png"}
+ },
+  {
     name: "Cain",
     title: "The Bull",
     artist: "Meka (めか)",
@@ -2136,6 +2329,18 @@ module.exports = [
       level40_4: { hp: [ 36, 39, 42 ], atk: [ 27, 30, 33 ], spd: [ 26, 29, 32 ], def: [ 23, 26, 29 ], res: [ 16, 19, 22 ] }
     }
   },
+  {
+   name:"Caineghis",
+   title:"Gallia's Lion King",
+   releaseDate:"Apr 10, 2019",
+   colorType:"Neutral",
+   weaponType:"Beast",
+   moveType:"Armored",
+   rarity4s:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/Caineghis_Gallias_Lion_King_Face_FC.png",
+     sprite:"img/sprites/Caineghis_Gallias_Lion_King_Mini_Unit_Ok.png"}
+ },
   {
     name: "Camilla",
     title: "Bewitching Beauty",
@@ -2362,6 +2567,19 @@ module.exports = [
       level40: { hp: [ 35, 39, 42 ], atk: [ 30, 33, 36 ], spd: [ 33, 36, 39 ], def: [ 20, 23, 26 ], res: [ 16, 19, 22 ] }
     }
   },
+   {
+   name:"Camilla (Brave Echoes)",
+   shortName: "Camilla",
+   title:"Light of Nohr",
+   releaseDate:"Aug 16, 2019",
+   colorType:"Neutral",
+   weaponType:"Staff",
+   moveType:"Flying",
+   rarity4s:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/Camilla_Light_of_Nohr_Face_FC.png",
+     sprite:"img/sprites/Camilla_Light_of_Nohr_Mini_Unit_Ok.png"}
+ },
   {
     name: "Camus",
     title: "Sable Knight",
@@ -2435,6 +2653,60 @@ module.exports = [
       level40_4: { hp: [ 31, 34, 37 ], atk: [ 27, 30, 33 ], spd: [ 23, 26, 29 ], def: [ 16, 19, 22 ], res: [ 28, 31, 34 ] }
     }
   },
+  {
+   name:"Caspar (Summer Vibrance)",
+   shortName: "Caspar",
+   title:"Summer Intensity",
+   releaseDate:"Jun 21, 2021",
+   colorType:"Green",
+   weaponType:"Axe",
+   moveType:"Infantry",
+   rarity4:["pool6"],
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Caspar_Summer_Intensity_Face_FC.png",
+     sprite:"img/sprites/Caspar_Summer_Intensity_Mini_Unit_Ok.png"}
+ },
+ {
+   name:"Cath",
+   title:"Master Thief",
+   releaseDate:"Feb 18, 2022",
+   colorType:"Green",
+   weaponType:"Dagger",
+   moveType:"Infantry",
+   rarity3:["pool6"],
+   rarity4:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/Cath_Master_Thief_Face_FC.png",
+     sprite:"img/sprites/Cath_Master_Thief_Mini_Unit_Ok.png"}
+ },
+ {
+   name:"Cath (Risk and Reward)",
+   shortName: "Cath",
+   title:"Caper Captain",
+   releaseDate:"Aug 9, 2022",
+   colorType:"Blue",
+   weaponType:"Tome",
+   moveType:"Cavalry",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Cath_Caper_Captain_Face_FC.png",
+     sprite:"img/sprites/Cath_Caper_Captain_Mini_Unit_Ok.png"}
+ },
+ {
+   name:"Catherine",
+   title:"Thunder Knight",
+   releaseDate:"Oct 19, 2020",
+   colorType:"Red",
+   weaponType:"Swordr",
+   moveType:"Infantry",
+   rarity5:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/Catherine_Thunder_Knight_Face_FC.png",
+     sprite:"img/sprites/Catherine_Thunder_Knight_Mini_Unit_Ok.png"}
+ },
   {
     name: "Catria",
     title: "Middle Whitewing",
