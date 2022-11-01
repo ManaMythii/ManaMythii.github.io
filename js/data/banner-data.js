@@ -6,7 +6,7 @@ module.exports = [
       {
         name: "Mythic Heroes: Arval",
         startDate: "Oct 31, 2022",
-        focusHeroes: ["Elimine", "Askr", "Leticia", "Otr", "Eitri", "Sain", "Est (Ymir & More)", "Chrom (Legendary Heroes)", "Lif", "Mirabilis", "Plumeria", "Arval"],
+        focusHeroes: ["Elimine", "Askr", "Letizia", "Otr", "Eitri", "Sain", "Est (Ymir & More)", "Chrom (Legendary Heroes)", "Lif", "Mirabilis", "Plumeria", "Arval"],
         excludeFromRarity4: [],
         excludeFromRarity5: [],
         rateType: "legendaryV2",
