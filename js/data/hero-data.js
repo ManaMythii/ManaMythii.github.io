@@ -469,24 +469,6 @@ module.exports = [
      sprite:"img/sprites/Selena_Fluorspar_Mini_Unit_Ok.png"}
  },
  
- {
-   name:"Duma (Divine Harvest)",
-   shortName:"Duma",
-   title:"Strength and Love",
-   artist:"ダイエクスト",
-   voice:"Josh Petersdorf + Monica Rial",
-   releaseDate:"Oct 6, 2022",
-   colorType:"Red",
-   weaponType:"Breath",
-   moveType:"Armored",
-   rarity5:["pool6"],
-   limited: true,
-   assets:{
-     portrait:"img/heroes-portrait/75px-Icon_Portrait_Duma_Strength_and_Love.png",
-     main:"img/heroes-main/Duma_DH.png",
-     sprite:"img/sprites/Duma_Strength_and_Love_Mini_Unit_Ok.png"}
-  },
- 
   {
    name:"Naga (Divine Harvest)",
    shortName:"Naga",
@@ -4612,6 +4594,99 @@ module.exports = [
       level1: { hp: 24, atk: 10, spd: 6, def: 8, res: 7 },
       level40: { hp: [ 45, 48, 51 ], atk: [ 37, 40, 44 ], spd: [ 18, 21, 24 ], def: [ 31, 34, 37 ], res: [ 28, 31, 34 ] }
     }
+  },
+  {
+   name:"Duma (Divine Harvest)",
+   shortName:"Duma",
+   title:"Strength and Love",
+   releaseDate:"Oct 6, 2022",
+   colorType:"Red",
+   weaponType:"Breath",
+   moveType:"Armored",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/75px-Icon_Portrait_Duma_Strength_and_Love.png",
+     sprite:"img/sprites/Duma_Strength_and_Love_Mini_Unit_Ok.png"}
+  },
+  {
+   name:"Echidna",
+   title:"Unyielding Idealist",
+   releaseDate:"Nov 19, 2019",
+   colorType:"Green",
+   weaponType:"Axe",
+   moveType:"Infantry",
+   rarity3:["pool6"],
+   rarity4:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/Echidna_Unyielding_Idealist_Face_FC.png",
+     sprite:"img/sprites/Echidna_Unyielding_Idealist_Mini_Unit_Ok.png"}
+  },
+  {
+   name:"Edelgard",
+   title:"The Future",
+   releaseDate:"Jul 22, 2019",
+   colorType:"Green",
+   weaponType:"Axe",
+   moveType:"Infantry",
+   rarity5:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/Edelgard_The_Future_Face_FC.png",
+     sprite:"img/sprites/Edelgard_The_Future_Mini_Unit_Ok.png"}
+  },
+  {
+   name:"Edelgard (A New Future)",
+   shortName: "Edelgard",
+   title:"Adrestian Emperor",
+   releaseDate:"Aug 18, 2020",
+   colorType:"Green",
+   weaponType:"Axe",
+   moveType:"Infantry",
+   rarity5:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/Edelgard_Adrestian_Emperor_Face_FC.png",
+     sprite:"img/sprites/Edelgard_Adrestian_Emperor_Mini_Unit_Ok.png"}
+  },
+  {
+   name:"Edelgard (Legendary Heroes)",
+   shortName: "Edelgard",
+   title:"Flame Emperor",
+   releaseDate:"Apr 30, 2020",
+   colorType:"Green",
+   weaponType:"Axe",
+   moveType:"Armored",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Edelgard_Flame_Emperor_Face_FC.png",
+     sprite:"img/sprites/Edelgard_Flame_Emperor_Mini_Unit_Ok.png"}
+  },
+  {
+   name:"Edelgard (Forces of Will)",
+   shortName: "Edelgard",
+   title:"Hegemon Husk",
+   releaseDate:"May 7, 2021",
+   colorType:"Neutral",
+   weaponType:"Beast",
+   moveType:"Armored",
+   rarity5:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/Edelgard_Hegemon_Husk_Face_FC.png",
+     sprite:"img/sprites/Edelgard_Hegemon_Husk_Mini_Unit_Ok.png"}
+  },
+  {
+   name:"Edelgard (Summer Vacation)",
+   shortName: "Edelgard",
+   title:"Sun Empresses",
+   releaseDate:"Jun 17, 2022",
+   colorType:"Red",
+   weaponType:"Sword",
+   moveType:"Armored",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Edelgard_Sun_Empresses_Face_FC.png",
+     sprite:"img/sprites/Edelgard_Sun_Empresses_Mini_Unit_Ok.png"}
   },
   {
     name: "Effie",
