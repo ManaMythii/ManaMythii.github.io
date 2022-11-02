@@ -506,83 +506,6 @@ module.exports = [
   },
  
  {
-   name:"Corrin (F) (Divine Harvest)",
-   shortName:"Corrin",
-   title:"Starry Seer",
-   artist:"Yoshiro Ambe (あんべよしろう)",
-   voice:"Marcella Lentz-Pope",
-   releaseDate:"Oct 6, 2022",
-   colorType:"Blue",
-   weaponType:"Breath",
-   moveType:"Infantry",
-   rarity5:["pool6"],
-   limited: true,
-   assets:{
-     portrait:"img/heroes-portrait/75px-Icon_Portrait_Corrin_F_Starry_Seer.png",
-     main:"img/heroes-main/Corrin_F_DH.png",
-     sprite:"img/sprites/Corrin_F_Starry_Seer_Mini_Unit_Ok.png"},
-   skills:[
-     {name:"Fire Breath",rarity:5},
-     {name:"Fire Breath+",rarity:5},
-     {name:"Flametongue	",rarity:5},
-     {name:"Moonlight Stone",rarity:5},
-     {name:"Dragon Gaze",rarity:5},
-     {name:"Dragon Fang",rarity:5},
-     {name:"Negating Fang",rarity:5},
-     {name:"Atk/Spd Finish 1",rarity:5},
-     {name:"Atk/Spd Finish 2",rarity:5},
-     {name:"Atk/Spd Finish 3",rarity:5},
-     {name:"Atk/Spd Finish 4",rarity:5},
-     {name:"Dragon's Wrath 1",rarity:5},
-     {name:"Dragon's Wrath 2",rarity:5},
-     {name:"Dragon's Wrath 3",rarity:5},
-     {name:"Dragon's Wrath 4",rarity:5},
-     {name:"Spur Atk 1",rarity:5},
-     {name:"Drive Atk 1",rarity:5},
-     {name:"Drive Atk 2",rarity:5},
-     {name:"Joint Drive Atk",rarity:5}],
-   stats:{
-     level1:{hp:16,atk:12,spd:12,def:3,res:4},
-     level40:{hp:[37,40,43],atk:[39,42,46],spd:[41,45,48],def:[32,36,39],res:[27,30,33]},
-   }
- },
- 
-  {
-   name:"Corrin (M) (Divine Harvest)",
-   shortName:"Corrin",
-   title:"Celestial Sorcerer",
-   artist:"argon / Exys Inc.",
-   voice:"Cam Clarke",
-   releaseDate:"Oct 6, 2022",
-   colorType:"Green",
-   weaponType:"Breath",
-   moveType:"Infantry",
-   rarity5:["pool6"],
-   limited: true,
-   assets:{
-     portrait:"img/heroes-portrait/75px-Icon_Portrait_Corrin_M_Celestial_Sorcerer.png",
-     main:"img/heroes-main/Corrin_M_DH.png",
-     sprite:"img/sprites/Corrin_M_Celestial_Sorcerer_Mini_Unit_Ok.png"},
-   skills:[
-     {name:"Fire Breath",rarity:5},
-     {name:"Fire Breath+",rarity:5},
-     {name:"Flametongue	",rarity:5},
-     {name:"Starlight Stone",rarity:5},
-     {name:"New Moon",rarity:5},
-     {name:"Moonbow",rarity:5},
-     {name:"Distant Counter",rarity:5},
-     {name:"Distant Stance",rarity:5},
-     {name:"Dragon's Ire 1",rarity:5},
-     {name:"Dragon's Ire 2",rarity:5},
-     {name:"Dragon's Ire 3",rarity:5},
-     {name:"Dragon's Ire 4",rarity:5}],
-   stats:{
-     level1:{hp:18,atk:9,spd:4,def:7,res:9},
-     level40:{hp:[41,44,47],atk:[41,44,47],spd:[18,21,24],def:[41,44,47],res:[	36,39,43]},
-   }
- },
- 
- {
    name:"Phila",
    title:"Pegasus Master",
    artist:"Hirooka Masaki (廣岡政樹)",
@@ -3827,7 +3750,7 @@ module.exports = [
    rarity4:["pool6"],
    ghb: true,
    assets:{
-     portrait:"img/heroes-portrait/Cormag_Aloof_Lanceman_Face_FC.pngg",
+     portrait:"img/heroes-portrait/Cormag_Aloof_Lanceman_Face_FC.png",
      sprite:"img/sprites/Cormag_Aloof_Lanceman_Mini_Unit_Ok.png"}
  },
   {
@@ -3945,6 +3868,61 @@ module.exports = [
     }
   },
   {
+   name:"Corrin (F) (Darkness Within)",
+   shortName: "Corrin",
+   title:"Wailing Soul",
+   releaseDate:"May 10, 2019",
+   colorType:"Neutral",
+   weaponType:"Breath",
+   moveType:"Infantry",
+   rarity4s:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/Corrin_Wailing_Soul_Face_FC.png",
+     sprite:"img/sprites/Corrin_Wailing_Soul_Mini_Unit_Ok.png"}
+ },
+ {
+   name:"Corrin (Legendary Heroes)",
+   shortName: "Corrin",
+   title:"Child of Dusk",
+   releaseDate:"Aug 31, 2020",
+   colorType:"Neutral",
+   weaponType:"Breath",
+   moveType:"Infantry",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Corrin_Child_of_Dusk_Face_FC.png",
+     sprite:"img/sprites/Corrin_Child_of_Dusk_Mini_Unit_Ok.png"}
+ },
+ {
+   name:"Corrin (F) (Ninja Training)",
+   shortName: "Corrin",
+   title:"Nightfall Ninja Act",
+   releaseDate:"Nov 5, 2021",
+   colorType:"Green",
+   weaponType:"Tome",
+   moveType:"Cavalry",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Corrin_Nightfall_Ninja_Act_Face_FC.png",
+     sprite:"img/sprites/Corrin_Nightfall_Ninja_Act_Mini_Unit_Ok.png"}
+ },
+  {
+   name:"Corrin (F) (Divine Harvest)",
+   shortName:"Corrin",
+   title:"Starry Seer",
+   releaseDate:"Oct 6, 2022",
+   colorType:"Blue",
+   weaponType:"Breath",
+   moveType:"Infantry",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/75px-Icon_Portrait_Corrin_F_Starry_Seer.png",
+     sprite:"img/sprites/Corrin_F_Starry_Seer_Mini_Unit_Ok.png"}
+ },
+  {
     name: "Corrin (M)",
     shortName: "Corrin",
     title: "Fateful Prince",
@@ -4060,6 +4038,145 @@ module.exports = [
     }
   },
   {
+   name:"Corrin (M) (Dark Burdens)",
+   shortName:"Corrin",
+   title:"Bloodbound Beast",
+   releaseDate:"May 8, 2020",
+   colorType:"Blue",
+   weaponType:"Breath",
+   moveType:"Infantry",
+   rarity5:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/Corrin_Bloodbound_Beast_Face_FC.png",
+     sprite:"img/sprites/Corrin_Bloodbound_Beast_Mini_Unit_Ok.png"}
+ },
+ {
+   name:"Corrin (M) (Ninja Training)",
+   shortName:"Corrin",
+   title:"Daylight Ninja Act",
+   releaseDate:"Nov 5, 2021",
+   colorType:"Blue",
+   weaponType:"Lance",
+   moveType:"Infantry",
+   rarity4: ["pool6"],
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Corrin_Daylight_Ninja_Act_Face_FC.png",
+     sprite:"img/sprites/Corrin_Daylight_Ninja_Act_Mini_Unit_Ok.png"}
+ },
+  {
+   name:"Corrin (M) (Divine Harvest)",
+   shortName:"Corrin",
+   title: "Celestial Sorcerer",
+   releaseDate:"Oct 6, 2022",
+   colorType:"Green",
+   weaponType:"Breath",
+   moveType:"Infantry",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/75px-Icon_Portrait_Corrin_M_Celestial_Sorcerer.png",
+     sprite:"img/sprites/Corrin_M_Celestial_Sorcerer_Mini_Unit_Ok.png"}
+ },
+ {
+   name:"Cynthia",
+   title: "Hero Chaser",
+   releaseDate:"Jun 13, 2019",
+   colorType:"Blue",
+   weaponType:"Lance",
+   moveType:"Flying",
+   rarity3:["pool6"],
+   rarity4:["pool6"],
+   ghb: true,
+   assets:{
+     portrait:"img/heroes-portrait/Cynthia_Hero_Chaser_Face_FC.png",
+     sprite:"img/sprites/Cynthia_Hero_Chaser_Mini_Unit_Ok.png"}
+ },
+  {
+   name:"Dagr",
+   title: "Sun's Radiance",
+   releaseDate:"Mar 30, 2021",
+   colorType:"Green",
+   weaponType:"Axe",
+   moveType:"Infantry",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Dagr_Suns_Radiance_Face_FC.png",
+     sprite:"img/sprites/Dagr_Suns_Radiance_Mini_Unit_Ok.png"}
+ },
+ {
+   name:"Dagr (Like Clockwork)",
+   shortName: "Dagr",
+   title: "Sun's Radiance",
+   releaseDate:"Jan 1, 2022",
+   colorType:"Green",
+   weaponType:"Bow",
+   moveType:"Flying",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Dagr_New_Year_Jotnar_Face_FC.png",
+     sprite:"img/sprites/Dagr_New_Year_Jotnar_Mini_Unit_Ok.png"}
+ },
+ {
+   name:"Darros (Pirate's Pride)",
+   shortName: "Darros",
+   title: "Seawalker",
+   releaseDate:"Aug 7, 2020",
+   colorType:"Green",
+   weaponType:"Axe",
+   moveType:"Infantry",
+   rarity4:["pool6"],
+   rarity5:["pool6"],
+   ttReward: true,
+   assets:{
+     portrait:"img/heroes-portrait/Darros_Seawalker_Face_FC.png",
+     sprite:"img/sprites/Darros_Seawalker_Mini_Unit_Ok.png"}
+ },
+ {
+   name:"Death Knight",
+   title: "The Reaper",
+   releaseDate:"Aug 12, 2019",
+   colorType:"Blue",
+   weaponType:"Lance",
+   moveType:"Cavalry",
+   rarity3:["pool6"],
+   rarity4:["pool6"],
+   ghb: true,
+   assets:{
+     portrait:"img/heroes-portrait/Death_Knight_The_Reaper_Face_FC.png",
+     sprite:"img/sprites/Death_Knight_The_Reaper_Mini_Unit_Ok.png"}
+ },
+ {
+   name:"Dedue",
+   title: "Dimitri's Vassal",
+   releaseDate:"Mar 5, 2019",
+   colorType:"Green",
+   weaponType:"Axe",
+   moveType:"Armored",
+   rarity5:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/Dedue_Dimitris_Vassal_Face_FC.png",
+     sprite:"img/sprites/Dedue_Dimitris_Vassal_Mini_Unit_Ok.png"}
+ },
+ {
+   name:"Deen (Of Lost Kingdoms)",
+   shortName: "Deen",
+   title: "Bladed Sandstorm",
+   releaseDate:"Jan 17, 2022",
+   colorType:"Neutral",
+   weaponType:"Dagger",
+   moveType:"Cavalry",
+   rarity4:["pool6"],
+   rarity5:["pool6"],
+   ttReward: true,
+   assets:{
+     portrait:"img/heroes-portrait/Deen_Bladed_Sandstorm_Face_FC.png",
+     sprite:"img/sprites/Deen_Bladed_Sandstorm_Mini_Unit_Ok.png"}
+ },
+  {
     name: "Deirdre",
     title: "Lady of the Forest",
     artist: "Haimura Kiyotaka (はいむらきよたか)",
@@ -4094,6 +4211,20 @@ module.exports = [
     }
   },
   {
+   name:"Deirdre (Legendary Heroes)",
+   shortName: "Deirdre",
+   title: "Fated Saint",
+   releaseDate:"Aug 31, 2022",
+   colorType:"Blue",
+   weaponType:"Tome",
+   moveType:"Infantry",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Deirdre_Fated_Saint_Face_FC.png",
+     sprite:"img/sprites/Deirdre_Fated_Saint_Mini_Unit_Ok.png"}
+ },
+  {
     name: "Delthea",
     title: "Free Spirit",
     artist: "Miwabe Sakura (みわべさくら)",
@@ -4127,6 +4258,126 @@ module.exports = [
       level40: { hp: [ 30, 33, 36 ], atk: [ 33, 36, 39 ], spd: [ 31, 34, 37 ], def: [ 10, 13, 17 ], res: [ 28, 31, 34 ] }
     }
   },
+  {
+   name:"Delthea (Hop-and-Go-Seek)",
+   shortName: "Delthea",
+   title: "Prodigy in Bloom",
+   releaseDate:"Mar 8, 2022",
+   colorType:"Blue",
+   weaponType:"Tome",
+   moveType:"Cavalry",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Delthea_Prodigy_in_Bloom_Face_FC.png",
+     sprite:"img/sprites/Delthea_Prodigy_in_Bloom_Mini_Unit_Ok.png"}
+ },
+ {
+   name:"Dheginsea (Dragons Harvest)",
+   shortName: "Dheginsea",
+   title: "Harvest Goldoan",
+   releaseDate:"Oct 10, 2020",
+   colorType:"Red",
+   weaponType:"Breath",
+   moveType:"Armored",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Dheginsea_Harvest_Goldoan_Face_FC.png",
+     sprite:"img/sprites/Dheginsea_Harvest_Goldoan_Mini_Unit_Ok.png"}
+ },
+  {
+   name:"Dieck",
+   title: "Wounded Tiger",
+   releaseDate:"Nov 17, 2020",
+   colorType:"Green",
+   weaponType:"Axe",
+   moveType:"Infantry",
+   rarity5:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/Dieck_Wounded_Tiger_Face_FC.png",
+     sprite:"img/sprites/Dieck_Wounded_Tiger_Mini_Unit_Ok.png"}
+ },
+ {
+   name:"Dimitri",
+   title: "The Protector",
+   releaseDate:"Jul 22, 2019",
+   colorType:"Blue",
+   weaponType:"Lance",
+   moveType:"Cavalry",
+   rarity4s:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/Dimitri_The_Protector_Face_FC.png",
+     sprite:"img/sprites/Dimitri_The_Protector_Mini_Unit_Ok.png"}
+ },
+ {
+   name:"Dimitri (A New Future)",
+   shortName: "Dimitri",
+   title: "King of Faerghus",
+   releaseDate:"Aug 18, 2020",
+   colorType:"Blue",
+   weaponType:"Lance",
+   moveType:"Infantry",
+   rarity5:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/Dimitri_King_of_Faerghus_Face_FC.png",
+     sprite:"img/sprites/Dimitri_King_of_Faerghus_Mini_Unit_Ok.png"}
+ },
+ {
+   name:"Dimitri (Legendary Heroes)",
+   shortName: "Dimitri",
+   title: "Savior King",
+   releaseDate:"Oct 30, 2020",
+   colorType:"Blue",
+   weaponType:"Lance",
+   moveType:"Infantry",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Dimitri_Savior_King_Face_FC.png",
+     sprite:"img/sprites/Dimitri_Savior_King_Mini_Unit_Ok.png"}
+ },
+ {
+   name:"Dimitri (Forces of Will)",
+   shortName: "Dimitri",
+   title: "Savior King",
+   releaseDate:"May 7, 2021",
+   colorType:"Blue",
+   weaponType:"Lance",
+   moveType:"Infantry",
+   rarity5:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/Dimitri_Savage_Boar_Face_FC.png",
+     sprite:"img/sprites/Dimitri_Savage_Boar_Mini_Unit_Ok.png"}
+ },
+ {
+   name:"Dimitri (Summer Vacation)",
+   shortName: "Dimitri",
+   title: "Sky-Blue Lion",
+   releaseDate:"Jun 17, 2022",
+   colorType:"Green",
+   weaponType:"Axe",
+   moveType:"Cavalry",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Dimitri_Sky-Blue_Lion_Face_FC.png",
+     sprite:"img/sprites/Dimitri_Sky-Blue_Lion_Mini_Unit_Ok.png"}
+ },
+ {
+   name:"Díthorba",
+   title: "Cutting Knight",
+   releaseDate:"Dec 17, 2021",
+   colorType:"Blue",
+   weaponType:"Lance",
+   moveType:"Flying",
+   rarity3:["pool6"],
+   rarity4:["pool6"],
+   ghb: true,
+   assets:{
+     portrait:"img/heroes-portrait/Dithorba_Cutting_Knight_Face_FC.png",
+     sprite:"img/sprites/Dithorba_Cutting_Knight_Mini_Unit_Ok.png"}
+ },
   {
     name: "Donnel",
     title: "Village Hero",
@@ -4238,6 +4489,48 @@ module.exports = [
     }
   },
   {
+   name:"Dorothea (Overseas Memories)",
+   shortName: "Dorothea",
+   title: "Solar Songstress",
+   releaseDate:"Jul 8, 2020",
+   colorType:"Neutral",
+   weaponType:"Dagger",
+   moveType:"Infantry",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Dorothea_Solar_Songstress_Face_FC.png",
+     sprite:"img/sprites/Dorothea_Solar_Songstress_Mini_Unit_Ok.png"}
+ },
+ {
+   name:"Dorothea (Dark Desert Rituals)",
+   shortName: "Dorothea",
+   title: "Twilit Harmony",
+   releaseDate:"Jan 18, 2021",
+   colorType:"Red",
+   weaponType:"Tome",
+   moveType:"Flying",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Dorothea_Twilit_Harmony_Face_FC.png",
+     sprite:"img/sprites/Dorothea_Twilit_Harmony_Mini_Unit_Ok.png"}
+ },
+ {
+   name:"Dozla (Treat Fiends)",
+   shortName: "Dozla",
+   title: "Harvest Attendant",
+   releaseDate:"Oct 9, 2019",
+   colorType:"Neutral",
+   weaponType:"Dagger",
+   moveType:"Armored",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Dozla_Harvest_Attendant_Face_FC.png",
+     sprite:"img/sprites/Dozla_Harvest_Attendant_Mini_Unit_Ok.png"}
+ },
+  {
     name: "Draug",
     title: "Gentle Giant",
     artist: "Itagaki Hako (板垣ハコ)",
@@ -4272,6 +4565,18 @@ module.exports = [
       level40_4: { hp: [ 44, 47, 50 ], atk: [ 25, 28, 31 ], spd: [ 26, 29, 32 ], def: [ 34, 37, 40 ], res: [ 13, 16, 19 ] }
     }
   },
+ {
+   name:"Duessel",
+   title: "Obsidian",
+   releaseDate:"Dec 8, 2020",
+   colorType:"Blue",
+   weaponType:"Lance",
+   moveType:"Cavalry",
+   rarity5:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/Duessel_Obsidian_Face_FC.png",
+     sprite:"img/sprites/Duessel_Obsidian_Mini_Unit_Ok.png"}
+ },
   {
     name: "Duma",
     title: "God of Strength",
