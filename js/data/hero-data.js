@@ -2666,6 +2666,20 @@ module.exports = [
      portrait:"img/heroes-portrait/Claude_King_of_Unification_Face_FC.png",
      sprite:"img/sprites/Claude_King_of_Unification_Mini_Unit_Ok.png"}
  },
+ {
+   name:"Claude (Summer Vacation)",
+   shortName: "Claude",
+   title:"Tropical Trouble",
+   releaseDate:"Jun 17, 2022",
+   colorType:"Blue",
+   weaponType:"Dagger",
+   moveType:"Flying",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/75px-Icon_Portrait_Claude_Tropical_Trouble.png",
+     sprite:"img/sprites/Claude_Tropical_Trouble_Mini_Unit_Ok.png"}
+ },
   {
     name: "Clive",
     title: "Idealistic Knight",
@@ -2702,33 +2716,6 @@ module.exports = [
       level40_4: { hp: [ 39, 42, 45 ], atk: [ 28, 31, 34 ], spd: [ 20, 23, 26 ], def: [ 27, 30, 33 ], res: [ 14, 17, 20 ] }
     }
   },
-  {
-   name:"Claude (A New Future)",
-   shortName: "Claude",
-   title:"Almyra's King",
-   releaseDate:"Aug 18, 2020",
-   colorType:"Neutral",
-   weaponType:"Bow",
-   moveType:"Flying",
-   rarity5:["pool6"],
-   assets:{
-     portrait:"img/heroes-portrait/Claude_Almyras_King_Face_FC.png",
-     sprite:"img/sprites/Claude_Almyras_King_Mini_Unit_Ok.png"}
- },
- {
-   name:"Claude (Summer Vacation)",
-   shortName: "Claude",
-   title:"Tropical Trouble",
-   releaseDate:"Jun 17, 2022",
-   colorType:"Blue",
-   weaponType:"Dagger",
-   moveType:"Flying",
-   rarity5:["pool6"],
-   limited: true,
-   assets:{
-     portrait:"img/heroes-portrait/75px-Icon_Portrait_Claude_Tropical_Trouble.png",
-     sprite:"img/sprites/Claude_Tropical_Trouble_Mini_Unit_Ok.png"}
- },
  {
    name:"Colm",
    title:"Capable Thief",
