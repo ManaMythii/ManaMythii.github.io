@@ -3,8 +3,6 @@ module.exports = [
   {
     name: "Abel",
     title: "The Panther",
-    artist: "Sasashima Suisei (笹島彗星)",
-    voice: "Mick Wingert",
     releaseDate: "Feb 02, 2017",
     colorType: "Blue",
     weaponType: "Lance",
@@ -14,29 +12,7 @@ module.exports = [
     rarity5: ["pool1"],
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Abel.png",
-      main: "img/heroes-main/Abel.png",
-      sprite:"img/sprites/Abel_The_Panther_Mini_Unit_Ok.png"
-    },
-    skills: [
-      { name: "Iron Lance", rarity: 4 },
-      { name: "Steel Lance", rarity: 4 },
-      { name: "Brave Lance", rarity: 4 },
-      { name: "Brave Lance+", rarity: 5 },
-      { name: "Holy Vestments", rarity: 4 },
-      { name: "Aegis", rarity: 4 },
-      { name: "HP +3", rarity: 4 },
-      { name: "HP +4", rarity: 4 },
-      { name: "HP +5", rarity: 5 },
-      { name: "Swordbreaker 1", rarity: 4 },
-      { name: "Swordbreaker 2", rarity: 4 },
-      { name: "Swordbreaker 3", rarity: 4 }
-    ],
-    stats: {
-      level1: { hp: 17, atk: 7, spd: 8, def: 8, res: 6 },
-      level40: { hp: [ 35, 39, 42 ], atk: [ 30, 33, 36 ], spd: [ 29, 32, 35 ], def: [ 22, 25, 28 ], res: [ 22, 25, 29 ] },
-      level1_4: { hp: 16, atk: 6, spd: 8, def: 8, res: 5 },
-      level40_4: { hp: [ 33, 36, 39 ], atk: [ 27, 30, 33 ], spd: [ 27, 30, 33 ], def: [ 21, 24, 27 ], res: [ 20, 23, 26 ] }
-    }
+      sprite:"img/sprites/Abel_The_Panther_Mini_Unit_Ok.png"}
   },
   {
    name:"Aelfric",
@@ -55,8 +31,6 @@ module.exports = [
   {
     name: "Alfonse",
     title: "Prince of Askr",
-    artist: "Kozaki Yusuke (コザキユースケ)",
-    voice: "Ray Chase",
     releaseDate: "Feb 02, 2017",
     colorType: "Red",
     weaponType: "Sword",
@@ -67,36 +41,12 @@ module.exports = [
     limited: true,
     assets: {
       portrait: "img/heroes-portrait/Alfonse_Prince_of_Askr_Face_FC.png",
-      main: "img/heroes-main/Alfonse.png",
-      sprite:"img/sprites/Alfonse_Prince_of_Askr_Mini_Unit_Ok.png"
-    },
-    skills: [
-      {  name: "Iron Sword", rarity: 2 },
-      {  name: "Steel Sword", rarity: 2 },
-      {  name: "Silver Sword", rarity: 3 },
-      {  name: "Fólkvangr", rarity: 5 },
-      {  name: "Daylight", rarity: 2 },
-      {  name: "Sol", rarity: 4 },
-      {  name: "Death Blow 1", rarity: 2 },
-      {  name: "Death Blow 2", rarity: 2 },
-      {  name: "Death Blow 3", rarity: 4 },
-      {  name: "Spur Atk 1", rarity: 3 },
-      {  name: "Spur Atk 2", rarity: 4 },
-      {  name: "Spur Atk 3", rarity: 5 }
-    ],
-    stats: {
-      level1: { hp: 19, atk: 9, spd: 6, def: 8, res: 5 },
-      level40: { hp: [ 40, 43, 46 ], atk: [ 32, 35, 38 ], spd: [ 22, 25, 29 ], def: [ 29, 32, 35 ], res: [ 19, 22, 25 ] },
-      level1_4: { hp: 18, atk: 9, spd: 5, def: 8, res: 4 },
-      level40_4: { hp: [ 37, 40, 43 ], atk: [ 30, 33, 36 ], spd: [ 20, 23, 26 ], def: [ 27, 30, 33 ], res: [ 17, 20, 23 ] }
-    }
+      sprite:"img/sprites/Alfonse_Prince_of_Askr_Mini_Unit_Ok.png"}
   },
   {
     name: "Alfonse (Hares at the Fair)",
     shortName: "Alfonse",
     title: "Spring Prince",
-    artist: "Kozaki Yusuke (コザキユースケ)",
-    voice: "Ray Chase",
     releaseDate: "Mar 22, 2018",
     colorType: "Green",
     weaponType: "Axe",
@@ -105,27 +55,7 @@ module.exports = [
     limited: true,
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Alfonse_Spring_Prince.png",
-      main: "img/heroes-main/Alfonse (Hares at the Fair).png",
-      sprite:"img/sprites/Alfonse_Spring_Prince_Mini_Unit_Ok.png"
-    },
-    skills: [
-      {  name: "Iron Axe", rarity: 5 },
-      {  name: "Steel Axe", rarity: 5 },
-      {  name: "Giant Spoon", rarity: 5 },
-      {  name: "Giant Spoon+", rarity: 5 },
-      {  name: "Daylight", rarity: 5 },
-      {  name: "Noontime", rarity: 5 },
-      {  name: "Death Blow 1", rarity: 5 },
-      {  name: "Sturdy Blow 1", rarity: 5 },
-      {  name: "Sturdy Blow 2", rarity: 5 },
-      {  name: "Def Smoke 1", rarity: 5 },
-      {  name: "Def Smoke 2", rarity: 5 },
-      {  name: "Def Smoke 3", rarity: 5 }
-    ],
-    stats: {
-      level1: { hp: 19, atk: 9, spd: 7, def: 6, res: 5 },
-      level40: { hp: [ 37, 41, 44 ], atk: [ 32, 35, 38 ], spd: [ 30, 33, 36 ], def: [ 27, 30, 33 ], res: [ 14, 18, 21 ] }
-    }
+      sprite:"img/sprites/Alfonse_Spring_Prince_Mini_Unit_Ok.png"}
   },
  {
    name:"Alfonse (Love of a King)",
@@ -159,8 +89,6 @@ module.exports = [
   {
     name: "Alm",
     title: "Hero of Prophecy",
-    artist: "Arai Teruko (新井テル子)",
-    voice: "Kyle McCarley",
     releaseDate: "Apr 14, 2017",
     colorType: "Red",
     weaponType: "Sword",
@@ -169,27 +97,7 @@ module.exports = [
     rarity5: ["pool1", "pool2"],
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Alm.png",
-      main: "img/heroes-main/Alm.png",
-      sprite: "img/sprites/Alm_Hero_of_Prophecy_Mini_Unit_Ok.png"
-    },
-    skills: [
-      { name: "Iron Sword", rarity: 5 },
-      { name: "Steel Sword", rarity: 5 },
-      { name: "Silver Sword", rarity: 5 },
-      { name: "Falchion", rarity: 5 },
-      { name: "Dragon Gaze", rarity: 5 },
-      { name: "Draconic Aura", rarity: 5 },
-      { name: "Attack +1", rarity: 5 },
-      { name: "Attack +2", rarity: 5 },
-      { name: "Attack +3", rarity: 5 },
-      { name: "Windsweep 1", rarity: 5 },
-      { name: "Windsweep 2", rarity: 5 },
-      { name: "Windsweep 3", rarity: 5 }
-    ],
-    stats: {
-      level1: { hp: 21, atk: 9, spd: 6, def: 6, res: 5 },
-      level40: { hp: [ 42, 45, 48 ], atk: [ 30, 33, 36 ], spd: [ 27, 30, 33 ], def: [ 24, 28, 31 ], res: [ 19, 22, 25 ] }
-    }
+      sprite: "img/sprites/Alm_Hero_of_Prophecy_Mini_Unit_Ok.png"}
   },
   {
    name:"Alm (Brave Echoes)",
@@ -275,8 +183,6 @@ module.exports = [
   {
     name: "Amelia",
     title: "Rose of the War",
-    artist: "Amagaitaro (アマガイタロー)",
-    voice: "Liv Strander",
     releaseDate: "Aug 15, 2017",
     colorType: "Green",
     weaponType: "Axe",
@@ -285,34 +191,11 @@ module.exports = [
     rarity5: ["pool1", "pool2"],
     assets: {
       portrait: "img/heroes-portrait/Amelia_Rose_of_the_War_Face_FC.png",
-      main: "img/heroes-main/Amelia.png",
-      sprite:"img/sprites/Amelia_Rose_of_the_War_Mini_Unit_Ok.png"
-    },
-    skills: [
-      { name: "Iron Axe", rarity: 5 },
-      { name: "Steel Axe", rarity: 5 },
-      { name: "Slaying Axe", rarity: 5 },
-      { name: "Slaying Axe+", rarity: 5 },
-      { name: "Grado Poleax", rarity: 5 },
-      { name: "Holy Vestments", rarity: 5 },
-      { name: "Sacred Cowl", rarity: 5 },
-      { name: "Earth Boost 1", rarity: 5 },
-      { name: "Earth Boost 2", rarity: 5 },
-      { name: "Earth Boost 3", rarity: 5 },
-      { name: "Armor March 1", rarity: 5 },
-      { name: "Armor March 2", rarity: 5 },
-      { name: "Armor March 3", rarity: 5 }
-    ],
-    stats: {
-      level1: { hp: 19, atk: 6, spd: 8, def: 9, res: 4 },
-      level40: { hp: [ 44, 47, 50 ], atk: [ 31, 34, 37 ], spd: [ 31, 34, 37 ], def: [ 32, 35, 38 ], res: [ 20, 23, 27 ] }
-    }
+      sprite:"img/sprites/Amelia_Rose_of_the_War_Mini_Unit_Ok.png"}
   },
   {
     name: "Anna",
     title: "Commander",
-    artist: "Kozaki Yusuke (コザキユースケ)",
-    voice: "Karen Strassman",
     releaseDate: "Feb 02, 2017",
     colorType: "Green",
     weaponType: "Axe",
@@ -323,29 +206,7 @@ module.exports = [
     limited: true,
     assets: {
       portrait: "img/heroes-portrait/Anna_Commander_Face_FC.png",
-      main: "img/heroes-main/Anna.png",
-      sprite:"img/sprites/Anna_Commander_Mini_Unit_Ok.png"
-    },
-    skills: [
-      { name: "Iron Axe", rarity: 2 },
-      { name: "Steel Axe", rarity: 2 },
-      { name: "Silver Axe", rarity: 3 },
-      { name: "Nóatún", rarity: 5 },
-      { name: "Night Sky", rarity: 2 },
-      { name: "Astra", rarity: 4 },
-      { name: "Vantage 1", rarity: 3 },
-      { name: "Vantage 2", rarity: 4 },
-      { name: "Vantage 3", rarity: 5 },
-      { name: "Spur Res 1", rarity: 2 },
-      { name: "Spur Res 2", rarity: 2 },
-      { name: "Spur Res 3", rarity: 4 }
-    ],
-    stats: {
-      level1: { hp: 19, atk: 7, spd: 10, def: 5, res: 6 },
-      level40: { hp: [ 37, 41, 44 ], atk: [ 25, 29, 32 ], spd: [ 35, 38, 41 ], def: [ 19, 22, 25 ], res: [ 24, 28, 31 ] },
-      level1_4: { hp: 18, atk: 7, spd: 10, def: 4, res: 5 },
-      level40_4: { hp: [ 35, 38, 41 ], atk: [ 24, 27, 30 ], spd: [ 33, 36, 39 ], def: [ 17, 20, 23 ], res: [ 22, 25, 28 ] }
-    }
+      sprite:"img/sprites/Anna_Commander_Mini_Unit_Ok.png"}
   },
   {
    name:"Anna (FE13)",
@@ -401,8 +262,6 @@ module.exports = [
   {
     name: "Arden",
     title: "Strong and Tough",
-    artist: "Soeda Ippei (添田一平)",
-    voice: "Mick Wingert",
     releaseDate: "Oct 23, 2017",
     colorType: "Red",
     weaponType: "Sword",
@@ -412,33 +271,11 @@ module.exports = [
     ttReward: true,
     assets: {
       portrait: "img/heroes-portrait/Arden_Strong_and_Tough_Face_FC.png",
-      main: "img/heroes-main/Arden.png",
-      sprite:"img/sprites/Arden_Strong_and_Tough_Mini_Unit_Ok.png"
-    },
-    skills: [
-      { name: "Iron Sword", rarity: 4 },
-      { name: "Steel Sword", rarity: 4 },
-      { name: "Brave Sword", rarity: 4 },
-      { name: "Brave Sword+", rarity: 5 },
-      { name: "Buckler", rarity: 4 },
-      { name: "Pavise", rarity: 4 },
-      { name: "Follow-Up Ring", rarity: 5 },
-      { name: "Spur Def 1", rarity: 4 },
-      { name: "Drive Def 1", rarity: 4 },
-      { name: "Drive Def 2", rarity: 4 }
-    ],
-    stats: {
-      level1: { hp: 25, atk: 10, spd: 3, def: 13, res: 3 },
-      level40: { hp: [ 57, 60, 63 ], atk: [ 33, 36, 39 ], spd: [ 12, 16, 19 ], def: [ 38, 41, 44 ], res: [ 12, 16, 19 ] },
-      level1_4: { hp: 24, atk: 10, spd: 2, def: 13, res: 2 },
-      level40_4: { hp: [ 54, 57, 60 ], atk: [ 31, 34, 37 ], spd: [ 11, 14, 17 ], def: [ 36, 39, 42 ], res: [ 11, 14, 17 ] }
-    }
+      sprite:"img/sprites/Arden_Strong_and_Tough_Mini_Unit_Ok.png"}
   },
   {
     name: "Ares",
     title: "Black Knight",
-    artist: "PenekoR (п猫R)",
-    voice: "Robbie Daymond",
     releaseDate: "May 10, 2018",
     colorType: "Red",
     weaponType: "Sword",
@@ -447,29 +284,7 @@ module.exports = [
     rarity5: ["pool2", "pool6"],
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Ares.png",
-      main: "img/heroes-main/Ares.png",
-      sprite:"img/sprites/Ares_Black_Knight_Mini_Unit_Ok.png"
-    },
-    skills: [
-      { name: "Iron Sword", rarity: 4 },
-      { name: "Steel Sword", rarity: 4 },
-      { name: "Slaying Edge", rarity: 4 },
-      { name: "Dark Mystletainn", rarity: 5 },
-      { name: "Dragon Gaze", rarity: 4 },
-      { name: "Draconic Aura", rarity: 4 },
-      { name: "Brazen Atk/Def 1", rarity: 4 },
-      { name: "Brazen Atk/Def 2", rarity: 4 },
-      { name: "Brazen Atk/Def 3", rarity: 4 },
-      { name: "Seal Def 1", rarity: 4 },
-      { name: "Seal Def/Res 1", rarity: 4 },
-      { name: "Seal Def/Res 2", rarity: 5 },
-    ],
-    stats: {
-      level1: { hp: 18, atk: 8, spd: 8, def: 7, res: 5 },
-      level40: { hp: [ 36, 40, 43 ], atk: [ 33, 36, 39 ], spd: [ 26, 30, 33 ], def: [ 30, 33, 36 ], res: [ 14, 18, 21 ] },
-      level1_4: { hp: 17, atk: 8, spd: 8, def: 6, res: 4 },
-      level40_4: { hp: [ 34, 37, 40 ], atk: [ 31, 34, 37 ], spd: [ 25, 28, 31 ], def: [ 27, 30, 33 ], res: [ 13, 16, 19 ] }
-    }
+      sprite:"img/sprites/Ares_Black_Knight_Mini_Unit_Ok.png"}
   },
   {
    name:"Arete",
@@ -501,8 +316,6 @@ module.exports = [
   {
     name: "Arthur",
     title: "Hapless Hero",
-    artist: "Mendako (メンダコ)  / INTELLIGENT SYSTEMS",
-    voice: "Cam Clarke",
     releaseDate: "Feb 02, 2017",
     colorType: "Green",
     weaponType: "Axe",
@@ -511,28 +324,7 @@ module.exports = [
     rarity4: ["pool1", "pool2","pool6"],
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Arthur.png",
-      main: "img/heroes-main/Arthur.png",
-      sprite:"img/sprites/Arthur_Hapless_Hero_Mini_Unit_Ok.png"
-    },
-    skills: [
-      { name: "Iron Axe", rarity: 3 },
-      { name: "Steel Axe", rarity: 3 },
-      { name: "Emerald Axe", rarity: 4 },
-      { name: "Emerald Axe+", rarity: 5 },
-      { name: "Swap", rarity: 4 },
-      { name: "HP +3", rarity: 3 },
-      { name: "HP +4", rarity: 3 },
-      { name: "HP +5", rarity: 4 },
-      { name: "Lancebreaker 1", rarity: 3 },
-      { name: "Lancebreaker 2", rarity: 4 },
-      { name: "Lancebreaker 3", rarity: 5 }
-    ],
-    stats: {
-      level1: { hp: 19, atk: 8, spd: 7, def: 8, res: 5 },
-      level40: { hp: [ 40, 43, 46 ], atk: [ 29, 32, 35 ], spd: [ 25, 29, 32 ], def: [ 26, 30, 33 ], res: [ 21, 24, 28 ] },
-      level1_4: { hp: 18, atk: 8, spd: 6, def: 8, res: 4 },
-      level40_4: { hp: [ 37, 40, 43 ], atk: [ 27, 30, 33 ], spd: [ 23, 26, 29 ], def: [ 25, 28, 31 ], res: [ 19, 22, 25 ] }
-    }
+      sprite:"img/sprites/Arthur_Hapless_Hero_Mini_Unit_Ok.png"}
   },
   {
    name:"Artur (Winter Dreamland)",
@@ -564,8 +356,6 @@ module.exports = [
   {
     name: "Arvis",
     title: "Emperor of Flame",
-    artist: "Teita (悌太)",
-    voice: "Xander Mobus",
     releaseDate: "Oct 18, 2017",
     colorType: "Red",
     weaponType: "Tome",
@@ -575,27 +365,7 @@ module.exports = [
     ghb: true,
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Arvis.png",
-      main: "img/heroes-main/Arvis.png",
-      sprite:"img/sprites/Arvis_Emperor_of_Flame_Mini_Unit_Ok.png"
-    },
-    skills: [
-      { name: "Fire", rarity: 3 },
-      { name: "Elfire", rarity: 3 },
-      { name: "Bolganone", rarity: 4 },
-      { name: "Valflame", rarity: 5 },
-      { name: "Rising Flame", rarity: 4 },
-      { name: "Growing Flame", rarity: 4 },
-      { name: "Recover Ring", rarity: 5 },
-      { name: "Def Ploy 1", rarity: 3 },
-      { name: "Def Ploy 2", rarity: 3 },
-      { name: "Def Ploy 3", rarity: 4 }
-    ],
-    stats: {
-      level1: { hp: 18, atk: 8, spd: 7, def: 4, res: 7 },
-      level40: { hp: [ 30, 33, 36 ], atk: [ 31, 34, 37 ], spd: [ 28, 31, 34 ], def: [ 13, 17, 20 ], res: [ 30, 33, 36 ] },
-      level1_4: { hp: 17, atk: 8, spd: 7, def: 3, res: 6 },
-      level40_4: { hp: [ 28, 31, 34 ], atk: [ 29, 32, 35 ], spd: [ 26, 29, 32 ], def: [ 12, 15, 18 ], res: [ 27, 30, 33 ] }
-    }
+      sprite:"img/sprites/Arvis_Emperor_of_Flame_Mini_Unit_Ok.png"}
   },
   {
    name:"Asbel",
@@ -705,8 +475,6 @@ module.exports = [
   {
     name: "Athena",
     title: "Borderland Sword",
-    artist: "Miyuu (深遊)",
-    voice: "Cristina Valenzuela",
     releaseDate: "Jun 14, 2017",
     colorType: "Red",
     weaponType: "Sword",
@@ -716,29 +484,7 @@ module.exports = [
     rarity5: ["pool1"],
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Athena.png",
-      main: "img/heroes-main/Athena.png",
-      sprite:"img/sprites/Athena_Borderland_Sword_Mini_Unit_Ok.png"
-    },
-    skills: [
-      { name: "Iron Sword", rarity: 4 },
-      { name: "Steel Sword", rarity: 4 },
-      { name: "Wo Dao", rarity: 4 },
-      { name: "Wo Dao+", rarity: 5 },
-      { name: "New Moon", rarity: 4 },
-      { name: "Moonbow", rarity: 4 },
-      { name: "Armored Blow 1", rarity: 4 },
-      { name: "Sturdy Blow 1", rarity: 4 },
-      { name: "Sturdy Blow 2", rarity: 5 },
-      { name: "Sword Exp. 1", rarity: 4 },
-      { name: "Sword Exp. 2", rarity: 4 },
-      { name: "Sword Exp. 3", rarity: 4 }
-    ],
-    stats: {
-      level1: { hp: 17, atk: 7, spd: 10, def: 8, res: 5 },
-      level40: { hp: [ 33, 36, 40 ], atk: [ 28, 31, 34 ], spd: [ 35, 38, 41 ], def: [ 24, 27, 31 ], res: [ 21, 24, 28 ] },
-      level1_4: { hp: 16, atk: 6, spd: 10, def: 8, res: 4 },
-      level40_4: { hp: [ 31, 34, 37 ], atk: [ 25, 28, 31 ], spd: [ 33, 36, 39 ], def: [ 23, 26, 29 ], res: [ 19, 22, 25 ] }
-    }
+      sprite:"img/sprites/Athena_Borderland_Sword_Mini_Unit_Ok.png"}
   },
   {
    name:"Atlas",
@@ -778,29 +524,7 @@ module.exports = [
     limited: true,
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Aversa.png",
-      main: "img/heroes-main/Aversa.png",
-      sprite:"img/sprites/Aversa_Dark_One_Mini_Unit_Ok.png"
-    },
-    skills: [
-      { name: "Flux", rarity: 3 },
-      { name: "Ruin", rarity: 3 },
-      { name: "Fenrir", rarity: 3 },
-      { name: "Aversa's Night", rarity: 5 },
-      { name: "Dragon Gaze", rarity: 3 },
-      { name: "Dragon Fang", rarity: 4 },
-      { name: "Speed +1", rarity: 3 },
-      { name: "Hp/Spd 1", rarity: 4 },
-      { name: "Hp/Spd 2", rarity: 5 },
-      { name: "Odd Res Wave 1", rarity: 3 },
-      { name: "Odd Res Wave 2", rarity: 3 },
-      { name: "Odd Res Wave 3", rarity: 4 }
-    ],
-    stats: {
-      level1: { hp: 18, atk: 7, spd: 8, def: 4, res: 7 },
-      level40: { hp: [ 39, 42, 45 ], atk: [ 30, 33, 36 ], spd: [ 31, 34, 37 ], def: [ 14, 17, 20 ], res: [ 21, 24, 27 ] },
-      level1_4: { hp: 17, atk: 7, spd: 8, def: 3, res: 6 },
-      level40_4: {hp: [ 36, 39, 42 ], atk: [ 28, 31, 34 ], spd: [ 29, 32, 35 ], def: [ 12, 15, 18 ], res: [ 19, 22, 25 ] }
-    }
+      sprite:"img/sprites/Aversa_Dark_One_Mini_Unit_Ok.png"}
   },
   {
     name: "Ayra",
@@ -816,7 +540,7 @@ module.exports = [
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Ayra.png",
       main: "img/heroes-main/Ayra.png",
-      sprite:"img/sprites/Ayra_Astras_Wielder_Mini_Unit_Ok"
+      sprite:"img/sprites/Ayra_Astras_Wielder_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Iron Sword", rarity: 5 },
