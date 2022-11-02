@@ -3510,7 +3510,7 @@ for(let n=0;n<t.length;n++)r<=new Date(t[n].releaseDate)||t[n].limited||t[n].ghb
  {
    name:"Dimitri (Forces of Will)",
    shortName: "Dimitri",
-   title: "Savior King",
+   title: "Savage Boar",
    releaseDate:"May 7, 2021",
    colorType:"Blue",
    weaponType:"Lance",
