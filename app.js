@@ -13,7 +13,7 @@ for(let n=0;n<t.length;n++)r<=new Date(t[n].releaseDate)||t[n].limited||t[n].ghb
                                                                                                   t[n].rarity5&&t[n].rarity5.includes(e)&&!a.excludeFromRarity5.includes(t[n].name)&&i.r5.push(t[n]));return i},getInheritanceList:n,getInheritancePrereqList:function(e){let a=e.map(e=>n(e,!0)),r=a[0].reduce((e,a)=>Math.min(e,a.rarity),5),t=[];a[0]=a[0].filter(e=>e.rarity<=r&&(t.push(e.name),!0));for(let e=1;e<a.length;e++)a[e]=a[e].filter(e=>t.includes(e.name));return a},hasSkill:function(e,a,r){for(let t=0;t<e.skills.length;t++)if(e.skills[t].name===a&&e.skills[t].rarity<=r)return!0;return!1}}},{"./hero-data.js":5}],
   
 //Units - hero-data.js
-5:[function(e,a,r){module.exports = [
+5:[function(e,a,r){a.exports = [
   
   {
     name: "Abel",
