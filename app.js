@@ -298,7 +298,7 @@ for(let n=0;n<t.length;n++)r<=new Date(t[n].releaseDate)||t[n].limited||t[n].ghb
     rarity4: ["pool2", "pool6"],
     rarity5: ["pool2", "pool6"],
     assets: {
-      portrait: "img/heroes-portrait/75px-Icon_Portrait_Ares.png",
+      portrait: "img/heroes-portrait/Ares_Black_Knight_Face_FC.png",
       sprite:"img/sprites/Ares_Black_Knight_Mini_Unit_Ok.png"}
   },
   {
