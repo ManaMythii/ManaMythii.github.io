@@ -3805,7 +3805,7 @@ for(let n=0;n<t.length;n++)r<=new Date(t[n].releaseDate)||t[n].limited||t[n].ghb
    colorType:"Green",
    weaponType:"Axe",
    moveType:"Infantry",
-   rarity5:["pool6"],
+   rarity4s:["pool6"],
    assets:{
      portrait:"img/heroes-portrait/Edelgard_The_Future_Face_FC.png",
      sprite:"img/sprites/Edelgard_The_Future_Mini_Unit_Ok.png"}
