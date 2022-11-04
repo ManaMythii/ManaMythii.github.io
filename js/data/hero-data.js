@@ -3922,6 +3922,20 @@ module.exports = [
     }
   },
   {
+   name:"Eir (Renewed Spirit)",
+   shortName:"Eir",
+   title:"Renewed Life",
+   releaseDate:"Jan 1, 2020",
+   colorType:"Red",
+   weaponType:"Dagger",
+   moveType:"Flying",
+   rarity5:["pool6"],
+   ttReward: true,
+   assets:{
+     portrait:"img/heroes-portrait/Eir_Renewed_Life_Face_FC.png",
+     sprite:"img/sprites/Eir_Renewed_Life_Mini_Unit_Ok.png"}
+ },
+  {
    name:"Eir (Ascended Heroes)",
    shortName:"Eir",
    title:"Life Ascendant",
@@ -4082,6 +4096,47 @@ module.exports = [
     }
   },
   {
+   name:"Eirika (Childhood Encounter)",
+   shortName:"Eirika",
+   title:"Twin Refulgence",
+   releaseDate:"Apr 19, 2021",
+   colorType:"Red",
+   weaponType:"Sword",
+   moveType:"Infantry",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Eirika_Twin_Refulgence_Face_FC.png",
+     sprite:"img/sprites/Eirika_Twin_Refulgence_Mini_Unit_Ok.png"}
+ },
+ {
+   name:"Eirika (Keepers of Faith)",
+   shortName:"Eirika",
+   title:"Pledged Restorer",
+   releaseDate:"Aug 17, 2021",
+   colorType:"Blue",
+   weaponType:"Lance",
+   moveType:"Cavalry",
+   rarity5:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/Eirika_Pledged_Restorer_Face_FC.png",
+     sprite:"img/sprites/Eirika_Pledged_Restorer_Mini_Unit_Ok.png"}
+ },
+  {
+   name:"Eirika (Taken by the Tide)",
+   shortName:"Eirika",
+   title:"Beach Restorer",
+   releaseDate:"Jul 7, 2022",
+   colorType:"Green",
+   weaponType:"Tome",
+   moveType:"Flying",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Eirika_Beach_Restorer_Face_FC.png",
+     sprite:"img/sprites/Eirika_Beach_Restorer_Mini_Unit_Ok.png"}
+ },
+  {
    name: "Eitri",
    title:"Youthful Sage",
    releaseDate:"Nov 30, 2021",
@@ -4128,6 +4183,33 @@ module.exports = [
       level40: { hp: [ 42, 45, 48 ], atk: [ 29, 32, 35 ], spd: [ 21, 24, 28 ], def: [ 31, 34, 37 ], res: [ 15, 19, 22 ] }
     }
   },
+  {
+   name:"Eldigan (To Stay Dreaming)",
+   shortName:"Eldigan",
+   title:"Strutting Lion",
+   releaseDate:"Sep 8, 2020",
+   colorType:"Blue",
+   weaponType:"Lance",
+   moveType:"Flying",
+   rarity4:["pool6"],
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Eldigan_Strutting_Lion_Face_FC.png",
+     sprite:"img/sprites/Eldigan_Strutting_Lion_Mini_Unit_Ok.png"}
+ },
+ {
+   name:"Eleonora",
+   title:"Shooting Starlet",
+   releaseDate:"Jan 20, 2020",
+   colorType:"Neutral",
+   weaponType:"Bow",
+   moveType:"Infantry",
+   rarity4s:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/Eleonora_Shooting_Starlet_Face_FC.png",
+     sprite:"img/sprites/Eleonora_Shooting_Starlet_Mini_Unit_Ok.png"}
+ },
   {
    name: "Elimine",
    title:"Scouring Saint",
@@ -4214,6 +4296,21 @@ module.exports = [
       level40: { hp: [ 31, 34, 38 ], atk: [ 26, 29, 32 ], spd: [ 32, 35, 38 ], def: [ 17, 20, 23 ], res: [ 18, 21, 24 ] }
     }
   },
+  {
+   name:"Elincia (Summer Vacation)",
+   shortName: "Elincia",
+   title:"Seaside Queen",
+   releaseDate:"Jun 17, 2022",
+   colorType:"Blue",
+   weaponType:"Bow",
+   moveType:"Flying",
+   rarity4:["pool6"],
+   rarity5:["pool6"],
+   ttReward: true,
+   assets:{
+     portrait:"img/heroes-portrait/Elincia_Seaside_Queen_Face_FC.png",
+     sprite:"img/sprites/Elincia_Seaside_Queen_Mini_Unit_Ok.png"}
+ },
   {
     name: "Elise",
     title: "Budding Flower",
@@ -4403,6 +4500,47 @@ module.exports = [
     }
   },
   {
+   name:"Eliwood (Legendary Heroes)",
+   shortName: "Eliwood",
+   title:"Blazing Knight",
+   releaseDate:"Jun 28, 2019",
+   colorType:"Red",
+   weaponType:"Sword",
+   moveType:"Cavalry",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Eliwood_Blazing_Knight_Face_FC.png",
+     sprite:"img/sprites/Eliwood_Blazing_Knight_Mini_Unit_Ok.png"}
+ },
+ {
+   name:"Eliwood (Brave Echoes)",
+   shortName: "Eliwood",
+   title:"Marquess Pherae",
+   releaseDate:"Aug 16, 2019",
+   colorType:"Blue",
+   weaponType:"Lance",
+   moveType:"Cavalry",
+   rarity4s:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/Eliwood_Marquess_Pherae_Face_FC.png",
+     sprite:"img/sprites/Eliwood_Marquess_Pherae_Mini_Unit_Ok.png"}
+ },
+  {
+   name:"Ena (Dragons Harvest)",
+   title:"Gentle Exalt",
+   releaseDate:"Oct 9, 2020",
+   colorType:"Red",
+   weaponType:"Breath",
+   moveType:"Infantry",
+   rarity4:["pool6"],
+   rarity5:["pool6"],
+   ttReward: true,
+   assets:{
+     portrait:"img/heroes-portrait/Ena_Autumn_Tactician_Face_FC.png",
+     sprite:"img/sprites/Ena_Autumn_Tactician_Mini_Unit_Ok.png"}
+ },
+  {
     name: "Ephraim",
     title: "Restoration Lord",
     artist: "Asatani Tomoyo (麻谷知世)",
@@ -4554,6 +4692,58 @@ module.exports = [
     }
   },
   {
+   name:"Ephraim (Desert Mercenaries)",
+   shortName: "Ephraim",
+   title:"Dynastic Duo",
+   releaseDate:"Nov 7, 2019",
+   colorType:"Blue",
+   weaponType:"Lance",
+   moveType:"Infantry",
+   rarity4s:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/Ephraim_Dynastic_Duo_Face_FC.png",
+     sprite:"img/sprites/Ephraim_Dynastic_Duo_Mini_Unit_Ok.png"}
+ },
+ {
+   name:"Eremiya",
+   title:"Bishop of Woe",
+   releaseDate:"Jul 21, 2020",
+   colorType:"Neutral",
+   weaponType:"Staff",
+   moveType:"Infantry",
+   rarity3:["pool6"],
+   rarity4:["pool6"],
+   ghb: true,
+   assets:{
+     portrait:"img/heroes-portrait/Eremiya_Bishop_of_Woe_Face_FC.png",
+     sprite:"img/sprites/Eremiya_Bishop_of_Woe_Mini_Unit_Ok.png"}
+ },
+ {
+   name:"Erinys",
+   title:"Earnest Knight",
+   releaseDate:"Feb 16, 2021",
+   colorType:"Blue",
+   weaponType:"Lance",
+   moveType:"Flying",
+   rarity5:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/Erinys_Earnest_Knight_Face_FC.png",
+     sprite:"img/sprites/Erinys_Earnest_Knight_Mini_Unit_Ok.png"}
+ },
+ {
+   name:"Erk",
+   title:"Studious Mage",
+   releaseDate:"Apr 6, 2021",
+   colorType:"Red",
+   weaponType:"Tome",
+   moveType:"Infantry",
+   rarity3:["pool6"],
+   rarity4:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/Erk_Studious_Mage_Face_FC.png",
+     sprite:"img/sprites/Erk_Studious_Mage_Mini_Unit_Ok.png"}
+ },
+  {
     name: "Est",
     title: "Junior Whitewing",
     artist: "Miwabe Sakura (みわべさくら)",
@@ -4590,6 +4780,20 @@ module.exports = [
       level40_4: { hp: [ 31, 34, 37 ], atk: [ 30, 33, 36 ], spd: [ 25, 28, 31 ], def: [ 19, 22, 25 ], res: [ 26, 29, 32 ] }
     }
   },
+  {
+   name:"Est (Familial Festivities)",
+   shortName: "Est",
+   title:"Springtime Flier",
+   releaseDate:"Mar 18, 2020",
+   colorType:"Blue",
+   weaponType:"Tome",
+   moveType:"Flying",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Est_Springtime_Flier_Face_FC.png",
+     sprite:"img/sprites/Est_Springtime_Flier_Mini_Unit_Ok.png"}
+ },
   {
    name:"Est (Ymir & More)",
    shortName: "Est",
@@ -4644,43 +4848,45 @@ module.exports = [
       level40_4: { hp: [ 32, 35, 38 ], atk: [ 22, 25, 28 ], spd: [ 29, 32, 35 ], def: [ 20, 23, 26 ], res: [ 16, 19, 22 ] }
     }
   },
-    {
-    name: "Tobin",
-    title: "The Clueless One",
-    artist: "kaya8",
-    voice: "Robbie Daymond",
-    releaseDate: "Jul 07, 2017",
-    colorType: "Red",
-    weaponType: "Sword",
-    moveType: "Infantry",
-    rarity4: ["pool1", "pool2", "pool6"],
-    rarity5: ["pool1", "pool2", "pool6"],
-    ttReward: true,
-    assets: {
-      portrait: "img/heroes-portrait/75px-Icon_Portrait_Tobin.png",
-      main: "img/heroes-main/Tobin.png",
-      sprite:"img/sprites/Tobin_The_Clueless_One_Mini_Unit_Ok.png"
-    },
-    skills: [
-      { name: "Iron Sword", rarity: 4 },
-      { name: "Steel Sword", rarity: 4 },
-      { name: "Armorslayer", rarity: 4 },
-      { name: "Armorslayer+", rarity: 5 },
-      { name: "Pivot", rarity: 4 },
-      { name: "Attack +1", rarity: 4 },
-      { name: "Attack +2", rarity: 4 },
-      { name: "Attack +3", rarity: 4 },
-      { name: "Seal Spd 1", rarity: 4 },
-      { name: "Seal Spd 2", rarity: 4 },
-      { name: "Seal Spd 3", rarity: 5 }
-    ],
-    stats: {
-      level1: { hp: 18, atk: 7, spd: 5, def: 5, res: 4 },
-      level40: { hp: [ 43, 46, 49 ], atk: [ 28, 31, 34 ], spd: [ 23, 27, 30 ], def: [ 30, 33, 36 ], res: [ 22, 26, 29 ] },
-      level1_4: { hp: 17, atk: 7, spd: 5, def: 4, res: 3 },
-      level40_4: { hp: [ 40, 43, 46 ], atk: [ 26, 29, 32 ], spd: [ 22, 25, 28 ], def: [ 27, 30, 33 ], res: [ 20, 23, 26 ] }
-    }
-  },
+  {
+   name:"Ethlyn (To Stay Dreaming)",
+   shortName: "Ethlyn",
+   title:"Glimmering Lady",
+   releaseDate:"Nov 8, 2020",
+   colorType:"Neutral",
+   weaponType:"Dagger",
+   moveType:"Flying",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Ethlyn_Glimmering_Lady_Face_FC.png",
+     sprite:"img/sprites/Ethlyn_Glimmering_Lady_Mini_Unit_Ok.png"}
+ },
+  {
+   name:"Ewan",
+   title:"Eager Student",
+   releaseDate:"Nov 7, 2019",
+   colorType:"Red",
+   weaponType:"Tome",
+   moveType:"Infantry",
+   rarity4s:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/Ewan_Eager_Student_Face_FC.png",
+     sprite:"img/sprites/Ewan_Eager_Student_Mini_Unit_Ok.png"}
+ },
+  {
+   name:"Eyvel",
+   title:"Mistress of Fiana",
+   releaseDate:"Dec 6, 2019",
+   colorType:"Red",
+   weaponType:"Sword",
+   moveType:"Infantry",
+   rarity4s:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/Eyvel_Mistress_of_Fiana_Face_FC.png",
+     sprite:"img/sprites/Eyvel_Mistress_of_Fiana_Mini_Unit_Ok.png"}
+ },
+
   {
     name: "Fae",
     title: "Divine Dragon",
@@ -4759,6 +4965,46 @@ module.exports = [
     }
   },
   {
+    name: "Fae (Legendary Heroes)",
+    shortName: "Fae",
+    title: "Childlike Dragon",
+    releaseDate: "Oct 29, 2021",
+    colorType: "Blue",
+    weaponType: "Breath",
+    moveType: "Infantry",
+    rarity5: ["pool6"],
+    limited: true,
+    assets: {
+      portrait: "img/heroes-portrait/Fae_Childlike_Dragon_Face_FC.png",
+      sprite:"img/sprites/Fae_Childlike_Dragon_Mini_Unit_Ok.png"}
+  },
+  {
+    name: "Fáfnir (Like Clockwork)",
+    shortName: "Fáfnir",
+    title: "Fresh Ambition",
+    releaseDate: "Jan 1, 2022",
+    colorType: "Red",
+    weaponType: "Dagger",
+    moveType: "Cavalry",
+    rarity5: ["pool6"],
+    limited: true,
+    assets: {
+      portrait: "img/heroes-portrait/Fafnir_Fresh_Ambition_Face_FC.png",
+      sprite:"img/sprites/Fafnir_Fresh_Ambition_Mini_Unit_Ok.png"}
+  },
+  {
+    name: "Farina",
+    title: "The Great Wing",
+    releaseDate: "Apr 6, 2022",
+    colorType: "Blue",
+    weaponType: "Lance",
+    moveType: "Flying",
+    rarity5: ["pool6"],
+    assets: {
+      portrait: "img/heroes-portrait/Farina_The_Great_Wing_Face_FC.png",
+      sprite:"img/sprites/Farina_The_Great_Wing_Mini_Unit_Ok.png"}
+  },
+  {
     name: "Faye",
     title: "Devoted Heart",
     artist: "Konfuzi Kokon (紺藤ココン)",
@@ -4792,6 +5038,20 @@ module.exports = [
       level1: { hp: 16, atk: 6, spd: 3, def: 4, res: 7 },
       level40: { hp: [ 39, 42, 45 ], atk: [ 27, 30, 33 ], spd: [ 21, 25, 28 ], def: [ 22, 26, 29 ], res: [ 28, 31, 34 ] }
     }
+  },
+  {
+    name: "Faye (Lovely Gifts)",
+    shortName: "Faye",
+    title: "Drawn Heartstring",
+    releaseDate: "Feb 2, 2020",
+    colorType: "Neutral",
+    weaponType: "Bow",
+    moveType: "Armored",
+    rarity5: ["pool6"],
+    limited: true,
+    assets: {
+      portrait: "img/heroes-portrait/Faye_Drawn_Heartstring_Face_FC.png",
+      sprite:"img/sprites/Faye_Drawn_Heartstring_Mini_Unit_Ok.png"}
   },
   {
     name: "Felicia",
@@ -4831,6 +5091,62 @@ module.exports = [
       level40_4: { hp: [ 29, 32, 35 ], atk: [ 18, 21, 24 ], spd: [ 32, 35, 38 ], def: [ 13, 16, 19 ], res: [ 30, 33, 36 ] }
     }
   },
+   {
+    name: "Felicia (A Season for Picnics)",
+    shortName: "Felicia",
+    title: "Off the Menu",
+    releaseDate: "Apr 19, 2019",
+    colorType: "Green",
+    weaponType: "Axe",
+    moveType: "Armored",
+    rarity5: ["pool6"],
+    limited: true,
+    assets: {
+      portrait: "img/heroes-portrait/Felicia_Off_the_Menu_Face_FC.png",
+      sprite:"img/sprites/Felicia_Off_the_Menu_Mini_Unit_Ok.png"}
+  },
+  {
+    name: "Felix (A Festival Miracle)",
+    shortName: "Felix",
+    title: "Icy Gift Giver",
+    releaseDate: "Dec 18, 2020",
+    colorType: "Blue",
+    weaponType: "Bow",
+    moveType: "Armored",
+    rarity4: ["pool6"],
+    rarity5: ["pool6"],
+    ttReward: true,
+    assets: {
+      portrait: "img/heroes-portrait/Felix_Icy_Gift_Giver_Face_FC.png",
+      sprite:"img/sprites/Felix_Icy_Gift_Giver_Mini_Unit_Ok.png"}
+  },
+  {
+    name: "Ferdinand",
+    title: "Noblest of Nobles",
+    releaseDate: "Mar 6, 2020",
+    colorType: "Blue",
+    weaponType: "Lance",
+    moveType: "Cavalry",
+    rarity3: ["pool6"],
+    rarity4: ["pool6"],
+    assets: {
+      portrait: "img/heroes-portrait/Ferdinand_Noblest_of_Nobles_Face_FC.png",
+      sprite:"img/sprites/Ferdinand_Noblest_of_Nobles_Mini_Unit_Ok.png"}
+  },
+  {
+    name: "Fernand",
+    title: "Traitorous Knight",
+    releaseDate: "Jun 9, 2021",
+    colorType: "Blue",
+    weaponType: "Lance",
+    moveType: "Cavalry",
+    rarity3: ["pool6"],
+    rarity4: ["pool6"],
+    ghb: true,
+    assets: {
+      portrait: "img/heroes-portrait/Fernand_Traitorous_Knight_Face_FC.png",
+      sprite:"img/sprites/Fernand_Traitorous_Knight_Mini_Unit_Ok.png"}
+  },
   {
     name: "Finn",
     title: "Lance of Legend",
@@ -4845,7 +5161,7 @@ module.exports = [
     ttReward: true,
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Finn.png",
-      main: "img/heroes-main/Finn.png"
+      sprite:"img/sprites/Finn_Lance_of_Legend_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Iron Lance", rarity: 4 },
@@ -4867,6 +5183,33 @@ module.exports = [
       // level40_4: { hp: [ 39, 42, 45 ], atk: [ 28, 31, 34 ], spd: [ 20, 23, 26 ], def: [ 27, 30, 33 ], res: [ 14, 17, 20 ] }
     }
   },
+   {
+    name: "Fiora",
+    title: "Airborne Warrior",
+    releaseDate: "Feb 17, 2020",
+    colorType: "Blue",
+    weaponType: "Lance",
+    moveType: "Flying",
+    rarity4s: ["pool6"],
+    assets: {
+      portrait: "img/heroes-portrait/Fiora_Airborne_Warrior_Face_FC.png",
+      sprite:"img/sprites/Fiora_Airborne_Warrior_Mini_Unit_Ok.png"}
+  },
+   {
+    name: "Fiora (Summer Refreshes)",
+    shortName: "Fiora",
+    title: "Defrosted Ilian",
+    releaseDate: "Jul 12, 2019",
+    colorType: "Red",
+    weaponType: "Sword",
+    moveType: "Flying",
+    rarity4: ["pool6"],
+    rarity5: ["pool6"],
+    ttReward: true,
+    assets: {
+      portrait: "img/heroes-portrait/Fiora_Defrosted_Ilian_Face_FC.png",
+      sprite:"img/sprites/Fiora_Defrosted_Ilian_Mini_Unit_Ok.png"}
+  },
   {
     name: "Fir",
     title: "Sword Student",
@@ -4880,7 +5223,7 @@ module.exports = [
     rarity4: ["pool1", "pool2"],
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Fir.png",
-      main: "img/heroes-main/Fir.png"
+      sprite:"img/sprites/Fir_Sword_Student_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Iron Sword", rarity: 3 },
@@ -4904,6 +5247,20 @@ module.exports = [
       level40_4: { hp: [ 35, 38, 41 ], atk: [ 20, 23, 26 ], spd: [ 31, 34, 37 ], def: [ 19, 22, 25 ], res: [ 26, 29, 32 ] }
     }
   },
+   {
+    name: "Fir (Familial Festivities)",
+    shortName: "Fir",
+    title: "Student of Spring",
+    releaseDate: "Mar 18, 2020",
+    colorType: "Green",
+    weaponType: "Axe",
+    moveType: "Flying",
+    rarity5: ["pool6"],
+    limited: true,
+    assets: {
+      portrait: "img/heroes-portrait/Fir_Student_of_Spring_Face_FC.png",
+      sprite:"img/sprites/Fir_Student_of_Spring_Mini_Unit_Ok.png"}
+  },
   {
     name: "Fjorm",
     title: "Princess of Ice",
@@ -4917,7 +5274,7 @@ module.exports = [
     limited: true,
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Fjorm.png",
-      main: "img/heroes-main/Fjorm.png"
+      sprite:"img/sprites/Fjorm_Princess_of_Ice_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Iron Lance", rarity: 5 },
@@ -4956,7 +5313,7 @@ module.exports = [
     limited: true,
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Fjorm (New Year's Wish).png",
-      main: "img/heroes-main/Fjorm (New Year's Wish).png"
+      sprite:"img/sprites/Fjorm_New_Traditions_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Iron Bow", rarity: 5 },
@@ -4978,6 +5335,57 @@ module.exports = [
       level1: { hp: 17, atk: 9, spd: 9, def: 5, res: 4 },
       level40: { hp: [ 35, 39, 42 ], atk: [ 32, 35, 38 ], spd: [ 32, 35, 38 ], def: [ 17, 20, 23 ], res: [ 18, 21, 24 ] }
     }
+  },
+   {
+    name: "Fjorm (Bridal Belongings)",
+    shortName: "Fjorm",
+    title: "Bride of Rime",
+    releaseDate: "May 21, 2019",
+    colorType: "Neutral",
+    weaponType: "Staff",
+    moveType: "Flying",
+    rarity5: ["pool6"],
+    limited: true,
+    assets: {
+      portrait: "img/heroes-portrait/Fjorm_Bride_of_Rime_Face_FC.png",
+      sprite:"img/sprites/Fjorm_Bride_of_Rime_Mini_Unit_Ok.png"}
+  },
+   {
+    name: "Fjorm (Ascended Heroes)",
+    shortName: "Fjorm",
+    title: "Ice Ascendant",
+    releaseDate: "Oct 18, 2021",
+    colorType: "Green",
+    weaponType: "Axe",
+    moveType: "Armored",
+    rarity5: ["pool6"],
+    assets: {
+      portrait: "img/heroes-portrait/Fjorm_Ice_Ascendant_Face_FC.png",
+      sprite:"img/sprites/Fjorm_Ice_Ascendant_Mini_Unit_Ok.png"}
+  },
+  {
+    name: "Flavia",
+    title: "Feroxi East-Khan",
+    releaseDate: "Dec 7, 2021",
+    colorType: "Red",
+    weaponType: "Sword",
+    moveType: "Infantry",
+    rarity5: ["pool6"],
+    assets: {
+      portrait: "img/heroes-portrait/Flavia_Feroxi_East-Khan_Face_FC.png",
+      sprite:"img/sprites/Flavia_Feroxi_East-Khan_Mini_Unit_Ok.png"}
+  },
+  {
+    name: "Flayn",
+    title: "Playing Innocent",
+    releaseDate: "Oct 19, 2020",
+    colorType: "Neutral",
+    weaponType: "Staff",
+    moveType: "Flying",
+    rarity5: ["pool6"],
+    assets: {
+      portrait: "img/heroes-portrait/Flayn_Playing_Innocent_Face_FC.png",
+      sprite:"img/sprites/Flayn_Playing_Innocent_Mini_Unit_Ok.png"}
   },
   {
     name: "Flora",
@@ -13864,38 +14272,17 @@ module.exports = [
   {
     name: "Tobin",
     title: "The Clueless One",
-    artist: "kaya8",
-    voice: "Robbie Daymond",
     releaseDate: "Jul 07, 2017",
     colorType: "Red",
     weaponType: "Sword",
     moveType: "Infantry",
-    rarity4: ["pool1", "pool2"],
-    rarity5: ["pool1", "pool2"],
+    rarity4: ["pool1", "pool2", "pool6"],
+    rarity5: ["pool1", "pool2", "pool6"],
     ttReward: true,
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Tobin.png",
-      main: "img/heroes-main/Tobin.png"
-    },
-    skills: [
-      { name: "Iron Sword", rarity: 4 },
-      { name: "Steel Sword", rarity: 4 },
-      { name: "Armorslayer", rarity: 4 },
-      { name: "Armorslayer+", rarity: 5 },
-      { name: "Pivot", rarity: 4 },
-      { name: "Attack +1", rarity: 4 },
-      { name: "Attack +2", rarity: 4 },
-      { name: "Attack +3", rarity: 4 },
-      { name: "Seal Spd 1", rarity: 4 },
-      { name: "Seal Spd 2", rarity: 4 },
-      { name: "Seal Spd 3", rarity: 5 }
-    ],
-    stats: {
-      level1: { hp: 18, atk: 7, spd: 5, def: 5, res: 4 },
-      level40: { hp: [ 43, 46, 49 ], atk: [ 28, 31, 34 ], spd: [ 23, 27, 30 ], def: [ 30, 33, 36 ], res: [ 22, 26, 29 ] },
-      level1_4: { hp: 17, atk: 7, spd: 5, def: 4, res: 3 },
-      level40_4: { hp: [ 40, 43, 46 ], atk: [ 26, 29, 32 ], spd: [ 22, 25, 28 ], def: [ 27, 30, 33 ], res: [ 20, 23, 26 ] }
-    }
+      main: "img/heroes-main/Tobin.png",
+      sprite:"img/sprites/Tobin_The_Clueless_One_Mini_Unit_Ok.png"}
   },
   {
     name: "Ursula",
