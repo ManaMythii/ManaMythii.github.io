@@ -7386,7 +7386,7 @@ module.exports = [
   },
   {
    name:"Ike (Dark Burdens)",
-   shortNale: "Ike",
+   shortName: "Ike",
    title:"Zeal Unleashed",
    releaseDate:"May 8, 2020",
    colorType:"Red",
