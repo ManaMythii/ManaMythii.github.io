@@ -5452,7 +5452,7 @@ module.exports = [
     rarity4: ["pool1", "pool2", "pool6"],
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Florina.png",
-      sprite:"img/sprites/Flora_Signature_Dish_Mini_Unit_Ok.png"
+      sprite:"img/sprites/Florina_Lovely_Flier_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Iron Lance", rarity: 3 },
