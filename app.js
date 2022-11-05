@@ -5235,8 +5235,8 @@ for(let n=0;n<t.length;n++)r<=new Date(t[n].releaseDate)||t[n].limited||t[n].ghb
     colorType: "Red",
     weaponType: "Sword",
     moveType: "Infantry",
-    rarity3: ["pool1", "pool2"],
-    rarity4: ["pool1", "pool2"],
+    rarity3: ["pool1", "pool2", "pool6"],
+    rarity4: ["pool1", "pool2", "pool6"],
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Fir.png",
       sprite:"img/sprites/Fir_Sword_Student_Mini_Unit_Ok.png"
@@ -5286,7 +5286,7 @@ for(let n=0;n<t.length;n++)r<=new Date(t[n].releaseDate)||t[n].limited||t[n].ghb
     colorType: "Blue",
     weaponType: "Lance",
     moveType: "Infantry",
-    rarity5: ["pool1", "pool2"],
+    rarity5: ["pool1", "pool2", "pool6"],
     limited: true,
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Fjorm.png",
@@ -5325,6 +5325,7 @@ for(let n=0;n<t.length;n++)r<=new Date(t[n].releaseDate)||t[n].limited||t[n].ghb
     colorType: "Green",
     weaponType: "Bow",
     moveType: "Flying",
+    rarity4ss: ["pool6"],
     rarity5: ["pool2"],
     limited: true,
     assets: {
@@ -5412,10 +5413,11 @@ for(let n=0;n<t.length;n++)r<=new Date(t[n].releaseDate)||t[n].limited||t[n].ghb
     colorType: "Red",
     weaponType: "Dagger",
     moveType: "Infantry",
+    rarity4s: ["pool6"],
     rarity5: ["pool2"],
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Flora.png",
-      main: "img/heroes-main/Flora.png"
+      sprite:"img/sprites/Flora_Cold_as_Ice_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Iron Dagger", rarity: 5 },
@@ -5440,6 +5442,20 @@ for(let n=0;n<t.length;n++)r<=new Date(t[n].releaseDate)||t[n].limited||t[n].ghb
     }
   },
   {
+    name: "Flora (A Season for Picnics)",
+    shortName: "Flora",
+    title: "Signature Dish",
+    releaseDate: "Apr 19, 2019",
+    colorType: "Red",
+    weaponType: "Dagger",
+    moveType: "Armored",
+    rarity5: ["pool6"],
+    limited: true,
+    assets: {
+      portrait: "img/heroes-portrait/Flora_Signature_Dish_Face_FC.png",
+      sprite:"img/sprites/Flora_Signature_Dish_Mini_Unit_Ok.png"}
+  },
+  {
     name: "Florina",
     title: "Lovely Flier",
     artist: "Zaza (ザザ)",
@@ -5448,11 +5464,11 @@ for(let n=0;n<t.length;n++)r<=new Date(t[n].releaseDate)||t[n].limited||t[n].ghb
     colorType: "Blue",
     weaponType: "Lance",
     moveType: "Flying",
-    rarity3: ["pool1", "pool2"],
-    rarity4: ["pool1", "pool2"],
+    rarity3: ["pool1", "pool2", "pool6"],
+    rarity4: ["pool1", "pool2", "pool6"],
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Florina.png",
-      main: "img/heroes-main/Florina.png"
+      sprite:"img/sprites/Flora_Signature_Dish_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Iron Lance", rarity: 3 },
@@ -5476,6 +5492,44 @@ for(let n=0;n<t.length;n++)r<=new Date(t[n].releaseDate)||t[n].limited||t[n].ghb
     }
   },
   {
+    name: "Florina (Ascended Heroes)",
+    shortName: "Florina",
+    title: "Azure-Sky Knight",
+    releaseDate: "Jun 8, 2022",
+    colorType: "Neutral",
+    weaponType: "Bow",
+    moveType: "Flying",
+    rarity5: ["pool6"],
+    assets: {
+      portrait: "img/heroes-portrait/Florina_Azure-Sky_Knight_Face_FC.png",
+      sprite:"img/sprites/Florina_Azure-Sky_Knight_Mini_Unit_Ok.png"}
+  },
+  {
+    name: "Forrest",
+    title: "Fashion Forward",
+    releaseDate: "Apr 8, 2020",
+    colorType: "Neutral",
+    weaponType: "Staff",
+    moveType: "Cavalry",
+    rarity3: ["pool6"],
+    rarity4: ["pool6"],
+    assets: {
+      portrait: "img/heroes-portrait/Forrest_Fashion_Forward_Face_FC.png",
+      sprite:"img/sprites/Forrest_Fashion_Forward_Mini_Unit_Ok.png"}
+  },
+  {
+    name: "Forsyth",
+    title: "Loyal Lieutenant",
+    releaseDate: "Oct 21, 2019",
+    colorType: "Blue",
+    weaponType: "Lance",
+    moveType: "Armored",
+    rarity4s: ["pool6"],
+    assets: {
+      portrait: "img/heroes-portrait/Forsyth_Loyal_Lieutenant_Face_FC.png",
+      sprite:"img/sprites/Forsyth_Loyal_Lieutenant_Mini_Unit_Ok.png"}
+  },
+  {
     name: "Frederick",
     title: "Polite Knight",
     artist: "Suekane Kumiko (スエカネクミコ)",
@@ -5484,11 +5538,11 @@ for(let n=0;n<t.length;n++)r<=new Date(t[n].releaseDate)||t[n].limited||t[n].ghb
     colorType: "Green",
     weaponType: "Axe",
     moveType: "Cavalry",
-    rarity3: ["pool1", "pool2"],
-    rarity4: ["pool1", "pool2"],
+    rarity3: ["pool1", "pool2", "pool6"],
+    rarity4: ["pool1", "pool2", "pool6"],
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Frederick.png",
-      main: "img/heroes-main/Frederick.png"
+      sprite: "img/sprites/Frederick_Polite_Knight_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Iron Axe", rarity: 3 },
@@ -5521,11 +5575,12 @@ for(let n=0;n<t.length;n++)r<=new Date(t[n].releaseDate)||t[n].limited||t[n].ghb
     colorType: "Neutral",
     weaponType: "Dagger",
     moveType: "Infantry",
+    rarty4ss: ["pool6"],
     rarity5: ["pool1", "pool2"],
     limited: true,
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Frederick (Ylissean Summer).png",
-      main: "img/heroes-main/Frederick (Ylissean Summer).png"
+      sprite: "img/sprites/Frederick_Horizon_Watcher_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Iron Dagger", rarity: 5 },
@@ -5546,6 +5601,19 @@ for(let n=0;n<t.length;n++)r<=new Date(t[n].releaseDate)||t[n].limited||t[n].ghb
     }
   },
   {
+    name: "Freyja",
+    title: "Lady of Nightmare",
+    releaseDate: "Nov 27, 2020",
+    colorType: "Green",
+    weaponType: "Axe",
+    moveType: "Cavalry",
+    rarity5: ["pool6"],
+    limited: true,
+    assets: {
+      portrait: "img/heroes-portrait/Freyja_Lady_of_Nightmare_Face_FC.png",
+      sprite:"img/sprites/Freyja_Lady_of_Nightmare_Mini_Unit_Ok.png"}
+  },
+  {
    name:"Freyja (Summer's Dream)",
    shortName: "Freyja",
    title:"Fleeting Summer",
@@ -5560,6 +5628,20 @@ for(let n=0;n<t.length;n++)r<=new Date(t[n].releaseDate)||t[n].limited||t[n].ghb
      sprite:"img/sprites/Freyja_Fleeting_Summer_Mini_Unit_Ok.png"}
  },
   {
+    name: "Freyr (Summer's Dream)",
+    shortName: "Freyr",
+    title: "Estival Dreams",
+    releaseDate: "Jul 7, 2021",
+    colorType: "Red",
+    weaponType: "Beast",
+    moveType: "Cavalry",
+    rarity5: ["pool6"],
+    limited: true,
+    assets: {
+      portrait: "img/heroes-portrait/Freyr_Estival_Dreams_Face_FC.png",
+      sprite:"img/sprites/Freyr_Estival_Dreams_Mini_Unit_Ok.png"}
+  },
+  {
     name: "Gaius",
     title: "Candy Stealer",
     artist: "Ichiiro Hako (一色箱)",
@@ -5568,11 +5650,11 @@ for(let n=0;n<t.length;n++)r<=new Date(t[n].releaseDate)||t[n].limited||t[n].ghb
     colorType: "Neutral",
     weaponType: "Dagger",
     moveType: "Infantry",
-    rarity3: ["pool1", "pool2"],
-    rarity4: ["pool1", "pool2"],
+    rarity3: ["pool1", "pool2", "pool6"],
+    rarity4: ["pool1", "pool2", "pool6"],
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Gaius.png",
-      main: "img/heroes-main/Gaius.png"
+      sprite:"img/sprites/Gaius_Candy_Stealer_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Iron Dagger", rarity: 3 },
@@ -5604,11 +5686,12 @@ for(let n=0;n<t.length;n++)r<=new Date(t[n].releaseDate)||t[n].limited||t[n].ghb
     colorType: "Neutral",
     weaponType: "Bow",
     moveType: "Infantry",
+    rarity4ss: ["pool6"],
     rarity5: ["pool1", "pool2"],
     limited: true,
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Gaius (Ylissean Summer).png",
-      main: "img/heroes-main/Gaius (Ylissean Summer).png"
+      sprite:"img/sprites/Gaius_Thief_Exposed_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Iron Bow", rarity: 5 },
@@ -5630,6 +5713,46 @@ for(let n=0;n<t.length;n++)r<=new Date(t[n].releaseDate)||t[n].limited||t[n].ghb
     }
   },
   {
+    name: "Galle",
+    title: "Azure Rider",
+    releaseDate: "Nov 18, 2020",
+    colorType: "Blue",
+    weaponType: "Lance",
+    moveType: "Flying",
+    rarity3: ["pool6"],
+    rarity4: ["pool6"],
+    ghb: true,
+    assets: {
+      portrait: "img/heroes-portrait/Galle_Azure_Rider_Face_FC.png",
+      sprite:"img/sprites/Galle_Azure_Rider_Mini_Unit_Ok.png"}
+  },
+  {
+    name: "Galzus",
+    title: "Dark Blade of Od",
+    releaseDate: "Mar 18, 2022",
+    colorType: "Red",
+    weaponType: "Sword",
+    moveType: "Infantry",
+    rarity5: ["pool6"],
+    assets: {
+      portrait: "img/heroes-portrait/Galzus_Dark_Blade_of_Od_Face_FC.png",
+      sprite:"img/sprites/Galzus_Dark_Blade_of_Od_Mini_Unit_Ok.png"}
+  },
+  {
+    name: "Gangrel",
+    title: "Plegia's Mad King",
+    releaseDate: "Jun 6, 2020",
+    colorType: "Neutral",
+    weaponType: "Dagger",
+    moveType: "Infantry",
+    rarity3: ["pool6"],
+    rarity4: ["pool6"],
+    ghb: true,
+    assets: {
+      portrait: "img/heroes-portrait/Gangrel_Plegias_Mad_King_Face_FC.png",
+      sprite:"img/sprites/Gangrel_Plegias_Mad_King_Mini_Unit_Ok.png"}
+  },
+  {
     name: "Garon",
     title: "King of Nohr",
     artist: "Soeda Ippei (添田一平)",
@@ -5638,11 +5761,13 @@ for(let n=0;n<t.length;n++)r<=new Date(t[n].releaseDate)||t[n].limited||t[n].ghb
     colorType: "Red",
     weaponType: "Breath",
     moveType: "Infantry",
-    rarity5: ["pool2"],
-    limited: true,
+    rarity3: ["pool2", "pool6"],
+    rarity4: ["pool2", "pool6"],
+    rarity5: ["pool2", "pool6"],
+    ghb: true,
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Garon.png",
-      main: "img/heroes-main/Garon.png"
+      sprite:"img/sprites/Garon_King_of_Nohr_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Fire Breath", rarity: 3 },
@@ -5666,6 +5791,44 @@ for(let n=0;n<t.length;n++)r<=new Date(t[n].releaseDate)||t[n].limited||t[n].ghb
     }
   },
   {
+    name: "Gatekeeper",
+    title: "Nothing to Report",
+    releaseDate: "Aug 17, 2021",
+    colorType: "Green",
+    weaponType: "Tome",
+    moveType: "Infantry",
+    rarity5: ["pool6"],
+    assets: {
+      portrait: "img/heroes-portrait/Gatekeeper_Nothing_to_Report_Face_FC.png",
+      sprite:"img/sprites/Gatekeeper_Nothing_to_Report_Mini_Unit_Ok.png"}
+  },
+  {
+    name: "Gatrie",
+    title: "Armored Amour",
+    releaseDate: "Sep 18, 2020",
+    colorType: "Blue",
+    weaponType: "Lance",
+    moveType: "Armored",
+    rarity5: ["pool6"],
+    assets: {
+      portrait: "img/heroes-portrait/Gatrie_Armored_Amour_Face_FC.png",
+      sprite:"img/sprites/Gatrie_Armored_Amour_Mini_Unit_Ok.png"}
+  },
+  {
+    name: "Geese (Pirate's Pride)",
+    shortName: "Geese",
+    title: "A Life at Sea",
+    releaseDate: "Aug 7, 2020",
+    colorType: "Blue",
+    weaponType: "Lance",
+    moveType: "Infantry",
+    rarity5: ["pool6"],
+    limited: true,
+    assets: {
+      portrait: "img/heroes-portrait/Geese_A_Life_at_Sea_Face_FC.png",
+      sprite:"img/sprites/Geese_A_Life_at_Sea_Mini_Unit_Ok.png"}
+  },
+  {
     name: "Genny",
     title: "Endearing Ally",
     artist: "Amagaitaro (アマガイタロー)",
@@ -5674,10 +5837,11 @@ for(let n=0;n<t.length;n++)r<=new Date(t[n].releaseDate)||t[n].limited||t[n].ghb
     colorType: "Neutral",
     weaponType: "Staff",
     moveType: "Infantry",
+    rarity4s: ["pool6"],
     rarity5: ["pool1", "pool2"],
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Genny.png",
-      main: "img/heroes-main/Genny.png"
+      sprite:"img/sprites/Genny_Endearing_Ally_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Assault", rarity: 5 },
@@ -5698,6 +5862,32 @@ for(let n=0;n<t.length;n++)r<=new Date(t[n].releaseDate)||t[n].limited||t[n].ghb
     }
   },
   {
+    name: "Genny (A Season for Picnics)",
+    shortName: "Genny",
+    title: "Dressed with Care",
+    releaseDate: "Apr 19, 2019",
+    colorType: "Neutral",
+    weaponType: "Staff",
+    moveType: "Cavalry",
+    rarity5: ["pool6"],
+    limited: true,
+    assets: {
+      portrait: "img/heroes-portrait/Genny_Dressed_with_Care_Face_FC.png",
+      sprite:"img/sprites/Genny_Dressed_with_Care_Mini_Unit_Ok.png"}
+  },
+  {
+    name: "Gerik",
+    title: "Desert Tiger",
+    releaseDate: "Nov 7, 2019",
+    colorType: "Green",
+    weaponType: "Axe",
+    moveType: "Infantry",
+    rarity4s: ["pool6"],
+    assets: {
+      portrait: "img/heroes-portrait/Gerik_Desert_Tiger_Face_FC.png",
+      sprite:"img/sprites/Gerik_Desert_Tiger_Mini_Unit_Ok.png"}
+  },
+  {
     name: "Gerome",
     title: "Masked Rider",
     artist: "Meka (めか)",
@@ -5706,12 +5896,12 @@ for(let n=0;n<t.length;n++)r<=new Date(t[n].releaseDate)||t[n].limited||t[n].ghb
     colorType: "Green",
     weaponType: "Axe",
     moveType: "Flying",
-    rarity4: ["pool1", "pool2"],
-    rarity5: ["pool1", "pool2"],
+    rarity4: ["pool1", "pool2", "pool6"],
+    rarity5: ["pool1", "pool2", "pool6"],
     ttReward: true,
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Gerome.png",
-      main: "img/heroes-main/Gerome.png"
+      sprite:"img/sprites/Gerome_Masked_Rider_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Iron Axe", rarity: 3 },
@@ -5735,12 +5925,12 @@ for(let n=0;n<t.length;n++)r<=new Date(t[n].releaseDate)||t[n].limited||t[n].ghb
     colorType: "Red",
     weaponType: "Tome",
     moveType: "Infantry",
-    rarity3: ["pool2"],
-    rarity4: ["pool2"],
+    rarity3: ["pool2", "pool6"],
+    rarity4: ["pool2", "pool6"],
     ghb: true,
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Gharnef.png",
-      main: "img/heroes-main/Gharnef.png"
+      sprite:"img/sprites/Gharnef_Dark_Pontifex_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Flux", rarity: 3 },
@@ -5764,6 +5954,21 @@ for(let n=0;n<t.length;n++)r<=new Date(t[n].releaseDate)||t[n].limited||t[n].ghb
     }
   },
   {
+    name: "Gonzalez",
+    title: "Kindly Bandit",
+    releaseDate: "Feb 19, 2022",
+    colorType: "Green",
+    weaponType: "Axe",
+    moveType: "Infantry",
+    rarity3: ["pool6"],
+    rarity4: ["pool6"],
+    rarity5: ["pool6"],
+    ghb: true,
+    assets: {
+      portrait: "img/heroes-portrait/Gonzalez_Kindly_Bandit_Face_FC.png",
+      sprite:"img/sprites/Gonzalez_Kindly_Bandit_Mini_Unit_Ok.png"}
+  },
+  {
     name: "Gordin",
     title: "Altean Archer",
     artist: "Itagaki Hako (板垣ハコ)",
@@ -5772,11 +5977,11 @@ for(let n=0;n<t.length;n++)r<=new Date(t[n].releaseDate)||t[n].limited||t[n].ghb
     colorType: "Neutral",
     weaponType: "Bow",
     moveType: "Infantry",
-    rarity3: ["pool1", "pool2"],
-    rarity4: ["pool1", "pool2"],
+    rarity3: ["pool1", "pool2", "pool6"],
+    rarity4: ["pool1", "pool2", "pool6"],
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Gordin.png",
-      main: "img/heroes-main/Gordin.png"
+      sprite:"img/sprites/Gordin_Altean_Archer_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Iron Bow", rarity: 3 },
@@ -5807,10 +6012,11 @@ for(let n=0;n<t.length;n++)r<=new Date(t[n].releaseDate)||t[n].limited||t[n].ghb
     colorType: "Red",
     weaponType: "Sword",
     moveType: "Infantry",
+    rarity4s: ["pool6"],
     rarity5: ["pool1", "pool2"],
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Gray.png",
-      main: "img/heroes-main/Gray.png"
+      sprite:"img/sprites/Gray_Wry_Comrade_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Iron Sword", rarity: 5 },
@@ -5852,11 +6058,11 @@ for(let n=0;n<t.length;n++)r<=new Date(t[n].releaseDate)||t[n].limited||t[n].ghb
     colorType: "Green",
     weaponType: "Axe",
     moveType: "Armored",
-    rarity5: ["pool2"],
+    rarity5: ["pool2", "pool6"],
     limited: true,
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Greil (Greil's Devoted).png",
-      main: "img/heroes-main/Greil (Greil's Devoted).png"
+      sprite:"img/sprites/Greil_Heroic_Exemplar_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Iron Axe", rarity: 5 },
@@ -5883,6 +6089,18 @@ for(let n=0;n<t.length;n++)r<=new Date(t[n].releaseDate)||t[n].limited||t[n].ghb
     }
   },
   {
+   name:"Guinivere",
+   title:"Princess of Bern",
+   releaseDate:"Nov 17, 2020",
+   colorType:"Blue",
+   weaponType:"Tome",
+   moveType:"Infantry",
+   rarity5:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/Guinivere_Princess_of_Bern_Face_FC.png",
+     sprite:"img/sprites/Guinivere_Princess_of_Bern_Mini_Unit_Ok.png"}
+ },
+  {
     name: "Gunnthrá",
     title: "Voice of Dreams",
     artist: "Maeshima Shigeki (前嶋重機)",
@@ -5891,11 +6109,11 @@ for(let n=0;n<t.length;n++)r<=new Date(t[n].releaseDate)||t[n].limited||t[n].ghb
     colorType: "Green",
     weaponType: "Tome",
     moveType: "Cavalry",
-    rarity5: ["pool1", "pool2"],
+    rarity5: ["pool1", "pool2", "pool6"],
     limited: true,
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Gunnthrá.png",
-      main: "img/heroes-main/Gunnthrá.png"
+      sprite:"img/sprites/Gunnthra_Voice_of_Dreams_Mini_Unit_Ok.png"
     },
    skills: [
       { name: "Wind", rarity: 5 },
@@ -5927,11 +6145,12 @@ for(let n=0;n<t.length;n++)r<=new Date(t[n].releaseDate)||t[n].limited||t[n].ghb
     colorType: "Red",
     weaponType: "Sword",
     moveType: "Flying",
+    rarity4ss: ["pool6"],
     rarity5: ["pool2"],
     limited: true,
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Gunnthrá (New Year's Wish).png",
-      main: "img/heroes-main/Gunnthrá (New Year's Wish).png"
+      sprite:"img/sprites/Gunnthra_Years_First_Dream_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Iron Sword", rarity: 5 },
@@ -5957,6 +6176,20 @@ for(let n=0;n<t.length;n++)r<=new Date(t[n].releaseDate)||t[n].limited||t[n].ghb
     }
   },
   {
+   name:"Gunnthrá (Summer Returns)",
+   shortName: "Gunnthrá",
+   title:"Beaming Smile",
+   releaseDate:"Jun 20, 2019",
+   colorType:"Neutral",
+   weaponType:"Dagger",
+   moveType:"Cavalry",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Gunnthra_Beaming_Smile_Face_FC.png",
+     sprite:"img/sprites/Gunnthra_Beaming_Smile_Mini_Unit_Ok.png"}
+ },
+  {
     name: "Gunter",
     title: "Inveterate Soldier",
     artist: "Yamada Akihiro (山田章博)",
@@ -5965,11 +6198,11 @@ for(let n=0;n<t.length;n++)r<=new Date(t[n].releaseDate)||t[n].limited||t[n].ghb
     colorType: "Green",
     weaponType: "Axe",
     moveType: "Cavalry",
-    rarity3: ["pool1", "pool2"],
-    rarity4: ["pool1", "pool2"],
+    rarity3: ["pool1", "pool2", "pool6"],
+    rarity4: ["pool1", "pool2", "pool6"],
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Gunter.png",
-      main: "img/heroes-main/Gunter.png"
+      sprite:"img/sprites/Gunter_Inveterate_Soldier_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Iron Axe", rarity: 1 },
@@ -5992,6 +6225,46 @@ for(let n=0;n<t.length;n++)r<=new Date(t[n].releaseDate)||t[n].limited||t[n].ghb
     }
   },
   {
+   name:"Gustav (Love of a King)",
+   shortName: "Gustav",
+   title:"Majestic Love",
+   releaseDate:"Feb 5, 2021",
+   colorType:"Green",
+   weaponType:"Axe",
+   moveType:"Armored",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Gustav_Majestic_Love_Face_FC.png",
+     sprite:"img/sprites/Gustav_Majestic_Love_Mini_Unit_Ok.png"}
+ },
+ {
+   name:"Gustav (Beyond Control)",
+   shortName: "Gustav",
+   title:"Sovereign Slain",
+   releaseDate:"May 10, 2022",
+   colorType:"Green",
+   weaponType:"Axe",
+   moveType:"Cavalry",
+   rarity5:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/Gustav_Sovereign_Slain_Face_FC.png",
+     sprite:"img/sprites/Gustav_Sovereign_Slain_Mini_Unit_Ok.png"}
+ },
+ {
+   name:"Guy",
+   title:"Kutolah Blade",
+   releaseDate:"Jun 8, 2022",
+   colorType:"Red",
+   weaponType:"Sword",
+   moveType:"Infantry",
+   rarity3:["pool6"],
+   rarity4:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/Guy_Kutolah_Blade_Face_FC.png",
+     sprite:"img/sprites/Guy_Kutolah_Blade_Mini_Unit_Ok.png"}
+ },
+  {
     name: "Gwendolyn",
     title: "Adorable Knight",
     artist: "Masao Tsubasa (政尾翼)",
@@ -6000,11 +6273,11 @@ for(let n=0;n<t.length;n++)r<=new Date(t[n].releaseDate)||t[n].limited||t[n].ghb
     colorType: "Blue",
     weaponType: "Lance",
     moveType: "Armored",
-    rarity3: ["pool1", "pool2"],
-    rarity4: ["pool1", "pool2"],
+    rarity3: ["pool1", "pool2", "pool6"],
+    rarity4: ["pool1", "pool2", "pool6"],
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Gwendolyn.png",
-      main: "img/heroes-main/Gwendolyn.png"
+      sprite:"img/sprites/Gwendolyn_Adorable_Knight_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Iron Lance", rarity: 3 },
@@ -6026,6 +6299,20 @@ for(let n=0;n<t.length;n++)r<=new Date(t[n].releaseDate)||t[n].limited||t[n].ghb
     }
   },
   {
+   name:"Haar",
+   title:"Black Tempest",
+   releaseDate:"Apr 11, 2019",
+   colorType:"Green",
+   weaponType:"Axe",
+   moveType:"Flying",
+   rarity3:["pool6"],
+   rarity4:["pool6"],
+   ghb: true,
+   assets:{
+     portrait:"img/heroes-portrait/Haar_Black_Tempest_Face_FC.png",
+     sprite:"img/sprites/Haar_Black_Tempest_Mini_Unit_Ok.png"}
+ },
+  {
     name: "Hana",
     title: "Focused Samurai",
     artist: "Fuzichoco (藤ちょこ)",
@@ -6034,11 +6321,11 @@ for(let n=0;n<t.length;n++)r<=new Date(t[n].releaseDate)||t[n].limited||t[n].ghb
     colorType: "Red",
     weaponType: "Sword",
     moveType: "Infantry",
-    rarity3: ["pool1", "pool2"],
-    rarity4: ["pool1", "pool2"],
+    rarity3: ["pool1", "pool2", "pool6"],
+    rarity4: ["pool1", "pool2", "pool6"],
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Hana.png",
-      main: "img/heroes-main/Hana.png"
+      sprite:"img/sprites/Hana_Focused_Samurai_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Iron Sword", rarity: 1 },
@@ -6061,6 +6348,21 @@ for(let n=0;n<t.length;n++)r<=new Date(t[n].releaseDate)||t[n].limited||t[n].ghb
     }
   },
   {
+   name:"Hana (In the Moment)",
+   shortName: "Hana",
+   title:"Focused Ninja",
+   releaseDate:"Nov 7, 2020",
+   colorType:"Green",
+   weaponType:"Axe",
+   moveType:"Infantry",
+   rarity4:["pool6"],
+   rarity5:["pool6"],
+   ttReward: true,
+   assets:{
+     portrait:"img/heroes-portrait/Hana_Focused_Ninja_Face_FC.png",
+     sprite:"img/sprites/Hana_Focused_Ninja_Mini_Unit_Ok.png"}
+ },
+  {
    name:"Hapi",
    title:"Drawn-Out Sigh",
    releaseDate:"Sep 17, 2021",
@@ -6082,10 +6384,11 @@ for(let n=0;n<t.length;n++)r<=new Date(t[n].releaseDate)||t[n].limited||t[n].ghb
     colorType: "Blue",
     weaponType: "Lance",
     moveType: "Armored",
+    rarity4s: ["pool6"],
     rarity5: ["pool1", "pool2"],
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Hardin (Fallen Heroes).png",
-      main: "img/heroes-main/Hardin (Fallen Heroes).png"
+      sprite:"img/sprites/Hardin_Dark_Emperor_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Iron Lance", rarity: 5 },
@@ -6115,12 +6418,12 @@ for(let n=0;n<t.length;n++)r<=new Date(t[n].releaseDate)||t[n].limited||t[n].ghb
     colorType: "Green",
     weaponType: "Axe",
     moveType: "Infantry",
-    rarity3: ["pool2"],
-    rarity4: ["pool1", "pool2"],
+    rarity3: ["pool2", "pool6"],
+    rarity4: ["pool1", "pool2", "pool6"],
     rarity5: ["pool1"],
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Hawkeye.png",
-      main: "img/heroes-main/Hawkeye.png"
+      sprite:"img/sprites/Hawkeye_Desert_Guardian_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Iron Axe", rarity: 4 },
@@ -6144,6 +6447,20 @@ for(let n=0;n<t.length;n++)r<=new Date(t[n].releaseDate)||t[n].limited||t[n].ghb
     }
   },
   {
+   name:"Heath",
+   title:"Wandering Knight",
+   releaseDate:"Feb 17, 2020",
+   colorType:"Blue",
+   weaponType:"Lance",
+   moveType:"Flying",
+   rarity3:["pool6"],
+   rarity4:["pool6"],
+   ghb: true,
+   assets:{
+     portrait:"img/heroes-portrait/Heath_Wandering_Knight_Face_FC.png",
+     sprite:"img/sprites/Heath_Wandering_Knight_Mini_Unit_Ok.png"}
+ },
+  {
     name: "Hector",
     title: "General of Ostia",
     artist: "AKIRA",
@@ -6152,10 +6469,11 @@ for(let n=0;n<t.length;n++)r<=new Date(t[n].releaseDate)||t[n].limited||t[n].ghb
     colorType: "Green",
     weaponType: "Axe",
     moveType: "Armored",
+    rarity4s: ["pool6"],
     rarity5: ["pool1", "pool2"],
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Hector.png",
-      main: "img/heroes-main/Hector.png"
+      sprite:"img/sprites/Hector_General_of_Ostia_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Iron Axe", rarity: 5 },
@@ -6184,10 +6502,11 @@ for(let n=0;n<t.length;n++)r<=new Date(t[n].releaseDate)||t[n].limited||t[n].ghb
     colorType: "Blue",
     weaponType: "Lance",
     moveType: "Armored",
+    rarity4s: ["pool6"],
     rarity5: ["pool2"],
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Hector (Arrival of the Brave).png",
-      main: "img/heroes-main/Hector (Arrival of the Brave).png"
+      sprite:"img/sprites/Hector_Brave_Warrior_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Iron Lance", rarity: 5 },
@@ -6219,11 +6538,12 @@ for(let n=0;n<t.length;n++)r<=new Date(t[n].releaseDate)||t[n].limited||t[n].ghb
     colorType: "Green",
     weaponType: "Axe",
     moveType: "Armored",
+    rarity4ss: ["pool6"],
     rarity5: ["pool1", "pool2"],
     limited: true,
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Hector (Love Abounds).png",
-      main: "img/heroes-main/Hector (Love Abounds).png"
+      sprite:"img/sprites/Hector_Just_Here_to_Fight_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Iron Axe", rarity: 5 },
@@ -6252,11 +6572,11 @@ for(let n=0;n<t.length;n++)r<=new Date(t[n].releaseDate)||t[n].limited||t[n].ghb
     colorType: "Green",
     weaponType: "Axe",
     moveType: "Armored",
-    rarity5: ["pool2"],
+    rarity5: ["pool2", "pool6"],
     limited: true,
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Hector (Legendary Heroes).png",
-      main: "img/heroes-main/Hector (Legendary Heroes).png"
+      sprite:"img/sprites/Hector_Marquess_of_Ostia_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Iron Axe", rarity: 5 },
@@ -6277,6 +6597,33 @@ for(let n=0;n<t.length;n++)r<=new Date(t[n].releaseDate)||t[n].limited||t[n].ghb
     }
   },
   {
+   name:"Hector (Treat Fiends)",
+   shortName: "Hector",
+   title:"Dressed-Up Duo",
+   releaseDate:"Oct 9, 2019",
+   colorType:"Red",
+   weaponType:"Sword",
+   moveType:"Armored",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Hector_Dressed-Up_Duo_Face_FC.png",
+     sprite:"img/sprites/Hector_Dressed-Up_Duo_Mini_Unit_Ok.png"}
+ },
+ {
+   name:"Hel",
+   title:"Death Sovereign",
+   releaseDate:"Jul 30, 2020",
+   colorType:"Green",
+   weaponType:"Axe",
+   moveType:"Flying",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Hel_Death_Sovereign_Face_FC.png",
+     sprite:"img/sprites/Hel_Death_Sovereign_Mini_Unit_Ok.png"}
+ },
+  {
     name: "Helbindi",
     title: "Savage Scourge",
     artist: "Maeshima Shigeki (前嶋重機)",
@@ -6285,10 +6632,10 @@ for(let n=0;n<t.length;n++)r<=new Date(t[n].releaseDate)||t[n].limited||t[n].ghb
     colorType: "Green",
     weaponType: "Axe",
     moveType: "Infantry",
-    rarity5: ["pool2"],
+    rarity5: ["pool2", "pool6"],
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Helbindi.png",
-      main: "img/heroes-main/Helbindi.png"
+      sprite:"img/sprites/Helbindi_Savage_Scourge_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Iron Axe", rarity: 5 },
@@ -6316,6 +6663,34 @@ for(let n=0;n<t.length;n++)r<=new Date(t[n].releaseDate)||t[n].limited||t[n].ghb
     }
   },
   {
+   name:"Helbindi (Summer Returns)",
+   shortName: "Helbindi",
+   title:"Seaside Scourge",
+   releaseDate:"Jun 20, 2019",
+   colorType:"Red",
+   weaponType:"Sword",
+   moveType:"Infantry",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Helbindi_Seaside_Scourge_Face_FC.png",
+     sprite:"img/sprites/Helbindi_Seaside_Scourge_Mini_Unit_Ok.png"}
+ },
+ {
+   name:"Henriette (Love of a King)",
+   shortName: "Henriette",
+   title:"Overflowing Love",
+   releaseDate:"Feb 5, 2021",
+   colorType:"Red",
+   weaponType:"Tome",
+   moveType:"Armored",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Henriette_Overflowing_Love_Face_FC.png",
+     sprite:"img/sprites/Henriette_Overflowing_Love_Mini_Unit_Ok.png"}
+ },
+  {
     name: "Henry",
     title: "Twisted Mind",
     artist: "Kusugi Toku (久杉トク)",
@@ -6324,11 +6699,11 @@ for(let n=0;n<t.length;n++)r<=new Date(t[n].releaseDate)||t[n].limited||t[n].ghb
     colorType: "Red",
     weaponType: "Tome",
     moveType: "Infantry",
-    rarity3: ["pool1", "pool2"],
-    rarity4: ["pool1", "pool2"],
+    rarity3: ["pool1", "pool2", "pool6"],
+    rarity4: ["pool1", "pool2", "pool6"],
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Henry.png",
-      main: "img/heroes-main/Henry.png"
+      sprite:"img/sprites/Henry_Twisted_Mind_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Flux", rarity: 3 },
@@ -6361,11 +6736,12 @@ for(let n=0;n<t.length;n++)r<=new Date(t[n].releaseDate)||t[n].limited||t[n].ghb
     colorType: "Green",
     weaponType: "Tome",
     moveType: "Armored",
+    rarity4ss: ["pool6"],
     rarity5: ["pool1", "pool2"],
     limited: true,
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Henry (Trick or Defeat!).png",
-      main: "img/heroes-main/Henry (Trick or Defeat!).png"
+      sprite:"img/sprites/Henry_Happy_Vampire_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Wind", rarity: 5 },
@@ -6384,6 +6760,75 @@ for(let n=0;n<t.length;n++)r<=new Date(t[n].releaseDate)||t[n].limited||t[n].ghb
       level40: { hp: [ 33, 36, 40 ], atk: [ 30, 33, 36 ], spd: [ 31, 34, 37 ], def: [ 22, 26, 29 ], res: [ 33, 36, 39 ] }
     }
   },
+  {
+   name:"Henry (Hop-and-Go-Seek)",
+   shortName: "Henry",
+   title:"Peculiar Egg",
+   releaseDate:"Mar 8, 2022",
+   colorType:"Neutral",
+   weaponType:"Bow",
+   moveType:"Cavalry",
+   rarity4:["pool6"],
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Henry_Peculiar_Egg_Face_FC.png",
+     sprite:"img/sprites/Henry_Peculiar_Egg_Mini_Unit_Ok.png"}
+ },
+ {
+   name:"Hilda",
+   title:"Idle Maiden",
+   releaseDate:"Aug 7, 2019",
+   colorType:"Green",
+   weaponType:"Axe",
+   moveType:"Infantry",
+   rarity4s:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/Hilda_Idle_Maiden_Face_FC.png",
+     sprite:"img/sprites/Hilda_Idle_Maiden_Mini_Unit_Ok.png"}
+ },
+ {
+   name:"Hilda (A Festival Miracle)",
+   shortName: "Hilda",
+   title:"Holiday Layabout",
+   releaseDate:"Dec 17, 2020",
+   colorType:"Blue",
+   weaponType:"Lance",
+   moveType:"Armored",
+   rarity4:["pool6"],
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Hilda_Holiday_Layabout_Face_FC.png",
+     sprite:"img/sprites/Hilda_Holiday_Layabout_Mini_Unit_Ok.png"}
+ },
+ {
+   name:"Hilda (Summer Vibrance)",
+   shortName: "Hilda",
+   title:"Deer's Two-Piece",
+   releaseDate:"Jun 21, 2021",
+   colorType:"Neutral",
+   weaponType:"Staff",
+   moveType:"Flying",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Hilda_Deers_Two-Piece_Face_FC.png",
+     sprite:"img/sprites/Hilda_Deers_Two-Piece_Mini_Unit_Ok.png"}
+ },
+ {
+   name:"Hilda (Warriors)",
+   shortName: "Hilda",
+   title:"Helping Hand",
+   releaseDate:"Sep 16, 2022",
+   colorType:"Green",
+   weaponType:"Axe",
+   moveType:"Infantry",
+   rarity5:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/Hilda_Helping_Hand_Face_FC.png",
+     sprite:"img/sprites/Hilda_Helping_Hand_Mini_Unit_Ok.png"}
+ },
   {
     name: "Hinata",
     title: "Wild Samurai",
