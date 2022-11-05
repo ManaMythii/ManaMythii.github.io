@@ -5468,7 +5468,7 @@ for(let n=0;n<t.length;n++)r<=new Date(t[n].releaseDate)||t[n].limited||t[n].ghb
     rarity4: ["pool1", "pool2", "pool6"],
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Florina.png",
-      sprite:"img/sprites/Florina_Lovely_Flier_Mini_Unit_Ok.pngg"
+      sprite:"img/sprites/Florina_Lovely_Flier_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Iron Lance", rarity: 3 },
