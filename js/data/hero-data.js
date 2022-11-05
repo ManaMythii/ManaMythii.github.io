@@ -7489,11 +7489,12 @@ module.exports = [
     colorType: "Green",
     weaponType: "Tome",
     moveType: "Infantry",
+    rarity4ss: ["pool6"],
     rarity5: ["pool1", "pool2"],
     limited: true,
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Inigo (Performing Arts).png",
-      main: "img/heroes-main/Inigo (Performing Arts).png"
+      sprite:"img/sprites/Inigo_Indigo_Dancer_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Wind", rarity: 5 },
