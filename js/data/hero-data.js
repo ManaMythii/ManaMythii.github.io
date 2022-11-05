@@ -5399,7 +5399,7 @@ module.exports = [
     rarity5: ["pool2"],
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Flora.png",
-      sprite:"img/sprites/Flora_Cold_as_Ice_Mini_Unit_Ok.png
+      sprite:"img/sprites/Flora_Cold_as_Ice_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Iron Dagger", rarity: 5 },
