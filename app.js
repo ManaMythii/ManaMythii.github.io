@@ -6838,11 +6838,11 @@ for(let n=0;n<t.length;n++)r<=new Date(t[n].releaseDate)||t[n].limited||t[n].ghb
     colorType: "Red",
     weaponType: "Sword",
     moveType: "Infantry",
-    rarity3: ["pool1", "pool2"],
-    rarity4: ["pool1", "pool2"],
+    rarity3: ["pool1", "pool2", "pool6"],
+    rarity4: ["pool1", "pool2", "pool6"],
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Hinata.png",
-      main: "img/heroes-main/Hinata.png"
+      sprite:"img/sprites/Hinata_Wild_Samurai_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Iron Sword", rarity: 1 },
@@ -6867,6 +6867,21 @@ for(let n=0;n<t.length;n++)r<=new Date(t[n].releaseDate)||t[n].limited||t[n].ghb
     }
   },
   {
+   name:"Hinata (Bridal Beloveds)",
+   shortName: "Hinata",
+   title:"Samurai Groom",
+   releaseDate:"May 22, 2020",
+   colorType:"Green",
+   weaponType:"Axe",
+   moveType:"Infantry",
+   rarity4:["pool6"],
+   rarity5:["pool6"],
+   ttReward: true,
+   assets:{
+     portrait:"img/heroes-portrait/Hinata_Samurai_Groom_Face_FC.png",
+     sprite:"img/sprites/Hinata_Samurai_Groom_Mini_Unit_Ok.png"}
+ },
+  {
     name: "Hinoka",
     title: "Warrior Princess",
     artist: "HACCAN",
@@ -6875,10 +6890,11 @@ for(let n=0;n<t.length;n++)r<=new Date(t[n].releaseDate)||t[n].limited||t[n].ghb
     colorType: "Blue",
     weaponType: "Lance",
     moveType: "Flying",
+    rarity4s: ["pool6"],
     rarity5: ["pool1", "pool2"],
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Hinoka.png",
-      main: "img/heroes-main/Hinoka.png"
+      sprite:"img/sprites/Hinoka_Warrior_Princess_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Iron Lance", rarity: 5 },
@@ -6910,11 +6926,12 @@ for(let n=0;n<t.length;n++)r<=new Date(t[n].releaseDate)||t[n].limited||t[n].ghb
     colorType: "Green",
     weaponType: "Dagger",
     moveType: "Flying",
+    rarity4ss: ["pool6"],
     rarity5: [ "pool2" ],
     limited: true,
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Hinoka (Hostile Springs).png",
-      main: "img/heroes-main/Hinoka (Hostile Springs).png"
+      sprite:"img/sprites/Hinoka_Relaxed_Warrior_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Iron Dagger", rarity: 5 },
@@ -6947,10 +6964,11 @@ for(let n=0;n<t.length;n++)r<=new Date(t[n].releaseDate)||t[n].limited||t[n].ghb
     colorType: "Neutral",
     weaponType: "Bow",
     moveType: "Flying",
+    rarity4s: ["pool6"],
     rarity5: ["pool2"],
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Hinoka (Wings of Fate).png",
-      main: "img/heroes-main/Hinoka (Wings of Fate).png"
+      sprite:"img/sprites/Hinoka_Blue_Sky_Warrior_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Iron Bow", rarity: 5 },
@@ -6975,6 +6993,34 @@ for(let n=0;n<t.length;n++)r<=new Date(t[n].releaseDate)||t[n].limited||t[n].ghb
     }
   },
   {
+   name:"Hinoka (Perilous Seas)",
+   shortName: "Hinoka",
+   title:"Fair Pirate Pair",
+   releaseDate:"Aug 5, 2021",
+   colorType:"Green",
+   weaponType:"Bow",
+   moveType:"Flying",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Hinoka_Fair_Pirate_Pair_Face_FC.png",
+     sprite:"img/sprites/Hinoka_Fair_Pirate_Pair_Mini_Unit_Ok.png"}
+ },
+ {
+   name:"Holst",
+   title:"Hero of Leicester",
+   releaseDate:"Sep 17, 2022",
+   colorType:"Red",
+   weaponType:"Sword",
+   moveType:"Infantry",
+   rarity3:["pool6"],
+   rarity4:["pool6"],
+   ghb: true,
+   assets:{
+     portrait:"img/heroes-portrait/Holst_Hero_of_Leicester_Face_FC.png",
+     sprite:"img/sprites/Holst_Hero_of_Leicester_Mini_Unit_Ok.png"}
+ },
+  {
     name: "Hríd",
     artist: "Maeshima Shigeki (前嶋重機)",
     voice: "Mark P. Whitten",
@@ -6983,11 +7029,11 @@ for(let n=0;n<t.length;n++)r<=new Date(t[n].releaseDate)||t[n].limited||t[n].ghb
     colorType: "Red",
     weaponType: "Sword",
     moveType: "Cavalry",
-    rarity5: ["pool2"],
+    rarity5: ["pool2", "pool6"],
     limited: true,
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Hríd.png",
-      main: "img/heroes-main/Hríd.png"
+      sprite:"img/sprites/Hrid_Icy_Blade_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Iron Sword", rarity: 5 },
@@ -7017,11 +7063,12 @@ for(let n=0;n<t.length;n++)r<=new Date(t[n].releaseDate)||t[n].limited||t[n].ghb
     colorType: "Red",
     weaponType: "Sword",
     moveType: "Flying",
+    rarity4ss: ["pool6"],
     rarity5: ["pool2"],
     limited: true,
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Hríd (New Year's Wish).png",
-      main: "img/heroes-main/Hríd (New Year's Wish).png"
+      sprite:"img/sprites/Hrid_Resolute_Prince_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Iron Sword", rarity: 5 },
@@ -7069,6 +7116,20 @@ for(let n=0;n<t.length;n++)r<=new Date(t[n].releaseDate)||t[n].limited||t[n].ghb
      portrait:"img/heroes-portrait/75px-Icon_Portrait_Hugh_Worldly_Mage.png",
      sprite:"img/sprites/Hugh_Worldly_Mage_Mini_Unit_Ok.png"}
  },
+ {
+   name:"Iago",
+   title:"Nohr's Tactician",
+   releaseDate:"Apr 12, 2020",
+   colorType:"Red",
+   weaponType:"Tome",
+   moveType:"Infantry",
+   rarity3:["pool6"],
+   rarity4:["pool6"],
+   ghb: true,
+   assets:{
+     portrait:"img/heroes-portrait/Iago_Nohrs_Tactician_Face_FC.png",
+     sprite:"img/sprites/Iago_Nohrs_Tactician_Mini_Unit_Ok.png"}
+ },
   {
     name: "Idunn",
     artist: "Yamada Kotaro (山田孝太郎)",
@@ -7078,6 +7139,7 @@ for(let n=0;n<t.length;n++)r<=new Date(t[n].releaseDate)||t[n].limited||t[n].ghb
     colorType: "Red",
     weaponType: "Breath",
     moveType: "Armored",
+    rarity4s: ["pool6"],
     rarity5: ["pool2"],
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Idunn.png",
@@ -7108,6 +7170,74 @@ for(let n=0;n<t.length;n++)r<=new Date(t[n].releaseDate)||t[n].limited||t[n].ghb
     }
   },
   {
+   name:"Idunn (Ascended Heroes)",
+   shortName: "Idunn",
+   title:"Divine Demon",
+   releaseDate:"Feb 18, 2022",
+   colorType:"Blue",
+   weaponType:"Breath",
+   moveType:"Armored",
+   rarity5:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/Idunn_Divine_Demon_Face_FC.png",
+     sprite:"img/sprites/Idunn_Divine_Demon_Mini_Unit_Ok.png"}
+ },
+ {
+   name:"Idunn (Familial Festivities)",
+   shortName: "Idunn",
+   title:"Dragonkin Duo",
+   releaseDate:"Mar 18, 2020",
+   colorType:"Red",
+   weaponType:"Breath",
+   moveType:"Armored",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Idunn_Dragonkin_Duo_Face_FC.png",
+     sprite:"img/sprites/Idunn_Dragonkin_Duo_Mini_Unit_Ok.png"}
+ },
+ {
+   name:"Ignatz (Winter Dreamland)",
+   shortName: "Ignatz",
+   title:"Snowscape Artist",
+   releaseDate:"Dec 16, 2021",
+   colorType:"Neutral",
+   weaponType:"Bow",
+   moveType:"Armored",
+   rarity4:["pool6"],
+   rarity5:["pool6"],
+   ttReward: true,
+   assets:{
+     portrait:"img/heroes-portrait/Ignatz_Snowscape_Artist_Face_FC.png",
+     sprite:"img/sprites/Ignatz_Snowscape_Artist_Mini_Unit_Ok.png"}
+ },
+ {
+   name:"Igrene",
+   title:"Nabata Protector",
+   releaseDate:"Nov 19, 2019",
+   colorType:"Red",
+   weaponType:"Bow",
+   moveType:"Infantry",
+   rarity4s:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/Igrene_Nabata_Protector_Face_FC.png",
+     sprite:"img/sprites/Igrene_Nabata_Protector_Mini_Unit_Ok.png"}
+ },
+ {
+   name:"Igrene (Ninja Training)",
+   shortNale: "Igrene",
+   title:"Ninja of Nabata",
+   releaseDate:"Nov 5, 2021",
+   colorType:"Neutral",
+   weaponType:"Dagger",
+   moveType:"Flying",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Igrene_Ninja_of_Nabata_Face_FC.png",
+     sprite:"img/sprites/Igrene_Ninja_of_Nabata_Mini_Unit_Ok.png"}
+ },
+  {
     name: "Ike",
     title: "Young Mercenary",
     artist: "Meka (めか)",
@@ -7116,10 +7246,11 @@ for(let n=0;n<t.length;n++)r<=new Date(t[n].releaseDate)||t[n].limited||t[n].ghb
     colorType: "Red",
     weaponType: "Sword",
     moveType: "Infantry",
+    rarity4s: ["pool6"],
     rarity5: ["pool1", "pool2"],
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Ike.png",
-      main: "img/heroes-main/Ike.png"
+      sprite:"img/sprites/Ike_Young_Mercenary_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Iron Sword", rarity: 5 },
@@ -7151,10 +7282,11 @@ for(let n=0;n<t.length;n++)r<=new Date(t[n].releaseDate)||t[n].limited||t[n].ghb
     colorType: "Green",
     weaponType: "Axe",
     moveType: "Infantry",
+    rarity4s: ["pool6"],
     rarity5: ["pool1", "pool2"],
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Ike (Brave Heroes).png",
-      main: "img/heroes-main/Ike (Brave Heroes).png"
+      sprite:"img/sprites/Ike_Brave_Mercenary_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Iron Axe", rarity: 5 },
@@ -7187,11 +7319,11 @@ for(let n=0;n<t.length;n++)r<=new Date(t[n].releaseDate)||t[n].limited||t[n].ghb
     colorType: "Red",
     weaponType: "Sword",
     moveType: "Armored",
-    rarity5: ["pool2"],
+    rarity5: ["pool2", "pool6"],
     limited: true,
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Ike (Greil's Devoted).png",
-      main: "img/heroes-main/Ike (Greil's Devoted).png"
+      sprite:"img/sprites/Ike_Stalwart_Heart_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Iron Sword", rarity: 5 },
@@ -7223,11 +7355,11 @@ for(let n=0;n<t.length;n++)r<=new Date(t[n].releaseDate)||t[n].limited||t[n].ghb
     colorType: "Red",
     weaponType: "Sword",
     moveType: "Infantry",
-    rarity5: ["pool1", "pool2"],
+    rarity5: ["pool1", "pool2", "pool6"],
     limited: true,
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Ike (Legendary Heroes).png",
-      main: "img/heroes-main/Ike (Legendary Heroes).png"
+      sprite:"img/sprites/Ike_Vanguard_Legend_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Iron Sword", rarity: 5},
@@ -7253,6 +7385,19 @@ for(let n=0;n<t.length;n++)r<=new Date(t[n].releaseDate)||t[n].limited||t[n].ghb
     }
   },
   {
+   name:"Ike (Dark Burdens)",
+   shortNale: "Ike",
+   title:"Zeal Unleashed",
+   releaseDate:"May 8, 2020",
+   colorType:"Red",
+   weaponType:"Sword",
+   moveType:"Infantry",
+   rarity5:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/Ike_Zeal_Unleashed_Face_FC.png",
+     sprite:"img/sprites/Ike_Zeal_Unleashed_Mini_Unit_Ok.png"}
+ },
+  {
    name:"Ike (Unlikely Friends)",
    shortName: "Ike",
    title:"Close-Knit Siblings",
@@ -7266,6 +7411,74 @@ for(let n=0;n<t.length;n++)r<=new Date(t[n].releaseDate)||t[n].limited||t[n].ghb
      portrait:"img/heroes-portrait/75px-Icon_Portrait_Ike_Close-Knit_Siblings.png",
      sprite:"img/sprites/Ike_Close-Knit_Siblings_Mini_Unit_Ok.png"}
  },
+ {
+   name:"Ilyana",
+   title:"Hungering Mage",
+   releaseDate:"Sep 19, 2020",
+   colorType:"Blue",
+   weaponType:"Tome",
+   moveType:"Infantry",
+   rarity3:["pool6"],
+   rarity4:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/Ilyana_Hungering_Mage_Face_FC.png",
+     sprite:"img/sprites/Ilyana_Hungering_Mage_Mini_Unit_Ok.png"}
+ },
+ {
+   name:"Ilyana (Treat Fiends)",
+   shortName: "Ilyana",
+   title:"Treat Harvester",
+   releaseDate:"Oct 9, 2019",
+   colorType:"Blue",
+   weaponType:"Tome",
+   moveType:"Armored",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Ilyana_Treat_Harvester_Face_FC.png",
+     sprite:"img/sprites/Ilyana_Treat_Harvester_Mini_Unit_Ok.png"}
+ },
+ {
+   name:"Ilyana (Unlikely Friends)",
+   shortName: "Ilyana",
+   title:"Awakened Appetite",
+   releaseDate:"Apr 7, 2022",
+   colorType:"Green",
+   weaponType:"Tome",
+   moveType:"Infantry",
+   rarity4:["pool6"],
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Ilyana_Awakened_Appetite_Face_FC.png",
+     sprite:"img/sprites/Ilyana_Awakened_Appetite_Mini_Unit_Ok.png"}
+ },
+ {
+   name:"Ingrid",
+   title:"Galatea's Heir",
+   releaseDate:"Mar 5, 2021",
+   colorType:"Blue",
+   weaponType:"Lance",
+   moveType:"Cavalry",
+   rarity5:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/Ingrid_Galateas_Heir_Face_FC.png",
+     sprite:"img/sprites/Ingrid_Galateas_Heir_Mini_Unit_Ok.png"}
+ },
+ {
+   name:"Ingrid (Overseas Memories)",
+   shortName: "Ingrid",
+   title:"Solstice Knight",
+   releaseDate:"Jul 8, 2020",
+   colorType:"Blue",
+   weaponType:"Lance",
+   moveType:"Flying",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Ingrid_Solstice_Knight_Face_FC.png",
+     sprite:"img/sprites/Ingrid_Solstice_Knight_Mini_Unit_Ok.png"}
+ },
   {
     name: "Inigo (Performing Arts)",
     shortName: "Inigo",
@@ -7276,11 +7489,12 @@ for(let n=0;n<t.length;n++)r<=new Date(t[n].releaseDate)||t[n].limited||t[n].ghb
     colorType: "Green",
     weaponType: "Tome",
     moveType: "Infantry",
+    rarity4ss: ["pool6"],
     rarity5: ["pool1", "pool2"],
     limited: true,
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Inigo (Performing Arts).png",
-      main: "img/heroes-main/Inigo (Performing Arts).png"
+      sprite:"img/sprites/Inigo_Indigo_Dancer_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Wind", rarity: 5 },
@@ -7300,6 +7514,20 @@ for(let n=0;n<t.length;n++)r<=new Date(t[n].releaseDate)||t[n].limited||t[n].ghb
       level40: { hp: [ 33, 37, 40 ], atk: [ 24, 28, 31 ], spd: [ 30, 33, 36 ], def: [ 19, 22, 25 ], res: [ 17, 20, 23 ] }
     }
   },
+  {
+   name:"Inigo (Willful Rabbits)",
+   shortName: "Inigo",
+   title:"Festival Flower",
+   releaseDate:"Mar 17, 2021",
+   colorType:"Green",
+   weaponType:"Bow",
+   moveType:"Flying",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Inigo_Festival_Flower_Face_FC.png",
+     sprite:"img/sprites/Inigo_Festival_Flower_Mini_Unit_Ok.png"}
+ },
   {
     name: "Innes",
     title: "Regal Strategician",
