@@ -7386,7 +7386,7 @@ for(let n=0;n<t.length;n++)r<=new Date(t[n].releaseDate)||t[n].limited||t[n].ghb
   },
   {
    name:"Ike (Dark Burdens)",
-   shortNale: "Ike",
+   shortName: "Ike",
    title:"Zeal Unleashed",
    releaseDate:"May 8, 2020",
    colorType:"Red",
