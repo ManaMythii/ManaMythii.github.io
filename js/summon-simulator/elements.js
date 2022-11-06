@@ -10,12 +10,14 @@ module.exports = {
   RATE_INPUT_FOCUS: '#rate-input-focus',
   RATE_INPUT_FOCUS_4: '#rate-input-focus-4',
   RATE_INPUT_SPECIAL_4: '#rate-input-special-4',
+  RATE_INPUT_SPECIAL_S_4: '#rate-input-special-s-4',
   RATE_INPUT_5: '#rate-input-5',
   RATE_INPUT_4: '#rate-input-4',
   RATE_INPUT_3: '#rate-input-3',
   CUSTOM_INPUT_FOCUS: '#custom-input-focus',
   CUSTOM_INPUT_FOCUS_4: '#custom-input-focus-4',
   CUSTOM_INPUT_SPECIAL_4: '#custom-input-special-4',
+  CUSTOM_INPUT_SPECIAL_S_4: '#custom-input-special-s-4',
   CUSTOM_RATE_INPUT: '.custom-rate-input',
   CUSTOM_INPUT_5: '#custom-input-5',
   CUSTOM_INPUT_4: '#custom-input-4',
@@ -34,5 +36,6 @@ module.exports = {
   POOL_LIST_5: '#pool-list-5',
   POOL_LIST_4: '#pool-list-4',
   POOL_LIST_4S: '#pool-list-4s',
+  POOL_LIST_4SS: '#pool-list-4ss',
   POOL_LIST_3: '#pool-list-3'
 }
