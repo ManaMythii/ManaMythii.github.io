@@ -7917,6 +7917,19 @@ module.exports = [
     }
   },
   {
+    name: "Julian",
+    title: "Tender Thief",
+    releaseDate: "Jul 20, 2020",
+    colorType: "Neutral",
+    weaponType: "Dagger",
+    moveType: "Infantry",
+    rarity5: ["pool1", "pool2", "pool6"],
+    assets: {
+      portrait: "img/heroes-portrait/Julian_Tender_Thief_Face_FC.png",
+      sprite: "img/sprites/Julian_Tender_Thief_Mini_Unit_Ok.png"
+    }
+  },
+  {
     name: "Julius",
     title: "Scion of Darkness",
     artist: "sachie (茶ちえ)",
