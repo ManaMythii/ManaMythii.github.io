@@ -1,5 +1,18 @@
 module.exports = [
- 
+ {
+  date: "November 2022",
+  banners: [
+   {
+      name: "Heroes with Lull Skills (November 2022)",
+      startDate: "Nov 5, 2022",
+      focusHeroes: ["Catherine", "Guinivere", "Julian"],
+      excludeFromRarity4: [],
+      excludeFromRarity5: [],
+      rateType: "defaultV4",
+      pool: "pool6"
+    }
+  ]
+ },
   {
     date: "October 2022",
     banners: [
