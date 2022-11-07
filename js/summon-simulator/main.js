@@ -119,9 +119,11 @@ function initBanner() {
 function initHeroList() {
   let $focusList = $(elements.FOCUS_LIST).empty();
   let focusHeroes = heroes.getHeroes(banner.focusHeroes);
+  let focusHeroes4 = heroes.getHeroes(banner.focusHeroes4); //recently added
 
   summonPool = heroes.getSummoningPool(banner.pool, banner);
   summonPool.rf = focusHeroes;
+  summonPool.rf4 = focusHeroes4;  //recently added
   focusHeroes.forEach(hero => {
     $(`<div class="focus-list-hero">
         <img class="focus-list-hero-frame" src="../img/assets/frame-rarity-5.png">
@@ -135,10 +137,11 @@ function initHeroList() {
       })
       .appendTo($focusList);
   });
-
+  
   setPoolList(elements.POOL_LIST_5F, summonPool.rf);
   setPoolList(elements.POOL_LIST_5, summonPool.r5);
   setPoolList(elements.POOL_LIST_4, summonPool.r4);
+  setPoolList(elements.POOL_LIST_4F, summonPool.rf4); //recently added
   setPoolList(elements.POOL_LIST_4S, summonPool.r4s);
   setPoolList(elements.POOL_LIST_3, summonPool.r3);
 }
@@ -284,8 +287,8 @@ function getSessionOrbs() {
       orbData = { hero: getArrayRand(summonPool.rf), rarity: 'focus' };
     } else if (rate <= rateR5) {
       orbData = { hero: getArrayRand(summonPool.r5), rarity: 5 };
-    } //else if (rate <= rateRF4) {
-      //orbData = { hero: getArrayRand(summonPool.r4f), rarity: 'focus-4' }; //change rf to r4f (still rf on app.js)
+    } else if (rate <= rateRF4) {
+      orbData = { hero: getArrayRand(summonPool.rf4), rarity: 'focus-4' }; //recently changed
     } else if (rate <= rateRS4) {
       orbData = { hero: getArrayRand(summonPool.r4s), rarity: 'special-4' };
     } else if (rate <= rateR4) {
@@ -309,12 +312,13 @@ function updateOrbs(orbs) {
 function revealOrb($orb) {
   let orbData = $orb.data('hero');
   
-
+//recently changed 'focus-4'
   $(document).trigger('summon', [orbData.hero.name, orbData.hero.rarity]);
   $orb.replaceWith(`<div class="summon-hero">
     <img class="summon-hero-frame" src="../img/assets/frame-rarity-${orbData.rarity === 'special-4' ? 5 : orbData.rarity}.png">
     <img class="summon-hero-portrait" src="../${orbData.hero.assets.sprite}">
     <img class="summon-hero-background" src="../img/assets/background-rarity-${orbData.rarity === 'special-4' ? 5 : orbData.rarity}.png">
+    <img class="summon-hero-background" src="../img/assets/background-rarity-${orbData.rarity === 'focus-4' ? 'focus' : orbData.rarity}.png">
     <img class="summon-hero-rarity" src="../img/assets/star-rarity-${orbData.rarity === 'special-4' ? 5 : orbData.rarity}.png">
   </div>`);
 
