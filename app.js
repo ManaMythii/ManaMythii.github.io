@@ -15537,7 +15537,7 @@ for(let n=0;n<t.length;n++)r<=new Date(t[n].releaseDate)||t[n].limited||t[n].ghb
 
 
 
-let t=100-e.rates.rateRarityFocus-e.rates.rateRarity5;0===t?(e.rates.pityRateRarityFocus4=0,e.rates.pityRateRaritySpecial4=0,e.rates.pityRateRarity4=0,e.rates.pityRateRarity3=0):(e.rates.pityRateRarityFocus4=-e.rates.rateRarityFocus4/t*.5,e.rates.pityRateRaritySpecial4=-e.rates.rateRaritySpecial4/t*.5,e.rates.pityRateRarity4=-e.rates.rateRarity4/t*.5,e.rates.pityRateRarity3=-e.rates.rateRarity3/t*.5)}function f(){!function(){let e=$(o.FOCUS_LIST).empty(),a=i.getHeroes(l.focusHeroes);(m=i.getSummoningPool(l.pool,l)).rf=a,
+let t=100-e.rates.rateRarityFocus-e.rates.rateRarity5;0===t?(e.rates.pityRateRarityFocus4=0,e.rates.pityRateRaritySpecial4=0,e.rates.pityRateRarity4=0,e.rates.pityRateRarity3=0):(e.rates.pityRateRarityFocus4=-e.rates.rateRarityFocus4/t*.5,e.rates.pityRateRaritySpecial4=-e.rates.rateRaritySpecial4/t*.5,e.rates.pityRateRarity4=-e.rates.rateRarity4/t*.5,e.rates.pityRateRarity3=-e.rates.rateRarity3/t*.5)}function f(){!function(){let e=$(o.FOCUS_LIST).empty(),a=i.getHeroes(l.focusHeroes);(m=i.getSummoningPool(l.pool,l)).rf=a
  //j = f focus list
 //l.focusHeroes4?(j=i.getHeroes(l.focusHeroes4),m.rf4=j,u(o.POOL_LIST_4F,m.rf4))
   
