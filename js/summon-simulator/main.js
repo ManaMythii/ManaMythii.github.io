@@ -119,11 +119,15 @@ function initBanner() {
 function initHeroList() {
   let $focusList = $(elements.FOCUS_LIST).empty();
   let focusHeroes = heroes.getHeroes(banner.focusHeroes);
+  
+  if(banner.focusHeroes4){
   let focusHeroes4 = heroes.getHeroes(banner.focusHeroes4); //recently added
+    setPoolList(elements.POOL_LIST_4F, summonPool.rf4); //recently added
+    summonPool.rf4 = focusHeroes4;  //recently added
+  }
 
   summonPool = heroes.getSummoningPool(banner.pool, banner);
   summonPool.rf = focusHeroes;
-  summonPool.rf4 = focusHeroes4;  //recently added
   focusHeroes.forEach(hero => {
     $(`<div class="focus-list-hero">
         <img class="focus-list-hero-frame" src="../img/assets/frame-rarity-5.png">
@@ -141,7 +145,6 @@ function initHeroList() {
   setPoolList(elements.POOL_LIST_5F, summonPool.rf);
   setPoolList(elements.POOL_LIST_5, summonPool.r5);
   setPoolList(elements.POOL_LIST_4, summonPool.r4);
-  setPoolList(elements.POOL_LIST_4F, summonPool.rf4); //recently added
   setPoolList(elements.POOL_LIST_4S, summonPool.r4s);
   setPoolList(elements.POOL_LIST_3, summonPool.r3);
 }
