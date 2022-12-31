@@ -135,6 +135,177 @@ module.exports = [
  {
   date: "November 2022",
   banners: [
+      {
+        name: "Legendary & Mythic Heroes: Embla and Veronica",
+        startDate: "Nov 30, 2022",
+        focusHeroes: ["Bramimond", "Caeda (Legendary Heroes)", "Celica (Ascended Heroes)", "Dagr (Like Clockwork)", "Deirdre (Legendary Heroes)", "Embla", "Hel", "Micaiah (Legendary Heroes)", "Nanna (Legendary Heroes)", "Seiros", "Veronica (Legendary Heroes)", "Ymir"],
+        excludeFromRarity4: [],
+        excludeFromRarity5: [],
+        rateType: "legendaryV2",
+        pool: "pool6"
+      },
+     {
+      name: "Weekly Revival 42",
+      startDate: "Nov 27, 2022",
+      focusHeroes: ["Corrin (Darkness Within)", "Idunn", "Lugh"],
+      excludeFromRarity4: [],
+      excludeFromRarity5: [],
+      rateType: "wklyrevivalV1",
+      pool: "pool6"
+    },
+     {
+      name: "Weekly Revival 29",
+      startDate: "Nov 27, 2022",
+      focusHeroes: ["Amelia", "Nephenee", "Sanaki"],
+      excludeFromRarity4: [],
+      excludeFromRarity5: [],
+      rateType: "wklyrevivalV1",
+      pool: "pool6"
+    },
+     {
+      name: "Flavia and Basilio's Battle",
+      startDate: "Dec 26, 2022",
+      focusHeroes: ["Basilio", "Flavia", "Priam"],
+      excludeFromRarity4: [],
+      excludeFromRarity5: [],
+      rateType: "defaultV4",
+      pool: "pool6"
+    },
+    {
+      name: "New Heroes Return: Ascendants",
+      startDate: "Nov 24, 2022",
+      focusHeroes: ["Astrid", "Fjorm (Ascended Heroes)", "Ishtar (Ascended Heroes)", "Joshua (Ascended Heroes)", "Mareeta (Ascended Heroes)", "Ninian (Beyond Control)", "Volke", "Yuri"],
+      excludeFromRarity4: [],
+      excludeFromRarity5: [],
+      rateType: "mythlegrmxV1",
+      pool: "pool6"
+    },
+     {
+      name: "Heroes with Solo Skills (November 2022)",
+      startDate: "Nov 23, 2022",
+      focusHeroes: ["Dimitri (Forces of Will)", "Morgan (F) (Forces of Will)", "Nyx"],
+      excludeFromRarity4: [],
+      excludeFromRarity5: [],
+      rateType: "defaultV4",
+      pool: "pool6"
+    },
+    {
+      name: "Double Special Heroes (November 2022)",
+      startDate: "Dec 21, 2022",
+      focusHeroes: ["Edelgard (Summer Vacation)", "Eirika (Taken by the Tide)", "Henry (Hop-and-Go-Seek)", "Ilyana (Unlikely Friends)", "Lilina (Bridal Blossoms)", "Mia (Unlikely Friends)", "Micaiah (Summer Vacation)", "Thórr (Taken by the Tide)"],
+      excludeFromRarity4: [],
+      excludeFromRarity5: [],
+      rateType: "dblesplV1",
+      pool: "pool6"
+    },
+    {
+      name: "Weekly Revival 28",
+      startDate: "Nov 20, 2022",
+      focusHeroes: ["Elincia", "Innes", "Tana"],
+      excludeFromRarity4: [],
+      excludeFromRarity5: [],
+      rateType: "wklyrevivalV1",
+      pool: "pool6"
+    },
+     {
+      name: "Weekly Revival 62",
+      startDate: "Nov 20, 2022",
+      focusHeroes: ["Ced", "Larcei", "Nils"],
+      excludeFromRarity4: [],
+      excludeFromRarity5: [],
+      rateType: "wklyrevivalV1",
+      pool: "pool6"
+    },
+     {
+      name: "Rearmed Ganglöt & More",
+      startDate: "Nov 18, 2022",
+      focusHeroes: ["Ganglöt", "Hardin", "Nyna", "Tiki (Ascended Heroes)"],
+      excludeFromRarity4: [],
+      excludeFromRarity5: [],
+      rateType: "defaultV3",
+      pool: "pool6"
+    },
+     {
+      name: "Legendary & Mythic Hero Remix (November 2022)",
+      startDate: "Nov 14, 2022",
+      focusHeroes: ["Azura (Legendary Heroes)", "Eir", "Eliwood (Legendary Heroes)", "Ephraim (Legendary Heroes)", "Ike (Legendary Heroes)", "Yune", "Gustav (Beyond Control)", "Rhea (Beyond Control)"],
+      excludeFromRarity4: [],
+      excludeFromRarity5: [],
+      rateType: "mythlegrmxV1",
+      pool: "pool6"
+    },
+     {
+      name: "Weekly Revival 27",
+      startDate: "Nov 13, 2022",
+      focusHeroes: ["Ephraim", "Jaffar", "Karel"],
+      excludeFromRarity4: [],
+      excludeFromRarity5: [],
+      rateType: "wklyrevivalV1",
+      pool: "pool6"
+    },
+    {
+      name: "Weekly Revival 41",
+      startDate: "Nov 13, 2022",
+      focusHeroes: ["Kaden", "Nailah", "Velouria"],
+      excludeFromRarity4: [],
+      excludeFromRarity5: [],
+      rateType: "wklyrevivalV1",
+      pool: "pool6"
+    },
+    {
+      name: "Nwe Power (November 2022)",
+      startDate: "Nov 12, 2022",
+      focusHeroes: ["Corrin (Darkness Within)", "Hector (Treat Fiends)", "Petra", "Python"],
+      excludeFromRarity4: [],
+      excludeFromRarity5: [],
+      rateType: "defaultV4",
+      pool: "pool6"
+    },
+     {
+      name: "Revival: New Heroes & Ascended Idunn",
+      startDate: "Nov 11, 2022",
+      focusHeroes: ["Hugh", "Cath", "Niime", "Idunn (Ascended Heroes)"],
+      excludeFromRarity4: [],
+      excludeFromRarity5: [],
+      rateType: "defaultV3",
+      pool: "pool6"
+    },
+     {
+      name: "Wyvern Ninja",
+      startDate: "Nov 8, 2022",
+      focusHeroes: ["Camilla (Wyvern Ninja)", "Cherche (Wyvern Ninja)", "Heath (Wyvern Ninja)", "Laegjarn (Wyvern Ninja)"],
+      excludeFromRarity4: [],
+      excludeFromRarity5: [],
+      rateType: "defaultV3",
+      pool: "pool6"
+    },
+     {
+      name: "Weekly Revival 61",
+      startDate: "Nov 6, 2022",
+      focusHeroes: ["Fiora", "Kiria", "Leila"],
+      excludeFromRarity4: [],
+      excludeFromRarity5: [],
+      rateType: "wklyrevivalV1",
+      pool: "pool6"
+    },
+     {
+      name: "Weekly Revival 26",
+      startDate: "Nov 6, 2022",
+      focusHeroes: ["Azura", "Deirdre", "Eldigan"],
+      excludeFromRarity4: [],
+      excludeFromRarity5: [],
+      rateType: "wklyrevivalV1",
+      pool: "pool6"
+    },
+   {
+      name: "Tempest Trials (November 2022)",
+      startDate: "Nov 6, 2022",
+      focusHeroes: ["Camilla", "Cherche", "Laegjarn"],
+      excludeFromRarity4: [],
+      excludeFromRarity5: [],
+      rateType: "defaultV4",
+      pool: "pool6"
+    },
    {
       name: "Heroes with Lull Skills (November 2022)",
       startDate: "Nov 5, 2022",
