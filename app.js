@@ -50,7 +50,7 @@
       focusHeroes: ["Astrid", "Fjorm (Ascended Heroes)", "Ishtar (Ascended Heroes)", "Joshua (Ascended Heroes)", "Mareeta (Ascended Heroes)", "Ninian (Beyond Control)", "Volke", "Yuri"],
       excludeFromRarity4: [],
       excludeFromRarity5: [],
-      rateType: "mythlegrmxV1",
+      rateType: "miscV1",
       pool: "pool6"
     },
      {
@@ -196,6 +196,19 @@ defaultV1:{rateRarity3:58,rateRarity4:36,rateRarityFocus4:0,rateRarity5:3,rateRa
     pityRateRarityFocus4: 0,
     pityRateRarity5: 0,
     pityRateRarityFocus: 0
+  }, miscV1: {
+    rateRarity3: 34,
+    rateRarity4: 57,
+    rateRarityFocus4: 0,
+    rateRaritySpecial4: 3,
+    rateRarity5: 0,
+    rateRarityFocus: 6,
+    pityRateRarity3: -36 / 94 * 0.5,
+    pityRateRarity4: -57 / 94 * 0.5,
+    pityRateRaritySpecial4: -0.02,
+    pityRateRarityFocus4: 0,
+    pityRateRarity5: 0,
+    pityRateRarityFocus: 0.25
   }}},{}],
   
 //hero-access.js
