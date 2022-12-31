@@ -174,7 +174,7 @@ module.exports = {
     rateRarity5: 3,
     rateRarityFocus: 3,
     pityRateRarity3: -36 / 94 * 0.5,
-    pityRateRarity4: -52 / 94 * 0.5,
+    pityRateRarity4: -55 / 94 * 0.5,
     pityRateRaritySpecial4: -0.02,
     pityRateRarityFocus4: 0,
     pityRateRarity5: 0,
@@ -195,7 +195,20 @@ module.exports = {
     pityRateRarity5: 0,
     pityRateRarityFocus: 0
   },
-  
+    miscV1: {//Ascended Returns 2022
+    rateRarity3: 34,
+    rateRarity4: 57,
+    rateRarityFocus4: 0,
+    rateRaritySpecial4: 3,
+    rateRarity5: 0,
+    rateRarityFocus: 6,
+    pityRateRarity3: -36 / 94 * 0.5,
+    pityRateRarity4: -57 / 94 * 0.5,
+    pityRateRaritySpecial4: -0.02,
+    pityRateRarityFocus4: 0,
+    pityRateRarity5: 0,
+    pityRateRarityFocus: 0.25
+  },
   
   
   
