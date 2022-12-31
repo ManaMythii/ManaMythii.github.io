@@ -100,6 +100,7 @@
       rateType: "defaultV3",
       pool: "pool6"
     },
+    */
      {
       name: "Legendary & Mythic Hero Remix (November 2022)",
       startDate: "Nov 14, 2022",
@@ -109,7 +110,6 @@
       rateType: "mythlegrmxV1",
       pool: "pool6"
     },
- */
      {
       name: "Weekly Revival 27",
       startDate: "Nov 13, 2022",
