@@ -181,7 +181,20 @@ module.exports = {
     pityRateRarityFocus: 0.25
   },
   
-  
+    arenarwdV1: {//arena reward 2022
+    rateRarity3: 0,
+    rateRarity4: 0,
+    rateRarityFocus4: 0,
+    rateRaritySpecial4: 100,
+    rateRarity5: 0,
+    rateRarityFocus: 0,
+    pityRateRarity3: 0,
+    pityRateRarity4: 0,
+    pityRateRaritySpecial4: 0,
+    pityRateRarityFocus4: 0,
+    pityRateRarity5: 0,
+    pityRateRarityFocus: 0
+  },
   
   
   
