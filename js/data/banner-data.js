@@ -1,4 +1,137 @@
 module.exports = [
+  {
+  date: "December 2022",
+  banners: [
+   {
+      name: "Double Special Heroes (December 2022)",
+      startDate: "Dec 20, 2022",
+      focusHeroes: ["Cath (Risk and Reward)", "Cecilia (Bridal Blossoms)", "Dimitri (Summer Vacation)", "Lyn (Bite of Flame)", "Lyon (Taken by the Tide)", "Nifl (Taken by the Tide)", "Nina (Risk and Reward)", "Tana (Bite of Flame)"],
+      excludeFromRarity4: [],
+      excludeFromRarity5: [],
+      rateType: "dblesplV1",
+      pool: "pool6"
+    },
+    {
+      name: "Cain & Abel's Battle",
+      startDate: "Dec 19, 2022",
+      focusHeroes: ["Abel", "Cain", "Jagen"],
+      excludeFromRarity4: [],
+      excludeFromRarity5: [],
+      rateType: "defaultV4",
+      pool: "pool6"
+    },
+    {
+      name: "Weekly Revival 64",
+      startDate: "Dec 18, 2022",
+      focusHeroes: ["Elenora", "Shannan", "Tsubasa"],
+      excludeFromRarity4: [],
+      excludeFromRarity5: [],
+      rateType: "defaultV4",
+      pool: "pool6"
+    },
+    {
+      name: "Holiday Handoff",
+      startDate: "Dec 16, 2022",
+      focusHeroes: ["Annette (Holiday Handoff)", "Black Knight (Holiday Handoff)", "Dorothea (Holiday Handoff)", "Cordelia (Holiday Handoff)"],
+      excludeFromRarity4: [],
+      excludeFromRarity5: [],
+      rateType: "defaultV4",
+      pool: "pool6"
+    },
+    {
+      name: "Tempest Trials (December 2022)",
+      startDate: "Dec 15, 2022",
+      focusHeroes: ["Annette", "Cordelia", "Selena"],
+      excludeFromRarity4: [],
+      excludeFromRarity5: [],
+      rateType: "defaultV4",
+      pool: "pool6"
+    },
+    {
+      name: "Heroes with Catch Skills (December 2022)",
+      startDate: "Dec 14, 2022",
+      focusHeroes: ["Farina", "Lilith (Beyond Control)", "Zeke"],
+      excludeFromRarity4: [],
+      excludeFromRarity5: [],
+      rateType: "defaultV4",
+      pool: "pool6"
+    },
+    {
+      name: "Weekly Revival 31",
+      startDate: "Dec 11, 2022",
+      focusHeroes: ["Azura", "Elise", "Leo"],
+      excludeFromRarity4: [],
+      excludeFromRarity5: [],
+      rateType: "wklyrevivalV1",
+      pool: "pool6"
+    },
+    {
+      name: "Weekly Revival 43",
+      startDate: "Dec 11, 2022",
+      focusHeroes: ["Claude", "Dimitri", "Edelgard"],
+      excludeFromRarity4: [],
+      excludeFromRarity5: [],
+      rateType: "wklyrevivalV1",
+      pool: "pool6"
+    },
+    {
+      name: "New Power (December 2022)",
+      startDate: "Dec 9, 2022",
+      focusHeroes: ["Ephraim (Desert Mercenaries)", "Hubert", "Marth (Glorious Gifts)", "Nah"],
+      excludeFromRarity4: [],
+      excludeFromRarity5: [],
+      rateType: "defaultV4",
+      pool: "pool6"
+    },
+    {
+      name: "Book VII Begins: Seiðr and More",
+      startDate: "Dec 7, 2022",
+      focusHeroes: ["Caeldori", "Dwyer", "Ophelia (Rearmed Heroes)", "Seiðr"],
+      excludeFromRarity4: [],
+      excludeFromRarity5: [],
+      rateType: "defaultV3",
+      pool: "pool6"
+    },
+    {
+      name: "Free Summon: Arena Reward 1",
+      startDate: "Dec 6, 2022",
+      focusHeroes: ["Celica (Arrival of the Brave)", "Hector (Arrival of the Brave)", "Alm (Brave Echoes)", "Micaiah (Brave Echoes)", "Lyn (Brave Heroes)", "Ike (Brave Heroes)"],
+      excludeFromRarity4: [],
+      excludeFromRarity5: [],
+      rateType: "arenarwdV1",
+      pool: "pool6" //needs change
+    },
+    {
+      name: "Weekly Revival 30",
+      startDate: "Dec 4, 2022",
+      focusHeroes: ["Gray", "Ike (Brave Heroes)", "Lucina (Brave Heroes)"],
+      excludeFromRarity4: [],
+      excludeFromRarity5: [],
+      rateType: "wklyrevivalV1",
+      pool: "pool6"
+    },
+    {
+      name: "Weekly Revival 63",
+      startDate: "Dec 4, 2022",
+      focusHeroes: ["Ephraim (Desert Mercenaries)", "Eyvel", "Osian"],
+      excludeFromRarity4: [],
+      excludeFromRarity5: [],
+      rateType: "wklyrevivalV1",
+      pool: "pool6"
+    },
+    {
+      name: "Heroes with Moonbow (December 2022)",
+      startDate: "Dec 3, 2022",
+      focusHeroes: ["Ingrid", "Neimi", "Shamir"],
+      excludeFromRarity4: [],
+      excludeFromRarity5: [],
+      rateType: "defaultV4",
+      pool: "pool6"
+    },
+  ]
+ },
+ 
+ 
  {
   date: "November 2022",
   banners: [
@@ -13,6 +146,8 @@ module.exports = [
     }
   ]
  },
+ 
+ 
   {
     date: "October 2022",
     banners: [
