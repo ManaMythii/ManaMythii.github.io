@@ -98,17 +98,17 @@
       rateType: "defaultV3",
       pool: "pool6"
     },
-    /*
+    
      {
       name: "Legendary & Mythic Hero Remix (November 2022)",
       startDate: "Nov 14, 2022",
       focusHeroes: ["Azura (Legendary Heroes)", "Eir", "Eliwood (Legendary Heroes)", "Ephraim (Legendary Heroes)", "Ike (Legendary Heroes)", "Yune", "Gustav (Beyond Control)", "Rhea (Beyond Control)"],
       excludeFromRarity4: [],
       excludeFromRarity5: [],
-      rateType: "mythlegrmxV1",
+      rateType: "defaultV4",
       pool: "pool6"
     },
-    */
+    
      {
       name: "Weekly Revival 27",
       startDate: "Nov 13, 2022",
