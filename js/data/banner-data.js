@@ -253,7 +253,7 @@ module.exports = [
       pool: "pool6"
     },
     {
-      name: "Nwe Power (November 2022)",
+      name: "New Power (November 2022)",
       startDate: "Nov 12, 2022",
       focusHeroes: ["Corrin (Darkness Within)", "Hector (Treat Fiends)", "Petra", "Python"],
       excludeFromRarity4: [],
