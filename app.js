@@ -105,7 +105,7 @@
       focusHeroes: ["Azura (Legendary Heroes)", "Eir", "Eliwood (Legendary Heroes)", "Ephraim (Legendary Heroes)", "Ike (Legendary Heroes)", "Yune", "Gustav (Beyond Control)", "Rhea (Beyond Control)"],
       excludeFromRarity4: [],
       excludeFromRarity5: [],
-      rateType: "defaultV4",
+      rateType: "mythlegrmxV1",
       pool: "pool6"
     },
     
