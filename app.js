@@ -8,7 +8,9 @@
   
   
   { date: "November 2022",
-  banners: [  {
+  banners: [  
+ /*
+      {
         name: "Legendary & Mythic Heroes: Embla and Veronica",
         startDate: "Nov 30, 2022",
         focusHeroes: ["Bramimond", "Caeda (Legendary Heroes)", "Celica (Ascended Heroes)", "Dagr (Like Clockwork)", "Deirdre (Legendary Heroes)", "Embla", "Hel", "Micaiah (Legendary Heroes)", "Nanna (Legendary Heroes)", "Seiros", "Veronica (Legendary Heroes)", "Ymir"],
@@ -107,6 +109,7 @@
       rateType: "mythlegrmxV1",
       pool: "pool6"
     },
+ */
      {
       name: "Weekly Revival 27",
       startDate: "Nov 13, 2022",
@@ -126,7 +129,7 @@
       pool: "pool6"
     },
     {
-      name: "Nwe Power (November 2022)",
+      name: "New Power (November 2022)",
       startDate: "Nov 12, 2022",
       focusHeroes: ["Corrin (Darkness Within)", "Hector (Treat Fiends)", "Petra", "Python"],
       excludeFromRarity4: [],
