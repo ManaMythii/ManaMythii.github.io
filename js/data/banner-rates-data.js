@@ -167,12 +167,12 @@ module.exports = {
   },
   
    mythlegrmxV1: {//mythic and legendary remix 2022
-    rateRarity3: 34,
-    rateRarity4: 57,
+    rateRarity3: 36,
+    rateRarity4: 55,
     rateRarityFocus4: 0,
     rateRaritySpecial4: 3,
-    rateRarity5: 0,
-    rateRarityFocus: 6,
+    rateRarity5: 3,
+    rateRarityFocus: 3,
     pityRateRarity3: -36 / 94 * 0.5,
     pityRateRarity4: -52 / 94 * 0.5,
     pityRateRaritySpecial4: -0.02,
