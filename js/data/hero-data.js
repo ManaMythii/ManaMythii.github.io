@@ -393,6 +393,20 @@ module.exports = [
      sprite:"img/sprites/Ash_Retainer_to_Askr_Mini_Unit_Ok.png"}
  },
  {
+   name:"Ash (Gods Renewed)",
+   shortName: "Ash",
+   title:"Earnest Greetings",
+   releaseDate:"Jan 1, 2023",
+   colorType:"Blue",
+   weaponType:"Beast",
+   moveType:"Infantry",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Ash_Earnest_Greetings_Face_FC.png",
+     sprite:"img/sprites/Ash_Earnest_Greetings_Mini_Unit_Ok.png"}
+ },
+ {
    name:"Ashe (Summer Vibrance)",
    shortName: "Ashe",
    title:"Fabled Sea Knight",
@@ -445,6 +459,20 @@ module.exports = [
    assets:{
      portrait:"img/heroes-portrait/Askr_God_of_Openness_Face_FC.png",
      sprite:"img/sprites/Askr_God_of_Openness_Mini_Unit_Ok.png"}
+ },
+ {
+   name:"Askr (Gods Renewed)",
+   shortName: "Askr",
+   title:"Renewed Gods",
+   releaseDate:"Jan 1, 2023",
+   colorType:"Neutral",
+   weaponType:"Tome",
+   moveType:"Infantry",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Askr_Renewed_Gods_Face_FC.png",
+     sprite:"img/sprites/Askr_Renewed_Gods_Mini_Unit_Ok.png"}
  },
  {
    name:"Astram",
@@ -4525,6 +4553,20 @@ module.exports = [
    assets:{
      portrait:"img/heroes-portrait/Eliwood_Marquess_Pherae_Face_FC.png",
      sprite:"img/sprites/Eliwood_Marquess_Pherae_Mini_Unit_Ok.png"}
+ },
+ {
+   name:"Elm (Gods Renewed)",
+   shortName: "Elm",
+   title:"Resolute Grouch",
+   releaseDate:"Jan 1, 2023",
+   colorType:"Green",
+   weaponType:"Beast",
+   moveType:"Flying",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Elm_Resolute_Grouch_Face_FC.png",
+     sprite:"img/sprites/Elm_Resolute_Grouch_Mini_Unit_Ok.png"}
  },
   {
    name:"Ena (Dragons Harvest)",
@@ -11935,8 +11977,8 @@ module.exports = [
     moveType: "Cavalry",
     ghb: true,
     assets: {
-      portrait: "img/heroes-portrait/75px-Icon_Portrait_Panne.png",
-      main: "img/heroes-main/Panne.png"
+      portrait:"img/heroes-portrait/75px-Icon_Portrait_Panne.png",
+      sprite:"img/sprites/Panne_Proud_Taguel_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Taguel Fang", rarity: 5 },
@@ -11956,6 +11998,20 @@ module.exports = [
       level40_4: { hp: [ 35, 38, 41 ], atk: [ 23, 26, 29 ], spd: [ 29, 32, 35 ], def: [ 25, 28, 31 ], res: [ 18, 21, 24 ] }
     }
   },
+  {
+   name:"Panne (Gods Renewed)",
+   shortName: "Panne",
+   title:"Welcoming Dawn",
+   releaseDate:"Jan 1, 2023",
+   colorType:"Red",
+   weaponType:"Beast",
+   moveType:"Calvary",
+   rarity4s:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Panne_Welcoming_Dawn_Face_FC.png",
+     sprite:"img/sprites/Panne_Welcoming_Dawn_Mini_Unit_Ok.png"}
+ },
   {
     name: "Peri",
     title: "Playful Slayer",
@@ -15383,6 +15439,30 @@ module.exports = [
       level40: { hp: [ 36, 40, 43 ], atk: [ 22, 25, 29 ], spd: [ 24, 28, 31 ], def: [ 32, 35, 38 ], res: [ 23, 26, 30 ] }
     }
   },
+  {
+   name:"Yarne",
+   title:"Timid Taguel",
+   releaseDate:"Jun 11, 2019",
+   colorType:"Green",
+   weaponType:"Beast",
+   moveType:"Cavalry",
+   rarity4s:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/Yarne_Timid_Taguel_Face_FC.png",
+     sprite:"img/sprites/Yarne_Timid_Taguel_Mini_Unit_Ok.png"}
+ },
+  {
+   name:"Yarne",
+   title:"Timid Taguel",
+   releaseDate:"Jun 11, 2019",
+   colorType:"Green",
+   weaponType:"Beast",
+   moveType:"Cavalry",
+   rarity4s:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/Yarne_Timid_Taguel_Face_FC.png",
+     sprite:"img/sprites/Yarne_Timid_Taguel_Mini_Unit_Ok.png"}
+ },
   {
     name: "Ylgr",
     title: "Fresh Snowfall",
