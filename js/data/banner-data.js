@@ -1,7 +1,33 @@
 module.exports = [
+   {
+    date: "January 2023",
+    banners: [
+      {
+        name: "Gods Renewed",
+        startDate: "Jan 1, 2023",
+        focusHeroes: ["Askr (Gods Renewed)", "Ash (Gods Renewed)", "Elm (Gods Renewed)", "Panne (Gods Renewed)"],
+        excludeFromRarity4: [],
+        excludeFromRarity5: [],
+        rateType: "defaultV3",
+        pool: "pool6"
+      },
+
+      
+      
+    ]
+ },
   {
   date: "December 2022",
   banners: [
+    {
+      name: "Legendary Heroes: Shez",
+      startDate: "Dec 23, 2022",
+      focusHeroes: ["Shez (Legendary Heroes)", "Myrrh (Legendary Heroes)", "Lilina (Legendary Heroes)", "Ninian (Legendary Heroes)","Claude (Legendary Heroes)", "Medeus", "Byleth (Weave of Fate)", "Seliph (Weave of Fate)", "Chrom (Weave of Fate)", "Tiki (Weave of Fate)", "Seiðr"],
+      excludeFromRarity4: [],
+      excludeFromRarity5: [],
+      rateType: "legendaryV2",
+      pool: "pool6"
+    },
    {
       name: "Double Special Heroes (December 2022)",
       startDate: "Dec 20, 2022",
@@ -35,7 +61,7 @@ module.exports = [
       focusHeroes: ["Annette (Holiday Handoff)", "Black Knight (Holiday Handoff)", "Dorothea (Holiday Handoff)", "Cordelia (Holiday Handoff)"],
       excludeFromRarity4: [],
       excludeFromRarity5: [],
-      rateType: "defaultV4",
+      rateType: "defaultV3",
       pool: "pool6"
     },
     {
