@@ -401,7 +401,7 @@ module.exports = [
    weaponType:"Beast",
    moveType:"Infantry",
    rarity5:["pool6"],
-   limited: true,
+   
    assets:{
      portrait:"img/heroes-portrait/Ash_Earnest_Greetings_Face_FC.png",
      sprite:"img/sprites/Ash_Earnest_Greetings_Mini_Unit_Ok.png"}
