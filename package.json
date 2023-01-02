@@ -1,7 +1,7 @@
 {
-  "name": "FEHSim",
+  "name": "feh-sim",
   "version": "1.0.0",
-  "description": "FEHSim",
+  "description": "feh-sim",
   "main": "gulpfile.js",
   "dependencies": {},
   "devDependencies": {
