@@ -94,7 +94,7 @@ function setCustomBannerRates(banner, rates) {
   }
   total -= banner.rates.rateRaritySpecial4SH;
   //changed rates[4] to rates[5]
-  if (rates[5] >= 0 && rates[0] + rates[1] + rates[2] + rates[3] + rates[4] = rates[5] <= 100) {
+  if (rates[5] >= 0 && rates[0] + rates[1] + rates[2] + rates[3] + rates[4] + rates[5] <= 100) {
     banner.rates.rateRarity4 = rates[5];
   } else {
     banner.rates.rateRarity4 = banner.rates.rateRaritySpecial4 ||
@@ -280,7 +280,6 @@ function getSessionOrbs() {
     rateR4 = parseFloat($(elements.RATE_INPUT_4).val()) / 100 + rateRF4;
   }
   
-  }
   if (banner.rates.rateRaritySpecial4 && !banner.rates.rateRarityFocus4 && !banner.rates.rateRaritySpecial4SH) {
     rateRS4 = parseFloat($(elements.RATE_INPUT_SPECIAL_4).val()) / 100 + rateR5;
     rateRF4 = 0;
@@ -294,7 +293,6 @@ function getSessionOrbs() {
     rateR4 = parseFloat($(elements.RATE_INPUT_4).val()) / 100 + rateRSS4;
   }
 
-  }
   if (banner.rates.rateRarityFocus4 && banner.rates.rateRaritySpecial4 && !banner.rates.rateRaritySpecial4SH) {
     rateRF4 = parseFloat($(elements.RATE_INPUT_FOCUS_4).val()) / 100 + rateR5;
     rateRSS4 = 0;
