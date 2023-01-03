@@ -9315,11 +9315,11 @@ module.exports = [
     colorType: "Neutral",
     weaponType: "Staff",
     moveType: "Infantry",
-    rarity3: ["pool1", "pool2"],
-    rarity4: ["pool1", "pool2"],
+    rarity3: ["pool1", "pool2", "pool6"],
+    rarity4: ["pool1", "pool2", "pool6"],
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Lissa.png",
-      main: "img/heroes-main/Lissa.png"
+      sprite:"img/sprites/Lissa_Sprightly_Cleric_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Assault", rarity: 1 },
@@ -9351,11 +9351,12 @@ module.exports = [
     colorType: "Green",
     weaponType: "Axe",
     moveType: "Armored",
+    rarity4ss: ["pool6"],
     rarity5: ["pool1", "pool2"],
     limited: true,
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Lissa (Winter's Envoy).png",
-      main: "img/heroes-main/Lissa (Winter's Envoy).png"
+      sprite:"img/sprites/Lissa_Pure_Joy_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Iron Axe", rarity: 5 },
@@ -9376,6 +9377,21 @@ module.exports = [
       level40: { hp: [ 39, 43, 46 ], atk: [ 30, 33, 36 ], spd: [ 26, 30, 33 ], def: [ 32, 35, 38 ], res: [ 31, 34, 37 ] }
     }
   },
+  {
+   name:"Lissa (Here With Me)",
+   shortName: "Lissa",
+   title:"Sweet Celebrant",
+   releaseDate:"Feb 8, 2022",
+   colorType:"Neutral",
+   weaponType:"Staff",
+   moveType:"Armored",
+   rarity4:["pool6"],
+   rarity5:["pool6"],
+   ttReward: true,
+   assets:{
+     portrait:"img/heroes-portrait/Lissa_Sweet_Celebrant_Face_FC.png",
+     sprite:"img/sprites/Lissa_Sweet_Celebrant_Mini_Unit_Ok.png"}
+ },
   {
     name: "Lloyd",
     title: "White Wolf",
@@ -12563,12 +12579,12 @@ module.exports = [
     colorType: "Green",
     weaponType: "Tome",
     moveType: "Infantry",
-    rarity3: ["pool1", "pool2"],
-    rarity4: ["pool1", "pool2"],
+    rarity3: ["pool1", "pool2", "pool6"],
+    rarity4: ["pool1", "pool2", "pool6"],
     ghb: true,
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Robin (F).png",
-      main: "img/heroes-main/Robin (F).png"
+      sprite:"img/sprites/Robin_Mystery_Tactician_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Wind", rarity: 2 },
@@ -12602,11 +12618,11 @@ module.exports = [
     colorType: "Neutral",
     weaponType: "Breath",
     moveType: "Flying",
-    rarity5: ["pool1", "pool2"],
+    rarity5: ["pool1", "pool2", "pool6"],
     limited: true,
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Robin (F) (Legendary Heroes).png",
-      main: "img/heroes-main/Robin (F) (Legendary Heroes).png"
+      sprite:"img/sprites/Robin_Fall_Vessel_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Fire Breath", rarity: 5 },
@@ -12638,11 +12654,12 @@ module.exports = [
     colorType: "Blue",
     weaponType: "Lance",
     moveType: "Infantry",
+    rarity4ss: ["pool6"],
     rarity5: ["pool1", "pool2"],
     limited: true,
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Robin (F) (Ylissean Summer).png",
-      main: "img/heroes-main/Robin (F) (Ylissean Summer).png"
+      sprite:"img/sprites/Robin_Seaside_Tactician_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Iron Lance", rarity: 5 },
@@ -12663,7 +12680,35 @@ module.exports = [
     }
   },
   {
-  name:"Robin (Rearmed Heroes)",
+   name:"Robin (F) (Dragons Harvest)",
+   shortName: "Robin",
+   title:"Fall Vessel",
+   releaseDate:"Oct 8, 2020",
+   colorType:"Green",
+   weaponType:"Breath",
+   moveType:"Flying",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Robin_Fall_Vessel_Face_FC.png",
+     sprite:"img/sprites/Robin_Fall_Vessel_Mini_Unit_Ok.png"}
+ },
+  {
+   name:"Robin (F) (Here With Me)",
+   shortName: "Robin",
+   title:"Tactful Deliverer",
+   releaseDate:"Feb 8, 2022",
+   colorType:"Neutral",
+   weaponType:"Tome",
+   moveType:"Armored",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Robin_Tactful_Deliverer_Face_FC.png",
+     sprite:"img/sprites/Robin_Tactful_Deliverer_Mini_Unit_Ok.png"}
+ },
+  {
+  name:"Robin (F) (Rearmed Heroes)",
   shortName:"Robin",
   title:"Fell Tactician",
   releaseDate:"Oct 17, 2022",
@@ -12685,11 +12730,11 @@ module.exports = [
     colorType: "Blue",
     weaponType: "Tome",
     moveType: "Infantry",
-    rarity3: ["pool1", "pool2"],
-    rarity4: ["pool1", "pool2"],
+    rarity3: ["pool1", "pool2", "pool6"],
+    rarity4: ["pool1", "pool2", "pool6"],
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Robin (M).png",
-      main: "img/heroes-main/Robin (M).png"
+      sprite:"img/sprites/Robin_High_Deliverer_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Thunder", rarity: 3 },
@@ -12723,11 +12768,12 @@ module.exports = [
     colorType: "Green",
     weaponType: "Breath",
     moveType: "Armored",
+    rarity4s: ["pool6"],
     rarity5: ["pool1", "pool2"],
     limited: true,
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Robin (M) (Fallen Heroes).png",
-      main: "img/heroes-main/Robin (M) (Fallen Heroes).png"
+      sprite:"img/sprites/Robin_Fell_Reincarnation_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Fire Breath", rarity: 5 },
@@ -12758,11 +12804,12 @@ module.exports = [
     colorType: "Blue",
     weaponType: "Lance",
     moveType: "Armored",
+    rarity4ss: ["pool6"],
     rarity5: ["pool1", "pool2"],
     limited: true,
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Robin (M) (Winter's Envoy).png",
-      main: "img/heroes-main/Robin (M) (Winter's Envoy).png"
+      sprite:"img/sprites/Robin_Festive_Tactician_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Iron Lance", rarity: 5 },
@@ -12783,6 +12830,20 @@ module.exports = [
       def: [ 32, 35, 38 ], res: [ 22, 25, 29 ] }
     }
   },
+   {
+   name:"Robin (M) (Shared Bounty)",
+   shortName: "Robin",
+   title:"Fall Reincarnation",
+   releaseDate:"Oct 7, 2021",
+   colorType:"Neutral",
+   weaponType:"Breath",
+   moveType:"Armored",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Robin_Fall_Reincarnation_Face_FC.png",
+     sprite:"img/sprites/Robin_Fall_Reincarnation_Mini_Unit_Ok.png"}
+ },
   {
     name: "Roderick",
     title: "Steady Squire",
@@ -14856,12 +14917,12 @@ module.exports = [
     colorType: "Red",
     weaponType: "Tome",
     moveType: "Infantry",
-    rarity3: ["pool2"],
-    rarity4: ["pool1", "pool2"],
+    rarity3: ["pool2", "pool6"],
+    rarity4: ["pool1", "pool2", "pool6"],
     rarity5: ["pool1"],
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Tharja.png",
-      main: "img/heroes-main/Tharja.png"
+      sprite:"img/sprites/Tharja_Dark_Shadow_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Flux", rarity: 4 },
@@ -14895,11 +14956,12 @@ module.exports = [
     colorType: "Red",
     weaponType: "Tome",
     moveType: "Infantry",
+    rarity4ss: ["pool6"],
     rarity5: ["pool2"],
     limited: true,
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Tharja (Bridal Bloom).png",
-      main: "img/heroes-main/Tharja (Bridal Bloom).png"
+      sprite:"img/sprites/Tharja_Obsessive_Bride_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Flux", rarity: 5 },
@@ -14930,11 +14992,12 @@ module.exports = [
     colorType: "Red",
     weaponType: "Tome",
     moveType: "Armored",
+    rarity4ss: ["pool6"],
     rarity5: ["pool1", "pool2"],
     limited: true,
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Tharja (Winter's Envoy).png",
-      main: "img/heroes-main/Tharja (Winter's Envoy).png"
+      sprite:"img/sprites/Tharja_Normal_Girl_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Flux", rarity: 5 },
@@ -14956,6 +15019,20 @@ module.exports = [
       level40: { hp: [ 40, 43, 46 ], atk: [ 31, 34, 37 ], spd: [ 14, 18, 21 ], def: [ 31, 34, 37], res: [ 33, 36, 39 ] }
     }
   },
+  {
+   name:"Tharja (Dark Desert Rituals)",
+   shortName: "Tharja",
+   title:"Florid Charmer",
+   releaseDate:"Jan 18, 2021",
+   colorType:"Green",
+   weaponType:"Tome",
+   moveType:"Flying",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Tharja_Florid_Charmer_Face_FC.png",
+     sprite:"img/sprites/Tharja_Florid_Charmer_Mini_Unit_Ok.png"}
+ },
   {
     name: "Thea",
     title: "Stormy Flier",
