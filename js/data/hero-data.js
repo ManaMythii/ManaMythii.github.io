@@ -15117,7 +15117,7 @@ module.exports = [
     }
   },
   {
-   name:"Tiki (Youmg) (Darkness Within)",
+   name:"Tiki (Young) (Darkness Within)",
    shortName: "Tiki",
    title:"Torpid Dragon",
    releaseDate:"May 10, 2019",
