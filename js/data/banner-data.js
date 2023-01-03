@@ -46,6 +46,42 @@ module.exports = [
   {
   date: "December 2022",
   banners: [
+     {
+      name: "Winter's Envoy (4★SHSR)",
+      startDate: "Dec 30, 2022",
+      focusHeroes: ["Chrom (Winter's Envoy)", "Lissa (Winter's Envoy)", "Robin (M) (Winter's Envoy)", "Tharja (Winter's Envoy)"],
+      excludeFromRarity4: [],
+      excludeFromRarity5: [],
+      rateType: "splrevV1",
+      pool: "pool6"
+    },
+    {
+      name: "Tempest Trials (December 2022)",
+      startDate: "Dec 29, 2022",
+      focusHeroes: ["Nah", "Nowi", "Yarne"],
+      excludeFromRarity4: [],
+      excludeFromRarity5: [],
+      rateType: "defaultV4",
+      pool: "pool6"
+    },
+    {
+      name: "Gifts of Winter (4★SHSR)",
+      startDate: "Dec 28, 2022",
+      focusHeroes: ["Eirika (Gifts of Winter)", "Ephraim (Gifts of Winter)", "Fae (Gifts of Winter)"],
+      excludeFromRarity4: [],
+      excludeFromRarity5: [],
+      rateType: "splrevV1",
+      pool: "pool6"
+    },
+    {
+      name: "Glorious Gifts (2022)",
+      startDate: "Dec 27, 2022",
+      focusHeroes: ["Marth (Glorious Gifts)", "Nino (Glorious Gifts)", "Sothis (Glorious Gifts)", "Zephiel (Glorious Gifts)"],
+      excludeFromRarity4: [],
+      excludeFromRarity5: [],
+      rateType: "defaultV4",
+      pool: "pool6"
+    },
     {
       name: "Legendary Heroes: Shez",
       startDate: "Dec 23, 2022",
