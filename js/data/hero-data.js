@@ -10227,12 +10227,12 @@ module.exports = [
     colorType: "Red",
     weaponType: "Sword",
     moveType: "Infantry",
-    rarity3: ["pool2"],
-    rarity4: ["pool1", "pool2"],
+    rarity3: ["pool2", "pool6"],
+    rarity4: ["pool1", "pool2", "pool6"],
     rarity5: ["pool1"],
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Marth.png",
-      main: "img/heroes-main/Marth.png"
+      sprite:"img/sprites/Marth_Altean_Prince_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Iron Sword", rarity: 4 },
@@ -10264,11 +10264,11 @@ module.exports = [
     colorType: "Red",
     weaponType: "Sword",
     moveType: "Infantry",
-    rarity5: ["pool2"],
+    rarity5: ["pool2", "pool6"],
     limited: true,
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Marth (Legendary Heroes).png",
-      main: "img/heroes-main/Marth (Legendary Heroes).png"
+      sprite:"img/sprites/Marth_Hero-King_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Iron Sword", rarity: 5 },
@@ -10301,12 +10301,12 @@ module.exports = [
     colorType: "Green",
     weaponType: "Axe",
     moveType: "Cavalry",
-    rarity4: ["pool2"],
-    rarity5: ["pool2"],
+    rarity4: ["pool2", "pool6"],
+    rarity5: ["pool2", "pool6"],
     ttReward: true,
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Marth (Bridal Bloom).png",
-      main: "img/heroes-main/Marth (Bridal Bloom).png"
+      sprite:"img/sprites/Marth_Altean_Groom_Mini_Unit_Ok.png"
     },
     skills: [
       {  name: "Iron Axe", rarity: 4 },
@@ -10339,12 +10339,12 @@ module.exports = [
     colorType: "Red",
     weaponType: "Sword",
     moveType: "Infantry",
-    rarity4: ["pool1", "pool2"],
-    rarity5: ["pool1", "pool2"],
+    rarity4: ["pool1", "pool2", "pool6"],
+    rarity5: ["pool1", "pool2", "pool6"],
     ttReward: true,
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Marth (Masked).png",
-      main: "img/heroes-main/Marth (Masked).png"
+      sprite:"img/sprites/Marth_Enigmatic_Blade_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Iron Sword", rarity: 4 },
@@ -10360,6 +10360,48 @@ module.exports = [
       level40_4: { hp: [ 37, 40, 43 ], atk: [ 29, 32, 35 ], spd: [ 31, 34, 37 ], def: [ 20, 23, 26 ], res: [ 14, 17, 20 ] }
     }
   },
+  {
+   name:"Marth (Glorious Gifts)",
+   shortName: "Marth",
+   title:"Royal Altean Duo",
+   releaseDate:"Dec 16, 2019",
+   colorType:"Neutral",
+   weaponType:"Bow",
+   moveType:"Armored",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Marth_Royal_Altean_Duo_Face_FC.png",
+     sprite:"img/sprites/Marth_Royal_Altean_Duo_Mini_Unit_Ok.png"}
+ },
+  {
+   name:"Marth (The Start of It All)",
+   shortName: "Marth",
+   title:"Legacied Hero",
+   releaseDate:"Apr 20, 2020",
+   colorType:"Red",
+   weaponType:"Sword",
+   moveType:"Infantry",
+   rarity4:["pool6"],
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Marth_Legacied_Hero_Face_FC.png",
+     sprite:"img/sprites/Marth_Legacied_Hero_Mini_Unit_Ok.png"}
+ },
+ {
+   name:"Marth (Keepers of Faith)",
+   shortName: "Marth",
+   title:"Prince of Light",
+   releaseDate:"Aug 17, 2021",
+   colorType:"Red",
+   weaponType:"Sword",
+   moveType:"Infantry",
+   rarity5:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/Marth_Prince_of_Light_Face_FC.png",
+     sprite:"img/sprites/Marth_Prince_of_Light_Mini_Unit_Ok.png"}
+ },
   {
     name: "Mathilda",
     title: "Legendary Knight",
@@ -11022,7 +11064,19 @@ module.exports = [
      portrait:"img/heroes-portrait/75px-Icon_Portrait_Naga_Harvest_Divinity.png",
      sprite:"img/sprites/Naga_Harvest_Divinity_Mini_Unit_Ok.png"}
   },
- 
+ {
+   name:"Nah",
+   title:"Little Miss",
+   releaseDate:"Jun 11, 2019",
+   colorType:"Red",
+   weaponType:"Breath",
+   moveType:"Infantry",
+   rarity4s:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/Nah_Little_Miss_Face_FC.png",
+     sprite:"img/sprites/Nah_Little_Miss_Mini_Unit_Ok.png"}
+ },
+
   {
     name: "Nailah",
     title: "Unflinching Eye",
@@ -11410,11 +11464,11 @@ module.exports = [
     colorType: "Green",
     weaponType: "Tome",
     moveType: "Infantry",
-    rarity3: ["pool1", "pool2"],
-    rarity4: ["pool1", "pool2"],
+    rarity3: ["pool1", "pool2", "pool6"],
+    rarity4: ["pool1", "pool2", "pool6"],
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Nino.png",
-      main: "img/heroes-main/Nino.png"
+      sprite:"img/sprites/Nino_Pious_Mage_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Wind", rarity: 3 },
@@ -11447,10 +11501,11 @@ module.exports = [
     colorType: "Green",
     weaponType: "Tome",
     moveType: "Flying",
+    rarity4s: ["pool6"],
     rarity5: ["pool2"],
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Nino (Scattered Fangs).png",
-      main: "img/heroes-main/Nino (Scattered Fangs).png"
+      sprite:"img/sprites/Nino_Pale_Flower_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Wind", rarity: 5 },
@@ -11474,6 +11529,20 @@ module.exports = [
       level40: { hp: [ 33, 36, 40 ], atk: [ 30, 33, 36 ], spd: [ 35, 38, 41 ], def: [ 13, 17, 20 ], res: [ 22, 25, 29 ] }
     }
   },
+  {
+   name:"Nino (Glorious Gifts)",
+   shortName: "Nino",
+   title:"Flower of Frost",
+   releaseDate:"Dec 16, 2019",
+   colorType:"Blue",
+   weaponType:"Tome",
+   moveType:"Armored",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Nino_Flower_of_Frost_Face_FC.png",
+     sprite:"img/sprites/Nino_Flower_of_Frost_Mini_Unit_Ok.png"}
+ },
   {
     name: "Noire (Summer's Arrival)",
     shortName: "Noire",
@@ -11517,12 +11586,12 @@ module.exports = [
     colorType: "Blue",
     weaponType: "Breath",
     moveType: "Infantry",
-    rarity3: ["pool2"],
-    rarity4: ["pool1", "pool2"],
+    rarity3: ["pool2", "pool6"],
+    rarity4: ["pool1", "pool2", "pool6"],
     rarity5: ["pool1"],
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Nowi.png",
-      main: "img/heroes-main/Nowi.png"
+      sprite:"img/sprites/Nowi_Eternal_Youth_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Fire Breath", rarity: 4 },
@@ -11554,11 +11623,12 @@ module.exports = [
     colorType: "Red",
     weaponType: "Tome",
     moveType: "Flying",
+    rarity4ss: ["pool6"],
     rarity5: ["pool1", "pool2"],
     limited: true,
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Nowi (Trick or Defeat!).png",
-      main: "img/heroes-main/Nowi (Trick or Defeat!).png"
+      sprite:"img/sprites/Nowi_Eternal_Witch_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Flux", rarity: 5 },
@@ -14439,6 +14509,47 @@ module.exports = [
     }
   },
   {
+   name:"Sothis",
+   title:"Girl on the Throne",
+   releaseDate:"Jul 31, 2019",
+   colorType:"Red",
+   weaponType:"Breath",
+   moveType:"Infantry",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Sothis_Girl_on_the_Throne_Face_FC.png",
+     sprite:"img/sprites/Sothis_Girl_on_the_Throne_Mini_Unit_Ok.png"}
+ },
+ {
+   name:"Sothis (Glorious Gifts)",
+   shortName: "Sothis",
+   title:"Silver Specter",
+   releaseDate:"Dec 16, 2019",
+   colorType:"Green",
+   weaponType:"Breath",
+   moveType:"Armored",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Sothis_Silver_Specter_Face_FC.png",
+     sprite:"img/sprites/Sothis_Silver_Specter_Mini_Unit_Ok.png"}
+ },
+ {
+   name:"Sothis (Shared Bounty)",
+   shortName: "Sothis",
+   title:"Bound-Spirit Duo",
+   releaseDate:"Oct 7, 2021",
+   colorType:"Blue",
+   weaponType:"Breath",
+   moveType:"Flying",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Sothis_Bound-Spirit_Duo_Face_FC.png",
+     sprite:"img/sprites/Sothis_Bound-Spirit_Duo_Mini_Unit_Ok.png"}
+ },
+  {
     name: "Stahl",
     title: "Viridian Knight",
     artist: "Mayo (まよ)",
@@ -15850,6 +15961,7 @@ module.exports = [
  },
   {
    name:"Yarne (Gods Renewed)",
+   shortName: "Yarne",
    title:"Hoppy New Year",
    releaseDate:"Jan 1, 2023",
    colorType:"Blue",
@@ -15953,12 +16065,12 @@ module.exports = [
     colorType: "Red",
     weaponType: "Sword",
     moveType: "Armored",
-    rarity3: ["pool1", "pool2"],
-    rarity4: ["pool1", "pool2"],
+    rarity3: ["pool1", "pool2", "pool6"],
+    rarity4: ["pool1", "pool2", "pool6"],
     ghb: true,
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Zephiel.png",
-      main: "img/heroes-main/Zephiel.png"
+      sprite:"img/sprites/Zephiel_The_Liberator_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Iron Sword", rarity: 3 },
@@ -15980,5 +16092,19 @@ module.exports = [
       level1_4: { hp: 24, atk: 9, spd: 2, def: 12, res: 4 },
       level40_4: { hp: [ 49, 52, 56 ], atk: [ 30, 33, 36 ], spd: [ 11, 14, 17 ], def: [ 33, 36, 39 ], res: [ 19, 22, 25 ] }
     }
-  }
+  },
+  {
+   name:"Zephiel (Glorious Gifts)",
+   shortName: "Zephiel",
+   title:"Winter's Crown",
+   releaseDate:"Dec 16, 2019",
+   colorType:"Red",
+   weaponType:"Sword",
+   moveType:"Armored",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Zephiel_Winters_Crown_Face_FC.png",
+     sprite:"img/sprites/Zephiel_Winters_Crown_Mini_Unit_Ok.png"}
+ }
 ];
