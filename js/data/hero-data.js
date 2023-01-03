@@ -3279,7 +3279,7 @@ module.exports = [
  {
    name:"Dagr (Like Clockwork)",
    shortName: "Dagr",
-   title: "Sun's Radiance",
+   title: "New Year Jötnar",
    releaseDate:"Jan 1, 2022",
    colorType:"Green",
    weaponType:"Bow",
@@ -8300,10 +8300,11 @@ module.exports = [
     colorType: "Green",
     weaponType: "Beast",
     moveType: "Cavalry",
+    rarity4s: [ "pool6" ],
     rarity5: [ "pool2" ],
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Kaden.png",
-      main: "img/heroes-main/Kaden.png"
+      sprite:"img/sprites/Kaden_Kitsune_Braggart_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Kitsune Fang", rarity: 5 },
@@ -8320,6 +8321,21 @@ module.exports = [
       level40: { hp: [ 34, 38, 41 ], atk: [ 29, 32, 35 ], spd: [ 33, 36, 39 ], def: [ 22, 25, 29 ], res: [ 22, 25, 29 ] }
     }
   },
+  {
+   name:"Kaden (New Year: ω Special Heroes)",
+   shortName: "Kaden",
+   title:"Refreshed Kitsune",
+   releaseDate:"Jan 21, 2021",
+   colorType:"Red",
+   weaponType:"Beast",
+   moveType:"Cavalry",
+   rarity4:["pool6"],
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Kaden_Refreshed_Kitsune_Face_FC.png",
+     sprite:"img/sprites/Kaden_Refreshed_Kitsune_Mini_Unit_Ok.png"}
+ },
   {
     name: "Kaze",
     title: "Easygoing Ninja",
@@ -10010,6 +10026,22 @@ module.exports = [
       level40: { hp: [38, 41, 44], atk: [31, 34, 37], spd: [18, 21, 24], def: [23, 26, 29], res: [27, 30, 33]}
     }
   },
+    {
+   name:"Lyre (Like Clockwork)",
+   shortName: "Lyre",
+   title:"Lap Cat of Luxury",
+   releaseDate:"Jan 1, 2022",
+   colorType:"Neutral",
+   weaponType:"Beast",
+   moveType:"Cavalry",
+   rarity4:["pool6"],
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Lyre_Lap_Cat_of_Luxury_Face_FC.png",
+     sprite:"img/sprites/Lyre_Lap_Cat_of_Luxury_Mini_Unit_Ok.png"}
+ },
+
   {
     name: "Mae",
     title: "Bundle of Energy",
@@ -12067,6 +12099,33 @@ module.exports = [
      portrait:"img/heroes-portrait/Panne_Welcoming_Dawn_Face_FC.png",
      sprite:"img/sprites/Panne_Welcoming_Dawn_Mini_Unit_Ok.png"}
  },
+ {
+   name:"Peony",
+   title:"Sweet Dream",
+   releaseDate:"Dec 6, 2019",
+   colorType:"Blue",
+   weaponType:"Tome",
+   moveType:"Flying",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Peony_Sweet_Dream_Face_FC.png",
+     sprite:"img/sprites/Peony_Sweet_Dream_Mini_Unit_Ok.png"}
+ },
+ {
+   name:"Peony (New Year: ω Special Heroes)",
+   shortName: "Peony",
+   title:"Álfar Dream Duo",
+   releaseDate:"Jan 1, 2021",
+   colorType:"Green",
+   weaponType:"Tome",
+   moveType:"Flying",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Peony_Alfar_Dream_Duo_Face_FC.png",
+     sprite:"img/sprites/Peony_Alfar_Dream_Duo_Mini_Unit_Ok.png"}
+ },
   {
     name: "Peri",
     title: "Playful Slayer",
@@ -12129,6 +12188,20 @@ module.exports = [
    assets:{
      portrait:"img/heroes-portrait/Plumeria_Lewd_Dream_Face_FC.png",
      sprite:"img/sprites/Plumeria_Lewd_Dream_Mini_Unit_Ok.png"}
+ },
+ {
+   name:"Plumeria (New Year: ω Special Heroes)",
+   shortName: "Plumeria",
+   title:"Temptation Anew",
+   releaseDate:"Jan 1, 2021",
+   colorType:"Neutral",
+   weaponType:"Bow",
+   moveType:"Flying",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Plumeria_Temptation_Anew_Face_FC.png",
+     sprite:"img/sprites/Plumeria_Temptation_Anew_Mini_Unit_Ok.png"}
  },
   {
     name: "Priscilla",
@@ -12311,6 +12384,34 @@ module.exports = [
       level40_4: { hp: [ 32, 35, 38 ], atk: [ 24, 27, 30 ], spd: [ 29, 32, 35 ], def: [ 16, 19, 22 ], res: [ 21, 24, 27 ] }
     }
   },
+  {
+   name:"Reginn",
+   title:"Bearing Hope",
+   releaseDate:"Dec 8, 2020",
+   colorType:"Red",
+   weaponType:"Sword",
+   moveType:"Cavalry",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Reginn_Bearing_Hope_Face_FC.png",
+     sprite:"img/sprites/Reginn_Bearing_Hope_Mini_Unit_Ok.png"}
+ },
+
+  {
+   name:"Reginn (Like Clockwork)",
+   shortName: "Reginn",
+   title:"Bearing Dawn",
+   releaseDate:"Jan 1, 2022",
+   colorType:"Blue",
+   weaponType:"Tome",
+   moveType:"Cavalry",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Reginn_Bearing_Dawn_Face_FC.png",
+     sprite:"img/sprites/Reginn_Bearing_Dawn_Mini_Unit_Ok.png"}
+ },
   {
     name: "Reinhardt",
     title: "Thunder's Fist",
@@ -15327,9 +15428,10 @@ module.exports = [
     weaponType: "Beast",
     moveType: "Infantry",
     rarity5: [ "pool2" ],
+    rarity4s: [ "pool6" ],
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Velouria.png",
-      main: "img/heroes-main/Velouria.png"
+      sprite:"img/sprites/Velouria_Wolf_Cub_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Wolfpup Fang", rarity: 5 },
@@ -15347,6 +15449,20 @@ module.exports = [
       level40: { hp: [ 36, 40, 43 ], atk: [ 32, 35, 38 ], spd: [ 34, 37, 40 ], def: [ 30, 33, 36 ], res: [ 20, 23, 26 ] }
     }
   },
+  {
+   name:"Velouria (New Year: ω Special Heroes)",
+   shortName: "Velouria",
+   title:"Renewed Wolfpup",
+   releaseDate:"Jan 1, 2021",
+   colorType:"Blue",
+   weaponType:"Beast",
+   moveType:"Infantry",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Velouria_Renewed_Wolfpup_Face_FC.png",
+     sprite:"img/sprites/Velouria_Renewed_Wolfpup_Mini_Unit_Ok.png"}
+ },
   {
     name: "Veronica (Arrival of the Brave)",
     shortName: "Veronica",
