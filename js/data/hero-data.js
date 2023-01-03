@@ -15117,6 +15117,46 @@ module.exports = [
     }
   },
   {
+   name:"Tiki (Youmg) (Darkness Within)",
+   shortName: "Tiki",
+   title:"Torpid Dragon",
+   releaseDate:"May 10, 2019",
+   colorType:"Neutral",
+   weaponType:"Breath",
+   moveType:"Armored",
+   rarity4s:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/Tiki_Torpid_Dragon_Face_FC.png",
+     sprite:"img/sprites/Tiki_Torpid_Dragon_Mini_Unit_Ok.png"}
+ },
+ {
+   name:"Tiki (Young) (Dragons Harvest)",
+   shortName: "Tiki",
+   title:"Harmonic Hope",
+   releaseDate:"Oct 8, 2020",
+   colorType:"Blue",
+   weaponType:"Breath",
+   moveType:"Flying",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Tiki_Harmonic_Hope_Face_FC.png",
+     sprite:"img/sprites/Tiki_Harmonic_Hope_Mini_Unit_Ok.png"}
+ },
+ {
+   name:"Tiki (Young) (Ascended Heroes)",
+   shortName: "Tiki",
+   title:"Awakened Blood",
+   releaseDate:"Nov 18, 2022",
+   colorType:"Red",
+   weaponType:"Breath",
+   moveType:"Infantry",
+   rarity5:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/Tiki_Awakened_Blood_Face_FC.png",
+     sprite:"img/sprites/Tiki_Awakened_Blood_Mini_Unit_Ok.png"}
+ },
+  {
     name: "Titania",
     title: "Mighty Mercenary",
     artist: "Wada Sachiko (ワダサチコ)",
@@ -15613,16 +15653,17 @@ module.exports = [
      sprite:"img/sprites/Yarne_Timid_Taguel_Mini_Unit_Ok.png"}
  },
   {
-   name:"Yarne",
-   title:"Timid Taguel",
-   releaseDate:"Jun 11, 2019",
-   colorType:"Green",
+   name:"Yarne (Gods Renewed)",
+   title:"Hoppy New Year",
+   releaseDate:"Jan 1, 2023",
+   colorType:"Blue",
    weaponType:"Beast",
    moveType:"Cavalry",
    rarity4s:["pool6"],
+   ttReward: true,
    assets:{
-     portrait:"img/heroes-portrait/Yarne_Timid_Taguel_Face_FC.png",
-     sprite:"img/sprites/Yarne_Timid_Taguel_Mini_Unit_Ok.png"}
+     portrait:"img/heroes-portrait/Yarne_Hoppy_New_Year_Face_FC.png",
+     sprite:"img/sprites/Yarne_Hoppy_New_Year_Mini_Unit_Ok.png"}
  },
   {
     name: "Ylgr",
