@@ -6803,6 +6803,7 @@ module.exports = [
  },
  {
    name:"Hilda (FE16)",
+   shortName: "Hilda",
    title:"Idle Maiden",
    releaseDate:"Aug 7, 2019",
    colorType:"Green",
@@ -13843,6 +13844,7 @@ module.exports = [
   },
   {
    name:"Shez (F)",
+   shortName: "Shez",
    title:"Keen Mercenary",
    releaseDate:"Sep 16, 2022",
    colorType:"Green",
@@ -13870,6 +13872,7 @@ module.exports = [
  },
  {
    name:"Shez (M)",
+   shortName: "Shez",
    title:"Rising Mercenary",
    releaseDate:"Sep 16, 2022",
    colorType:"Red",
