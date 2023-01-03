@@ -9173,6 +9173,20 @@ module.exports = [
     }
   },
   {
+   name:"Lilina (Legendary Heroes)",
+   shortName: "Lilina",
+   title:"Firelight Leader",
+   releaseDate:"Dec 25, 2020",
+   colorType:"Red",
+   weaponType:"Tome",
+   moveType:"Cavalry",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Lilina_Firelight_Leader_Face_FC.png",
+     sprite:"img/sprites/Lilina_Firelight_Leader_Mini_Unit_Ok.png"}
+ },
+  {
     name: "Linde",
     title: "Light Mage",
     artist: "Kippu",
@@ -10369,6 +10383,19 @@ module.exports = [
     }
   },
   {
+   name:"Medeus",
+   title:"Earth-Dragon King",
+   releaseDate:"Apr 28, 2022",
+   colorType:"Neutral",
+   weaponType:"Breath",
+   moveType:"Infantry",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Medeus_Earth-Dragon_King_Face_FC.png",
+     sprite:"img/sprites/Medeus_Earth-Dragon_King_Mini_Unit_Ok.png"}
+ },
+  {
     name: "Merric",
     title: "Wind Mage",
     artist: "Mizuno Kana (水野加奈)",
@@ -10883,6 +10910,20 @@ module.exports = [
     }
   },
   {
+   name:"Myrrh (Legendary Heroes)",
+   shortName: "Myrrh",
+   title:"Guardian Dragon",
+   releaseDate:"May 31, 2022",
+   colorType:"Blue",
+   weaponType:"Breath",
+   moveType:"Flying",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Myrrh_Guardian_Dragon_Face_FC.png",
+     sprite:"img/sprites/Myrrh_Guardian_Dragon_Mini_Unit_Ok.png"}
+ },
+  {
     name: "Naesala",
     title: "Sky's Shadow",
     artist: "Suda Ayaka (須田彩加)",
@@ -11297,6 +11338,20 @@ module.exports = [
       level40: { hp: [ 31, 34, 38 ], atk: [ 24, 28, 31 ], spd: [ 30, 33, 36 ], def: [ 15, 18, 21 ], res: [ 23, 27, 30 ] }
     }
   },
+  {
+   name:"Ninian (Legendary Heroes)",
+   shortName: "Ninian",
+   title:"Ice-Dragon Oracle",
+   releaseDate:"Sep 29, 2022",
+   colorType:"Green",
+   weaponType:"Breath",
+   moveType:"Cavalry",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Ninian_Ice-Dragon_Oracle_Face_FC.png",
+     sprite:"img/sprites/Ninian_Ice-Dragon_Oracle_Mini_Unit_Ok.png"}
+ },
   {
     name: "Nino",
     title: "Pious Mage",
@@ -13291,6 +13346,19 @@ module.exports = [
     }
   },
   {
+   name:"Seiðr",
+   title:"Goddess of Hope",
+   releaseDate:"Dec 7, 2022",
+   colorType:"Green",
+   weaponType:"Tome",
+   moveType:"Cavalry",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Seidr_Goddess_of_Hope_Face_FC.png",
+     sprite:"img/sprites/Seidr_Goddess_of_Hope_Mini_Unit_Ok.png"}
+ },
+  {
     name: "Selena",
     title: "Cutting Wit",
     artist: "Zaza (ザザ)",
@@ -13374,6 +13442,19 @@ module.exports = [
       level40_4: { hp: [ 41, 44, 47 ], atk: [ 29, 32, 35 ], spd: [ 19, 22, 25 ], def: [ 25, 28, 31 ], res: [ 17, 20, 23 ] }
     }
   },
+  {
+   name:"Seliph (Weave of Fate)",
+   shortName: "Seliph",
+   title:"Enduring Legacy",
+   releaseDate:"Aug 17, 2022",
+   colorType:"Red",
+   weaponType:"Sword",
+   moveType:"Cavalry",
+   rarity5:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/Seliph_Enduring_Legacy_Face_FC.png",
+     sprite:"img/sprites/Seliph_Enduring_Legacy_Mini_Unit_Ok.png"}
+ },
   {
     name: "Selkie",
     title: "Free Spirit",
@@ -13660,6 +13741,45 @@ module.exports = [
     }
   },
   {
+   name:"Shez (F)",
+   title:"Keen Mercenary",
+   releaseDate:"Sep 16, 2022",
+   colorType:"Green",
+   weaponType:"Axe",
+   moveType:"Infantry",
+   rarity4:["pool6"],
+   rarity3:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/Shez_Keen_Mercenary_Face_FC.png",
+     sprite:"img/sprites/Shez_Keen_Mercenary_Mini_Unit_Ok.png"}
+ },
+  {
+   name:"Shez (F) (Legendary Heroes)",
+   shortName: "Shez",
+   title:"Sharpest Blades",
+   releaseDate:"Dec 23, 2022",
+   colorType:"Blue",
+   weaponType:"Dagger",
+   moveType:"Infantry",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Shez_Sharpest_Blades_Face_FC.png",
+     sprite:"img/sprites/Shez_Sharpest_Blades_Mini_Unit_Ok.png"}
+ },
+ {
+   name:"Shez (M)",
+   title:"Rising Mercenary",
+   releaseDate:"Sep 16, 2022",
+   colorType:"Red",
+   weaponType:"Sword",
+   moveType:"Infantry",
+   rarity5:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/Shez_Rising_Mercenary_Face_FC.png",
+     sprite:"img/sprites/Shez_Rising_Mercenary_Mini_Unit_Ok.png"}
+ },
+  {
     name: "Shigure",
     shortName: "Shigure",
     title: "Uplifting Artist",
@@ -13828,6 +13948,34 @@ module.exports = [
       level40: { hp: [ 37, 41, 44 ], atk: [ 32, 35, 38 ], spd: [ 29, 32, 35 ], def: [ 31, 34, 37 ], res: [ 13, 17, 20 ] }
     }
   },
+  {
+   name:"Sigurd (To Stay Dreaming)",
+   shortName: "Sigurd",
+   title:"Destined Duo",
+   releaseDate:"Sep 8, 2020",
+   colorType:"Red",
+   weaponType:"Tome",
+   moveType:"Cavalry",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Sigurd_Destined_Duo_Face_FC.png",
+     sprite:"img/sprites/Sigurd_Destined_Duo_Mini_Unit_Ok.png"}
+ },
+ {
+   name:"Sigurd (Legendary Heroes)",
+   shortName: "Sigurd",
+   title:"Fated Holy Knight",
+   releaseDate:"Apr 28, 2021",
+   colorType:"Red",
+   weaponType:"Sword",
+   moveType:"Cavalry",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Sigurd_Fated_Holy_Knight_Face_FC.png",
+     sprite:"img/sprites/Sigurd_Fated_Holy_Knight_Mini_Unit_Ok.png"}
+ },
   {
     name: "Silas",
     title: "Loyal Knight",
@@ -14848,6 +14996,19 @@ module.exports = [
       level40: { hp: [ 32, 35, 38 ], atk: [ 33, 36, 39 ], spd: [ 27, 30, 33 ], def: [ 29, 32, 35 ], res: [ 21, 24, 27 ] }
     }
   },
+  {
+   name:"Tiki (Adult) (Weave of Fate)",
+   shortName: "Tiki",
+   title:"Fated Divinity",
+   releaseDate:"Aug 17, 2022",
+   colorType:"Green",
+   weaponType:"Breath",
+   moveType:"Infantry",
+   rarity5:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/Tiki_Fated_Divinity_Face_FC.png",
+     sprite:"img/sprites/Tiki_Fated_Divinity_Mini_Unit_Ok.png"}
+ },
   {
     name: "Tiki (Young)",
     shortName: "Tiki",
