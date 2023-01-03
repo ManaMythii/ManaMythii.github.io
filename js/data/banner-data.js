@@ -22,7 +22,7 @@ module.exports = [
     {
       name: "Legendary Heroes: Shez",
       startDate: "Dec 23, 2022",
-      focusHeroes: ["Shez (Legendary Heroes)", "Myrrh (Legendary Heroes)", "Lilina (Legendary Heroes)", "Ninian (Legendary Heroes)","Claude (Legendary Heroes)", "Medeus", "Byleth (F) (Weave of Fate)", "Seliph (Weave of Fate)", "Chrom (Weave of Fate)", "Tiki (Adult) (Weave of Fate)", "Seiðr"],
+      focusHeroes: ["Shez (F) (Legendary Heroes)", "Myrrh (Legendary Heroes)", "Lilina (Legendary Heroes)", "Ninian (Legendary Heroes)","Claude (Legendary Heroes)", "Medeus", "Byleth (F) (Weave of Fate)", "Seliph (Weave of Fate)", "Chrom (Weave of Fate)", "Tiki (Adult) (Weave of Fate)", "Seiðr"],
       excludeFromRarity4: [],
       excludeFromRarity5: [],
       rateType: "legendaryV2",
