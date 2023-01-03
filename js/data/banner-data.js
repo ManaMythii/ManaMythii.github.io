@@ -14,7 +14,7 @@ module.exports = [
       {
         name: "Weekly Revival 2",
         startDate: "Jan 1, 2023",
-        focusHeroes: ["Alm (Brave Echoes)", "Tiki (Youmg) (Darkness Within)", "Berkut (Darkness Within)"],
+        focusHeroes: ["Alm (Brave Echoes)", "Tiki (Young) (Darkness Within)", "Berkut (Darkness Within)"],
         excludeFromRarity4: [],
         excludeFromRarity5: [],
         rateType: "defaultV4",
@@ -32,7 +32,7 @@ module.exports = [
       {
         name: "New Year: ω Special Heroes (2023)",
         startDate: "Jan 1, 2023",
-        focusHeroes: ["Dagr (Like Clockwork)", "Reginn (Like Clockwork)", "Fáfnir (Like Clockwork)", "Lyre (Like Clockwork)", "Lyre (Like Clockwork)", "Peony (New Year: ω Special Heroes)", "Lyre (New Year: ω Special Heroes)", "Plumeria (New Year: ω Special Heroes)", "Kaden (New Year: ω Special Heroes)", "Velouria (New Year: ω Special Heroes)"],
+        focusHeroes: ["Dagr (Like Clockwork)", "Reginn (Like Clockwork)", "Fáfnir (Like Clockwork)", "Lyre (Like Clockwork)", "Peony (New Year: ω Special Heroes)", "Plumeria (New Year: ω Special Heroes)", "Kaden (New Year: ω Special Heroes)", "Velouria (New Year: ω Special Heroes)"],
         excludeFromRarity4: [],
         excludeFromRarity5: [],
         rateType: "defaultV4",
