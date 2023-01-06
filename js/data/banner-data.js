@@ -1,5 +1,76 @@
 module.exports = [
    {
+    date: "Weekly Revivals",
+    banners: [
+      {
+        name: "Weekly Revival 2",
+        startDate: "Jan 1, 2023",
+        focusHeroes: ["Alm (Brave Echoes)", "Tiki (Young) (Darkness Within)", "Berkut (Darkness Within)"],
+        excludeFromRarity4: [],
+        excludeFromRarity5: [],
+        rateType: "defaultV4",
+        pool: "pool6"
+      },
+     {
+      name: "Weekly Revival 30",
+      startDate: "Dec 4, 2022",
+      focusHeroes: ["Gray", "Ike (Brave Heroes)", "Lucina (Brave Heroes)"],
+      excludeFromRarity4: [],
+      excludeFromRarity5: [],
+      rateType: "wklyrevivalV1",
+      pool: "pool6"
+    },
+     {
+      name: "Weekly Revival 31",
+      startDate: "Dec 11, 2022",
+      focusHeroes: ["Azura", "Elise", "Leo"],
+      excludeFromRarity4: [],
+      excludeFromRarity5: [],
+      rateType: "wklyrevivalV1",
+      pool: "pool6"
+    },
+    {
+      name: "Weekly Revival 43",
+      startDate: "Dec 11, 2022",
+      focusHeroes: ["Claude", "Dimitri", "Edelgard"],
+      excludeFromRarity4: [],
+      excludeFromRarity5: [],
+      rateType: "wklyrevivalV1",
+      pool: "pool6"
+    },
+     {
+        name: "Weekly Revival 45",
+        startDate: "Jan 1, 2023",
+        focusHeroes: ["Deirdre", "Tiki (Young)", "Linde"],
+        excludeFromRarity4: [],
+        excludeFromRarity5: [],
+        rateType: "defaultV4",
+        pool: "pool6"
+     },
+     {
+      name: "Weekly Revival 63",
+      startDate: "Dec 4, 2022",
+      focusHeroes: ["Ephraim (Desert Mercenaries)", "Eyvel", "Osian"],
+      excludeFromRarity4: [],
+      excludeFromRarity5: [],
+      rateType: "wklyrevivalV1",
+      pool: "pool6"
+    },
+     {
+      name: "Weekly Revival 64",
+      startDate: "Dec 18, 2022",
+      focusHeroes: ["Elenora", "Shannan", "Tsubasa"],
+      excludeFromRarity4: [],
+      excludeFromRarity5: [],
+      rateType: "defaultV4",
+      pool: "pool6"
+    },
+
+      
+      
+    ]
+   },
+   {
     date: "January 2023",
     banners: [
       {
