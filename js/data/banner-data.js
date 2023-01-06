@@ -1,78 +1,10 @@
 module.exports = [
    {
-    date: "Weekly Revivals",
-    banners: [
-      {
-        name: "Weekly Revival 2",
-        startDate: "Jan 1, 2023",
-        focusHeroes: ["Alm (Brave Echoes)", "Tiki (Young) (Darkness Within)", "Berkut (Darkness Within)"],
-        excludeFromRarity4: [],
-        excludeFromRarity5: [],
-        rateType: "defaultV4",
-        pool: "pool6"
-      },
-     {
-      name: "Weekly Revival 30",
-      startDate: "Dec 4, 2022",
-      focusHeroes: ["Gray", "Ike (Brave Heroes)", "Lucina (Brave Heroes)"],
-      excludeFromRarity4: [],
-      excludeFromRarity5: [],
-      rateType: "wklyrevivalV1",
-      pool: "pool6"
-    },
-     {
-      name: "Weekly Revival 31",
-      startDate: "Dec 11, 2022",
-      focusHeroes: ["Azura", "Elise", "Leo"],
-      excludeFromRarity4: [],
-      excludeFromRarity5: [],
-      rateType: "wklyrevivalV1",
-      pool: "pool6"
-    },
-    {
-      name: "Weekly Revival 43",
-      startDate: "Dec 11, 2022",
-      focusHeroes: ["Claude", "Dimitri", "Edelgard"],
-      excludeFromRarity4: [],
-      excludeFromRarity5: [],
-      rateType: "wklyrevivalV1",
-      pool: "pool6"
-    },
-     {
-        name: "Weekly Revival 45",
-        startDate: "Jan 1, 2023",
-        focusHeroes: ["Deirdre", "Tiki (Young)", "Linde"],
-        excludeFromRarity4: [],
-        excludeFromRarity5: [],
-        rateType: "defaultV4",
-        pool: "pool6"
-     },
-     {
-      name: "Weekly Revival 63",
-      startDate: "Dec 4, 2022",
-      focusHeroes: ["Ephraim (Desert Mercenaries)", "Eyvel", "Osian"],
-      excludeFromRarity4: [],
-      excludeFromRarity5: [],
-      rateType: "wklyrevivalV1",
-      pool: "pool6"
-    },
-     {
-      name: "Weekly Revival 64",
-      startDate: "Dec 18, 2022",
-      focusHeroes: ["Elenora", "Shannan", "Tsubasa"],
-      excludeFromRarity4: [],
-      excludeFromRarity5: [],
-      rateType: "defaultV4",
-      pool: "pool6"
-    },
-
-      
-      
-    ]
-   },
-   {
     date: "January 2023",
     banners: [
+       
+       
+       
       {
         name: "Gods Renewed",
         startDate: "Jan 1, 2023",
@@ -80,24 +12,6 @@ module.exports = [
         excludeFromRarity4: [],
         excludeFromRarity5: [],
         rateType: "defaultV3",
-        pool: "pool6"
-      },
-      {
-        name: "Weekly Revival 2",
-        startDate: "Jan 1, 2023",
-        focusHeroes: ["Alm (Brave Echoes)", "Tiki (Young) (Darkness Within)", "Berkut (Darkness Within)"],
-        excludeFromRarity4: [],
-        excludeFromRarity5: [],
-        rateType: "defaultV4",
-        pool: "pool6"
-      },
-      {
-        name: "Weekly Revival 45",
-        startDate: "Jan 1, 2023",
-        focusHeroes: ["Deirdre", "Tiki (Young)", "Linde"],
-        excludeFromRarity4: [],
-        excludeFromRarity5: [],
-        rateType: "defaultV4",
         pool: "pool6"
       },
       {
@@ -109,9 +23,6 @@ module.exports = [
         rateType: "defaultV4",
         pool: "pool6"
       },
-
-      
-      
     ]
  },
   {
@@ -181,15 +92,6 @@ module.exports = [
       pool: "pool6"
     },
     {
-      name: "Weekly Revival 64",
-      startDate: "Dec 18, 2022",
-      focusHeroes: ["Elenora", "Shannan", "Tsubasa"],
-      excludeFromRarity4: [],
-      excludeFromRarity5: [],
-      rateType: "defaultV4",
-      pool: "pool6"
-    },
-    {
       name: "Holiday Handoff",
       startDate: "Dec 16, 2022",
       focusHeroes: ["Annette (Holiday Handoff)", "Black Knight (Holiday Handoff)", "Dorothea (Holiday Handoff)", "Cordelia (Holiday Handoff)"],
@@ -214,24 +116,6 @@ module.exports = [
       excludeFromRarity4: [],
       excludeFromRarity5: [],
       rateType: "defaultV4",
-      pool: "pool6"
-    },
-    {
-      name: "Weekly Revival 31",
-      startDate: "Dec 11, 2022",
-      focusHeroes: ["Azura", "Elise", "Leo"],
-      excludeFromRarity4: [],
-      excludeFromRarity5: [],
-      rateType: "wklyrevivalV1",
-      pool: "pool6"
-    },
-    {
-      name: "Weekly Revival 43",
-      startDate: "Dec 11, 2022",
-      focusHeroes: ["Claude", "Dimitri", "Edelgard"],
-      excludeFromRarity4: [],
-      excludeFromRarity5: [],
-      rateType: "wklyrevivalV1",
       pool: "pool6"
     },
     {
@@ -262,24 +146,6 @@ module.exports = [
       pool: "pool6" //needs change
     },
     {
-      name: "Weekly Revival 30",
-      startDate: "Dec 4, 2022",
-      focusHeroes: ["Gray", "Ike (Brave Heroes)", "Lucina (Brave Heroes)"],
-      excludeFromRarity4: [],
-      excludeFromRarity5: [],
-      rateType: "wklyrevivalV1",
-      pool: "pool6"
-    },
-    {
-      name: "Weekly Revival 63",
-      startDate: "Dec 4, 2022",
-      focusHeroes: ["Ephraim (Desert Mercenaries)", "Eyvel", "Osian"],
-      excludeFromRarity4: [],
-      excludeFromRarity5: [],
-      rateType: "wklyrevivalV1",
-      pool: "pool6"
-    },
-    {
       name: "Heroes with Moonbow (December 2022)",
       startDate: "Dec 3, 2022",
       focusHeroes: ["Ingrid", "Neimi", "Shamir"],
@@ -304,24 +170,6 @@ module.exports = [
         rateType: "legendaryV2",
         pool: "pool6"
       },
-     {
-      name: "Weekly Revival 42",
-      startDate: "Nov 27, 2022",
-      focusHeroes: ["Corrin (Darkness Within)", "Idunn", "Lugh"],
-      excludeFromRarity4: [],
-      excludeFromRarity5: [],
-      rateType: "wklyrevivalV1",
-      pool: "pool6"
-    },
-     {
-      name: "Weekly Revival 29",
-      startDate: "Nov 27, 2022",
-      focusHeroes: ["Amelia", "Nephenee", "Sanaki"],
-      excludeFromRarity4: [],
-      excludeFromRarity5: [],
-      rateType: "wklyrevivalV1",
-      pool: "pool6"
-    },
      {
       name: "Flavia and Basilio's Battle",
       startDate: "Dec 26, 2022",
@@ -358,24 +206,6 @@ module.exports = [
       rateType: "dblesplV1",
       pool: "pool6"
     },
-    {
-      name: "Weekly Revival 28",
-      startDate: "Nov 20, 2022",
-      focusHeroes: ["Elincia", "Innes", "Tana"],
-      excludeFromRarity4: [],
-      excludeFromRarity5: [],
-      rateType: "wklyrevivalV1",
-      pool: "pool6"
-    },
-     {
-      name: "Weekly Revival 62",
-      startDate: "Nov 20, 2022",
-      focusHeroes: ["Ced", "Larcei", "Nils"],
-      excludeFromRarity4: [],
-      excludeFromRarity5: [],
-      rateType: "wklyrevivalV1",
-      pool: "pool6"
-    },
      {
       name: "Rearmed Ganglöt & More",
       startDate: "Nov 18, 2022",
@@ -392,24 +222,6 @@ module.exports = [
       excludeFromRarity4: [],
       excludeFromRarity5: [],
       rateType: "mythlegrmxV1",
-      pool: "pool6"
-    },
-     {
-      name: "Weekly Revival 27",
-      startDate: "Nov 13, 2022",
-      focusHeroes: ["Ephraim", "Jaffar", "Karel"],
-      excludeFromRarity4: [],
-      excludeFromRarity5: [],
-      rateType: "wklyrevivalV1",
-      pool: "pool6"
-    },
-    {
-      name: "Weekly Revival 41",
-      startDate: "Nov 13, 2022",
-      focusHeroes: ["Kaden", "Nailah", "Velouria"],
-      excludeFromRarity4: [],
-      excludeFromRarity5: [],
-      rateType: "wklyrevivalV1",
       pool: "pool6"
     },
     {
@@ -437,24 +249,6 @@ module.exports = [
       excludeFromRarity4: [],
       excludeFromRarity5: [],
       rateType: "defaultV3",
-      pool: "pool6"
-    },
-     {
-      name: "Weekly Revival 61",
-      startDate: "Nov 6, 2022",
-      focusHeroes: ["Fiora", "Kiria", "Leila"],
-      excludeFromRarity4: [],
-      excludeFromRarity5: [],
-      rateType: "wklyrevivalV1",
-      pool: "pool6"
-    },
-     {
-      name: "Weekly Revival 26",
-      startDate: "Nov 6, 2022",
-      focusHeroes: ["Azura", "Deirdre", "Eldigan"],
-      excludeFromRarity4: [],
-      excludeFromRarity5: [],
-      rateType: "wklyrevivalV1",
       pool: "pool6"
     },
    {
@@ -561,10 +355,150 @@ module.exports = [
     ]
  },
  
- 
- 
- 
- 
+  
+ {
+    date: "Weekly Revivals",
+    banners: [
+      {
+        name: "Weekly Revival 2",
+        startDate: "Jan 1, 2023",
+        focusHeroes: ["Alm (Brave Echoes)", "Tiki (Young) (Darkness Within)", "Berkut (Darkness Within)"],
+        excludeFromRarity4: [],
+        excludeFromRarity5: [],
+        rateType: "defaultV4",
+        pool: "pool6"
+      },
+     {
+      name: "Weekly Revival 26",
+      startDate: "Nov 6, 2022",
+      focusHeroes: ["Azura", "Deirdre", "Eldigan"],
+      excludeFromRarity4: [],
+      excludeFromRarity5: [],
+      rateType: "wklyrevivalV1",
+      pool: "pool6"
+    },
+     {
+      name: "Weekly Revival 27",
+      startDate: "Nov 13, 2022",
+      focusHeroes: ["Ephraim", "Jaffar", "Karel"],
+      excludeFromRarity4: [],
+      excludeFromRarity5: [],
+      rateType: "wklyrevivalV1",
+      pool: "pool6"
+    },
+     {
+      name: "Weekly Revival 28",
+      startDate: "Nov 20, 2022",
+      focusHeroes: ["Elincia", "Innes", "Tana"],
+      excludeFromRarity4: [],
+      excludeFromRarity5: [],
+      rateType: "wklyrevivalV1",
+      pool: "pool6"
+    },
+     {
+      name: "Weekly Revival 29",
+      startDate: "Nov 27, 2022",
+      focusHeroes: ["Amelia", "Nephenee", "Sanaki"],
+      excludeFromRarity4: [],
+      excludeFromRarity5: [],
+      rateType: "wklyrevivalV1",
+      pool: "pool6"
+    },
+     {
+      name: "Weekly Revival 30",
+      startDate: "Dec 4, 2022",
+      focusHeroes: ["Gray", "Ike (Brave Heroes)", "Lucina (Brave Heroes)"],
+      excludeFromRarity4: [],
+      excludeFromRarity5: [],
+      rateType: "wklyrevivalV1",
+      pool: "pool6"
+    },
+     {
+      name: "Weekly Revival 31",
+      startDate: "Dec 11, 2022",
+      focusHeroes: ["Azura", "Elise", "Leo"],
+      excludeFromRarity4: [],
+      excludeFromRarity5: [],
+      rateType: "wklyrevivalV1",
+      pool: "pool6"
+    },
+    {
+      name: "Weekly Revival 41",
+      startDate: "Nov 13, 2022",
+      focusHeroes: ["Kaden", "Nailah", "Velouria"],
+      excludeFromRarity4: [],
+      excludeFromRarity5: [],
+      rateType: "wklyrevivalV1",
+      pool: "pool6"
+    },
+    {
+      name: "Weekly Revival 42",
+      startDate: "Nov 27, 2022",
+      focusHeroes: ["Corrin (Darkness Within)", "Idunn", "Lugh"],
+      excludeFromRarity4: [],
+      excludeFromRarity5: [],
+      rateType: "wklyrevivalV1",
+      pool: "pool6"
+    },
+    {
+      name: "Weekly Revival 43",
+      startDate: "Dec 11, 2022",
+      focusHeroes: ["Claude", "Dimitri", "Edelgard"],
+      excludeFromRarity4: [],
+      excludeFromRarity5: [],
+      rateType: "wklyrevivalV1",
+      pool: "pool6"
+    },
+     {
+        name: "Weekly Revival 45",
+        startDate: "Jan 1, 2023",
+        focusHeroes: ["Deirdre", "Tiki (Young)", "Linde"],
+        excludeFromRarity4: [],
+        excludeFromRarity5: [],
+        rateType: "defaultV4",
+        pool: "pool6"
+     },
+     {
+      name: "Weekly Revival 61",
+      startDate: "Nov 6, 2022",
+      focusHeroes: ["Fiora", "Kiria", "Leila"],
+      excludeFromRarity4: [],
+      excludeFromRarity5: [],
+      rateType: "wklyrevivalV1",
+      pool: "pool6"
+    },
+     {
+      name: "Weekly Revival 62",
+      startDate: "Nov 20, 2022",
+      focusHeroes: ["Ced", "Larcei", "Nils"],
+      excludeFromRarity4: [],
+      excludeFromRarity5: [],
+      rateType: "wklyrevivalV1",
+      pool: "pool6"
+    },
+     {
+      name: "Weekly Revival 63",
+      startDate: "Dec 4, 2022",
+      focusHeroes: ["Ephraim (Desert Mercenaries)", "Eyvel", "Osian"],
+      excludeFromRarity4: [],
+      excludeFromRarity5: [],
+      rateType: "wklyrevivalV1",
+      pool: "pool6"
+    },
+     {
+      name: "Weekly Revival 64",
+      startDate: "Dec 18, 2022",
+      focusHeroes: ["Elenora", "Shannan", "Tsubasa"],
+      excludeFromRarity4: [],
+      excludeFromRarity5: [],
+      rateType: "defaultV4",
+      pool: "pool6"
+    },
+
+      
+      
+    ]
+   },
  
  {
     date: "March 2019",
