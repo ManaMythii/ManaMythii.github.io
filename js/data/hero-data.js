@@ -8643,10 +8643,11 @@ module.exports = [
     colorType: "Red",
     weaponType: "Sword",
     moveType: "Infantry",
+    rarity4s: ["pool6"],
     rarity5: ["pool2"],
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Laevatein.png",
-      main: "img/heroes-main/Laevatein.png"
+      sprite:"img/sprites/Laevatein_Searing_Steel_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Iron Sword", rarity: 5 },
@@ -8678,11 +8679,12 @@ module.exports = [
     colorType: "Neutral",
     weaponType: "Staff",
     moveType: "Cavalry",
+    rarity4ss: ["pool6"],
     rarity5: ["pool2"],
     limited: true,
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Laevatein (New Year's Wish).png",
-      main: "img/heroes-main/Laevatein (New Year's Wish).png"
+      sprite:"img/sprites/Laevatein_Kumade_Warrior_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Assault", rarity: 5 },
@@ -8708,6 +8710,34 @@ module.exports = [
       level40: { hp: [ 30, 33, 36 ], atk: [ 33, 36, 39 ], spd: [ 27, 30, 33 ], def: [ 24, 27, 31 ], res: [ 15, 18, 21 ] },
     }
   },
+  {
+   name:"Laevatein (Summer Returns)",
+   shortName: "Laevatein",
+   title:"Bonfire's Blaze",
+   releaseDate:"Jun 20, 2019",
+   colorType:"Green",
+   weaponType:"Tome",
+   moveType:"Flying",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Laevatein_Bonfires_Blaze_Face_FC.png",
+     sprite:"img/sprites/Laevatein_Bonfires_Blaze_Mini_Unit_Ok.png"}
+ },
+  {
+   name:"Laevatein (In the Moment)",
+   shortName: "Laevatein",
+   title:"Ninja of Múspell",
+   releaseDate:"Nov 6, 2020",
+   colorType:"Green",
+   weaponType:"Axe",
+   moveType:"Flying",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Laevatein_Ninja_of_Muspell_Face_FC.png",
+     sprite:"img/sprites/Laevatein_Ninja_of_Muspell_Mini_Unit_Ok.png"}
+ },
   {
     name: "Laslow",
     title: "Dancing Duelist",
@@ -9202,6 +9232,31 @@ module.exports = [
    assets:{
      portrait:"img/heroes-portrait/Lilina_Firelight_Leader_Face_FC.png",
      sprite:"img/sprites/Lilina_Firelight_Leader_Mini_Unit_Ok.png"}
+ },
+  {
+   name:"Lilith",
+   title:"Astral Daughter",
+   releaseDate:"Apr 8, 2020",
+   colorType:"Blue",
+   weaponType:"Breath",
+   moveType:"Flying",
+   rarity5:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/Lilith_Astral_Daughter_Face_FC.png",
+     sprite:"img/sprites/Lilith_Astral_Daughter_Mini_Unit_Ok.png" }
+ },
+ {
+   name:"Lilith (Beyond Control)",
+   shortName: "Lilith",
+   title:"Silent Broodling",
+   releaseDate:"May 10, 2022",
+   colorType:"Red",
+   weaponType:"Breath",
+   moveType:"Flying",
+   rarity5:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/Lilith_Silent_Broodling_Face_FC.png",
+     sprite:"img/sprites/Lilith_Silent_Broodling_Mini_Unit_Ok.png" }
  },
   {
     name: "Linde",
@@ -10144,6 +10199,31 @@ module.exports = [
    assets:{
      portrait:"img/heroes-portrait/75px-Icon_Portrait_Maria_Sunny_Smile.png",
      sprite:"img/sprites/Maria_Sunny_Smile_Mini_Unit_Ok.png"}
+ },
+  {
+   name:"Marianne",
+   title:"Adopted Daughter",
+   releaseDate:"Mar 21, 2021",
+   colorType:"Blue",
+   weaponType:"Tome",
+   moveType:"Infantry",
+   rarity5:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/Marianne_Adopted_Daughter_Face_FC.png",
+     sprite:"img/sprites/Marianne_Adopted_Daughter_Mini_Unit_Ok.png" }
+ },
+ {
+   name:"Marianne (Keepers of Faith)",
+   shortName: "Marianne",
+   title:"Serene Adherent",
+   releaseDate:"Aug 17, 2021",
+   colorType:"Neutral",
+   weaponType:"Tome",
+   moveType:"Infantry",
+   rarity5:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/Marianne_Serene_Adherent_Face_FC.png",
+     sprite:"img/sprites/Marianne_Serene_Adherent_Mini_Unit_Ok.png" }
  },
   {
     name: "Maribelle",
@@ -11384,10 +11464,11 @@ module.exports = [
     colorType: "Blue",
     weaponType: "Breath",
     moveType: "Infantry",
+    rarity4s: ["pool6"],
     rarity5: ["pool1", "pool2"],
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Ninian.png",
-      main: "img/heroes-main/Ninian.png"
+      sprite:"img/sprites/Ninian_Oracle_of_Destiny_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Fire Breath", rarity: 5 },
@@ -11417,11 +11498,12 @@ module.exports = [
     colorType: "Blue",
     weaponType: "Tome",
     moveType: "Flying",
+    rarity4ss: ["pool6"],
     rarity5: ["pool2"],
     limited: true,
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Ninian (Bridal Bloom).png",
-      main: "img/heroes-main/Ninian (Bridal Bloom).png"
+      sprite:"img/sprites/Ninian_Bright-Eyed_Bride_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Light", rarity: 5 },
@@ -11441,6 +11523,19 @@ module.exports = [
       level40: { hp: [ 31, 34, 38 ], atk: [ 24, 28, 31 ], spd: [ 30, 33, 36 ], def: [ 15, 18, 21 ], res: [ 23, 27, 30 ] }
     }
   },
+  {
+   name:"Ninian (Beyond Control)",
+   shortName: "Ninian",
+   title:"Frozen Heart",
+   releaseDate:"May 10, 2022",
+   colorType:"Blue",
+   weaponType:"Breath",
+   moveType:"Infantry",
+   rarity5:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/Ninian_Frozen_Heart_Face_FC.png",
+     sprite:"img/sprites/Ninian_Frozen_Heart_Mini_Unit_Ok.png"}
+ },
   {
    name:"Ninian (Legendary Heroes)",
    shortName: "Ninian",
@@ -12640,6 +12735,33 @@ module.exports = [
     }
   },
   {
+   name:"Rhea (Shared Bounty)",
+   shortName: "Rhea",
+   title:"Witch of Creation",
+   releaseDate:"Oct 7, 2021",
+   colorType:"Green",
+   weaponType:"Breath",
+   moveType:"Infantry",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Rhea_Witch_of_Creation_Face_FC.png",
+     sprite:"img/sprites/Rhea_Witch_of_Creation_Mini_Unit_Ok.png"}
+ },
+  {
+   name:"Rhea (Beyond Control)",
+   shortName: "Rhea",
+   title:"Immaculate One",
+   releaseDate:"May 10, 2022",
+   colorType:"Neutral",
+   weaponType:"Breath",
+   moveType:"Armored",
+   rarity5:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/Rhea_Immaculate_One_Face_FC.png",
+     sprite:"img/sprites/Rhea_Immaculate_One_Mini_Unit_Ok.png"}
+ },
+  {
     name: "Robin (F)",
     shortName: "Robin",
     title: "Mystery Tactician",
@@ -13578,6 +13700,19 @@ module.exports = [
       level40: { hp: [ 32, 35, 39 ], atk: [ 33, 36, 39 ], spd: [ 26, 30, 33 ], def: [ 12, 16, 19 ], res: [ 30, 33, 36 ] }
     }
   },
+  {
+   name:"Sara",
+   title:"Lady of Loptr",
+   releaseDate:"Jan 8 2021",
+   colorType:"Neutral",
+   weaponType:"Staff",
+   moveType:"Infantry",
+   rarity5:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/Sara_Lady_of_Loptr_Face_FC.png",
+     sprite:"img/sprites/Sara_Lady_of_Loptr_Mini_Unit_Ok.png" }
+ },
+
   {
    name:"Seiðr",
    title:"Goddess of Hope",
