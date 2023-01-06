@@ -259,6 +259,21 @@ module.exports = [
      portrait:"img/heroes-portrait/Annette_Overachiever_Face_FC.png",
      sprite:"img/sprites/Annette_Overachiever_Mini_Unit_Ok.png"}
  },
+ {
+   name:"Annette (Holiday Handoff)",
+   shortName: "Annette",
+   title:"Festive Helper",
+   releaseDate:"Dec 16, 2022",
+   colorType:"Neutral",
+   weaponType:"Bow",
+   moveType:"Armored",
+   rarity5:["pool6"],
+   rarity4:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Annette_Festive_Helper_Face_FC.png",
+     sprite:"img/sprites/Annette_Festive_Helper_Mini_Unit_Ok.png"}
+ },
   {
     name: "Arden",
     title: "Strong and Tough",
@@ -1139,6 +1154,20 @@ module.exports = [
       level40_4: { hp: [ 42, 45, 48 ], atk: [ 29, 32, 35 ], spd: [ 28, 31, 34 ], def: [ 30, 33, 36 ], res: [ 13, 16, 19 ] }
     }
   },
+  {
+   name:"Black Knight (Holiday Handoff)",
+   shortName: "Black Knight",
+   title:"The Night's Blade",
+   releaseDate:"Dec 16, 2022",
+   colorType:"Green",
+   weaponType:"Axe",
+   moveType:"Armored",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Black_Knight_The_Nights_Blade_Face_FC.png",
+     sprite:"img/sprites/Black_Knight_The_Nights_Blade_Mini_Unit_Ok.png"}
+ },
   {
     name: "Boey",
     title: "Skillful Survivor",
@@ -2910,6 +2939,21 @@ module.exports = [
     }
   },
   {
+   name:"Cordelia (Holiday Handoff)",
+   shortName: "Cordelia",
+   title:"Unyielding Snow",
+   releaseDate:"Dec 16, 2022",
+   colorType:"Blue",
+   weaponType:"Lance",
+   moveType:"Flying",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Cordelia_Unyielding_Snow_Face_FC.png",
+     sprite:"img/sprites/Cordelia_Unyielding_Snow_Mini_Unit_Ok.png" }
+ },
+
+  {
    name:"Cormag",
    title:"Aloof Lanceman",
    releaseDate:"Nov 11, 2019",
@@ -3685,6 +3729,20 @@ module.exports = [
    assets:{
      portrait:"img/heroes-portrait/Dorothea_Twilit_Harmony_Face_FC.png",
      sprite:"img/sprites/Dorothea_Twilit_Harmony_Mini_Unit_Ok.png"}
+ },
+ {
+   name:"Dorothea (Holiday Handoff)",
+   shortName: "Dorothea",
+   title: "Yuletide Dancer",
+   releaseDate:"Dec 16, 2022",
+   colorType:"Red",
+   weaponType:"Tome",
+   moveType:"Cavalry",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Dorothea_Yuletide_Dancer_Face_FC.png",
+     sprite:"img/sprites/Dorothea_Yuletide_Dancer_Mini_Unit_Ok.png"}
  },
  {
    name:"Dozla (Treat Fiends)",
@@ -13727,6 +13785,20 @@ module.exports = [
      sprite:"img/sprites/Seidr_Goddess_of_Hope_Mini_Unit_Ok.png"}
  },
   {
+   name:"Seiros",
+   title:"Saint of Legend",
+   releaseDate:"Jan 28, 2021",
+   colorType:"Blue",
+   weaponType:"Breath",
+   moveType:"Infantry",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Seiros_Saint_of_Legend_Face_FC.png",
+     sprite:"img/sprites/Seiros_Saint_of_Legend_Mini_Unit_Ok.png"}
+ },
+
+  {
     name: "Selena",
     title: "Cutting Wit",
     artist: "Zaza (ザザ)",
@@ -16165,10 +16237,11 @@ module.exports = [
     colorType: "Red",
     weaponType: "Sword",
     moveType: "Armored",
+    rarity4s: ["pool6"],
     rarity5: ["pool1", "pool2"],
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Zelgius.png",
-      main: "img/heroes-main/Zelgius.png"
+      sprite:"img/sprites/Zelgius_Jet-Black_General_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Iron Sword", rarity: 5 },
