@@ -1791,7 +1791,7 @@ module.exports = [
       level40: { hp: [ 35, 39, 42 ], atk: [ 30, 33, 36 ], spd: [ 33, 36, 39 ], def: [ 20, 23, 26 ], res: [ 16, 19, 22 ] }
     }
   },
-   {
+  {
    name:"Camilla (Brave Echoes)",
    shortName: "Camilla",
    title:"Light of Nohr",
@@ -1803,6 +1803,20 @@ module.exports = [
    assets:{
      portrait:"img/heroes-portrait/Camilla_Light_of_Nohr_Face_FC.png",
      sprite:"img/sprites/Camilla_Light_of_Nohr_Mini_Unit_Ok.png"}
+ },
+ {
+   name:"Camilla (Wyvern Ninja)",
+   shortName: "Camilla",
+   title:"Midnight Bloom",
+   releaseDate:"Nov 8, 2022",
+   colorType:"Red",
+   weaponType:"Tome",
+   moveType:"Flying",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Camilla_Midnight_Bloom_Face_FC.png",
+     sprite:"img/sprites/Camilla_Midnight_Bloom_Mini_Unit_Ok.png"}
  },
   {
     name: "Camus",
@@ -2245,6 +2259,7 @@ module.exports = [
   },
   {
    name:"Celica (Legendary Heroes)",
+   shortName: "Celica",
    title:"Queen of Valentia",
    releaseDate:"Dec 25, 2019",
    colorType:"Green",
@@ -2258,8 +2273,8 @@ module.exports = [
  },
   {
    name:"Celica (Ascended Heroes)",
-   title:"Valentia's Hope",
    shortName: "Celica",
+   title:"Valentia's Hope",
    releaseDate:"Jul 19, 2022",
    colorType:"Neutral",
    weaponType:"Tome",
@@ -6458,6 +6473,19 @@ module.exports = [
      portrait:"img/heroes-portrait/75px-Icon_Portrait_Hapi_Drawn-Out_Sigh.png",
      sprite:"img/sprites/Hapi_Drawn-Out_Sigh_Mini_Unit_Ok.png"}
  },
+ {
+   name:"Hardin",
+   title:"The Coyote",
+   releaseDate:"Nov 18, 2022",
+   colorType:"Blue",
+   weaponType:"Lance",
+   moveType:"Cavalry",
+   rarity5:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/Hardin_The_Coyote_Face_FC.png",
+     sprite:"img/sprites/Hardin_The_Coyote_Mini_Unit_Ok.png" }
+ },
+
   {
     name: "Hardin (Fallen Heroes)",
     shortName: "Hardin",
@@ -8548,6 +8576,46 @@ module.exports = [
       level40: { hp: [ 33, 37, 40 ], atk: [ 27, 30, 33 ], spd: [ 33, 37, 40 ], def: [ 21, 25, 28 ], res: [ 25, 28, 32], }
     }
   },
+  {
+   name:"Kris (F)",
+   shortName: "Kris",
+   title:"Unsung Hero",
+   releaseDate:"Jul 20, 2020",
+   colorType:"Blue",
+   weaponType:"Lance",
+   moveType:"Infantry",
+   rarity5:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/Kris_Unsung_Hero_Face_FC.png",
+     sprite:"img/sprites/Kris_Unsung_Hero_Mini_Unit_Ok.png" }
+ },
+ {
+   name:"Kris (M)",
+   shortName: "Kris",
+   title:"Unknown Hero",
+   releaseDate:"Jul 20, 2020",
+   colorType:"Red",
+   weaponType:"Sword",
+   moveType:"Infantry",
+   rarity5:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/Kris_Unknown_Hero_Face_FC.png",
+     sprite:"img/sprites/Kris_Unknown_Hero_Mini_Unit_Ok.png" }
+ },
+ {
+   name:"Kris (M) (Dark Desert Rituals)",
+   shortName: "Kris",
+   title:"Ardent Firebrand",
+   releaseDate:"Jan 18, 2021",
+   colorType:"Green",
+   weaponType:"Axe",
+   moveType:"Cavalry",
+   rarity4:["pool6"],
+   rarity5:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/Kris_Ardent_Firebrand_Face_FC.png",
+     sprite:"img/sprites/Kris_Ardent_Firebrand_Mini_Unit_Ok.png" }
+ },
   {
     name: "L'Arachel",
     title: "Princess of Light",
@@ -10741,10 +10809,11 @@ module.exports = [
     colorType: "Blue",
     weaponType: "Tome",
     moveType: "Infantry",
+    rarity4s:["pool6"],
     rarity5: ["pool1", "pool2"],
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Micaiah.png",
-      main: "img/heroes-main/Micaiah.png"
+      sprite:"img/sprites/Micaiah_Priestess_of_Dawn_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Light", rarity: 5 },
@@ -10778,11 +10847,12 @@ module.exports = [
     colorType: "Red",
     weaponType: "Tome",
     moveType: "Infantry",
+    rarity4ss:["pool6"],
     rarity5: ["pool2"],
     limited: true,
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Micaiah (Festival in Hoshido).png",
-      main: "img/heroes-main/Micaiah (Festival in Hoshido).png"
+      sprite:"img/sprites/Micaiah_Summers_Dawn_Mini_Unit_Ok.png"
     },
     skills: [
       { name: "Fire", rarity: 5 },
@@ -10805,6 +10875,61 @@ module.exports = [
       level40: { hp: [ 30, 33, 37 ], atk: [ 31, 34, 37 ], spd: [ 17, 20, 23 ], def: [ 15, 18, 21 ], res: [ 31, 34, 37 ] }
     }
   },
+  {
+   name:"Micaiah (Brave Echoes)",
+   shortName: "Micaiah",
+   title:"Queen of Dawn",
+   releaseDate:"Aug 16, 2019",
+   colorType:"Green",
+   weaponType:"Tome",
+   moveType:"Flying",
+   rarity4s:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/Micaiah_Queen_of_Dawn_Face_FC.png",
+     sprite:"img/sprites/Micaiah_Queen_of_Dawn_Mini_Unit_Ok.png" }
+ },
+ {
+   name:"Micaiah (Bridal Beloveds)",
+   shortName: "Micaiah",
+   title:"Dawn Wind's Duo",
+   releaseDate:"May 20, 2020",
+   colorType:"Neutral",
+   weaponType:"Tome",
+   moveType:"Flying",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Micaiah_Dawn_Winds_Duo_Face_FC.png",
+     sprite:"img/sprites/Micaiah_Dawn_Winds_Duo_Mini_Unit_Ok.png" }
+ },
+  {
+   name:"Micaiah (Legendary Heroes)",
+   shortName: "Micaiah",
+   title:"Radiant Queen",
+   releaseDate:"Aug 31, 2021",
+   colorType:"Neutral",
+   weaponType:"Tome",
+   moveType:"Infantry",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Micaiah_Radiant_Queen_Face_FC.png",
+     sprite:"img/sprites/Micaiah_Radiant_Queen_Mini_Unit_Ok.png" }
+ },
+ {
+   name:"Micaiah (Summer Vacation)",
+   shortName: "Micaiah",
+   title:"Wavecrest Maiden",
+   releaseDate:"Jun 17, 2022",
+   colorType:"Neutral",
+   weaponType:"Tome",
+   moveType:"Cavalry",
+   rarity5:["pool6"],
+   limited: true,
+   assets:{
+     portrait:"img/heroes-portrait/Micaiah_Wavecrest_Maiden_Face_FC.png",
+     sprite:"img/sprites/Micaiah_Wavecrest_Maiden_Mini_Unit_Ok.png" }
+ },
   {
     name: "Michalis",
     title: "Ambitious King",
@@ -15654,6 +15779,18 @@ module.exports = [
    assets:{
      portrait:"img/heroes-portrait/Tiki_Awakened_Blood_Face_FC.png",
      sprite:"img/sprites/Tiki_Awakened_Blood_Mini_Unit_Ok.png"}
+ },
+  {
+   name:"Tine",
+   title:"Rumbling Thunder",
+   releaseDate:"Apr 18, 2022",
+   colorType:"Neutral",
+   weaponType:"Tome",
+   moveType:"Infantry",
+   rarity5:["pool6"],
+   assets:{
+     portrait:"img/heroes-portrait/Tine_Rumbling_Thunder_Face_FC.png",
+     sprite:"img/sprites/Tine_Rumbling_Thunder_Mini_Unit_Ok.png" }
  },
   {
     name: "Titania",
