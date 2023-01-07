@@ -12458,7 +12458,8 @@ module.exports = [
    colorType:"Red",
    weaponType:"Beast",
    moveType:"Calvary",
-   rarity4s:["pool6"],
+   rarity5:["pool6"],
+   rarity4:["pool6"],
    limited: true,
    assets:{
      portrait:"img/heroes-portrait/Panne_Welcoming_Dawn_Face_FC.png",
