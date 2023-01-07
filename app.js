@@ -97,7 +97,7 @@ l.rates.rateRarityFocus4&&l.rates.rateRaritySpecial4&&!l.rates.rateRaritySpecial
 for(let n=0;n<5;n++){let n,o=Math.random();(n=o<=t?{hero:M(m.rf),rarity:"focus"}:o<=i?{hero:M(m.r5),rarity:5}:
 o<=e?{hero:M(m.rf4),rarity:"focus-4"}:
 o<=q?{hero:M(m.r4s),rarity:"special-4"}:
-o<=p?{hero:M(m.r4ss),rarity:5}
+o<=p?{hero:M(m.r4ss),rarity:5}:
 o<=a?{hero:M(m.r4),rarity:4}:{hero:M(m.r3),rarity:3}).iv=M(s.IV),n.color=n.hero.colorType.toLowerCase(),r.push(n)}return r}().forEach((e,a)=>{let r=$(`<img class="summon-orb" src="../${s.IMAGES[e.color]}" data-color="${e.color}">`).data("hero",e);$($(o.SUMMON_OPTION)[a]).empty().append(r)})}function S(e){(l=$(e.currentTarget).data("val")).startDate=new Date(l.startDate),f()}function T(e){w($(e.currentTarget))}function D(e){let a=$(o.SUMMON_ORB);for(let e=0;e<a.length;e++)w($(a[e]))}function R(e){e.stopPropagation(),e.preventDefault();let a=$(e.currentTarget).find('input[type="checkbox"]');a.prop("checked",!a.is(":checked"));let r=$(e.currentTarget).data("val");$(o.SUMMON_TABLE).toggleClass("hide-"+r)}function w(e){let a=e.data("hero");$(document).trigger("summon",[a.hero.name,a.hero.rarity]),e.replaceWith(`<div class="summon-hero">\n    <img class="summon-hero-frame" src="../img/assets/frame-rarity-${"special-4"===a.rarity?5:a.rarity}.png">\n    <img class="summon-hero-portrait" src="../${a.hero.assets.sprite}">\n    <img class="summon-hero-background" src="../img/assets/background-rarity-${"special-4"===a.rarity?5:a.rarity}.png">\n
 
 
