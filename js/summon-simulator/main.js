@@ -86,14 +86,13 @@ function setCustomBannerRates(banner, rates) {
   }
   total -= banner.rates.rateRaritySpecial4;
   
-  //added
   if (rates[4] >= 0 && rates[0] + rates[1] + rates[3] + rates[4] <= 100) {
     banner.rates.rateRaritySpecial4SH = rates[4];
   } else {
     banner.rates.rateRaritySpecial4SH = 0;
   }
   total -= banner.rates.rateRaritySpecial4SH;
-  //changed rates[4] to rates[5]
+  
   if (rates[5] >= 0 && rates[0] + rates[1] + rates[2] + rates[3] + rates[4] + rates[5] <= 100) {
     banner.rates.rateRarity4 = rates[5];
   } else {
@@ -134,6 +133,9 @@ function initHeroList() {
   let focusHeroes4 = heroes.getHeroes(banner.focusHeroes4);
     setPoolList(elements.POOL_LIST_4F, summonPool.rf4);
     summonPool.rf4 = focusHeroes4;
+    
+  if(banner.rates.rateRaritySpecial4SH){
+    setPoolList(elements.POOL_LIST_4SS, summonPool.r4ss);
   }
 
   summonPool = heroes.getSummoningPool(banner.pool, banner);
@@ -156,7 +158,6 @@ function initHeroList() {
   setPoolList(elements.POOL_LIST_5, summonPool.r5);
   setPoolList(elements.POOL_LIST_4, summonPool.r4);
   setPoolList(elements.POOL_LIST_4S, summonPool.r4s);
-  setPoolList(elements.POOL_LIST_4SS, summonPool.r4ss); //added
   setPoolList(elements.POOL_LIST_3, summonPool.r3);
 }
 function setPoolList(element, heroes) {
