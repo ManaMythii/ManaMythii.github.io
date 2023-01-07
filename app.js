@@ -84,15 +84,15 @@ let t=100-e.rates.rateRarityFocus-e.rates.rateRarity5;0===t?(e.rates.pityRateRar
                      
   //e=rateRF4, a=rateR4, q=rateRS4, p=rateRSS4, r=orbs[], t=rateRF, i=rateR5
  let e,a,q,p,r=[],t=parseFloat($(o.RATE_INPUT_FOCUS).val())/100,i=parseFloat($(o.RATE_INPUT_5).val())/100+t;
- l.rates.rateRarityFocus4&&!l.rates.rateRaritySpecial4&&!l.rates.rateRaritySpecial4SH?(e=parseFloat($(o.RATE_INPUT_FOCUS_4).val())/100+i,a=parseFloat($(o.RATE_INPUT_4).val())/100+e,q=0,p=0);
+ l.rates.rateRarityFocus4&&!l.rates.rateRaritySpecial4&&!l.rates.rateRaritySpecial4SH?(e=parseFloat($(o.RATE_INPUT_FOCUS_4).val())/100+i,a=parseFloat($(o.RATE_INPUT_4).val())/100+e,q=0,p=0):
  
-!l.rates.rateRarityFocus4&&l.rates.rateRaritySpecial4&&!l.rates.rateRaritySpecial4SH?(q=parseFloat($(o.RATE_INPUT_SPECIAL_4).val())/100+i,a=parseFloat($(o.RATE_INPUT_4).val())/100+q,e=0,p=0);
+!l.rates.rateRarityFocus4&&l.rates.rateRaritySpecial4&&!l.rates.rateRaritySpecial4SH?(q=parseFloat($(o.RATE_INPUT_SPECIAL_4).val())/100+i,a=parseFloat($(o.RATE_INPUT_4).val())/100+q,e=0,p=0):
  
-!l.rates.rateRarityFocus4&&l.rates.rateRaritySpecial4&&l.rates.rateRaritySpecial4SH?(q=parseFloat($(o.RATE_INPUT_SPECIAL_4).val())/100+i,p=parseFloat($(o.RATE_INPUT_SPECIAL_S_4).val())/100+q,a=parseFloat($(o.RATE_INPUT_4).val())/100+p,e=0);
+!l.rates.rateRarityFocus4&&l.rates.rateRaritySpecial4&&l.rates.rateRaritySpecial4SH?(q=parseFloat($(o.RATE_INPUT_SPECIAL_4).val())/100+i,p=parseFloat($(o.RATE_INPUT_SPECIAL_S_4).val())/100+q,a=parseFloat($(o.RATE_INPUT_4).val())/100+p,e=0):
  
-l.rates.rateRarityFocus4&&l.rates.rateRaritySpecial4&&!l.rates.rateRaritySpecial4SH?(q=parseFloat($(o.RATE_INPUT_SPECIAL_4).val())/100+i,e=parseFloat($(o.RATE_INPUT_FOCUS_4).val())/100+q,a=parseFloat($(o.RATE_INPUT_4).val())/100+e,p=0);
+l.rates.rateRarityFocus4&&l.rates.rateRaritySpecial4&&!l.rates.rateRaritySpecial4SH?(q=parseFloat($(o.RATE_INPUT_SPECIAL_4).val())/100+i,e=parseFloat($(o.RATE_INPUT_FOCUS_4).val())/100+q,a=parseFloat($(o.RATE_INPUT_4).val())/100+e,p=0):
 
-!l.rates.rateRarityFocus4&&!l.rates.rateRaritySpecial4&&!l.rates.rateRaritySpecial4SH?(a=parseFloat($(o.RATE_INPUT_4).val())/100+i);
+!l.rates.rateRarityFocus4&&!l.rates.rateRaritySpecial4&&!l.rates.rateRaritySpecial4SH?(a=parseFloat($(o.RATE_INPUT_4).val())/100+i):(e=parseFloat($(o.RATE_INPUT_FOCUS_4).val())/100+i,a=parseFloat($(o.RATE_INPUT_4).val())/100+e,q=0,p=0);
    
 for(let n=0;n<5;n++){let n,o=Math.random();(n=o<=t?{hero:M(m.rf),rarity:"focus"}:o<=i?{hero:M(m.r5),rarity:5}:
 o<=e?{hero:M(m.rf4),rarity:"focus-4"}:
