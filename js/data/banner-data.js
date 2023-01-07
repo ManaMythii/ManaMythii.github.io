@@ -9,6 +9,7 @@ module.exports = [
         name: "Gods Renewed",
         startDate: "Jan 1, 2023",
         focusHeroes: ["Askr (Gods Renewed)", "Ash (Gods Renewed)", "Elm (Gods Renewed)", "Panne (Gods Renewed)"],
+        focusHeroes4; ["Panne (Gods Renewed)"],
         excludeFromRarity4: [],
         excludeFromRarity5: [],
         rateType: "defaultV3",
