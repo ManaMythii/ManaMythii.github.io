@@ -2,14 +2,29 @@ module.exports = [
    {
     date: "January 2023",
     banners: [
-       
-       
-       
+        {
+         name: "New Year's of Fire and Ice (4★SHSR)",
+         startDate: "Jan 6, 2023",
+         focusHeroes: ["Fjorm (New Year's Wish)", "Gunnthrá (New Year's Wish)", "Hríd (New Year's Wish)", "Laevatein (New Year's Wish)"],
+         excludeFromRarity4: [],
+         excludeFromRarity5: [],
+         rateType: "splrevV1",
+         pool: "pool6"
+       },
+       {
+        name: "Heroes with Joint Drive Skills",
+        startDate: "Jan 5, 2023",
+        focusHeroes: ["Gatekeeper", "Marianne", "Sara"],
+        excludeFromRarity4: [],
+        excludeFromRarity5: [],
+        rateType: "defaultV4",
+        pool: "pool6"
+      },
       {
         name: "Gods Renewed",
         startDate: "Jan 1, 2023",
         focusHeroes: ["Askr (Gods Renewed)", "Ash (Gods Renewed)", "Elm (Gods Renewed)", "Panne (Gods Renewed)"],
-        focusHeroes4; ["Panne (Gods Renewed)"],
+        focusHeroes4: ["Panne (Gods Renewed)"],
         excludeFromRarity4: [],
         excludeFromRarity5: [],
         rateType: "defaultV3",
