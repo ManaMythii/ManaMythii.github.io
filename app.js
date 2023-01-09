@@ -39,7 +39,8 @@ u(o.POOL_LIST_4F,m.rf4),
   
   a.forEach(a=>{$(`<div class="focus-list-hero">\n        <img class="focus-list-hero-frame" src="../img/assets/frame-rarity-5.png">\n        <img class="focus-list-hero-portrait" src="../${a.assets.portrait}">\n        <img class="focus-list-hero-background" src="../img/assets/background-rarity-5.png">\n        </div>`).tooltip({html:!0,placement:"bottom",title:`<p class="mb-0">${a.title}</p><h6>${a.shortName||a.name}</h6>`}).appendTo(e)}),
 
-l.rates.rateRaritySpecial4SH==0?u(o.POOL_LIST_4SS,m.r4ss):m.r4ss=[],
+l.rates.rateRaritySpecial4SH!=0?g=0:m.r4ss=[],
+u(o.POOL_LIST_4SS,m.r4ss),
 u(o.POOL_LIST_5F,m.rf),u(o.POOL_LIST_5,m.r5),u(o.POOL_LIST_4,m.r4),u(o.POOL_LIST_4S,m.r4s),
   
   u(o.POOL_LIST_3,m.r3)
