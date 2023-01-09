@@ -133,6 +133,8 @@ function initHeroList() {
   let focusHeroes4 = heroes.getHeroes(banner.focusHeroes4);
     summonPool.rf4 = focusHeroes4;
   }
+  else
+    summonPool.rf4 = [];
   setPoolList(elements.POOL_LIST_4F, summonPool.rf4);
     
   if(banner.rates.rateRaritySpecial4SH!=0){
