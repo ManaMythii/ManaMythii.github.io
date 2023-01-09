@@ -129,12 +129,13 @@ function initHeroList() {
   let $focusList = $(elements.FOCUS_LIST).empty();
   let focusHeroes = heroes.getHeroes(banner.focusHeroes);
   
-  if(banner.focusHeroes4){
+  if(banner.rates.rateRarityFocus4!=0){
   let focusHeroes4 = heroes.getHeroes(banner.focusHeroes4);
-    setPoolList(elements.POOL_LIST_4F, summonPool.rf4);
     summonPool.rf4 = focusHeroes4;
+  }
+  setPoolList(elements.POOL_LIST_4F, summonPool.rf4);
     
-  if(banner.rates.rateRaritySpecial4SH){
+  if(banner.rates.rateRaritySpecial4SH!=0){
     setPoolList(elements.POOL_LIST_4SS, summonPool.r4ss);
   }
 
