@@ -33,12 +33,11 @@ a[5]>=0&&a[0]+a[1]+a[2]+a[3]+a[4]+a[5]<=100?e.rates.rateRarity4=a[5]:e.rates.rat
 
 let g,t=100-e.rates.rateRarityFocus-e.rates.rateRarity5;0===t?(e.rates.pityRateRarityFocus4=0,e.rates.pityRateRaritySpecial4=0,e.rates.pityRateRaritySpecial4SH=0,e.rates.pityRateRarity4=0,e.rates.pityRateRarity3=0):(e.rates.pityRateRarityFocus4=-e.rates.rateRarityFocus4/t*.5,e.rates.pityRateRaritySpecial4=-e.rates.rateRaritySpecial4/t*.5,e.rates.pityRateRaritySpecial4SH=-e.rates.rateRaritySpecial4SH/t*.5,e.rates.pityRateRarity4=-e.rates.rateRarity4/t*.5,e.rates.pityRateRarity3=-e.rates.rateRarity3/t*.5)}function f(){!function(){let e=$(o.FOCUS_LIST).empty(),a=i.getHeroes(l.focusHeroes);(m=i.getSummoningPool(l.pool,l)).rf=a,
  //j = 4 focus list
-//l.focusHeroes4?(j=i.getHeroes(l.focusHeroes4),u(o.POOL_LIST_4F,m.rf4)):j=0,
-j=0,l.focusHeroes4?(j=i.getHeroes(l.focusHeroes4),m.rf4=j,u(o.POOL_LIST_4F,m.rf4)):j=0,
+l.rates.rateRarityFocus4!=0?(j=i.getHeroes(l.focusHeroes4),m.rf4=j,u(o.POOL_LIST_4F,m.rf4)):j=0,
   
   a.forEach(a=>{$(`<div class="focus-list-hero">\n        <img class="focus-list-hero-frame" src="../img/assets/frame-rarity-5.png">\n        <img class="focus-list-hero-portrait" src="../${a.assets.portrait}">\n        <img class="focus-list-hero-background" src="../img/assets/background-rarity-5.png">\n        </div>`).tooltip({html:!0,placement:"bottom",title:`<p class="mb-0">${a.title}</p><h6>${a.shortName||a.name}</h6>`}).appendTo(e)}),
 
-l.rates.rateRaritySpecial4SH?u(o.POOL_LIST_4SS,m.r4ss):g=0,
+l.rates.rateRaritySpecial4SH!=0?u(o.POOL_LIST_4SS,m.r4ss):g=0,
 u(o.POOL_LIST_5F,m.rf),u(o.POOL_LIST_5,m.r5),u(o.POOL_LIST_4,m.r4),u(o.POOL_LIST_4S,m.r4s),
   
   u(o.POOL_LIST_3,m.r3)
