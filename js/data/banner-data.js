@@ -93,6 +93,7 @@ module.exports = [
       name: "Double Special Heroes (December 2022)",
       startDate: "Dec 20, 2022",
       focusHeroes: ["Cath (Risk and Reward)", "Cecilia (Bridal Blossoms)", "Dimitri (Summer Vacation)", "Lyn (Bite of Flame)", "Lyon (Taken by the Tide)", "Nifl (Taken by the Tide)", "Nina (Risk and Reward)", "Tana (Bite of Flame)"],
+      focusHeroes4: ["Cecilia (Bridal Blossoms)", "Lyon (Taken by the Tide)"],
       excludeFromRarity4: [],
       excludeFromRarity5: [],
       rateType: "dblesplV1",
@@ -111,6 +112,7 @@ module.exports = [
       name: "Holiday Handoff",
       startDate: "Dec 16, 2022",
       focusHeroes: ["Annette (Holiday Handoff)", "Black Knight (Holiday Handoff)", "Dorothea (Holiday Handoff)", "Cordelia (Holiday Handoff)"],
+      focusHeroes4: ["Annette (Holiday Handoff)"],
       excludeFromRarity4: [],
       excludeFromRarity5: [],
       rateType: "defaultV3",
@@ -147,6 +149,7 @@ module.exports = [
       name: "Book VII Begins: Seiðr and More",
       startDate: "Dec 7, 2022",
       focusHeroes: ["Caeldori", "Dwyer", "Ophelia (Rearmed Heroes)", "Seiðr"],
+      focusHeroes4: ["Dwyer"],
       excludeFromRarity4: [],
       excludeFromRarity5: [],
       rateType: "defaultV3",
@@ -172,8 +175,6 @@ module.exports = [
     },
   ]
  },
- 
- 
  {
   date: "November 2022",
   banners: [
@@ -217,6 +218,7 @@ module.exports = [
       name: "Double Special Heroes (November 2022)",
       startDate: "Dec 21, 2022",
       focusHeroes: ["Edelgard (Summer Vacation)", "Eirika (Taken by the Tide)", "Henry (Hop-and-Go-Seek)", "Ilyana (Unlikely Friends)", "Lilina (Bridal Blossoms)", "Mia (Unlikely Friends)", "Micaiah (Summer Vacation)", "Thórr (Taken by the Tide)"],
+      focusHeroes4: ["Henry (Hop-and-Go-Seek)", "Ilyana (Unlikely Friends)"],
       excludeFromRarity4: [],
       excludeFromRarity5: [],
       rateType: "dblesplV1",
@@ -226,6 +228,7 @@ module.exports = [
       name: "Rearmed Ganglöt & More",
       startDate: "Nov 18, 2022",
       focusHeroes: ["Ganglöt", "Hardin", "Nyna", "Tiki (Ascended Heroes)"],
+      focusHeroes4: ["Nyna"],
       excludeFromRarity4: [],
       excludeFromRarity5: [],
       rateType: "defaultV3",
@@ -250,18 +253,10 @@ module.exports = [
       pool: "pool6"
     },
      {
-      name: "Revival: New Heroes & Ascended Idunn",
-      startDate: "Nov 11, 2022",
-      focusHeroes: ["Hugh", "Cath", "Niime", "Idunn (Ascended Heroes)"],
-      excludeFromRarity4: [],
-      excludeFromRarity5: [],
-      rateType: "defaultV3",
-      pool: "pool6"
-    },
-     {
       name: "Wyvern Ninja",
       startDate: "Nov 8, 2022",
       focusHeroes: ["Camilla (Wyvern Ninja)", "Cherche (Wyvern Ninja)", "Heath (Wyvern Ninja)", "Laegjarn (Wyvern Ninja)"],
+      focusHeroes4: ["Heath (Wyvern Ninja)"],
       excludeFromRarity4: [],
       excludeFromRarity5: [],
       rateType: "defaultV3",
@@ -342,7 +337,8 @@ module.exports = [
       {
         name: "Double Special Heroes (October 2022)",
         startDate: "Oct 24, 2022",
-        focusHeroes: ["Claude (Summer Vacation)", "Freyja (Summer's Dream)", "Nailah (Of Lost Kingdoms)", "Roy (Bridal Blossoms)", "Ike (Unlikely Friends)", "Maria (Hop-and-Go-Seek)", "Soren (Unlikely Friends)", "Owain (Here with Me)" ],
+        focusHeroes: ["Claude (Summer Vacation)", "Freyja (Summer's Dream)", "Nailah (Of Lost Kingdoms)", "Roy (Bridal Blossoms)", "Ike (Unlikely Friends)", "Maria (Hop-and-Go-Seek)", "Soren (Unlikely Friends)", "Owain (Here with Me)"],
+        focusHeroes4: ["Claude (Summer Vacation)", "Owain (Here with Me)"],
         excludeFromRarity4: [],
         excludeFromRarity5: [],
         rateType: "dblesplV1",
@@ -353,6 +349,7 @@ module.exports = [
         name: "Rearmed Robin and More",
         startDate: "Oct 17, 2022",
         focusHeroes: ["Eir (Ascended Heroes)", "Gregor", "Phila", "Robin (Rearmed Heroes)"],
+        focusHeroes4: ["Phila"],
         excludeFromRarity4: [],
         excludeFromRarity5: [],
         rateType: "defaultV3",
@@ -362,6 +359,7 @@ module.exports = [
         name: "Divine Harvest",
         startDate: "Oct 6, 2022",
         focusHeroes: ["Corrin (M) (Divine Harvest)", "Corrin (F) (Divine Harvest)", "Naga (Divine Harvest)", "Duma (Divine Harvest)"],
+        focusHeroes4: ["Naga (Divine Harvest)"],
         excludeFromRarity4: [],
         excludeFromRarity5: [],
         rateType: "defaultV3",
